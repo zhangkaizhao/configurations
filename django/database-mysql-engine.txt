@@ -1,0 +1,50 @@
+http://stackoverflow.com/a/4151981
+
+
+I don't think you can change storage engines on a table-by-table basis, but you can do it on a database-by-database basis. This, of course, means that InnoDB foreign key constraints, for example, can't apply to foreign keys to MyISAM tables.
+
+So you need to declare two "databases", which may very well be on the same server:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            #...
+        }
+        'innodb': {
+            'ENGINE': 'django.db.backends.mysql',
+            #...
+            'OPTIONS': { 'init_command': 'SET storage_engine=INNODB;' }
+        }
+    }
+
+And you'll just need to apply using('innodb') to querysets for tables in InnoDB land.
+
+As for UTF-8, again, I think you need to do this at the database level. I don't think syncdb creates the database for you, just the tables. You should create the database manually anyway, so you can have privileges set right before running syncdb. The database creation command you want is:
+
+    CREATE DATABASE django CHARACTER SET utf8;
+
+That said, I usually recommend that people create two django users in the database: one for database schema work ("admin") and one for everything else (with different passwords):
+
+    CREATE DATABASE django CHARACTER SET utf8;
+    CREATE USER 'django_site'@'localhost' IDENTIFIED BY 'password';
+    GRANT SELECT, INSERT, UPDATE, DELETE ON django.* TO django_site;
+    CREATE USER 'django_admin'@'localhost' IDENTIFIED BY 'password';
+    GRANT SELECT, INSERT, UPDATE, DELETE ON django.* TO django_admin;
+    GRANT CREATE, DROP, ALTER, INDEX, LOCK TABLES ON django.* TO django_admin;
+    FLUSH PRIVILEGES;
+
+(Note that this needs to be done for each database.)
+
+For this to work, you need to modify manage.py:
+
+    import sys
+    if len(sys.argv) >= 2 and sys.argv[1] in ["syncdb", "dbshell", "migrate"]:
+        os.environ['DJANGO_ACCESS'] = "ADMIN"
+
+Then in your settings.py, use the environment variable to pick the right settings. Make sure the site (i.e. non-admin) user is the default.
+
+(Additionally, I don't store the database setup, SECRET_KEY, or anything else sensitive in settings.py because my Django project is stored in Mercurial; I have settings.py pull all that in from an external file accessible only by Django's user and the server admins. I'll leave the "how" as an exercise for the reader... because I detailed some of it in answers to others' questions, and I'm too lazy to look it up right now.)
+
+answered Nov 11 '10 at 6:44
+
+Mike DeSimone

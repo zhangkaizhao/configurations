@@ -1,0 +1,3 @@
+https://forum.filezilla-project.org/viewtopic.php?t=33573
+
+Last version working on XP and derivatives is 3.9.0.1, last official version was indeed 3.8.0.

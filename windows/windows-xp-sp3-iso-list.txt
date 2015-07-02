@@ -1,0 +1,131 @@
+http://www.tipandtrick.net/original-msdntechnet-windows-xp-with-sp3-integrated-retail-vl-cd-iso-images-leaked/
+
+
+Here’s checksum information for the various ISO images of official Windows XP with SP3 as provided by Microsoft:
+
+Windows XP Professional with Service Pack 3 (x86) Retail CD (English)
+
+Official Name: en_windows_xp_professional_with_service_pack_3_x86_cd_x14-80428.iso
+Size: 589.14 MB
+SHA1: 1c735b38931bf57fb14ebd9a9ba253ceb443d459
+
+Windows XP Professional with Service Pack 3 (x86) VL CD (English)
+
+Official Name: en_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73974.iso
+Size: 589.14 MB
+SHA1: 66ac289ae27724c5ae17139227cbe78c01eefe40
+
+Windows XP Professional N with Service Pack 3 (x86) VL CD (English)
+
+Official Name: en_windows_xp_professional_n_with_service_pack_3_x86_cd_vl_x14-78118.iso
+Size: 597.83 MB
+SHA1: a8143d52f60e4acc73d5f267f05ad833f034d453
+
+Windows XP Home with Service Pack 3 (x86) Retail CD (English)
+
+Official Name: en_windows_xp_home_with_service_pack_3_x86_cd_x14-92413.iso
+Size: 564.72 MB
+SHA1: 5a6b959ad24d15dc7ebd85e501b83d105d1b37c6
+
+Windows XP Professional with Service Pack 3 (x86) Volume CD (French)
+
+Official Name: fr_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73982.iso
+Size: 592.14 MB
+SHA1: 187fa9ee4e682fce20be6bc5bc092efcb6aafd11
+
+Windows XP Professional with Service Pack 3 (x86) Volume CD (German)
+
+Official Name: de_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73985.is
+Size: 591.06 MB
+SHA1: 55ad061ba1054da5ec800924b03337674e5a1262
+
+Windows XP Professional with Service Pack 3 (x86) VOL CD (Italian)
+
+Official Name: it_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73994.iso
+Size: 586.23 MB
+SHA1: a04d68b0fc8b97eec1da9277e5d8126f318596dc
+
+Windows XP Professional with Service Pack 3 (x86) Volume CD (Spanish)
+
+Official Name: es_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74009.iso
+Size: 590.51 MB
+SHA1: a47603256d7645a2f2788466153ffcd058f77c56
+
+Windows XP Professional with Service Pack 3 (x86) Volume CD (Portuguese – Brazil)
+
+Official Name: pt-br_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74137.iso
+Size: 587.23 MB
+MD5: 178fbe2d83d694ec5a53cc9cfe89ab6f
+SHA1: 015f13f28655957c93fe20d287ea62a50be64a95
+
+Windows XP Professional with Service Pack 3 (x86) Retail CD (Simplified Chinese)
+
+Official Name: zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso
+Size: 601.04 MB
+SHA1: 69dbf131116760932dcf132ade111d6b45778098
+
+Windows XP Professional with Service Pack 3 (x86) VL CD (Simplified Chinese)
+
+Official Name: zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070.iso
+Size: 601.04 MB
+SHA1: d142469d0c3953d8e4a6a490a58052ef52837f0f
+
+Windows XP Home with Service Pack 3 (x86) Retail CD (Simplified Chinese)
+
+Official Name: zh-hans_windows_xp_home_with_service_pack_3_x86_cd_x14-92408.iso
+Size: 583.45 MB
+SHA1: f15ef466b1d87b1ffdadc246b8ce82287bd15ed5
+
+Windows XP Professional with Service Pack 3 (x86) Retail DVD (Japanese)
+
+Official Name: ja_windows_xp_professional_with_service_pack_3_x86_dvd_x14-80464.iso
+Size: 630.21 MB
+SHA1: 3125aaed8f40a5d8a10dbb959a03e39acc0d9fcb
+
+Windows XP Professional with Service Pack 3 (x86) VOL DVD (Japanese)
+
+Official Name: ja_windows_xp_professional_with_service_pack_3_x86_dvd_vl_x14-74058.iso
+Size: 630.21 MB
+SHA1: 8719219c7a77756a904f4bb9fd2f32781f091c22
+
+Windows XP Home with Service Pack 3 (x86) Retail CD (Japanese)
+
+Official Name: ja_windows_xp_home_with_service_pack_3_x86_cd_x14-92421.iso
+Size: 608.73 MB
+SHA1: a907477482a45f0c7617e384b1b8a69802bc815c
+
+Windows XP Home K with Service Pack 3 (x86) Retail CD (Korean)
+
+Official Name: ko_windows_xp_home_k_with_service_pack_3_x86_cd_x14-92387.iso
+Size: 586.84 MB
+SHA1: e81c5e6e7aa34e32091538462d963488dc08ef66
+
+Windows XP Home KN with Service Pack 3 (x86) Retail CD (Korean)
+
+Official Name: ko_windows_xp_home_kn_with_service_pack_3_x86_cd_x14-92389.iso
+Size: 572.42 MB
+SHA1: 3c88bb786aefff3aabb90c02aa7d569c6aa459c2
+
+Windows XP Professional K with Service Pack 3 (x86) Volume CD (Korean)
+
+Official Name: ko_windows_xp_professional_k_with_service_pack_3_x86_cd_vl_x14-87427.iso
+Size: 634.25 MB
+SHA1: aa00d0e694e0d885d654241d74e9654373f222eb
+
+Windows XP Professional K with Service Pack 3 (x86) Retail CD (Korean)
+
+Official Name: ko_windows_xp_professional_k_with_service_pack_3_x86_cd_x14-92431.iso
+Size: 634.25 MB
+SHA1:cad31b63f9ec47aeaf6e3bded9d36425ddb3183a
+
+Windows XP Professional KN with Service Pack 3 (x86) Retail CD (Korean)
+
+Official Name: ko_windows_xp_professional_kn_with_service_pack_3_x86_cd_x14-92433.iso
+Size: 615.45 MB
+SHA1: 6fd792c71bfa085273472a52aeee1757007c74fa
+
+Windows XP Professional KN with Service Pack 3 (x86) VOL CD (Korean)
+
+Official Name: ko_windows_xp_professional_kn_with_service_pack_3_x86_cd_vl_x14-78419.iso
+Size: 615.45 MB
+SHA1: 723f0206cf09e5c8693de5eeaee7da849e734bc8

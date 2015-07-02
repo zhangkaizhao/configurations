@@ -1,0 +1,21 @@
+https://kb.iu.edu/d/ahrm
+
+ This will display a list of your current screen sessions. For instance, if you had one attached and one dead screen, you would see:
+
+ There are screens on:
+         25542.pts-28.hostname     (Dead ???)
+         1636.pts-21.hostname      (Attached)
+ Remove dead screens with 'screen -wipe'.
+ 2 Sockets in /tmp/screens/S-username.
+
+To detach an attached screen, enter:
+
+  screen -D
+
+If you have more than one attached screen, you can specify a particular screen to detach. For example, to detach the screen in the above example, you would enter:
+
+  screen -D 1636.pts-21.hostname
+
+Once you've done this, you can resume the screen by entering the screen -r command.
+
+(In the above example, the dead screen isn't causing problems, but you should probably enter the screen -wipe command to get rid of it.)

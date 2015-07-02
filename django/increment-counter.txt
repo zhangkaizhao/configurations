@@ -1,0 +1,63 @@
+http://stackoverflow.com/questions/1598932/atomic-increment-of-a-counter-in-django
+
+-----------
+http://stackoverflow.com/a/1599090
+
+New in Django 1.1
+
+    Counter.objects.get_or_create(name = name)
+    Counter.objects.filter(name = name).update(count = F('count')+1)
+
+or
+
+    counter = Counter.objects.get_or_create(name = name)
+    counter.count = F('count') +1
+    counter.save()
+
+----------------
+http://stackoverflow.com/a/18937431
+
+Keeping it simple and building on @Oduvan's answer:
+
+    counter, created = Counter.objects.get_or_create(name = name, 
+                                                     defaults={'count':1})
+    if not created:
+        counter.count = F('count') +1
+        counter.save()
+
+The advantage here is that if the object was created in the first statement, you don't have to do any further updates.
+
+------------------
+querysets
+
+
+update_or_create(defaults=None, **kwargs)
+
+New in Django 1.7.
+
+A convenience method for updating an object with the given kwargs, creating a new one if necessary. The defaults is a dictionary of (field, value) pairs used to update the object.
+
+Returns a tuple of (object, created), where object is the created or updated object and created is a boolean specifying whether a new object was created.
+
+The update_or_create method tries to fetch an object from database based on the given kwargs. If a match is found, it updates the fields passed in the defaults dictionary.
+
+This is meant as a shortcut to boilerplatish code. For example:
+
+    try:
+        obj = Person.objects.get(first_name='John', last_name='Lennon')
+        for key, value in updated_values.iteritems():
+            setattr(obj, key, value)
+        obj.save()
+    except Person.DoesNotExist:
+        updated_values.update({'first_name': 'John', 'last_name': 'Lennon'})
+        obj = Person(**updated_values)
+        obj.save()
+
+This pattern gets quite unwieldy as the number of fields in a model goes up. The above example can be rewritten using update_or_create() like so:
+
+    obj, created = Person.objects.update_or_create(
+        first_name='John', last_name='Lennon', defaults=updated_values)
+
+For detailed description how names passed in kwargs are resolved see get_or_create().
+
+As described above in get_or_create(), this method is prone to a race-condition which can result in multiple rows being inserted simultaneously if uniqueness is not enforced at the database level.
