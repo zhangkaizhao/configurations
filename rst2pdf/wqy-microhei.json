@@ -1,0 +1,31 @@
+{
+    "styles":
+    {
+        "base":
+        {
+            "wordWrap": "CJK"
+        }
+
+    },
+    "embeddedFonts" : [[
+        "wqy-microhei.ttc",
+        "wqy-microhei.ttc",
+        "wqy-microhei.ttc",
+        "wqy-microhei.ttc"
+    ]],
+    "fontsAlias" : {
+        "stdFont": "WenQuanYi Micro Hei",
+        "stdBold": "WenQuanYi Micro Hei",
+        "stdItalic": "WenQuanYi Micro Hei",
+        "stdBoldItalic": "WenQuanYi Micro Hei",
+        "stdSans": "WenQuanYi Micro Hei",
+        "stdSansBold": "WenQuanYi Micro Hei",
+        "stdSansItalic": "WenQuanYi Micro Hei",
+        "stdSansBoldItalic": "WenQuanYi Micro Hei",
+        "stdMono": "WenQuanYi Micro Hei Mono",
+        "stdMonoBold": "WenQuanYi Micro Hei Mono",
+        "stdMonoItalic": "WenQuanYi Micro Hei Mono",
+        "stdMonoBoldItalic": "WenQuanYi Micro Hei Mono",
+        "stdSerif": "WenQuanYi Micro Hei"
+    }
+}
