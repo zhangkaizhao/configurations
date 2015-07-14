@@ -1,0 +1,20 @@
+http://stackoverflow.com/q/11022209
+
+
+You might probably add some more params to supervisord config, like --pp (python path) to the uwsgi command, and maybe some environment variables:
+
+    [program:uwsgi]
+    command = /usr/local/bin/uwsgi
+        --loop gevent
+        --socket 127.0.0.1:8070
+        --wsgi-file uwsgiServer.py
+        --buffer-size 32768 --master --async 5 --enable-threads --listen 100 --uid root
+        --pp /home/ubuntu/workspace/
+
+    autostart=true
+    autorestart=true
+    environment=ENV_VAR='var'
+    user=root # or other
+    group=root # or other
+    directory=/home/ubuntu/workspace/
+    umask=022
