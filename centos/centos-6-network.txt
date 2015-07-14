@@ -1,0 +1,120 @@
+http://www.krizna.com/centos/how-to-setup-network-in-centos-6/
+
+
+How to setup network in centos 6
+Setup network in centos 6 :
+
+By default Centos 6 new installation will not have network access , which means you need to configure ip address to the network interfaces by yourself.
+
+In this article we can see how to setup network in centos 6 , i.e. assigning ipaddress in static and in DHCP  mode .
+» DHCP mode :
+
+Assigning ip address in DHCP mode
+
+Step 1 » Check the network interface name by typing below command
+
+    [root@leela ~]# ip a
+    1: lo: mtu 16436 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+    valid_lft forever preferred_lft forever
+    2: p4p1: mtu 1500 qdisc mq state UP qlen 1000
+    link/ether 00:22:19:09:4d:3c brd ff:ff:ff:ff:ff:ff
+
+Here “lo” is the loopback interface and “p4p1” is the network interface that you need to configure .
+
+Step 2 » you can see the file named ifcfg-p4p1 ( Interface name ) in the location “/etc/sysconfig/network-scripts/” , open the file and you can see the lines as below
+
+    DEVICE="p4p1"
+    HWADDR="00:22:19:09:4D:3C"
+    NM_CONTROLLED="yes"
+    ONBOOT="no"
+
+Just modify the lines like this
+
+    DEVICE="p4p1"
+    HWADDR="00:22:19:09:4D:3C"
+    NM_CONTROLLED="yes"
+    ONBOOT="yes"    # Interface enabled
+    BOOTPROTO="dhcp"  #Assigning IP from DHCP
+
+Step 3 » Start the network service and you can see the status as below .
+
+    [root@leela ~]# service network start
+    Bringing up loopback interface:                [  OK  ]
+    Bringing up interface p4p1:
+    Determining IP information for p4p1... done.   [  OK  ]
+
+Step 4 » Now you can see the ip address “192.168.1.12” assigned to the interface p4p1 using dhcp .
+
+    [root@leela ~]# ip a
+    1: lo: mtu 16436 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+    valid_lft forever preferred_lft forever
+    2: p4p1: mtu 1500 qdisc mq state UP qlen 1000
+    link/ether 00:22:19:09:4d:3c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.12/26 brd 172.27.6.63 scope global p4p1
+        inet6 fe80::222:19ff:fe09:4b3c/64 scope link
+           valid_lft forever preferred_lft forever
+
+» Static mode :
+
+Assigning ip address in Static mode
+
+Step 1 » Check the network interface name by typing below command
+
+    [root@leela ~]# ip a
+    1: lo: mtu 16436 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+    valid_lft forever preferred_lft forever
+    2: p4p1: mtu 1500 qdisc mq state UP qlen 1000
+    link/ether 00:22:19:09:4d:3c brd ff:ff:ff:ff:ff:ff
+
+Here “lo” is the loopback interface and “p4p1” is the network interface that you need to configure .
+
+Step 2 » you can see the file named ifcfg-p4p1 ( Interface name ) in the location “/etc/sysconfig/network-scripts/” , open the file and you can see the lines as below
+
+    DEVICE="p4p1"
+    HWADDR="00:22:19:09:4D:3C"
+    NM_CONTROLLED="yes"
+    ONBOOT="no"
+
+Just modify the lines like this
+
+    DEVICE="p4p1"
+    HWADDR="00:22:19:09:4D:3C"
+    NM_CONTROLLED="yes"
+    ONBOOT="yes"    # Interface enabled
+    BOOTPROTO="static"  #Assigning in static mode 
+    IPADDR=192.168.1.11 #IP address
+    NETMASK=255.255.255.0 # Subnet Mask
+    GATEWAY=192.168.1.1 # Default Gateway
+    DNS1=8.8.8.8 #Primary DNS
+    DNS2=4.2.2.2 #Secondary DNS
+
+Step 3 » Start the network service and you can see the status as below .
+
+    [root@leela ~]# service network start
+    Bringing up loopback interface:                [  OK  ]
+    Bringing up interface p4p1:   [  OK  ]
+
+Step 4 » Now you see the ip address “192.168.1.12” assigned to the interface p4p1  .
+
+    [root@leela ~]# ip a
+    1: lo: mtu 16436 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+    valid_lft forever preferred_lft forever
+    2: p4p1: mtu 1500 qdisc mq state UP qlen 1000
+    link/ether 00:22:19:09:4d:3c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.12/26 brd 172.27.6.63 scope global p4p1
+        inet6 fe80::222:19ff:fe09:4b3c/64 scope link
+           valid_lft forever preferred_lft forever
+
+Tags: Basic guide, Centos, dhcp, how to, installation, step by step

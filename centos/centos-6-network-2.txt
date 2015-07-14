@@ -1,0 +1,109 @@
+http://www.server-world.info/en/note?os=CentOS_6&p=initial_conf&f=3
+
+
+[1]     Set the static IP address to the server.
+
+    [root@dlp ~]# vi /etc/sysconfig/network-scripts/ifcfg-eth0
+
+    DEVICE=eth0
+    HWADDR=00:50:43:00:3B:AE
+    TYPE=Ethernet
+    UUID=c1539085-73d7-4455-ac82-88f26464458a
+    # change
+    ONBOOT=yes
+    NM_CONTROLLED=yes
+    # change
+    BOOTPROTO=none
+    # add follows
+    # this server's IP address
+    IPADDR=10.0.0.30
+    # subnet mask
+    NETMASK=255.255.255.0
+    # default gateway
+    GATEWAY=10.0.0.1
+    # DNS server's IP address
+    DNS1=10.0.0.10
+    IPV6INIT=no
+    USERCTL=no
+
+    [root@dlp ~]# /etc/rc.d/init.d/network restart
+    Shutting down interface eth0:
+    [  OK  ]
+    Shutting down loopback interface:
+    [  OK  ]
+    Bringing up loopback interface:
+    [  OK  ]
+    Bringing up interface eth0:
+    [  OK  ]
+    [root@dlp ~]# chkconfig network on
+    [root@dlp ~]# ifconfig
+    eth0
+    Link encap:Ethernet HWaddr 00:0C:29:D8:7C:06
+    inet addr:10.0.0.30 Bcast:10.0.0.255 Mask:255.255.255.0
+    inet6 addr: fe80::20c:29ff:fed8:7c06/64 Scope:Link
+    UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
+    RX packets:885 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:743 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:1000
+    RX bytes:83054 (81.1 KiB) TX bytes:113706 (111.0 KiB)
+
+    lo
+    Link encap:Local Loopback
+    inet addr:127.0.0.1 Mask:255.0.0.0
+    inet6 addr: ::1/128 Scope:Host
+    UP LOOPBACK RUNNING MTU:16436 Metric:1
+    RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:0
+    RX bytes:0 (0.0 b) TX bytes:0 (0.0 b)
+
+[2]     Disable IPv6 if you don't need it.
+
+    [root@dlp ~]# ifconfig
+    eth0
+    Link encap:Ethernet HWaddr 00:0C:29:D8:7C:06
+    inet addr:10.0.0.30 Bcast:10.0.0.255 Mask:255.255.255.0
+    inet6 addr: fe80::20c:29ff:fed8:7c06/64 Scope:Link
+    UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
+    RX packets:885 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:743 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:1000
+    RX bytes:83054 (81.1 KiB) TX bytes:113706 (111.0 KiB)
+
+    lo
+    Link encap:Local Loopback
+    inet addr:127.0.0.1 Mask:255.0.0.0
+    inet6 addr: ::1/128 Scope:Host
+    UP LOOPBACK RUNNING MTU:16436 Metric:1
+    RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:0
+    RX bytes:0 (0.0 b) TX bytes:0 (0.0 b)
+
+    [root@dlp ~]# vi /etc/sysctl.conf
+
+    # add follows to the end
+    net.ipv6.conf.all.disable_ipv6 = 1
+    net.ipv6.conf.default.disable_ipv6 = 1
+
+    # apply new settings
+    [root@dlp ~]# sysctl -p
+
+    [root@dlp ~]# ifconfig
+    eth0
+    Link encap:Ethernet HWaddr 00:0C:29:D8:7C:06
+    inet addr:10.0.0.30 Bcast:10.0.0.255 Mask:255.255.255.0
+    UP BROADCAST RUNNING MULTICAST MTU:1500 Metric:1
+    RX packets:885 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:743 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:1000
+    RX bytes:83054 (81.1 KiB) TX bytes:113706 (111.0 KiB)
+
+    lo
+    Link encap:Local Loopback
+    inet addr:127.0.0.1 Mask:255.0.0.0
+    UP LOOPBACK RUNNING MTU:16436 Metric:1
+    RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:0
+    RX bytes:0 (0.0 b) TX bytes:0 (0.0 b)
