@@ -1,0 +1,16 @@
+http://stackoverflow.com/a/20075227
+
+
+You can also try ImageMagic which is great for creating CSS sprites. Some tutorial about it here. Example
+
+    convert image1.png image2.png image3.png -append result/result-sprite.png
+
+shareimprove this answer
+    
+answered Nov 19 '13 at 15:15
+Petr Mensik
+9,92333161
+    
+8    
+    
+Note: This will generate a vertical sprite, for horizontal sprite use +append instead of -append. –  Chango Dec 11 '13 at 22:16 
