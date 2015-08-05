@@ -1,0 +1,6 @@
+https://wiki.archlinux.org/index.php/Docker
+
+
+Then re-login or to make your current user session aware of this new group, you can use:
+
+    $ newgrp docker
