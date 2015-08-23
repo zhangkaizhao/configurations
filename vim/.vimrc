@@ -8,6 +8,7 @@ filetype plugin on
 filetype indent on
 
 set hlsearch
+set incsearch
 
 " highlight all redundant white spaces and tabs
 " http://stackoverflow.com/a/7342997
