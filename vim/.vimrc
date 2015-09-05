@@ -15,6 +15,8 @@ set incsearch
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\|\t/
 
+set encoding=utf-8
+
 set ffs=unix,dos,mac
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
