@@ -47,3 +47,34 @@ edited Dec 27 '12 at 20:35
 answered Jun 8 '11 at 15:04
 
 Adam Dymitruk
+
+
+
+============
+============
+more:
+
+* https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
+
+If you have a branch named serverfix that you want to work on with others, you can push it up the same way you pushed your first branch. Run git push (remote) (branch):
+
+    $ git push origin serverfix
+    Counting objects: 24, done.
+    Delta compression using up to 8 threads.
+    Compressing objects: 100% (15/15), done.
+    Writing objects: 100% (24/24), 1.91 KiB | 0 bytes/s, done.
+    Total 24 (delta 2), reused 0 (delta 0)
+    To https://github.com/schacon/simplegit
+     * [new branch]      serverfix -> serverfix
+
+This is a bit of a shortcut. Git automatically expands the serverfix branchname out to refs/heads/serverfix:refs/heads/serverfix, which means, “Take my serverfix local branch and push it to update the remote’s serverfix branch.” We’ll go over the refs/heads/ part in detail in Git Internals, but you can generally leave it off. You can also do git push origin serverfix:serverfix, which does the same thing – it says, “Take my serverfix and make it the remote’s serverfix.” You can use this format to push a local branch into a remote branch that is named differently. If you didn’t want it to be called serverfix on the remote, you could instead run git push origin serverfix:awesomebranch to push your local serverfix branch to the awesomebranch branch on the remote project.
+
+* https://help.github.com/articles/pushing-to-a-remote/
+
+Renaming branches
+
+To rename a branch, you'd use the same git push command, but you would add one more argument: the name of the new branch. For example:
+
+    git push  <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME>
+
+This pushes the LOCALBRANCHNAME to your REMOTENAME, but it is renamed to REMOTEBRANCHNAME.
