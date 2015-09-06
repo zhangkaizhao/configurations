@@ -1,0 +1,49 @@
+http://stackoverflow.com/questions/6279082/git-push-to-remote-branch
+
+========
+git push origin master:fix78 pushes the local master to a remote branch called fix78. You wanted to push the local branch fix78, which has the same syntax but without the master:
+
+You can fix it by doing git push origin :fix78 to delete the remote branch and then git push origin fix78 to push your local branch to the remote repo.
+
+shareimprove this answer
+answered Jun 8 '11 at 13:03
+
+========
+The push command has the form of
+
+    git push remote_name source_ref:destination_ref
+
+All you need to do to correct your error is
+
+    git push origin +fix78:fix78
+
+The plus indicates that you don't care about that branch potentially losing history as the previous push was an error.
+
+Alternate syntax is
+
+    git push -f origin fix78
+
+if you omit the destination, it's implied that it's the same name. If tracking is set up to a particular branch on the remote it will go to that one. Deleting branches has 2 syntaxes, the old:
+
+    git push -f origin :fix78
+
+and
+
+    git push --delete origin fix78
+
+The first is read as "push nothing into fix78" which deletes it.
+
+One trick is that if you specify . as the remote name, it implies the current repo as the remote. This is useful for updating a local branch without having to check it out:
+
+    git push . origin/master:master
+
+will update master without having to checkout master.
+
+Hope this helps
+
+shareimprove this answer
+edited Dec 27 '12 at 20:35
+
+answered Jun 8 '11 at 15:04
+
+Adam Dymitruk
