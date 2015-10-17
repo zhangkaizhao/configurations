@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl订阅</title>
+    <dateModified>星期六, 17 十月 2015 21:17:33 CST</dateModified>
+  </head>
+  <body>
+    <outline text="My Feeds" rssowl:isSet="true" rssowl:id="7">
+      <outline text="architecture" rssowl:isSet="false" rssowl:id="22077">
+        <outline text="plain old objects" xmlUrl="http://plainoldobjects.com/feed" rssowl:id="22079" />
+      </outline>
+      <outline text="algorithm" rssowl:isSet="false" rssowl:id="324">
+        <outline text="结构之法 算法之道" xmlUrl="http://blog.csdn.net/v_JULY_v/rss/list" rssowl:id="325" />
+      </outline>
+      <outline text="blog" rssowl:isSet="false" rssowl:id="326">
+        <outline text="# emerge -e world" xmlUrl="http://garfileo.is-programmer.com/posts.rss" rssowl:id="327" />
+        <outline text="(R &quot;think-of-lisper&quot; 'Albertlee)" xmlUrl="http://www.feime.net/feed" rssowl:id="328" />
+        <outline text="4G spaces" xmlUrl="http://blog.youxu.info/feed" rssowl:id="331" />
+        <outline text="80sec" xmlUrl="http://www.80sec.com/feed" rssowl:id="332" />
+        <outline text=":wq ~/notes » Home" xmlUrl="http://blog.liancheng.info" rssowl:id="329" />
+        <outline text="[Blog2]" xmlUrl="http://feed.feedsky.com/chedong" rssowl:id="330" />
+        <outline text="A. Jesse Jiryu Davis" xmlUrl="http://emptysqua.re/blog" rssowl:id="333" />
+        <outline text="adit.io - A personal blog" xmlUrl="http://adit.io/rss.xml" rssowl:id="334" />
+        <outline text="albert_lee的产品技术空间" xmlUrl="http://blog.csdn.net/albert_lee/rss/list" rssowl:id="335" />
+        <outline text="Alex Gaynor's Blago-blog Latest Posts" xmlUrl="http://alexgaynor.net/feeds/latest" rssowl:id="336" />
+        <outline text="Andrew Hobden" xmlUrl="http://hoverbear.org/rss" rssowl:id="337" />
+        <outline text="anyShare" xmlUrl="http://blog.anyshare.org/feed" rssowl:id="338" />
+        <outline text="Aphyr" xmlUrl="http://aphyr.com/posts.atom" rssowl:id="339" />
+        <outline text="Arthur的博客" xmlUrl="http://www.zenlife.tk/feed.atom" rssowl:id="21634" />
+        <outline text="asaka's blog" xmlUrl="http://aisk.me/rss" rssowl:id="340" />
+        <outline text="Bit Focus" xmlUrl="http://rss.bitfoc.us" rssowl:id="341" />
+        <outline text="bitquabit" xmlUrl="http://bitquabit.com/feeds/rss" rssowl:id="342" />
+        <outline text="Brave New Geek" xmlUrl="http://bravenewgeek.com/feed" rssowl:id="22412" />
+        <outline text="Bret Taylor's blog" xmlUrl="http://feeds.feedburner.com/brettaylor" rssowl:id="343" />
+        <outline text="Bruce Eckel 博客中文版" xmlUrl="http://blog.csdn.net/beckel/rss/list" rssowl:id="344" />
+        <outline text="Bruce Eckel's Weblog" xmlUrl="http://www.artima.com/weblogs/feeds/bloggers/beckel.rss" rssowl:id="345" />
+        <outline text="Chun Tian (binghe)" xmlUrl="http://tianchunbinghe.blog.163.com/rss" rssowl:id="346" />
+        <outline text="CodingLabs" xmlUrl="http://blog.codinglabs.org/rss.xml" rssowl:id="347" />
+        <outline text="CodingLabsCodingLabs" xmlUrl="http://www.codinglabs.org/feed" rssowl:id="348" />
+        <outline text="Curia" xmlUrl="http://blog.curiasolutions.com/feed" rssowl:id="349" />
+        <outline text="D.H.Q的烂笔头" xmlUrl="http://dhq.me/feed/article" rssowl:id="350" />
+        <outline text="DarkBull's Blog" xmlUrl="http://darkbull.net/rss" rssowl:id="351" />
+        <outline text="David Cramer's Blog" xmlUrl="http://feeds.feedburner.com/DavidCramernet" rssowl:id="352" />
+        <outline text="Davies 的最新日记" xmlUrl="http://www.douban.com/feed/people/davies/notes" rssowl:id="353" />
+        <outline text="DBA notes" xmlUrl="http://www.dbanotes.net/atom.xml" rssowl:id="354" />
+        <outline text="DBA Notes" xmlUrl="http://dbanotes.net/feed" rssowl:id="355" />
+        <outline text="Deciphering Glyph" xmlUrl="http://glyph.twistedmatrix.com/feeds/posts/default" rssowl:id="356" />
+        <outline text="delphij's Chaos" xmlUrl="https://blog.delphij.net/atom.xml" rssowl:id="357" />
+        <outline text="devo.ps" xmlUrl="http://devo.ps/atom.xml" rssowl:id="358" />
+        <outline text="Echoes from the deep" xmlUrl="http://zionyun.wordpress.com/feed" rssowl:id="359" />
+        <outline text="Electric Duncan" xmlUrl="http://technicae.cogitat.io/feeds/posts/default" rssowl:id="360" />
+        <outline text="eplaylity的专栏" xmlUrl="http://feeds.feedsky.com/csdn.net/eplaylity" rssowl:id="361" />
+        <outline text="Eric Sink" xmlUrl="http://www.ericsink.com/rss.xml" rssowl:id="362" />
+        <outline text="Erlang Display - Erlang问答社区：www.erlangqa.com" xmlUrl="http://erlangdisplay.iteye.com/rss" rssowl:id="363" />
+        <outline text="est's blog" xmlUrl="http://feeds.feedburner.com/initiative" rssowl:id="364" />
+        <outline text="EverET.org" xmlUrl="http://everet.org/feed" rssowl:id="365" />
+        <outline text="eyeHere" xmlUrl="http://eyehere.net/feed" rssowl:id="366" />
+        <outline text="fantix - SegmentFault" xmlUrl="http://blog.segmentfault.com/fantix/feeds" rssowl:id="367" />
+        <outline text="feed/http://www.azure.com.cn/feed.asp" xmlUrl="http://www.azure.com.cn/feed.asp" rssowl:id="368" />
+        <outline text="fleuria lee" xmlUrl="http://fleurer-lee.com/atom.xml" rssowl:id="369" />
+        <outline text="Fluffy White Stuff" xmlUrl="http://blog.kgriffs.com/feed.xml" rssowl:id="370" />
+        <outline text="gashero的Geek前哨" xmlUrl="http://gashero.iteye.com/rss" rssowl:id="371" />
+        <outline text="Gopher beyond Eliphants" xmlUrl="http://www.mikespook.com/feed" rssowl:id="372" />
+        <outline text="Graham Dumpleton" xmlUrl="http://blog.dscpl.com.au/feeds/posts/default" rssowl:id="373" />
+        <outline text="Graham King" xmlUrl="http://www.darkcoding.net/feed" rssowl:id="374" />
+        <outline text="Guillermo Rauch's Devthought" xmlUrl="http://www.devthought.com/feed" rssowl:id="375" />
+        <outline text="Hawstein's Blog" xmlUrl="http://hawstein.com/atom.xml" rssowl:id="376" />
+        <outline text="Here comes the Sun" xmlUrl="http://sunng.info/blog/feed/rss" rssowl:id="377" />
+        <outline text="http://www.yinwang.org" xmlUrl="http://www.yinwang.org/atom.xml" rssowl:id="378" />
+        <outline text="idv2" xmlUrl="http://tech.idv2.com/feed" rssowl:id="379" />
+        <outline text="isnowfy" xmlUrl="http://www.isnowfy.com/feed" rssowl:id="380" />
+        <outline text="It Talks-魏武挥的blog" xmlUrl="http://feed.feedsky.com/ittalks" rssowl:id="381" />
+        <outline text="IT青藤屋" xmlUrl="http://www.itivy.com/ivy/Rss" rssowl:id="382" />
+        <outline text="Jay McCarthy" xmlUrl="http://jeapostrophe.github.io/atom.xml" rssowl:id="383" />
+        <outline text="JJinuxLand" xmlUrl="http://jjinux.blogspot.com/feeds/posts/default" rssowl:id="384" />
+        <outline text="Joshua Zhu's Blog" xmlUrl="http://blog.zhuzhaoyuan.com/feed" rssowl:id="385" />
+        <outline text="keakon的涂鸦馆" xmlUrl="http://www.keakon.net/feed" rssowl:id="386" />
+        <outline text="Krzysztof Kowalczyk blog" xmlUrl="http://blog.kowalczyk.info/atom.xml" rssowl:id="387" />
+        <outline text="lemo的专栏" xmlUrl="http://feeds.feedsky.com/csdn.net/amuseme_lu" rssowl:id="388" />
+        <outline text="let fib = 1:1:(zipWith (+) fib $ tail fib) in fib" xmlUrl="http://bookjovi.iteye.com/rss" rssowl:id="389" />
+        <outline text="limodou" xmlUrl="http://hi.baidu.com/limodou/rss" rssowl:id="390" />
+        <outline text="loop_in_codes" xmlUrl="http://codemacro.com/feed" rssowl:id="391" />
+        <outline text="Lost in Technopolis" xmlUrl="http://newartisans.com/feed" rssowl:id="392" />
+        <outline text="mathgl" xmlUrl="http://mathgl.iteye.com/rss" rssowl:id="393" />
+        <outline text="mhss" xmlUrl="http://blog.chinaunix.net/blog/rss/uid/20106293.html" rssowl:id="394" />
+        <outline text="Mike Ma's Open-Source Base" xmlUrl="http://ekd123.is-programmer.com/posts.rss" rssowl:id="395" />
+        <outline text="Mind Reference" xmlUrl="http://mindref.blogspot.com/feeds/posts/default" rssowl:id="396" />
+        <outline text="missdeer之程序的野望" xmlUrl="http://www.missdeer.com/?feed=rss2" rssowl:id="397" />
+        <outline text="Monnand's Blog" xmlUrl="http://monnand.me/feed" rssowl:id="398" />
+        <outline text="N.S.thoughts" xmlUrl="http://nightsailer.com/feed" rssowl:id="399" />
+        <outline text="Nadia Alramli's Blog" xmlUrl="http://nadiana.com/rss.xml" rssowl:id="400" />
+        <outline text="Nolla" xmlUrl="http://cmgs.me/feed.xml" rssowl:id="401" />
+        <outline text="Paper Trail" xmlUrl="http://the-paper-trail.org/blog/feed" rssowl:id="402" />
+        <outline text="Picklebytes" xmlUrl="http://shane.willowrise.com/feed" rssowl:id="403" />
+        <outline text="PJE on Programming" xmlUrl="http://feeds.feedburner.com/pje-on-programming" rssowl:id="404" />
+        <outline text="Q.yuhen" xmlUrl="http://www.rainsts.net/feed.asp" rssowl:id="405" />
+        <outline text="Riku //关注新网络！" xmlUrl="http://feed.bsdos.cn" rssowl:id="406" />
+        <outline text="Ruud van Asseldonk" xmlUrl="http://ruudvanasseldonk.com/feed.xml" rssowl:id="407" />
+        <outline text="saghul, on codesaghul, on code" xmlUrl="http://code.saghul.net/index.php/feed" rssowl:id="408" />
+        <outline text="Sam的技术Blog" xmlUrl="http://samzhen.blogspot.com/feeds/posts/default" rssowl:id="409" />
+        <outline text="scmer" xmlUrl="http://lispor.is-programmer.com/posts.rss" rssowl:id="410" />
+        <outline text="ShiningRay的Blog" xmlUrl="http://feed.shiningray.cn" rssowl:id="411" />
+        <outline text="sizeof(void)" xmlUrl="http://www.sizeofvoid.net/feed" rssowl:id="412" />
+        <outline text="Skydark's blog" xmlUrl="http://blog.skydark.info/atom.xml" rssowl:id="413" />
+        <outline text="Skywind Inside" xmlUrl="http://www.skywind.me/blog/feed" rssowl:id="19748" />
+        <outline text="smallfish blog feed" xmlUrl="http://chenxiaoyu.org/feed" rssowl:id="414" />
+        <outline text="Surely I Am Joking" xmlUrl="http://yinwang0.wordpress.com/feed" rssowl:id="415" />
+        <outline text="Taming Serpents and Pachyderms" xmlUrl="http://pyrseas.wordpress.com/feed" rssowl:id="416" />
+        <outline text="The only Unchanged is Change itself" xmlUrl="http://liebo.github.io/atom.xml" rssowl:id="417" />
+        <outline text="The time is passing" xmlUrl="http://kenby.iteye.com/rss" rssowl:id="418" />
+        <outline text="The View from Aristeia" xmlUrl="http://scottmeyers.blogspot.com/feeds/posts/default" rssowl:id="419" />
+        <outline text="The Way 2 Inner Peace." xmlUrl="http://somethin.is-programmer.com/posts.rss" rssowl:id="420" />
+        <outline text="theorangeduck.com latest pages" xmlUrl="http://www.theorangeduck.com/feeds/pages" rssowl:id="421" />
+        <outline text="Thomas Leonard's blog" xmlUrl="http://roscidus.com/blog/atom.xml" rssowl:id="422" />
+        <outline text="Tsung's Blog" xmlUrl="http://blog.longwin.com.tw/feed" rssowl:id="423" />
+        <outline text="Wally Yu的专栏" xmlUrl="http://blog.csdn.net/quicktest/rss/list" rssowl:id="424" />
+        <outline text="whtonline" xmlUrl="http://blog.chinaunix.net/u/rss.php?id=19671" rssowl:id="425" />
+        <outline text="WindStorm" xmlUrl="http://www.kunli.info/feed" rssowl:id="426" />
+        <outline text="Wow! Uncle Joey" xmlUrl="http://www.unclejoey.com/feed" rssowl:id="427" />
+        <outline text="Xudifsd" xmlUrl="http://xudifsd.org/blog/feed" rssowl:id="428" />
+        <outline text="yiihsia[互联网后端技术]_yiihsia[互联网后端技术]" xmlUrl="http://www.yiihsia.com/feed" rssowl:id="429" />
+        <outline text="YueyouM's Writing Time" xmlUrl="http://codeshift.org/atom.rss" rssowl:id="430" />
+        <outline text="Z's Yard[中文]" xmlUrl="http://myzsyweb.blogspot.com/feeds/posts/default" rssowl:id="432" />
+        <outline text="Zhiwei.Li" xmlUrl="http://zhiwei.li/text/feed" rssowl:id="431" />
+        <outline text="zzzeek" xmlUrl="http://techspot.zzzeek.org/feed/index.xml" rssowl:id="433" />
+        <outline text="云风的 BLOG" xmlUrl="http://blog.codingnow.com/atom.xml" rssowl:id="485" />
+        <outline text="你是有多喜欢玩游戏啊" xmlUrl="http://blog.lazybee.me/?feed=rss2" rssowl:id="471" />
+        <outline text="刘未鹏 | Mind Hacks" xmlUrl="http://mindhacks.cn/feed" rssowl:id="466" />
+        <outline text="千里孤行的部落" xmlUrl="http://blog.csdn.net/yanghehong/rss/list" rssowl:id="473" />
+        <outline text="博客园_clowwindy的杂草牧场" xmlUrl="http://www.cnblogs.com/clowwindy/rss" rssowl:id="435" />
+        <outline text="博客园_CoderZh的技术博客" xmlUrl="http://www.cnblogs.com/coderzh/rss" rssowl:id="436" />
+        <outline text="博客园_HBStream流媒体网络科技" xmlUrl="http://www.cnblogs.com/haibindev/rss" rssowl:id="437" />
+        <outline text="博客园_lovecindywang  = lovecherry" xmlUrl="http://www.cnblogs.com/lovecindywang/rss" rssowl:id="438" />
+        <outline text="博客园_lulu Studio" xmlUrl="http://www.cnblogs.com/QLeelulu/rss" rssowl:id="439" />
+        <outline text="博客园_Vamei" xmlUrl="http://www.cnblogs.com/vamei/rss" rssowl:id="440" />
+        <outline text="博客园_一条鱼~" xmlUrl="http://www.cnblogs.com/yanlingyin/rss" rssowl:id="444" />
+        <outline text="博客园_吴镝" xmlUrl="http://www.cnblogs.com/foxmailed" rssowl:id="443" />
+        <outline text="博客园_回头再说  坚强2002的博客" xmlUrl="http://www.cnblogs.com/me-sa/rss" rssowl:id="442" />
+        <outline text="博客园_草屋主人的blog" xmlUrl="http://www.cnblogs.com/sunli/rss" rssowl:id="441" />
+        <outline text="可观" xmlUrl="http://yangguan.org/feed" rssowl:id="462" />
+        <outline text="哈巴狗" xmlUrl="http://www.habadog.com/feed" rssowl:id="453" />
+        <outline text="寂寞的宾狗" xmlUrl="http://bindog.github.io/feed.xml" rssowl:id="458" />
+        <outline text="寂静之声" xmlUrl="http://blog.sina.com.cn/rss/1569777711.xml" rssowl:id="457" />
+        <outline text="将之典藏" xmlUrl="http://feeds.xiaobin.net/zh_cn" rssowl:id="459" />
+        <outline text="小顾de杂记" xmlUrl="http://blog.ihipop.info/feed" rssowl:id="481" />
+        <outline text="开源小厨" xmlUrl="http://fosschef.com/feed" rssowl:id="461" />
+        <outline text="弘毅" xmlUrl="http://lesliezhu.github.io/public/rss.xml" rssowl:id="455" />
+        <outline text="张宴的博客" xmlUrl="http://blog.s135.com/feed.php" rssowl:id="487" />
+        <outline text="张磊的blog" xmlUrl="http://www.blogkid.net/index.xml" rssowl:id="486" />
+        <outline text="惊帆之静默" xmlUrl="http://gashero.yeax.com/?feed=rss2" rssowl:id="460" />
+        <outline text="我自然" xmlUrl="http://www.yankay.com/feed" rssowl:id="478" />
+        <outline text="扶凯" xmlUrl="http://www.php-oa.com/feed" rssowl:id="451" />
+        <outline text="技术奇异点" xmlUrl="http://techsingular.net/?feed=rss2" rssowl:id="456" />
+        <outline text="月光博客" xmlUrl="http://feed.williamlong.info" rssowl:id="484" />
+        <outline text="柳争的博客 var liuzheng = {name:&quot;柳争&quot;,spoken:&quot;学而践，习而思  ,  编而简，程而象&quot;}" xmlUrl="http://edisonlz.iteye.com/rss" rssowl:id="467" />
+        <outline text="沙湖王" xmlUrl="http://www.shahuwang.com" rssowl:id="475" />
+        <outline text="没做完，没准备好" xmlUrl="http://bulaoge.net/rss2.blg?uid=27015" rssowl:id="469" />
+        <outline text="泥泞的沼泽" xmlUrl="http://davidx.me/feed" rssowl:id="470" />
+        <outline text="涛声" xmlUrl="http://blog.jamiesun.me/feed" rssowl:id="476" />
+        <outline text="滇狐的个人主页" xmlUrl="http://edyfox.codecarver.org/html/rss.xml" rssowl:id="449" />
+        <outline text="滇狐的个人主页" xmlUrl="http://edyfox.codecarver.org/rss.xml" rssowl:id="450" />
+        <outline text="猪之哀伤的BLOG::最新文章" xmlUrl="http://www.zlovezl.cn/feeds/latest/" rssowl:id="488" />
+        <outline text="白菜" xmlUrl="http://www.yi-programmer.com/blog/rss.xml" rssowl:id="434" />
+        <outline text="程序人生" xmlUrl="http://xiewenwei.net/atom.xml" rssowl:id="447" />
+        <outline text="程序老人(卍)" xmlUrl="http://blog.csdn.net/sw2wolf/rss/list" rssowl:id="446" />
+        <outline text="笑对人生，傲立寰宇" xmlUrl="http://dahuasky.wordpress.com/feed" rssowl:id="482" />
+        <outline text="系统技术非业余研究" xmlUrl="http://blog.yufeng.info/feed" rssowl:id="480" />
+        <outline text="老赵点滴 - 追求编程之美" xmlUrl="http://blog.zhaojie.me/rss" rssowl:id="465" />
+        <outline text="聽雲閣" xmlUrl="http://www.ekd123.org/blog/feed" rssowl:id="477" />
+        <outline text="蜻蜓点水 举重若轻" xmlUrl="http://eishn.blog.163.com/rss" rssowl:id="474" />
+        <outline text="行者无疆 始于足下" xmlUrl="http://cnlox.is-programmer.com/posts.rss" rssowl:id="454" />
+        <outline text="西乔的九卦" xmlUrl="http://blog.xiqiao.info/feed" rssowl:id="479" />
+        <outline text="负暄琐话" xmlUrl="http://blog.csdn.net/g9yuayon/rss/list" rssowl:id="452" />
+        <outline text="赖勇浩的编程私伙局" xmlUrl="http://blog.csdn.net/lanphaday/rss/list" rssowl:id="464" />
+        <outline text="起死回生" xmlUrl="http://www.021128.net/feed" rssowl:id="472" />
+        <outline text="追寻真理之美" xmlUrl="http://blog.csdn.net/ccat/rss/list" rssowl:id="489" />
+        <outline text="道可道" xmlUrl="http://zhuoqiang.me/feed" rssowl:id="448" />
+        <outline text="酷壳 - CoolShell.cn" xmlUrl="http://coolshell.cn/feed" rssowl:id="463" />
+        <outline text="银河里的星星" xmlUrl="http://duanple.blog.163.com/rss" rssowl:id="483" />
+        <outline text="陈硕的Blog" xmlUrl="http://blog.csdn.net/Solstice/rss/list" rssowl:id="445" />
+        <outline text="麦子麦--DBWinds麦子麦--DBWinds" xmlUrl="http://www.wzxue.com/feed" rssowl:id="468" />
+        <outline text="charlesleifer.com" xmlUrl="http://charlesleifer.com/blog/rss" rssowl:id="27692" />
+        <outline text="on CoderZh Blog" xmlUrl="http://blog.coderzh.com/feed.xml" rssowl:id="29183" />
+        <outline text="Ji ZHANG's Blog" xmlUrl="http://shzhangji.com/atom.xml" rssowl:id="35339" />
+      </outline>
+      <outline text="c_cpp" rssowl:isSet="false" rssowl:id="490">
+        <outline text="刘未鹏|C++的罗浮宫" xmlUrl="http://blog.csdn.net/pongba/rss/list" rssowl:id="491" />
+        <outline text="刘未鹏|C++的罗浮宫" xmlUrl="http://feeds.feedsky.com/csdn.net/pongba" rssowl:id="492" />
+      </outline>
+      <outline text="challenge" rssowl:isSet="false" rssowl:id="493">
+        <outline text="MindCipher Puzzles" xmlUrl="http://www.mindcipher.com/feed" rssowl:id="494" />
+      </outline>
+      <outline text="compiler" rssowl:isSet="false" rssowl:id="495">
+        <outline text="FrozenGene's Blog" xmlUrl="http://frozengene.github.io/rss.xml" rssowl:id="496" />
+      </outline>
+      <outline text="database" rssowl:isSet="false" rssowl:id="497">
+        <outline text="a db thinker's home" xmlUrl="http://www.dbthink.com/?feed=rss2" rssowl:id="498" />
+        <outline text="NOSQL Notes" xmlUrl="http://www.nosqlnotes.net/feed" rssowl:id="499" />
+        <outline text="NoSQLFan" xmlUrl="http://blog.nosqlfan.com/feed" rssowl:id="500" />
+        <outline text="博客园_逖靖寒的世界" xmlUrl="http://www.cnblogs.com/gpcuster/rss" rssowl:id="501" />
+        <outline text="七号站台" xmlUrl="http://lgone.com/feed" rssowl:id="502" />
+        <outline text="运维和开发" xmlUrl="http://feed.feedsky.com/hoterran" rssowl:id="503" />
+        <outline text="江边潮未尽，枫红一季秋" xmlUrl="http://www.ningoo.net/feed" rssowl:id="20763" />
+      </outline>
+      <outline text="devel" rssowl:isSet="false" rssowl:id="504">
+        <outline text="blog.reddit -- what's new on reddit" xmlUrl="http://blog.reddit.com/feeds/posts/default" rssowl:id="505" />
+        <outline text="Dropbox Tech Blog" xmlUrl="https://blogs.dropbox.com/tech/feed" rssowl:id="506" />
+        <outline text="Fog Creek Blog" xmlUrl="http://blog.fogcreek.com/feed" rssowl:id="507" />
+        <outline text="High Scalability" xmlUrl="http://feeds.feedburner.com/HighScalability" rssowl:id="508" />
+        <outline text="InfoQ中文站" xmlUrl="http://feed.feedsky.com/InfoQChina" rssowl:id="509" />
+        <outline text="Inside SkylightThe Inner Workings of the Skylight Team" xmlUrl="http://blog.skylight.io/rss" rssowl:id="510" />
+        <outline text="lobste.rs" xmlUrl="https://lobste.rs/rss" rssowl:id="511" />
+        <outline text="Real World Tech" xmlUrl="http://www.realworldtech.com/feed" rssowl:id="512" />
+        <outline text="TechParty:珠三角技术沙龙" xmlUrl="http://techparty.org/feed" rssowl:id="513" />
+        <outline text="Toptal Engineering Blog" xmlUrl="http://www.toptal.com/blog.rss" rssowl:id="514" />
+        <outline text="UC" xmlUrl="http://tech.uc.cn/?feed=rss2" rssowl:id="515" />
+        <outline text="UnitedStack Inc." xmlUrl="http://www.ustack.com/feed" rssowl:id="516" />
+        <outline text="并发编程网 - ifeve.com" xmlUrl="http://ifeve.com/feed" rssowl:id="517" />
+        <outline text="架构研究院" xmlUrl="http://ultimatearchitecture.net/index.php/feed" rssowl:id="518" />
+        <outline text="解道jdon.com" xmlUrl="http://www.jdon.com/rss" rssowl:id="519" />
+        <outline text="开源中国社区最新新闻" xmlUrl="http://www.oschina.net/news/rss" rssowl:id="520" />
+        <outline text="码农日报" xmlUrl="http://daily.manong.io/feed" rssowl:id="521" />
+        <outline text="阮一峰的网络日志" xmlUrl="http://feeds.feedburner.com/ruanyifeng" rssowl:id="522" />
+        <outline text="外刊IT评论网" xmlUrl="http://www.aqee.net/feed" rssowl:id="523" />
+        <outline text="Highly Scalable Blog" xmlUrl="http://highlyscalable.wordpress.com/feed" rssowl:id="524" />
+        <outline text="Mixpanel Engineering" xmlUrl="https://code.mixpanel.com/feed" rssowl:id="33578" />
+      </outline>
+      <outline text="Django" rssowl:isSet="false" rssowl:id="525">
+        <outline text="GoDjango Screencasts" xmlUrl="http://godjango.com/rss/main" rssowl:id="526" />
+      </outline>
+      <outline text="dotNET" rssowl:isSet="false" rssowl:id="527">
+        <outline text="博客园_欢迎光临汤雪华的博客" xmlUrl="http://www.cnblogs.com/netfocus/rss" rssowl:id="528" />
+        <outline text="博客园_自由、创新、研究、探索" xmlUrl="http://www.cnblogs.com/shanyou/rss" rssowl:id="529" />
+      </outline>
+      <outline text="Elixir" rssowl:isSet="false" rssowl:id="530">
+        <outline text="Plataformatec Blog" xmlUrl="http://blog.plataformatec.com.br/feed" rssowl:id="531" />
+      </outline>
+      <outline text="Erlang" rssowl:isSet="false" rssowl:id="532">
+        <outline text="Joe Armstrong's blog" xmlUrl="http://joearms.github.io/feed.xml" rssowl:id="533" />
+        <outline text="博客园_siyao" xmlUrl="http://www.cnblogs.com/zhengsyao/rss" rssowl:id="534" />
+      </outline>
+      <outline text="FreeBSD" rssowl:isSet="false" rssowl:id="535">
+        <outline text="anyShare" xmlUrl="http://www.anyshare.org/feed" rssowl:id="536" />
+      </outline>
+      <outline text="game_devel" rssowl:isSet="false" rssowl:id="537">
+        <outline text="Code@Pig Home" xmlUrl="http://kasicass.blog.163.com/rss" rssowl:id="538" />
+        <outline text="Dev in Nightmare" xmlUrl="http://blog.csdn.net/Nightmare/rss/list" rssowl:id="539" />
+        <outline text="Higher-Order Fun" xmlUrl="http://higherorderfun.com/blog/feed" rssowl:id="540" />
+        <outline text="Roy Notes" xmlUrl="http://blog.roynotes.com/feed" rssowl:id="541" />
+        <outline text="wolfcoder的专栏" xmlUrl="http://blog.csdn.net/wolfcoder/rss/list" rssowl:id="542" />
+        <outline text="Zhiyong's Blog" xmlUrl="http://canremember.com/?feed=rss2" rssowl:id="543" />
+        <outline text="博客园_Silvery Night" xmlUrl="http://www.cnblogs.com/nowpaper/rss" rssowl:id="544" />
+        <outline text="博客园_再见理想" xmlUrl="http://www.cnblogs.com/beyondnet/rss" rssowl:id="545" />
+        <outline text="枫落★流年——毛星云的专栏" xmlUrl="http://blog.csdn.net/zhmxy555/rss/list" rssowl:id="546" />
+        <outline text="游戏人生" xmlUrl="http://feeds.feedburner.com/yulefox" rssowl:id="547" />
+      </outline>
+      <outline text="Go" rssowl:isSet="false" rssowl:id="548">
+        <outline text="blog.campoy.cat" xmlUrl="http://blog.campoy.cat/feeds/posts/default" rssowl:id="549" />
+        <outline text="Code Gangsta" xmlUrl="http://blog.codegangsta.io/atom.xml" rssowl:id="550" />
+        <outline text="Code Gangsta" xmlUrl="http://codegangsta.io" rssowl:id="551" />
+        <outline text="Golang 中国博客" xmlUrl="http://blog.go-china.org/feed.atom" rssowl:id="552" />
+        <outline text="paulbellamy.com" xmlUrl="http://paulbellamy.com/atom.xml" rssowl:id="553" />
+        <outline text="Recent Content on Hacking Management" xmlUrl="http://spf13.com/index.xml" rssowl:id="554" />
+        <outline text="The Go Programming Language Blog" xmlUrl="http://blog.golang.org/feeds/posts/default" rssowl:id="555" />
+        <outline text="UnrolledThoughts from a technical mind." xmlUrl="http://blog.unrolled.ca/rss" rssowl:id="556" />
+        <outline text="陈一回的个人页面" xmlUrl="http://my.oschina.net/goal/rss" rssowl:id="557" />
+        <outline text="铁哥" xmlUrl="http://1.guotie.sinaapp.com/?feed=rss2" rssowl:id="558" />
+      </outline>
+      <outline text="Haskell" rssowl:isSet="false" rssowl:id="559">
+        <outline text="GHC - Blog" xmlUrl="http://hackage.haskell.org/trac/ghc/blog?format=rss" rssowl:id="560" />
+        <outline text="GHC Mutterings" xmlUrl="http://ghcmutterings.wordpress.com/feed" rssowl:id="561" />
+        <outline text="Neil Mitchell's Haskell Blog" xmlUrl="http://neilmitchell.blogspot.com/feeds/posts/default" rssowl:id="562" />
+        <outline text="Planet Haskell" xmlUrl="http://planet.haskell.org/rss20.xml" rssowl:id="563" />
+        <outline text="Well-Typed Blog" xmlUrl="http://www.well-typed.com/blog/rss2.xml" rssowl:id="564" />
+      </outline>
+      <outline text="iOS" rssowl:isSet="false" rssowl:id="565">
+        <outline text="Why's Blog" xmlUrl="http://blog.callmewhy.com/atom.xml" rssowl:id="566" />
+      </outline>
+      <outline text="JavaScript" rssowl:isSet="false" rssowl:id="567">
+        <outline text="Eli Grey" xmlUrl="http://feeds.feedburner.com/eligrey" rssowl:id="568" />
+        <outline text="CNode：Node.js专业中文社区" xmlUrl="http://club.cnodejs.org/rss" rssowl:id="569" />
+      </outline>
+      <outline text="Lisp" rssowl:isSet="false" rssowl:id="570">
+        <outline text="Common Lisp Tips" xmlUrl="http://lisptips.com/rss" rssowl:id="571" />
+        <outline text="Common Lisp.net : Beta" xmlUrl="http://common-lisp.net/index.xml" rssowl:id="572" />
+        <outline text="Paul Graham: Essays" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" rssowl:id="573" />
+        <outline text="Paul Khuong mostly on Lisp" xmlUrl="http://www.pvk.ca/atom.xml" rssowl:id="574" />
+        <outline text="Planet Lisp" xmlUrl="http://planet.lisp.org/rss20.xml" rssowl:id="575" />
+        <outline text="Planet Scheme" xmlUrl="http://www.scheme.dk/planet/atom.xml" rssowl:id="576" />
+      </outline>
+      <outline text="mathematics" rssowl:isSet="false" rssowl:id="577">
+        <outline text="Matrix67: My Blog" xmlUrl="http://www.matrix67.com/blog/feed.asp" rssowl:id="578" />
+        <outline text="宇宙的心弦" xmlUrl="http://www.eaglefantasy.com/feed" rssowl:id="579" />
+      </outline>
+      <outline text="microsoft" rssowl:isSet="false" rssowl:id="580">
+        <outline text="MS Open Tech" xmlUrl="http://cn.msopentech.com/feed" rssowl:id="581" />
+      </outline>
+      <outline text="mine" rssowl:isSet="false" rssowl:id="582">
+        <outline text="halfcool-devel" xmlUrl="http://halfcool-devel.blogspot.com/feeds/posts/default" rssowl:id="583" />
+        <outline text="Magic coding!" xmlUrl="http://magicoding.appspot.com/feed" rssowl:id="584" />
+        <outline text="堕落天才的黄昏" xmlUrl="http://halfcool.yo2.cn/feed" rssowl:id="585" />
+        <outline text="林飞雨" xmlUrl="http://halfcool.blogspot.com/feeds/posts/default" rssowl:id="586" />
+        <outline text="努力中的天才~" xmlUrl="http://hi.baidu.com/whycrying/rss" rssowl:id="587" />
+      </outline>
+      <outline text="Perl" rssowl:isSet="false" rssowl:id="588">
+        <outline text="Pugs" xmlUrl="http://pugs.blogs.com/pugs/atom.xml" rssowl:id="589" />
+      </outline>
+      <outline text="Pyramid" rssowl:isSet="false" rssowl:id="590">
+        <outline text="A Bit of Bytes" xmlUrl="http://carelessbrightness.com/atom.xml" rssowl:id="591" />
+      </outline>
+      <outline text="Python" rssowl:isSet="false" rssowl:id="592">
+        <outline text="...and then it crashed" xmlUrl="http://blog.etianen.com/atom.xml" rssowl:id="593" />
+        <outline text="Alexandre Bourget" xmlUrl="http://blog.abourget.net/feed" rssowl:id="594" />
+        <outline text="Ben's Development Blog" xmlUrl="http://bdarnell.github.com/atom.xml" rssowl:id="595" />
+        <outline text="Dabeaz" xmlUrl="http://dabeaz.blogspot.com/feeds/posts/default" rssowl:id="596" />
+        <outline text="Dropbox Tech Blog" xmlUrl="https://tech.dropbox.com/feed" rssowl:id="597" />
+        <outline text="Eat at Joe's" xmlUrl="http://feeds.feedburner.com/eamj" rssowl:id="598" />
+        <outline text="Eli Bendersky's website" xmlUrl="http://eli.thegreenplace.net/feed" rssowl:id="599" />
+        <outline text="Grisha Trubetskoy" xmlUrl="http://grisha.org/atom.xml" rssowl:id="600" />
+        <outline text="Ian Bicking: a blog" xmlUrl="http://blog.ianbicking.org/feed/atom" rssowl:id="601" />
+        <outline text="Jeff的妙想奇境" xmlUrl="http://www.jeffkit.info/feed" rssowl:id="602" />
+        <outline text="Kevin's blog" xmlUrl="http://blog.kevmod.com/feed" rssowl:id="603" />
+        <outline text="Neopythonic" xmlUrl="http://neopythonic.blogspot.com/feeds/posts/default" rssowl:id="604" />
+        <outline text="OnlyPython最新文章" xmlUrl="http://onlypython.appspot.com/feeds/latest" rssowl:id="605" />
+        <outline text="Planet of Woodpecker.org.cn for CPUG" xmlUrl="http://woodpecker.org.cn/planet/atom.xml" rssowl:id="606" />
+        <outline text="Planet Plone" xmlUrl="http://planet.plone.org/rss20.xml" rssowl:id="607" />
+        <outline text="Planet Python" xmlUrl="http://planet.python.org/rss10.xml" rssowl:id="608" />
+        <outline text="Planet Zope.org" xmlUrl="http://www.zope.org/Planet/planet_rss10.xml" rssowl:id="609" />
+        <outline text="plope" xmlUrl="http://plope.com/news_rss" rssowl:id="610" />
+        <outline text="PyChina.org" xmlUrl="http://pychina.org" rssowl:id="611" />
+        <outline text="pycoders Archive Feed" xmlUrl="http://feeds.feedburner.com/pycodersweekly" rssowl:id="612" />
+        <outline text="Python China" xmlUrl="http://feeds.feedburner.com/python-china" rssowl:id="613" />
+        <outline text="Python Cloud" xmlUrl="http://clouddbs.blogspot.com/feeds/posts/default" rssowl:id="614" />
+        <outline text="Python Insider" xmlUrl="http://blog.python.org/feeds/posts/default" rssowl:id="615" />
+        <outline text="Python Insider CN" xmlUrl="http://blog-cn.python.org/feeds/posts/default" rssowl:id="616" />
+        <outline text="Python Secret Weblog" xmlUrl="http://faassen.n--tree.net/blog/syndicate/weblog" rssowl:id="617" />
+        <outline text="pyvideo.org: Newly posted videos" xmlUrl="http://pyvideo.org/video/rss" rssowl:id="618" />
+        <outline text="Recent Blog Posts" xmlUrl="http://lucumr.pocoo.org/feed.atom" rssowl:id="619" />
+        <outline text="Repoze Notes" xmlUrl="http://blog.repoze.org/index.rss20" rssowl:id="620" />
+        <outline text="Stefans Welt" xmlUrl="http://blog.behnel.de/index.php?feed=rss2" rssowl:id="621" />
+        <outline text="The Pyston Blog" xmlUrl="http://blog.pyston.org/feed" rssowl:id="622" />
+        <outline text="博客园_心内求法" xmlUrl="http://www.cnblogs.com/holbrook/rss" rssowl:id="623" />
+        <outline text="Mauveweb" xmlUrl="http://mauveweb.co.uk/rss.xml" rssowl:id="32317" />
+      </outline>
+      <outline text="Ruby" rssowl:isSet="false" rssowl:id="624">
+        <outline text="DEV_MEM.dump_to(:blog) - Multimedia systems blog" xmlUrl="http://blog.mmediasys.com/feed" rssowl:id="625" />
+        <outline text="Juanito Fatas" xmlUrl="http://feeds.feedburner.com/juanitofatas" rssowl:id="32189" />
+      </outline>
+      <outline text="Rust" rssowl:isSet="false" rssowl:id="626">
+        <outline text="AirMozilla" xmlUrl="https://air.mozilla.org/feed/rust/public" rssowl:id="627" />
+        <outline text="Chris Morgan’s blog" xmlUrl="http://chrismorgan.info/blog.xml" rssowl:id="628" />
+        <outline text="cs4414: Operating Systems" xmlUrl="http://rust-class.org/feeds/all.atom.xml" rssowl:id="629" />
+        <outline text="Frustrated Software Developer" xmlUrl="http://redbrain.co.uk/feed" rssowl:id="630" />
+        <outline text="huonw@github" xmlUrl="http://huonw.github.io/blog/atom.xml" rssowl:id="631" />
+        <outline text="Jonathan Reem on Medium" xmlUrl="https://medium.com/@jreem" rssowl:id="632" />
+        <outline text="main is usually a function" xmlUrl="http://mainisusuallyafunction.blogspot.com/feeds/posts/default" rssowl:id="633" />
+        <outline text="pcwalton" xmlUrl="http://pcwalton.github.io/atom.xml" rssowl:id="634" />
+        <outline text="Piston" xmlUrl="http://blog.piston.rs/atom.xml" rssowl:id="635" />
+        <outline text="Rust 'n Stuffs" xmlUrl="http://blog.octayn.net/atom.xml" rssowl:id="636" />
+        <outline text="seanmonstar" xmlUrl="http://seanmonstar.com/rss" rssowl:id="637" />
+        <outline text="siciarz.net - galerie" xmlUrl="https://siciarz.net/photos/rss" rssowl:id="638" />
+        <outline text="The Rust Programming Language Blog" xmlUrl="http://blog.rust-lang.org/feed.xml" rssowl:id="639" />
+        <outline text="This Week in Rust" xmlUrl="http://this-week-in-rust.org/atom.xml" rssowl:id="640" />
+        <outline text="Tilting at Rabbit Holes" xmlUrl="http://erickt.github.io/atom.xml" rssowl:id="641" />
+        <outline text="Nikita Baksalyar" xmlUrl="http://feeds.feedburner.com/NikitaBaksalyar" rssowl:id="34616" />
+      </outline>
+      <outline text="Scheme" rssowl:isSet="false" rssowl:id="642">
+        <outline text="(eighty-twenty news)" xmlUrl="http://www.eighty-twenty.org" rssowl:id="643" />
+        <outline text="Greg Hendershott: All Posts" xmlUrl="http://www.greghendershott.com/feeds/all.atom.xml" rssowl:id="644" />
+        <outline text="Liutos" xmlUrl="http://liutos.github.io/atom.xml" rssowl:id="645" />
+        <outline text="New PLaneT Packages" xmlUrl="http://planet.racket-lang.org/4.x/planet.rss" rssowl:id="646" />
+        <outline text="The Racket Blog" xmlUrl="http://blog.racket-lang.org/feeds/posts/default" rssowl:id="647" />
+      </outline>
+      <outline text="server" rssowl:isSet="false" rssowl:id="648">
+        <outline text="Human &amp;amp; Machine" xmlUrl="http://agentzh.blogspot.com/feeds/posts/default" rssowl:id="649" />
+        <outline text="Kevin Worthington" xmlUrl="http://feedproxy.google.com/feedburner/KevinWorthington" rssowl:id="650" />
+        <outline text="Planet Nginx" xmlUrl="http://planet.nginx.org/atom.xml" rssowl:id="651" />
+        <outline text="服务器开发(Server Development)" xmlUrl="http://www.doserver.net/feed.php" rssowl:id="652" />
+      </outline>
+      <outline text="Tex" rssowl:isSet="false" rssowl:id="653">
+        <outline text="Liam's Blog" xmlUrl="http://liam0205.me" rssowl:id="654" />
+      </outline>
+      <outline text="Unix" rssowl:isSet="false" rssowl:id="655">
+        <outline text="DragonFly BSD Digest" xmlUrl="http://www.shiningsilence.com/dbsdlog/feed" rssowl:id="656" />
+        <outline text="LinuxGem" xmlUrl="http://feed.feedsky.com/linuxgem" rssowl:id="657" />
+        <outline text="LinuxTOY" xmlUrl="http://linuxtoy.org/feed" rssowl:id="658" />
+        <outline text="Magic Linux 开发总部 blogs" xmlUrl="http://www.magiclinux.org/drupal/?q=blog/feed" rssowl:id="659" />
+        <outline text="NetBSD Planet" xmlUrl="http://netbsd.fi/atom.xml" rssowl:id="660" />
+        <outline text="Planet FreeBSD" xmlUrl="http://blogs.freebsdish.org/feed" rssowl:id="661" />
+        <outline text="Planet Gentoo" xmlUrl="http://planet.gentoo.org/rss20.xml" rssowl:id="662" />
+        <outline text="Planet-BSD.net" xmlUrl="http://www.planet-bsd.net/rss" rssowl:id="663" />
+      </outline>
+      <outline text="web" rssowl:isSet="false" rssowl:id="664">
+        <outline text="Blog of Wenli Zhang" xmlUrl="http://zhangwenli.com/blog/feed.xml" rssowl:id="665" />
+        <outline text="幸福收藏夹" xmlUrl="http://sofish.de/feed" rssowl:id="666" />
+      </outline>
+      <outline text="Zope" rssowl:isSet="false" rssowl:id="667">
+        <outline text="Baiju Muthukadan's Blog" xmlUrl="http://baijum.blogspot.com/feeds/posts/default" rssowl:id="668" />
+      </outline>
+      <rssowl:savedsearch name="Unread News" matchAllConditions="true" rssowl:id="669">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="7">
+            <rssowl:newsstate value="0" />
+            <rssowl:newsstate value="2" />
+            <rssowl:newsstate value="3" />
+          </rssowl:searchvalue>
+          <rssowl:searchfield id="14" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="Todays News" matchAllConditions="true" rssowl:id="671">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="9" />
+          <rssowl:searchvalue type="4" value="1" />
+          <rssowl:searchfield id="18" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="News with Attachments" matchAllConditions="true" rssowl:id="673">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="6" value="true" />
+          <rssowl:searchfield id="10" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="Sticky News" matchAllConditions="true" rssowl:id="675">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="6" value="true" />
+          <rssowl:searchfield id="13" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="Labeled News" matchAllConditions="false" rssowl:id="677">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="7" value="*" />
+          <rssowl:searchfield id="15" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+    </outline>
+  </body>
+</opml>
+
