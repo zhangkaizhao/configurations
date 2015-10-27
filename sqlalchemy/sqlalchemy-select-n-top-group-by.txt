@@ -1,0 +1,49 @@
+Question
+--------
+http://stackoverflow.com/q/15087408
+
+I am trying to write a query to get the N most recent comments for multiple
+items.
+
+Currently, I am looping through the items with a query per item:
+
+    for i in itemIds:
+        Comment.query.filter_by(itemId=i).order_by(Comment.id.desc()).limit(3)
+
+But this is really slow.
+
+I would like to have a single query that gets all of the comments, but
+don't know how. I have tried using union but haven't gotten it to work. I
+appears there are issues with MySQL, order_by, and union. I am trying
+something to the effect of:
+
+    a = Comment.query.filter_by(itemId=1).order_by(Comment.id.desc()).limit(3)
+    b = Comment.query.filter_by(itemId=2).order_by(Comment.id.desc()).limit(3)
+    u = union_all(a,b)
+    DB.session.query(Comment).select_from(u).all()
+
+But that doesn't work. It complains about 'Incorrect usage of UNION and
+ORDER BY'.
+
+I'm not a MySQL or SQLAlchemy ninja, and have been banging my head on this
+for hours.
+
+Help please! Any pointers or advice would be greatly appreciated.
+
+Answer
+------
+http://stackoverflow.com/a/15104263
+
+For the SQL version, please see the "Select the top N rows from each group" section in http://www.xaprb.com/blog/2006/12/07/how-to-select-the-firstleastmax-row-per-group-in-sql/
+
+which gives in SQLAlchemy:
+
+    c2 = aliased(Comment)
+    query = session.query(Comment).filter(
+                session.query(func.count(c2.id))\
+                    .filter(c2.id >= Comment.id)\
+                    .filter(c2.item_id == Comment.item_id)\
+                    .order_by(c2.id.desc())\
+                    .correlate(Comment)\
+                    .as_scalar() <= 3)\
+        .filter(Comment.item_id.in_(itemIds)).all()

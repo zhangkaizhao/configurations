@@ -1,0 +1,55 @@
+http://stackoverflow.com/a/7875699
+
+FROM: http://www.pythian.com/news/7129/text-vs-varchar/
+
+On first glance, it looks like TEXT and VARCHAR can store the same information. However, there are fundamental differences between the way TEXT fields and VARCHAR fields work, which are important to take into consideration.
+
+Standard VARCHAR is actually part of the ISO SQL:2003 standard; The TEXT data types, including TINYTEXT, are non-standard.
+
+Storage TEXT data types are stored as separate objects from the tables and result sets that contain them. This storage is transparent — there is no difference in how a query involving a TEXT field is written versus one involving a VARCHAR field. Since TEXT is not stored as part of a row, retrieval of TEXT fields requires extra [edited 1/22] memory overhead.
+
+Maximum VARCHAR length The maximum row length of a VARCHAR is restricted by the maximum row length of a table. This is 65,535 bytes for most storage engines (NDB has a different maximum row value). Theoretically the maximum length of a VARCHAR is 65,536 bytes. Overhead further limits the actual maximum size of a VARCHAR.
+
+Storing the length of a VARCHAR field takes 1 byte if the VARCHAR field has a maximum length of 0-255 bytes; if it is greater than 255 bytes, the overhead to store the length is 2 bytes. If the VARCHAR field allows NULL values, that adds additional overhead — every table uses 1 byte of overhead for each set of 8 fields that allow NULL values. If the VARCHAR is the only row in the table, and does not allow NULL values, the maximum length allowed for VARCHAR is 65,532 bytes.
+
+Keep in mind that that the number in VARCHAR(x) represents number of characters, not number of bytes. Therefore, you may have difficulties trying to define a table with only VARCHAR(65532) if the character set uses multi-byte characters, such as UTF-8.
+
+If you attempt to define a VARCHAR value that is longer than allowed, you will run into an error such as 1118 or 1074:
+
+    ERROR 1118 (42000): Row size too large. The maximum row size for the used table type, not counting BLOBs, is 65535. You have to change
+
+some columns to TEXT or BLOBs.
+
+    ERROR 1074 (42000): Column length too big for column 'col_name' (max=[max number here]); use BLOB or TEXT instead
+
+Maximum TEXT length The maximum size of a TEXT data type depends on which type of TEXT data type is being used. Because they are stored as objects, the only row overhead in the table object is a pointer (8 or 16 bytes). Here is a list of the maximum TEXT length, and the overhead (in the TEXT object):
+
+TINYTEXT – up to 255 bytes, 1 byte overhead
+
+TEXT – up to 64 Kb, 2 bytes overhead
+
+MEDIUMTEXT – up to 16 Mb, 3 bytes overhead
+
+LONGTEXT – up to 4 Gb, 4 bytes overhead
+DEFAULT values MySQL does not allow TEXT data types to have a default value other than NULL. VARCHAR fields are allowed to be created with a DEFAULT value.
+
+Conclusions Because of the storage implications, it is preferable to use VARCHAR instead of TINYTEXT.
+
+If you need to have a DEFAULT value that is not NULL, you must use VARCHAR (or CHAR).
+
+If you need to store strings longer than approximately 64 Kb, use MEDIUMTEXT or LONGTEXT. VARCHAR cannot support storing values that large.
+
+Make sure you are aware of the effects of a multi-byte character set. VARCHAR(255) stores 255 characters, which may be more than 255 bytes.
+
+share|improve this answer
+edited Feb 15 '12 at 13:15
+
+Bill the Lizard♦
+158k107385665   
+answered Oct 24 '11 at 12:35
+
+Book Of Zeus
+38.2k6133148
+
+--------------
+ref: http://www.pythian.com/blog/text-vs-varchar/

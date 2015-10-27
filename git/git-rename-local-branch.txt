@@ -1,0 +1,17 @@
+http://stackoverflow.com/a/6591218
+
+
+    git branch -m <oldname> <newname>
+
+If you want to rename the current branch, you can simply do:
+
+    git branch -m <newname>
+
+Thanks to @technoTarek for the tip.
+
+share|improve this answer
+edited Jul 18 '13 at 17:36
+
+answered Jul 6 '11 at 3:21
+
+siride

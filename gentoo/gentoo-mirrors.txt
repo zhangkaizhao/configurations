@@ -1,0 +1,7 @@
+http://mirrors.tuna.tsinghua.edu.cn/
+
+=================
+http://mirrors.ustc.edu.cn/
+
+GENTOO_MIRRORS="http://mirrors.ustc.edu.cn/gentoo/"
+SYNC="rsync://mirrors.ustc.edu.cn/gentoo-portage/"

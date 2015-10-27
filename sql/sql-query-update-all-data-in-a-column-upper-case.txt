@@ -1,0 +1,18 @@
+http://stackoverflow.com/a/858542
+
+
+Permanent
+----------
+
+    UPDATE
+      MyTable
+    SET
+      MyColumn = UPPER(MyColumn)
+
+Temporary
+---------
+
+    SELECT
+      UPPER(MyColumn) AS MyColumn
+    FROM
+      MyTable

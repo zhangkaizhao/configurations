@@ -1,0 +1,84 @@
+http://www.held.org.il/blog/2013/03/navigating-through-the-git-history-like-a-boss/
+
+
+1. Find commits by their commit message - --grep
+
+Impress your boss at how quickly you find this commit!
+
+    git log -p --grep "nasty bug"
+
+    # Feeling lucky?
+    git show :/'nasty bug'
+
+2. Search by commit content - -S
+
+This one will show you only commits that contain the provided string in the commit content itself. Super useful!
+
+    git log -p -S 'Date.new'
+
+3. Search by author
+
+You know who's responsible for this change you're looking for, so why not use this to ease the search?
+
+    git log -p --author='Linus Torvalds'
+
+    # Can even use parts of the name or email:
+    git log -p --author=orvalds
+    git log -p --author=gmail.com
+
+4. Find by date
+
+    git log -p --since=2013-01-01 --until=2012-02-01
+
+5. By path!
+
+    git log -p -- path/to/file1 path/to/directory ...
+
+    # Add --follow to follow changes through file renames:
+    git log -p --follow -- path/to/file1
+
+6. Search ALL branches
+
+Lost something?
+
+    git log -S 'populate_database' --all
+
+7. Putting (some of) it all together
+
+I actually find such commands useful in practice.
+
+    git log -p --author=linus --since=2012-06-01 --until=2013-01-01 --grep fix -S 'Date.new' -- that_directory/
+
+8. A few useful revision-range tricks
+
+a. What's new in my branch compared to remote?
+
+    git log -p origin/master..master
+
+    # But I like the following syntax better; it's exactly the same but self-explanatory:
+    # all commits of master branch that are not contained in origin/master branch.
+    git log -p master ^origin/master
+
+    # Also possible to put multiple arguments
+    git log -p master ^origin/master ^my_github/master
+
+(Note: I've noticed that zsh needs the '^' character to be escaped!)
+
+b. 3-dots operator: symmetric difference
+
+The less-widely-known-but-very-useful 3-dots operator, shows any commit that is in any of the branches but not in both:
+
+    git log -p mybranch...master
+
+    # --cherry-pick is often useful to avoid seeing "duplicate commits".
+    # common when cherry-picking, where commits identical content get
+    # different hashes.
+    git log -p --cherry-pick mybranch...master
+
+Read more!
+
+    git help log
+    git help revisions
+    git help blame
+
+This entry was posted in development and tagged FOSS, git on March 28, 2013 by Oren Held.

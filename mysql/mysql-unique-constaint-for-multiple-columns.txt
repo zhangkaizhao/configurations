@@ -1,0 +1,3 @@
+http://stackoverflow.com/a/635943
+
+    ALTER TABLE `votes` ADD UNIQUE `unique_index`(`user`, `email`, `address`);

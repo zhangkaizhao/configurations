@@ -1,0 +1,17 @@
+http://stackoverflow.com/a/5391390
+
+
+Yes, absolutely, but check your syntax.
+
+    INSERT INTO courses (name, location, gid)
+    SELECT name, location, 1
+    FROM   courses
+    WHERE  cid = 2
+
+You can put a constant of the same type as gid in its place, not just 1, of
+course. And, I just made up the cid value.
+
+share|improve this answer
+answered Mar 22 '11 at 12:42
+
+Andrew

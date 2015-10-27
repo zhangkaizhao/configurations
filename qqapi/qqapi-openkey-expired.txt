@@ -1,0 +1,8 @@
+http://wiki.open.qq.com/wiki/OpenAPI%E8%B0%83%E7%94%A8%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98
+
+OpenKey过期。
+用户登录平台后进入应用时，URL中会带有该用户的OpenID和OpenKey，该OpenKey具有2小时的有效期。
+如果用户在应用中一直在操作，但是2小时内没有触发OpenAPI的调用，则会导致OpenKey过期。因此开发者应该检查应用的代码，优化设计，采用一些简单的机制刷新用户的OpenKey，预防上述情况的出现。 
+腾讯专门提供了v3/user/is_login接口，用于登录用户的OpenKey续期。虽然应用调用任何一个OpenAPI都可以刷新用户的OpenKey，但是如果仅仅为了出于自动续期的目的而去随意调用某一个OpenAPI，则会给后台服务造成很大的压力
+。因此推荐使用v3/user/is_login接口专门用于OpenKey续期的处理。
+解决方案：如果OpenKey已经过期，开发者可以调用接口fusion2.dialog.relogin让用户重新登录，获取新的有效的OpenKey。

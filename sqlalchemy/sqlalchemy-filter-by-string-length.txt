@@ -1,0 +1,13 @@
+http://stackoverflow.com/a/15743220
+
+
+You need to use the func SQL function generator to create a LENGTH() function:
+
+from sqlalchemy.sql import func
+
+sess.query(db.ArticlesTable).filter(or_(
+    and_(func.length(db.ArticlesTable.shorttext) > 0),
+
+
+ref:
+http://docs.sqlalchemy.org/en/rel_0_8/core/expression_api.html#sqlalchemy.sql.expression.func

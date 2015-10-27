@@ -1,0 +1,15 @@
+------------------------------------------------
+http://stackoverflow.com/a/9453447
+
+    var number = 6.688689;
+    var roundedNumber = Math.round(number * 10) / 10;
+
+
+------------------------------------------------
+http://stackoverflow.com/a/9453443
+
+    Number((6.688689).toFixed(1)); // 6.7
+
+
+-------------------------
+http://jsperf.com/decimal-rounding-tofixed-vs-math-round

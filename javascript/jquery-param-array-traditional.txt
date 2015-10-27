@@ -1,0 +1,22 @@
+http://api.jquery.com/jQuery.param/
+
+To emulate the behavior of $.param() prior to jQuery 1.4, we can set the traditional argument to true:
+
+    var myObject = {
+      a: {
+        one: 1,
+        two: 2,
+        three: 3
+      },
+      b: [ 1, 2, 3 ]
+    };
+    var shallowEncoded = $.param( myObject, true );
+    var shallowDecoded = decodeURIComponent( shallowEncoded );
+
+    alert( shallowEncoded );
+    alert( shallowDecoded );
+
+The values of shallowEncoded and shallowDecoded are alerted as follows:
+
+a=%5Bobject+Object%5D&b=1&b=2&b=3
+a=[object+Object]&b=1&b=2&b=3

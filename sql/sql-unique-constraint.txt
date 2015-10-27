@@ -1,0 +1,35 @@
+http://www.w3schools.com/sql/sql_unique.asp
+
+SQL UNIQUE Constraint on ALTER TABLE
+------------------------------------
+
+To create a UNIQUE constraint on the "P_Id" column when the table is already
+created, use the following SQL:
+
+MySQL / SQL Server / Oracle / MS Access:
+
+    ALTER TABLE Persons
+    ADD UNIQUE (P_Id)
+
+To allow naming of a UNIQUE constraint, and for defining a UNIQUE constraint
+on multiple columns, use the following SQL syntax:
+
+MySQL / SQL Server / Oracle / MS Access:
+
+    ALTER TABLE Persons
+    ADD CONSTRAINT uc_PersonID UNIQUE (P_Id,LastName)
+
+To DROP a UNIQUE Constraint
+---------------------------
+
+To drop a UNIQUE constraint, use the following SQL:
+
+MySQL:
+
+    ALTER TABLE Persons
+    DROP INDEX uc_PersonID
+
+SQL Server / Oracle / MS Access:
+
+    ALTER TABLE Persons
+    DROP CONSTRAINT uc_PersonID

@@ -1,0 +1,6 @@
+http://wiki.gentoo.org/wiki/Bash
+
+
+    eselect bashcomp disable --global {0..485}
+
+    eselect bashcomp enable --global {0..485}

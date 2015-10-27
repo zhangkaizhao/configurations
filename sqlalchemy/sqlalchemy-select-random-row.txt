@@ -1,0 +1,81 @@
+http://stackoverflow.com/q/60805
+
+
+---------------------
+http://stackoverflow.com/a/60815
+
+This is very much a database-specific issue.
+
+I know that PostgreSQL and MySQL have the ability to order by a random
+function, so you can use this in SQLAlchemy:
+
+    from sqlalchemy.sql.expression import func, select
+
+    select.order_by(func.random()) # for PostgreSQL, SQLite
+
+    select.order_by(func.rand()) # for MySQL
+
+    select.order_by('dbms_random.value') # For Oracle
+
+Next, you need to limit the query by the number of records you need (for
+example using .limit()).
+
+Bear in mind that at least in PostgreSQL, selecting random record has severe
+perfomance issues; here is good article about it.
+
+share|improve this answer
+edited Sep 22 '12 at 20:31
+
+dbr
+68.7k31178257   
+answered Sep 13 '08 at 20:09
+
+Łukasz
+
+comments:
+
+* Where is the func module? Is there any docs in SA? –  cnu Sep 13 '08 at 20:16
+* +1. Same as Postgres works for SQLite:  select.order_by(func.random()).limit(n) –  bernie Apr 24 '10 at 7:11
+* You can use order_by('dbms_random.value') in Oracle. –  Buttons840 May 21 '12 at 19:53
+* I've added the import as best as I can tell without SQLAlchemy installed - can someone confirm it's right..? Also edited bernie and Buttons840 suggestions into the answer –  dbr Sep 22 '12 at 20:32
+* If you are using declarative models: session.query(MyModel).order_by(func.rand()).first –  trinth Jun 4 '13 at 17:46 
+
+------------------------
+http://stackoverflow.com/a/390676
+
+If you are using the orm and the table is not big (or you have its amount of
+rows cached) and you want it to be database independent the really simple
+approach is.
+
+    import random
+    rand = random.randrange(0, session.query(Table).count()) 
+    row = session.query(Table)[rand]
+
+This is cheating slightly but thats why you use an orm.
+
+share|improve this answer
+edited Jan 20 '09 at 21:40
+
+answered Dec 24 '08 at 3:22
+
+David Raznick
+
+------------------------
+http://stackoverflow.com/a/14906244
+
+There is a simple way to pull a random row that IS database independent. Just
+use .offset() . No need to pull all rows:
+
+    import random
+    query = DBSession.query(Table)
+    rowCount = int(query.count())
+    randomRow = query.offset(int(rowCount*random.random())).first()
+
+Where Table is your table (or you could put any query there). If you want a
+few rows, then you can just run this multiple times, and make sure that each
+row is not identical to the previous.
+
+share|improve this answer
+answered Feb 16 '13 at 2:19
+
+GuySoft

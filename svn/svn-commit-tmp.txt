@@ -1,0 +1,13 @@
+http://blog.longwin.com.tw/2007/08/svn_use_commit_tmp_file_2007/
+
+
+SVN commit 失敗時, 會留下一個 svn-commit.tmp 檔, 把之前打的 log message 留下來, 不過通常都是 svn update 後(合併完成), 馬上又要再 commit 一次, 但若是之前有打長長一篇的 log message 就不想再重打, cat svn-commit.tmp 再 pipe 進去覺得蠻遜的, 總覺得應該要有簡單的做法才對.
+
+
+看看 svn help commit, 發現有 -F 可以用, 平常都只有用 -m 'message' 而已.
+
+-m: 在於只有一行打完, 可以快速 commit 用.
+ex: svn ci -m 'log message'
+-F: 會把檔案內容讀進來, 然後直接 commit, 想當然就用 -F 直接取 svn-commit.tmp 來 commit.
+ex: svn ci -F svn-commit.tmp
+PS: commit 完後, 還是要手動 rm svn-commit.tmp.

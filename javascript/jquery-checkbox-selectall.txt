@@ -1,0 +1,56 @@
+http://stackoverflow.com/a/5230781
+
+Try this one :
+
+    $(document).ready(function(){
+        $('.check:button').toggle(function(){
+            $('input:checkbox').attr('checked','checked');
+            $(this).val('uncheck all');
+        },function(){
+            $('input:checkbox').removeAttr('checked');
+            $(this).val('check all');
+        })
+    })
+
+share|improve this answer
+edited Jan 15 '13 at 11:37
+
+Michael J. Lee
+4,3202832
+answered Mar 8 '11 at 9:46
+
+Prakash
+3,80121030
+
+------------------------------------------------------------------------------
+http://www.sanwebe.com/2014/01/how-to-select-all-deselect-checkboxes-jquery
+
+javascript:
+
+    $(document).ready(function() {
+        $('#selecctall').click(function(event) {  //on click 
+            if(this.checked) { // check select status
+                $('.checkbox1').each(function() { //loop through each checkbox
+                    this.checked = true;  //select all checkboxes with class "checkbox1"
+                });
+            }else{
+                $('.checkbox1').each(function() { //loop through each checkbox
+                    this.checked = false; //deselect all checkboxes with class "checkbox1"
+                });
+            }
+        });
+
+    });
+
+html:
+
+    <ul class="chk-container">
+    <li><input type="checkbox" id="selecctall"/> Selecct All</li>
+    <li><input class="checkbox1" type="checkbox" name="check[]" value="item1"> This is Item 1</li>
+    <li><input class="checkbox1" type="checkbox" name="check[]" value="item2"> This is Item 2</li>
+    <li><input class="checkbox1" type="checkbox" name="check[]" value="item3"> This is Item 3</li>
+    <li><input class="checkbox1" type="checkbox" name="check[]" value="item4"> This is Item 4</li>
+    <li><input class="checkbox1" type="checkbox" name="check[]" value="item5"> This is Item 5</li>
+    <li><input class="checkbox1" type="checkbox" name="check[]" value="item6"> This is Item 6</li>
+    <li><input class="checkbox2" type="checkbox" name="check[]" value="item6"> Do not select this</li>
+    </ul>

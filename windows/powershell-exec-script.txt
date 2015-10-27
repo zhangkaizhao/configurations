@@ -1,0 +1,5 @@
+http://www.cnblogs.com/haitao-fan/archive/2012/11/28/2792136.html
+
+    set-executionpolicy remotesigned
+
+PS: 在 Windows XP 中安装 Chocolatey 时候发生。

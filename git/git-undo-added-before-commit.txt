@@ -1,0 +1,12 @@
+http://stackoverflow.com/questions/348170/undo-git-add-before-commit
+
+
+git reset <file>
+
+which will remove it from the current index (the "about to be committed"
+area) without changing anything else. Note that git reset <file> is short
+for git reset HEAD <file>.
+
+You can use git reset without any file name to undo all due changes.
+This can come handy when there are too many files to be listed one by
+one.

@@ -1,0 +1,52 @@
+http://stackoverflow.com/questions/8240554
+
+You need to add preventDefault() to your click handler. This will stop the
+browser executing it's own link handler, and will only run the code you
+specify.
+
+HTML:
+
+    <a href="#" id="myID">Myquestion</a>
+
+JavaScript:
+
+    $("#myID").click(function(e) {
+            e.preventDefault();
+                // Do your stuff
+    });
+
+--------------
+
+http://stackoverflow.com/questions/9078817
+
+
+
+The most semantic and meaningful approach to this problem would be to handle
+the onclick event from within JavaScript. Ideally this file would be best to
+be stored in a seperate file, however, including a in-line script within your
+problem file would suffice. Here's how i'd recommended approaching this
+problem if your already using a JavaScript library like jQuery.
+
+Assign an ID
+Include an id attribute to your anchor so it's able to be selected using
+jQuery:
+
+<a href="#anchor" id="mylink" title="Title Here">Link Text</a>
+
+Bind click event
+From within your JavaScript file / in-line script include the following:
+
+    $('#mylink').click(function(event) {
+
+        // This will prevent the default action of the anchor
+        event.preventDefault();
+
+        // Failing the above, you could use this, however the above is
+        // recommended
+        return false;
+
+    });
+
+The method above is explained in full using the jQuery API websites:
+http://api.jquery.com/event.preventDefault/
+

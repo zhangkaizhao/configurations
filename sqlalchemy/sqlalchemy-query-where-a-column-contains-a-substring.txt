@@ -1,0 +1,29 @@
+http://stackoverflow.com/q/4926757
+
+
+Filter by db.table.column.like('%needle%'). There is also ilike for a case insensitive search.
+
+For a fancier interface you can allow for the known "dir" wildcards.
+
+if '*' in needle or '_' in needle: 
+    looking_for = needle.replace('*', '%').replace('?', '_')
+else:
+    looking_for = '%{0}%'.format(needle)
+
+result = db.table.filter(db.table.column.ilike(looking_for))
+
+Notes:
+
+    The db.table.filter and db.table.collumn is for SQLSoup (SQLSoup is useful if the database was made by another application)
+    for SQLAlchemy Core it is select(column_list).where(table.c.column.ilike(expr)). This interface is the way to go when you want all the power from raw SQL without having to compose statements by hand using string interpolation (use it along SQLSoup for introspection, so you don't need to declare tables)
+    for Declarative it is Model.query.filter(Model.field.ilike(expr))
+
+
+====================
+
+While table.c.column.like("%...%") should work, there is a more direct way to say what you want:
+
+table.c.column.contains("needle")
+
+This will usually generate the same SQL query but it is better to read for the uninitiated. Note that contains does not seem to escape "_" and "%".
+

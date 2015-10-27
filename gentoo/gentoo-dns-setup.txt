@@ -1,0 +1,28 @@
+https://forums.gentoo.org/viewtopic-p-7381340.html?sid=4f0386f33b7c7f2f7e5c6e3213b462e6#7381340
+
+
+Posted: Sun Aug 25, 2013 8:42 am    Post subject:   Reply with quote
+For me, neither dhcpcd.conf modifications nor resolv.conf.tail had any effect.
+The solution for me was setting the following in /etc/conf.d/net
+
+Code:
+
+    dns_domain= cheap-domains-r-us.com
+    dns_servers="8.8.8.8 8.8.4.4"
+    dhcp="nodns"
+
+
+------------------------
+http://superuser.com/a/505686
+
+edit /etc/conf.d/net file:
+
+    dns_domain_lo="local"
+    config_eth0="dhcp"
+    dhcp_eth0="nodns"
+    routes_eth0=(
+      "default gw 131.107.1.20" # gateway of my local network
+    )
+    dns_servers_eth0=(
+      "195.20.194.2"            # internet provider dns server
+    )

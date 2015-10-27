@@ -1,0 +1,46 @@
+http://stackoverflow.com/a/3312066
+
+A really easy way to do this is to add a UNIQUE index on the 3 columns. When
+you write the ALTER statement, include the IGNORE keyword. Like so:
+
+    ALTER IGNORE TABLE jobs ADD UNIQUE INDEX idx_name (site_id, title, company );
+
+This will drop all the duplicate rows. As an added benefit, future INSERTs
+that are duplicates will error out. As always, you may want to take a backup
+before running something like this...
+
+share|improve this answer
+answered Jul 22 '10 at 18:24
+
+Chris Henry
+
+------------------------------------------------------------------
+http://stackoverflow.com/a/18949
+
+Assuming no nulls, you GROUP BY the unique columns, and SELECT the MIN (or MAX) RowId as the row to keep. Then, just delete everything that didn't have a row id:
+
+    DELETE MyTable
+    FROM MyTable
+    LEFT OUTER JOIN (
+       SELECT MIN(RowId) as RowId, Col1, Col2, Col3
+       FROM MyTable
+       GROUP BY Col1, Col2, Col3
+    ) as KeepRows ON
+       MyTable.RowId = KeepRows.RowId
+    WHERE
+       KeepRows.RowId IS NULL
+
+Use
+
+    CONVERT(uniqueidentifier, MIN(CONVERT(char(36), MyGuidColumn)))
+
+instead of MIN(RowId) if you have a GUID instead of an integer
+
+share|improve this answer
+edited Aug 10 '12 at 12:49
+
+Quandary
+15.3k22123224
+answered Aug 20 '08 at 22:00
+
+Mark Brackett

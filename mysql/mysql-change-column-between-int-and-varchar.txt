@@ -1,0 +1,55 @@
+http://stackoverflow.com/a/7465823
+----------------------------------
+
+Get your MySQL server into strict mode before you change the column type and
+make sure that your varchar(n) column has a large enough n to hold all of the
+integers when they're converted to strings. If you're not in strict mode then
+MySQL will silently truncate your data to fit your string size:
+
+If strict SQL mode is not enabled and you assign a value to a CHAR or VARCHAR
+column that exceeds the column's maximum length, the value is truncated to fit
+and a warning is generated. For truncation of nonspace characters, you can
+cause an error to occur (rather than a warning) and suppress insertion of the
+value by using strict SQL mode.
+
+But if you get into strict mode first:
+
+mysql> set sql_mode = 'STRICT_ALL_TABLES';
+mysql> alter table table_sample change col_sample col_sample varchar(6);
+
+You'll get a nice error message like this:
+
+ERROR 1406 (22001): Data too long for column 'col_sample' at row ...
+
+if your integers don't all fit in your varchar.
+
+And, of course, you will have a fresh verified backup of your database before
+you try to change the table. And by verified I mean that you have successfully
+restored your backup into a test database.
+
+share|improve this answer
+edited Feb 22 '13 at 17:27
+
+answered Sep 19 '11 at 2:04
+
+mu is too short
+
+http://stackoverflow.com/a/21784251
+-----------------------------------
+
+before altering your table, try to update your values.
+
+The goal is to set a '0' value in the fields where you have empty values
+(which can't be converted to int)
+
+update ip
+set isp = '0' where trim(coalesce(isp, '')) = '';
+
+If isp was not nullable, you can remove the coalesce function.
+
+update ip 
+set isp = '0' where trim(isp) = '';
+share|improve this answer
+answered Feb 14 at 16:16
+
+Raphaël Althaus

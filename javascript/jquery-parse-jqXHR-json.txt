@@ -1,0 +1,4 @@
+http://stackoverflow.com/q/16422178
+
+
+    var o = $.parseJSON(jqXHR.responseText);

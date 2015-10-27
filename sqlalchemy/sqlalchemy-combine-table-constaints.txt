@@ -1,0 +1,52 @@
+http://stackoverflow.com/a/23429892
+
+This base class will search all mixins for __table_args__ to add, then check the current class for __local_table_args__ to add. This way, __local_table_args__ doesn't clash with the declared attr. The base classes (cls.mro()) are checked in reverse order so that mixins lower down the chain are overridden by higher mixins.
+
+    def _process_args(cls, attr, out_args, out_kwargs):
+        try:
+            args = getattr(cls, attr)
+        except AttributeError:
+            return
+
+        if isinstance(args, Mapping):  # it's a dictionary
+            out_kwargs.update(args)
+        else:  # it's a list
+            if isinstance(args[-1], Mapping):  # it has a dictionary at the end
+                out_kwargs.update(args.pop())
+
+            out_args.extend(args)
+
+    class Base():
+        @declared_attr
+        def __mapper_args__(cls):
+            args = []
+            kwargs = {}
+
+            for mixin in reversed(cls.mro()):
+                _process_args(mixin, '__mapper_args__', args, kwargs)
+
+            _process_args(mixin, '__local_mapper_args__', args, kwargs)
+
+            return kwargs  # mapper only takes dict
+
+        @declared_attr
+        def __table_args__(cls):
+            args = []
+            kwargs = {}
+
+            for mixin in reversed(cls.mro()):
+                _process_args(mixin, '__table_args__', args, kwargs)
+
+            _process_args(cls, '__local_table_args__', args, kwargs)
+
+            args.append(kwargs)  # [item, item, ...,  kwargs]
+            return tuple(args)
+
+All your mixins should define __table_args__ as normal, but the "real" class inheriting from Base should define __local_table_args__.
+
+share|improve this answer
+edited May 2 at 18:11
+
+answered May 2 at 13:54
+
+davidism

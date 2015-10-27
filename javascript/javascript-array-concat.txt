@@ -1,0 +1,10 @@
+http://www.w3school.org.cn/js/jsref_concat_array.asp
+
+定义和用法
+concat() 方法用于连接两个或多个数组。
+该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
+
+语法
+arrayObject.concat(arrayX,arrayX,......,arrayX)
+参数    描述
+arrayX  必需。该参数可以是具体的值，也可以是数组对象。可以是任意多个。

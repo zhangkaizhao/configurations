@@ -1,0 +1,2 @@
+GENTOO_MIRRORS="http://mirrors.163.com/gentoo/"
+SYNC="rsync://mirrors.163.com/gentoo-portage"

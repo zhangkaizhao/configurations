@@ -1,0 +1,14 @@
+http://stackoverflow.com/questions/8640887/git-merge-without-auto-commit
+
+-------------------
+
+Note the output while doing the merge - it is saying Fast Forward
+
+In such situations, you want to do:
+
+    git merge v1.0 --no-commit --no-ff
+
+share|improve this answer
+answered Dec 27 '11 at 4:08
+
+manojlds

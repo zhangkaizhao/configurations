@@ -1,0 +1,26 @@
+https://answers.yahoo.com/question/index;_ylt=A0LEV0XjtkVUswkA1qBXNyoA;_ylu=X3oDMTEzb2Iwb3VuBHNlYwNzcgRwb3MDMQRjb2xvA2JmMQR2dGlkA1ZJUDI0NF8x?qid=20110704113440AAJ829x
+
+
+How many numbers between 1 and 10. Whether we should include 1 and 10?
+
+Need to know ........when the question is to find how many numbers between 1
+and 10 whether we should include 1 and 10 or no?
+
+=============
+
+8
+
+----------
+
+No, typically when they say how many numbers are between 1 and 10 we don't
+include the "endpoints". So, the answer would be 8, assuming you mean how many
+INTEGERS are between 1 and 10.
+
+------------
+
+1 and 10 are NOT b.e.t.w.e.e.n 1 and 10, so there are 8 numbers only for
+answering your question.
+
+-------------
+
+I'd say do 2-8 XD

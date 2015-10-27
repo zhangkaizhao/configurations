@@ -1,0 +1,18 @@
+http://dev.mysql.com/doc/refman/5.1/en/alter-table.html
+
+
+change definition:
+
+    ALTER TABLE ch_web_lottery_schedule MODIFY COLUMN remark TEXT;
+
+add unique:
+
+    ALTER TABLE sales.order ADD UNIQUE(order_ref);
+
+add index:
+
+    ALTER TABLE books ADD INDEX(author);
+
+drop column:
+
+    ALTER TABLE t2 DROP COLUMN c, DROP COLUMN d;

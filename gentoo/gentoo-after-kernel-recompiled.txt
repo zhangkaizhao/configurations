@@ -1,0 +1,5 @@
+http://forums.gentoo.org/viewtopic-p-6633091.html
+
+after migration to 2.6.37 and KMS::
+
+    emerge -1 $(qlist -IC xorg x11 drm)

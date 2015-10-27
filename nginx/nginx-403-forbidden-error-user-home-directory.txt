@@ -1,0 +1,25 @@
+https://gist.github.com/jhjguxin/6208474
+
+
+Default User Home Directory Permissions
+
+So it seems that the default permissions on user home directories in Ubuntu 12.04 is 700.** Nginx needs to have read permission the files that should be served AND have execute permission in each of the parent directories along the path from the root to the served files.**
+
+You can give your user directory these permissions by running
+
+chmod 701 user_home
+You may also use 755, which is the default permission setting on the home directory on many systems.
+
+The directories/files in your web root can belong to the www-data user or your regular personal user as long as the user/group that nginx runs as (as defined in nginx.conf) has READ permission on all files to be served and execute permission on all web root directories.
+
+I just set all directories in my web root to be owned by my user account and have permissions 755 and I set all files to be served from the web root to have permissions 664 since these were the defaults on my machine.
+
+Note on Converting Permission numbers to String Rep.
+
+Ex. drwxr-x--x becomes 751.
+Ignore the first character (d for directory, - for file, etc). The remaining 9 characters form a binary triplet where any non-dash character is a 1 and a dash is a 0.
+
+So drwxr-x--x becomes rwxr-x--x 
+becomes 111 101 001 
+which is converted to a decimal 751
+I needed a refresher on this when I was dealing with permissions.

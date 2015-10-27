@@ -1,0 +1,7 @@
+http://superuser.com/questions/378184/tell-thunderbird-not-to-truncate-or-wrap-lines-when-sending-email
+https://help.ubuntu.com/community/Thunderbird#Disable_word_wrapping_in_outgoing_messages
+
+
+Disable word wrapping in outgoing messages
+Edit -> Preferences -> Advanced -> General -> Config Editor
+Set the preference called "mail.wrap_long_lines" to false

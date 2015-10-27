@@ -1,0 +1,5 @@
+emerge --deselect --ask $(qlist -IC 'perl-core/*')
+
+emerge -uD1a $(qlist -IC 'virtual/perl-*')
+
+perl-cleaner --all

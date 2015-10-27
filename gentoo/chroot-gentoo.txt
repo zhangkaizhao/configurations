@@ -1,0 +1,20 @@
+http://www.gentoo.org/doc/en/handbook/handbook-amd64.xml?part=1&chap=6
+
+mount /dev/sda5 /mnt/gentoo
+mount /dev/sda6 /mnt/gentoo/home
+
+mount -t proc proc /mnt/gentoo/proc
+mount --rbind /sys /mnt/gentoo/sys
+mount --rbind /dev /mnt/gentoo/dev
+chroot /mnt/gentoo /bin/bash
+
+source /etc/profile
+export PS1="(chroot) $PS1"
+
+-----------
+exit
+
+(useradd -m -G users,wheel,audio -s /bin/bash zkz)
+
+umount -l /mnt/gentoo/dev{/shm,/pts,}
+umount -l /mnt/gentoo{/home,/proc,}

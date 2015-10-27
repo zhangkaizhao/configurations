@@ -1,0 +1,10 @@
+http://stackoverflow.com/a/1453610
+
+
+definition:
+
+    Column("dfield", types.DateTime, index=True)
+
+query:
+
+    sqlalchemy.extract('year', model.MyRecord.dfield) == selected_year

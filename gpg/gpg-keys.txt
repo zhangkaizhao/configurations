@@ -1,0 +1,29 @@
+https://www.gnupg.org/gph/en/manual/x457.html
+
+alice% gpg --keyserver certserver.pgp.com --recv-key 0xBB7576AC
+gpg: requesting key BB7576AC from certserver.pgp.com ...
+gpg: key BB7576AC: 1 new signature
+
+gpg: Total number processed: 1
+gpg:         new signatures: 1
+alice% gpg --keyserver certserver.pgp.com --send-key blake@cyb.org
+gpg: success sending to 'certserver.pgp.com' (status=200)
+
+
+===============================
+https://en.wikipedia.org/wiki/Key_server_%28cryptographic%29
+
+Keyserver examples
+
+These are some keyservers that are often used for looking up keys with "gpg --recv-key"
+
+    keyserver keys.gnupg.net
+    keyserver hkp://subkeys.pgp.net (server pool)
+    keyserver hkp://pgp.mit.edu
+    keyserver hkp://pool.sks-keyservers.net (server pool)
+    keyserver hkp://zimmermann.mayfirst.org (also supports secured key requests over TLS)
+    keyserver http://keyserver.ubuntu.com
+
+
+================================
+https://help.ubuntu.com/community/GnuPrivacyGuardHowto

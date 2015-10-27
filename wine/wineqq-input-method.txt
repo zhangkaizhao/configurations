@@ -1,0 +1,8 @@
+在 /opt/longene/qq/qq.sh 加入
+
+export LC_CTYPE="zh_CN.UTF-8"
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
+export XMODIFIERS="@im=fcitx"
+
+就可以输入中文了

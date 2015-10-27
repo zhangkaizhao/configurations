@@ -1,0 +1,52 @@
+http://stackoverflow.com/a/4205207
+
+Use INSERT ... ON DUPLICATE KEY UPDATE
+
+    INSERT INTO table (id, name, age) VALUES(1, "A", 19) ON DUPLICATE KEY UPDATE name=VALUES(name), age=VALUES(age)
+
+share|improve this answer
+edited Jun 27 at 16:17
+
+AUser
+171110
+answered Nov 17 '10 at 14:12
+
+Donnie
+
+===============================================================================
+http://stackoverflow.com/a/2193597
+
+This should work and is a little more elegant:
+
+    INSERT INTO TABLENAME(col1, col2)
+    VALUES (’xxx’, ‘yyy’)
+    ON DUPLICATE KEY UPDATE col1 = VALUES(col1)
+
+Note that you don't need to update the primary key part of the row. We know
+that's the same because there was a collision.
+
+share|improve this answer
+edited May 4 '13 at 18:51
+
+octoback
+5,27154278
+answered Feb 3 '10 at 16:42
+
+Joshua Martell
+
+===============================================================================
+http://stackoverflow.com/a/450695
+
+Use the VALUES() function
+
+    INSERT INTO t (t.a, t.b, t.c)
+    VALUES ('key1','key2','value'), ('key1','key3','value2')
+    ON DUPLICATE KEY UPDATE
+    t.c = VALUES(t.c)
+
+see http://dev.mysql.com/doc/refman/5.0/en/insert-on-duplicate.html
+
+share|improve this answer
+answered Jan 16 '09 at 15:16
+
+ʞɔıu
