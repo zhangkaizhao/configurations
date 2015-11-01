@@ -1,0 +1,60 @@
+http://elixir-cn.org/
+
+2015,11,01
+
+HEX.PM 配置
+=============
+
+hex.pm 的资源使用 s3 存储，在国内使用受到很大影响。目前有两种方式加速: hex_cdn 和 http/https proxy
+
+HEX_CDN
+----------
+
+1. 通过环境变量配置 hex_cdn
+
+    > HEX_CDN="http://hex.elixir-cn.org" mix deps.get
+
+2. 通过 hex 配置 hex_cdn
+
+    > mix hex.config cdn_url http://hex.elixir-cn.org
+
+3. 自架 hex_cdn 通过如下 nginx 配置即可实现 hex_cdn，缓存或其它更多参数，请查阅 nginx 配置手册。
+
+    server {
+     listen 80;
+     server_name hex.elixir-cn.org;
+     location / {
+         rewrite ^(.*)$ /s3.hex.pm$1 break;
+         proxy_pass http://s3.amazonaws.com/;
+     }
+    }
+
+HTTP/HTTPS PROXY
+------------------
+
+1. 通过环境变量配置 http_proxy
+
+    > http_proxy="http://127.0.0.1:8013" mix deps.get
+
+2. 通过 hex 配置 http_proxy
+
+    > mix hex.config http_proxy http://127.0.0.1:8013
+
+Q & A
+-------
+
+1. 为什么不做镜像站？
+
+官方认为 S3 的可用性足够，而且暂时没有性能压力，暂时不提供做 mirror 的接口，详见 elixir-lang-talk 的讨论。
+
+2. hex.elixir-cn.org 是什么？
+
+这个 hex_cdn 是通过 nginx 配置在 digitalocean SFO 主机上的反向代理。个人主机单节点，只能保证可用性做不到加速。
+
+3. 为什么不使用 https？
+
+在等 letsencrypt，letsencrypt 开放后会在第一时间改用 https。
+
+4. 这个页面为什么这么丑？
+
+╮(╯_╰)╭
