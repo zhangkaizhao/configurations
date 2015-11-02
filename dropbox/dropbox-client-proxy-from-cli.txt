@@ -1,0 +1,5 @@
+use `http_proxy` environment variable:
+
+    $ http_proxy=http://127.0.0.1:8118 /opt/dropbox/dropboxd
+
+note: must use "http://" prefix!
