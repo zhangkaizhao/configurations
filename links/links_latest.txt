@@ -1,0 +1,1410 @@
+2015,11,08
+==========
+home
+
+如何设计一个权限系统
+http://damnever.github.io/2015/09/19/how-to-design-a-permission-system/
+
+2015,11,06
+==========
+home
+
+Python vs. Ruby
+http://dpk.io/pyvsrb
+
+2015,10,29
+==========
+home
+
+[译]拳头公司聊天服务架构：服务器篇
+http://www.jointforce.com/jfperiodical/article/1116
+CHAT SERVICE ARCHITECTURE: SERVERS
+http://engineering.riotgames.com/news/chat-service-architecture-servers
+
+2015,10,21
+==========
+home
+
+Rust to the rescue (of Ruby)
+https://medium.com/@fbzga/rust-to-the-rescue-of-ruby-2067f5e1dc25
+
+2015,10,19
+==========
+home
+
+Pylons 作者把 Go 项目换成了 Python
+http://python-china.org/t/909
+
+2015,10,17
+==========
+home
+
+开源软件架构翻译计划
+http://www.ituring.com.cn/minibook/19
+
+Spark快速入门
+http://shzhangji.com/blog/2014/12/16/spark-quick-start/
+
+A Vim + Haskell Workflow
+http://www.stephendiehl.com/posts/vim_haskell.html
+
+Haskell for Web Developers
+http://www.stephendiehl.com/posts/haskell_web.html
+
+2015,10,13
+==========
+home
+
+Rust in Detail: Writing Scalable Chat Service from Scratch
+https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html
+
+27 languages to improve your Python
+http://www.curiousefficiency.org/posts/2015/10/languages-to-improve-your-python.html
+
+2015,10,07
+==========
+home
+
+JSON数据乱码问题
+http://ifeve.com/json-code-problem/
+
+2015,10,03
+==========
+home
+
+Profiling Python in Production
+https://nylas.com/blog/performance
+
+Random Forests in Python
+http://blog.yhathq.com/posts/random-forests-in-python.html
+
+How import works in Python
+http://livoras.com/post/7
+
+2015,10,01
+==========
+home
+
+使用Redis作为一个LRU缓存
+http://ifeve.com/lru-cache/
+
+2015,09,29
+==========
+home
+
+Writing C in Cython
+http://spacy.io/blog/writing-c-in-cython/
+
+A Comparison of Programming Languages in Economics
+http://economics.sas.upenn.edu/~jesusfv/comparison_languages.pdf
+
+2015,09,27
+==========
+home
+
+How to install OS X Yosemite in Virtualbox with Yosemite Zone
+http://www.macbreaker.com/2015/01/virtualbox-yosemite-zone.html
+
+Converting MySQL to PostgreSQL
+https://en.wikibooks.org/wiki/Converting_MySQL_to_PostgreSQL
+
+2015,09,17
+==========
+
+Web Crawler With asyncio Coroutines
+http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html
+
+2015,09,16
+==========
+home
+
+Ten reasons not to use a statically typed functional programming language -A rant against something I don't get
+http://fsharpforfunandprofit.com/posts/ten-reasons-not-to-use-a-functional-programming-language/
+
+2015,09,15
+==========
+home
+
+PEP 0461 -- Adding % formatting to bytes and bytearray
+https://www.python.org/dev/peps/pep-0461/
+
+PEP 0475 -- Retry system calls failing with EINTR
+https://www.python.org/dev/peps/pep-0475/
+
+2015,09,06
+=========
+office
+
+https://github.com/TangentMicroServices
+https://github.com/TangentMicroServices/MicroServicesDocumentation
+
+2015,09,04
+==============
+home
+
+Uther 小记 - 一个简单地蠢萌机器人
+http://blog.callmewhy.com/2015/08/09/how-to-make-uther/
+
+VSCode + PyFlake 打造python开发环境
+http://kasicass.blog.163.com/blog/static/395619201551151446875
+
+Integrating the flask microframework with the peewee ORM
+http://charlesleifer.com/blog/integrating-flask-microframework-peewee-orm/
+
+Structuring flask apps, a how-to for those coming from Django
+http://charlesleifer.com/blog/structuring-flask-apps-a-how-to-for-those-coming-from-django/
+
+2015,08,26
+==========
+home
+
+SQLite这么娇小可爱，不多了解点都不行啊
+http://supermao.cn/sqlitezhe-yao-jiao-xiao-ke-ai-bu-duo-liao-jie-dian-du-bu-xing-a/
+
+2015,08,23
+==========
+home
+
+学习笔记：The Log（我所读过的最好的一篇分布式技术文章）
+http://www.cnblogs.com/foreach-break/p/notes_about_distributed_system_and_The_log.html
+
+2015,08,13
+========
+home
+
+Pinterest的架构变迁
+http://www.csdn.net/article/2013-01-09/2813533-Pinterest-change-structure-reduce-EC2
+Pinterest首位中国工程师陶涛：Pinterest系统构架变迁
+http://www.csdn.net/article/2013-08-30/2816757
+
+Django CSRF Exempt Class Based Views
+http://zachstevenson.lawyer/2015/06/10/django-csrf-exempt-class-based-views/
+
+2015,08,06
+=========
+office
+
+Transforming Code into Beautiful, Idiomatic Python
+https://gist.github.com/JeffPaine/6213790
+
+Web服这个屎盆子不够装了——记inetd的现代版Mozilla Circus
+http://blog.est.im/post/45176433551
+
+dynamic app routing for Bottle.py based on hostname / domain
+http://blog.est.im/post/43472256396
+
+Python 3.3很多激动人心的新特性啊
+http://blog.est.im/post/44511368373
+
+Less copies in Python with the buffer protocol and memoryviews
+http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews/
+
+2015,08,03
+========
+home
+
+Scaling database with Django and HAProxy
+http://engineering.hackerearth.com/2013/10/07/scaling-database-with-django-and-haproxy/
+
+office
+
+Dissecting Message Queues
+http://bravenewgeek.com/dissecting-message-queues/
+
+A Look at Nanomsg and Scalability Protocols (Why ZeroMQ Shouldn’t Be Your First Choice)
+http://bravenewgeek.com/a-look-at-nanomsg-and-scalability-protocols/
+
+Single Sign-On in Micro Service Architecture
+http://stackoverflow.com/a/27284232/3449199
+
+2015,08,02
+========
+home
+
+Django QuerySets : 真他妈棒？
+http://www.oschina.net/translate/django-querysets-fucking-awesome-yes
+
+2015,08,01
+========
+home
+
+http://www.zenlife.tk/
+
+Guido van Rossum's EuroPython 2015 keynote
+https://lwn.net/Articles/651967/
+
+为什么不要把ZooKeeper用于服务发现
+http://www.infoq.com/cn/news/2014/12/zookeeper-service-finding
+
+2015,07,31
+=========
+office
+
+PJE on Programming
+http://dirtsimple.org/programming/index.html
+
+Chris Richardson's blog
+http://plainoldobjects.com/
+
+How we build microservices at Karma
+https://blog.yourkarma.com/building-microservices-at-karma
+
+Ruby Web服务器：这十五年
+http://www.hanyi.name/blog/2015/06/28/ruby-webserver-last-10-years/
+
+微服务: 为可部署和可扩展分解应用
+http://www.jdon.com/46396
+
+微服务：分解应用以实现可部署性和可扩展性
+http://www.infoq.com/cn/articles/microservices-intro
+
+Microservice, service registry, API gateway and data sharing
+http://stackoverflow.com/q/29669180/3449199
+
+2015,07,27
+========
+home
+
+Python Interview Question and Answers
+http://www.ilian.io/python-interview-question-and-answers/
+
+http://www.bogotobogo.com/python/python_interview_questions.php
+
+2015,07,26
+========
+home
+
+使用API网关构建微服务
+http://www.infoq.com/cn/articles/construct-micro-service-using-api-gateway
+
+Introduction to Microservices
+https://www.nginx.com/blog/introduction-to-microservices/
+
+Building Microservices: Using an API Gateway
+https://www.nginx.com/blog/building-microservices-using-an-api-gateway/
+
+2015,07,25
+========
+home
+
+请玉伯一起来聊一聊“所向无敌的土方法”
+http://weibo.com/p/1001603868404359535571
+
+去了大公司就一定能学到很牛的技术么?
+http://weibo.com/p/1001603868139464033961
+
+产品小团队
+http://www.jianshu.com/p/9bf5fe5012ed
+
+2015,07,22
+========
+home
+
+互联网秒杀业务设计
+http://jiagou.baijia.baidu.com/article/108134
+
+C++的反思
+http://www.skywind.me/blog/archives/1398
+
+常用的Node.js设计模式
+http://wwsun.me/posts/node-design-patterns.html
+
+为什么我希望用C而不是C++来实现ZeroMQ
+http://news.cnblogs.com/n/143021/
+
+2015,07,19
+========
+home
+
+基于Token的认证和基于声明的标识
+http://codelife.me/blog/2014/03/26/token-based-authentication-and-claims-based-identity/
+
+关于 Token，你应该知道的十件事
+http://alvinzhu.me/blog/2014/08/26/10-things-you-should-know-about-tokens/
+
+python使用json web token (jwt)实现http api的加密传输
+http://xiaorui.cc/2015/05/05/python%E4%BD%BF%E7%94%A8json-web-token-jwt%E5%AE%9E%E7%8E%B0http-api%E7%9A%84%E5%8A%A0%E5%AF%86%E4%BC%A0%E8%BE%93/
+
+2015,07,17
+========
+office
+
+A Django Model Manager for Soft Deleting Records and How to Customize the Django Admin
+http://codespatter.com/2009/07/01/django-model-manager-soft-delete-how-to-customize-admin/
+
+Soft delete for Django ORM, with support for undelete.
+https://github.com/scoursen/django-softdelete
+
+2015,07,13
+========
+home
+
+Scaling with async IO (gevent and tulip)
+http://omarkhan.me/presentations/python-asyncio.html
+
+2015,06,14
+========
+home
+
+My initial experience with Rust
+http://ericsink.com/entries/rust1.html
+
+2015,06,08
+========
+home
+
+http://www.the5fire.com/django-database-access-optimization.html
+https://www.djangopackages.com/grids/g/admin-interface/
+
+2015,05,31
+========
+home
+
+https://github.com/cundi/Django-Design-Patterns-and-Best-Practices
+https://github.com/jfalkner/Efficient-Django-QuerySet-Use
+
+2015,05,24
+========
+home
+
+http://fleurer-lee.com/2015/05/23/raft-note.html
+
+说说这篇「我为什么从python转向go」
+http://www.jianshu.com/p/xiQzpL
+
+2015,05,14
+========
+home
+
+伴随我成长的编程书
+http://www.cnblogs.com/geniusvczh/archive/2013/03/24/2978575.html
+
+2015,05,10
+=========
+home
+
+http://www.cnblogs.com/netfocus/
+http://blog.csdn.net/oldmanzhao
+http://blog.csdn.net/jexus
+
+2015,05,05
+==========
+home
+
+http://www.jdon.com/
+
+2015,03,31
+home
+
+魔兽争霸3技术分析资源汇总
+http://jjyy.guru/war3-tech/
+
+2015,01,06
+home
+
+DIY: Make Your Own Programming Language
+http://blog.ppelgren.se/2015-01-03/DIY-Make-Your-Own-Programming-language/
+
+2014,12,28
+home
+
+Lobsters
+https://lobste.rs/
+
+2014,12,25
+home
+
+PyTab在线手册中心
+http://docs.pythontab.com/
+
+2014,12,15
+home
+
+ApacheBench & HTTPerf
+http://gwan.com/en_apachebench_httperf.html
+
+2014,11,16
+home
+
+YC创业课中文社区
+http://startupclass.club/
+精益技术简历之道——改善技术简历的47条原则
+http://zh.lucida.me/blog/lean-technical-resume/
+
+2014,10,18
+home
+http://sahandsaba.com/understanding-asyncio-node-js-python-3-4.html
+
+2014,10,17
+home
+http://pythonsweetness.tumblr.com/post/45227295342/fast-pypy-compatible-ordered-map-in-89-lines-of-python
+https://github.com/dw/py-lmdb
+
+2014,10,12
+home
+http://www.eecs.berkeley.edu/~sangjin/2012/12/21/epoll-vs-kqueue.html
+
+2014,09,07
+home
+http://stromberg.dnsalias.org/~dstromberg/datastructures/
+
+2014,09,06
+home
+http://www.quora.com/How-does-Python-compare-to-C/answer/Alex-Yakunin
+https://speakerdeck.com/alex/why-python-ruby-and-javascript-are-slow
+https://github.com/kennethreitz/dream-python
+http://www.cnblogs.com/me-sa/p/best_thing_i_met.html
+
+2014,09,01
+home
+http://blog.etianen.com/blog/2014/01/19/gunicorn-heroku-django/
+
+2014,08,31
+home
+http://www.cs286.net/home/reading-list
+https://github.com/rxin/db-readings
+
+2014,08,14
+home
+http://blog.sina.com.cn/vgimm
+
+2014,08,10
+home
+http://www.litrin.net/2013/03/27/web%E7%BD%91%E7%AB%99%E7%9A%84%E5%87%A0%E4%B8%AA%E5%B9%B6%E5%8F%91%E9%87%8F%E7%BA%A7/
+http://tech.uc.cn/
+http://tech.uc.cn/?p=1932
+http://tech.uc.cn/?p=1910
+http://tech.uc.cn/?p=1131
+http://tech.uc.cn/?p=914
+
+2014,08,02
+home
+http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html
+http://alextechrants.blogspot.com/2014/01/unit-testing-sqlalchemy-apps-part-2.html
+http://kmike.ru/python-data-structures/
+
+2014,06,30
+home
+http://zionyun.wordpress.com/2014/05/29/the-last-thing-d-needs/
+
+2014,06,28
+home
+www.ibm.com/developerworks/cn/opensource/os-cn-zookeeper/index.html
+http://www.searchtb.com/2011/01/zookeeper-research.html
+
+2014,05,17
+home
+http://www.toptal.com/blog
+http://www.cnblogs.com/haibindev/
+
+2014,05,13
+home
+http://taokeqin.com/python-realtime.html
+http://mrjoes.github.io/2013/06/21/python-realtime.html
+http://mrjoes.github.io/2011/12/15/sockjs-bench.html
+
+2014,05,03
+home
+http://programming.oreilly.com/2014/04/simplifying-django.html
+
+2014,04,10
+home
+http://www.pythoncentral.io/
+
+2014,04,06
+home
+http://www.infoq.com/cn/articles/web-security-practical-operation
+
+2014,03,28
+home
+http://it-ebooks.info/
+
+2014,03,22
+home
+http://blog.miguelgrinberg.com/post/the-package-dependency-blues
+
+2014,03,07
+home
+http://www.vaikan.com/history-of-programming-languages-illustrated-with-pictures-and-large-fonts/
+http://www.soimort.org/posts/160/
+
+2014,02,25
+home
+http://blog.codinglabs.org/
+Python coding interview for HKBU
+http://www.interviewzen.com/interview/vQZ8vY
+
+2014,01,13
+home
+http://liutos.github.io/
+http://eli.thegreenplace.net/category/programming/lisp/sicp/
+
+2014,01,10
+home
+https://code.facebook.com/posts/218678814984400/scaling-mercurial-at-facebook
+
+2014,01,08
+office
+http://www.cnblogs.com/zhengsyao/p/how_erlang_does_scheduling_translation.html
+
+2014,01,06
+office
+http://python-notes.curiousefficiency.org/en/latest/python3/questions_and_answers.html
+https://github.com/vhf/free-programming-books
+
+2014,01,02
+office
+http://eli.thegreenplace.net/2011/04/25/passing-extra-arguments-to-pyqt-slot/
+
+2013,12,27
+office
+http://zetcode.com/
+
+2013,12,24
+office
+Jepsen：测试PostgreSQL、Redis、MongoDB以及Riak的分区容忍性
+http://www.infoq.com/cn/articles/jepsen
+
+2013,12,23
+office
+http://glinden.blogspot.se/2009/02/details-on-yahoos-distributed-database.html
+http://www.slideshare.net/iso1600/key-value-store
+
+2013,12,20
+office
+选择 Gunicorn + worker type 作为 WSGI 服务器
+http://python-china.org/topic/100
+
+2013,12,14
+home
+[Python]惊喜不断11特别版：Guido采访听后感
+http://bbs.byr.cn/#!article/Linux/132498
+
+2013,12,11
+office
+为 C/C++ 库定制 Python Binding
+http://python-china.org/topic/704
+home
+https://github.com/isnowfy/snownlp
+http://zouyesheng.com/captcha.html
+http://zouyesheng.com/live-with-email-client.html
+
+2013,12,10
+home
+Linux下高并发socket最大连接数所受的各种限制
+http://blog.csdn.net/guowake/article/details/6615728
+
+2013,12,09
+office
+http://xach.livejournal.com/
+
+2013,11,29
+office
+http://fabtools.readthedocs.org
+https://bitmessage.org
+http://blog.startifact.com/posts/my-exit-from-zope.html
+http://techspot.zzzeek.org/2012/01/11/django-style-database-routers-in-sqlalchemy/
+http://pypix.com/python/building-flask-blog-part-1/
+http://pypix.com/python/building-flask-blog-part2/
+
+2013,11,25
+home
+不同的角度，不同的玩法——在Python上实现Fibonacci函数
+http://www.cnblogs.com/figure9/archive/2010/08/30/1812927.html
+
+2013,11,24
+home
+http://lisptips.com/
+http://blog.liancheng.info/
+http://blog.liancheng.info/job-hunting-in-california/
+http://blog.liancheng.info/why-i-hate-markdown/
+
+2013,11,22
+office
+http://tech.oyster.com/save-ram-with-python-slots/
+home
+http://lepture.com/en/2013/create-oauth-server
+
+2013,11,19
+office
+http://mindref.blogspot.co.uk/2011/11/nginx-rewrite-all-to-https.html
+
+2013,11,15
+office
+10 common stumbling blocks for SQLAlchemy newbies
+http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html
+
+2013,11,07
+home
+http://aphyr.com/posts/283-call-me-maybe-redis
+
+2013,11,05
+office
+http://www.sqlalchemy.org/trac/wiki/UsageRecipes/UniqueObject
+
+2013,11,01,
+http://www.pythonapi.com/
+http://rogueleaderr.com/post/65157477648/the-idiomatic-guide-to-deploying-django-in-production
+
+2013,10,27
+home
+http://www.facebook.com/notes/facebook-engineering/under-the-hood-mysql-pool-scanner-mps/10151750529723920
+
+2013,10,25
+office
+Tulip: Async I/O for Python 3 (Guido van Rossum talk at SF Python meetup)
+https://www.dropbox.com/s/essjj4qmmtrhys4/SFMeetup2013.pdf
+
+2013,10,18
+office
+http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
+http://tomforb.es/adding-tail-call-optimization-to-python
+tail_call.py
+https://gist.github.com/orf/41746c53b8eda5b988c5
+http://engineering.hackerearth.com/2013/10/07/scaling-database-with-django-and-haproxy/
+https://speakerdeck.com/mstepniowski/taming-multiple-databases-with-django
+http://justcramer.com/
+http://www.oschina.net/translate/manipulating-url-using-javascript-without-freshing-the-page
+
+2013,10,17
+office
+命名纠结
+http://mao.li/%E5%91%BD%E5%90%8D%E7%BA%A0%E7%BB%93/
+
+2013,10,15
+office
+You could create a second user, c, with the same UID.
+http://superuser.com/a/367611
+
+2013,10,12
+office
+Agile Web Development with Rails 4th 3.2版本
+http://ruby-china.org/topics/1626
+
+2013,10,10
+home
+http://blog.xupeng.me/2013/09/25/mysqldb-args-processing/
+
+2013,09,29
+office
+http://www.dr-josiah.com/2011/02/some-redis-use-cases.html
+Redis中的事务
+http://www.wubiaoblog.com/archives/611
+
+2013,09,28
+home
+http://blog.codingnow.com/2009/10/rss_reader.html
+http://blog.codingnow.com/2009/09/ssl_mitm_attack.html
+http://blog.codingnow.com/2012/02/forum.html
+
+2013,09,27
+office
+Debugging and Decrypting an HTTPS API: Rackspace Cloudfiles
+http://blog.techresidents.com/post/62242774205
+
+2013,09,24
+office
+https://chris-lamb.co.uk/posts/distributing-locking-python-and-redis
+
+2013,09,22
+office
+Experimentation in porting the Go concurrency model in Python
+https://docs.google.com/file/d/0B2gNkR7hgkIRVFgwSWR4Y2JaZHc/edit
+
+2013,09,21
+home
+Extract part of a video with a one-line command
+http://askubuntu.com/a/59388
+
+2013,09,17
+office
+http://www.80sec.com/session-hijackin.html
+nginx性能优化 (backlog)
+http://blog.csdn.net/siddontang/article/details/8977473
+Linux中listen()系统调用的backlog参数分析
+http://blog.csdn.net/justlinux2010/article/details/8604676
+
+2013,09,13
+office
+Reading plain Python configure file
+http://stackoverflow.com/a/8226090
+
+2013,09,11
+office
+What is the difference between tinyint, smallint, mediumint, bigint and int in sql?
+http://stackoverflow.com/a/2991419
+
+2013,09,10
+home
+http://amix.dk/blog/post/19588#How-Reddit-ranking-algorithms-work
+
+2013,09,01
+home
+http://solar-blogg.blogspot.com/2013/04/build-llvmclang-33-on-windows-x64.html
+
+2013,08,31
+home
+http://ihacklog.com/post/sublime-text-3-build-3047.html
+
+2013,08,30
+office
+http://stackoverflow.com/questions/3951722/whats-the-difference-between-unicode-and-utf8
+http://rrn.dk/the-difference-between-utf-8-and-unicode
+
+2013,08,27
+home
+Python数据库ORM SQLAlchemy 0.7学习笔记(6) 查询
+http://wangye.org/blog/archives/727/
+mysql处理百万级数据库常识
+http://www.kaifajie.cn/mySQL/10354.html
+
+2013,08,23
+office
+Deconstructing Deferred
+https://groups.google.com/forum/#!topic/python-tulip/ut4vTG-08k8/discussion
+Closures In Python
+http://tech.pro/tutorial/1512/python-decorators
+http://unchainyourbrain.com/using-openssl-from-python-with-python-cffi
+http://tech.pro/tutorial/1516/representing-state-machines-with-co-routines-in-python
+
+2013,08,20
+home
+HTTPS工作原理和TCP握手机制
+http://www.cnblogs.com/ttltry-air/archive/2012/08/20/2647898.html
+
+2013,08,16
+home
+Go网络编程
+http://jan.newmarch.name/go/zh/index.html
+GBT小组游戏空间
+http://renxufeng.ys168.com/
+office
+Super Advanced Python
+http://www.youtube.com/watch?v=u2KZJzoz-qI
+
+2013,08,12
+home
+lilydjwg 源建立
+https://bbs.archlinuxcn.org/viewtopic.php?id=1695
+http://eng.42go.com/scala-vs-go-tcp-benchmark/ go server + go client  22.02125152
+
+2013,08,08
+office
+http://appsandsecurity.blogspot.co.uk/2012/01/stateless-csrf-protection.html
+http://pydoc.net/Python/middlewares/0.1/middlewares.csrf/
+
+2013,08,07
+office
+http://blog.zfdang.com/2013/01/store-encrypted-password-with-pbkdf2/
+
+2013,08,04
+home
+http://www.infoq.com/cn/news/2013/06/10-sins-for-scalability
+http://www.zolazhou.com/posts/primary-key-selection-in-database-partition-design/
+http://www.zolazhou.com/posts/sharding-at-yupoo/
+
+2013,08,03
+home
+http://stackoverflow.com/questions/260403/searching-across-shards
+
+2013,08,02
+home
+https://www.dropbox.com/developers/blog/48/how-the-datastore-api-handles-conflicts-part-1-basics-of-offline-conflict-handling
+
+2013,07,31
+home
+类似于QQ游戏百万人同时在线的服务器架构实现 - 2004,12,12
+http://blog.csdn.net/sodme/article/details/213995
+QQ的架构讨论 - 2006,02
+https://groups.google.com/forum/#!topic/dev4server/DXJmjRHEiGs
+逆向思维--魔兽世界封包分析(1) - 2005,06,18
+http://blog.csdn.net/sodme/article/details/397371
+负载均衡－－大型在线系统实现的关键(上篇)（再谈QQ游戏百万人在线的技术实现）
+http://blog.csdn.net/sodme/article/details/393165
+负载均衡－－大型在线系统实现的关键(下篇)（服务器集群架构的设计与选择）
+http://blog.csdn.net/sodme/article/details/394576
+
+2013,07,30
+home
+https://redis.readthedocs.org/en/latest/list/rpoplpush.html
+
+2013,07,29
+office
+http://skippylovesmalorie.wordpress.com/2010/02/12/how-to-generate-a-self-signed-certificate-using-pyopenssl/
+http://blog.richardknop.com/2012/08/create-a-self-signed-x509-certificate-in-python/
+
+2013,07,28
+home
+http://blog.disqus.com/post/51155103801/trying-out-this-go-thing
+
+2013,07,23
+home
+http://www.fuchaoqun.com/2009/02/5-ways-to-make-hexadecimal-identifiers-perform-better-on-mysql/
+
+2013,07,19
+office
+http://blog.gocept.com/2013/07/15/reliable-file-updates-with-python/
+http://www.luke.maurits.id.au/blog/post/threads-and-signals-in-python.html
+http://code.activestate.com/recipes/496735-workaround-for-missed-sigint-in-multithreaded-prog/
+
+2013,07,15
+home
+http://www.ustack.com/ceph-distributed-block-storage/
+office
+http://greg.brim.net/page/building_a_consistent_hashing_ring.html
+http://lurklurk.org/pynamo/pynamo.html
+http://techspot.zzzeek.org/2012/07/07/the-absolutely-simplest-consistent-hashing-example/
+
+2013,07,14
+home
+https://help.github.com/articles/fork-a-repo
+https://help.github.com/articles/syncing-a-fork
+
+2013,07,12
+office
+http://blog.amir.rachum.com/post/54770419679/python-common-newbie-mistakes-part-1
+Why is "is" different than "==" and how come "2 + 2 is 4", but "1000 + 1 is not 1001"?
+http://nedbatchelder.com/text/names.html
+SQLAlchemy will save the same user as many times as one wants.
+http://stackoverflow.com/a/15626402
+
+2013,07,11
+office
+http://blogs.it.ox.ac.uk/inapickle/2012/01/05/python-decorators-with-optional-arguments/
+
+2013,07,10
+office
+http://justcramer.com/
+http://highscalability.com/all-time-favorites/
+
+2013,07,05
+office
+https://speakerdeck.com/goodwill/minimal-and-full-stack-pyramid-any-way-you-want-it
+
+2013,07,03
+home
+如何设计插件式结构的程序，兼谈Python语言的动态性
+http://hgoldfish.com/blogs/article/81/
+Coroutine在PyQt中的简单应用
+http://hgoldfish.com/blogs/article/85/
+
+2013,07,01
+home
+存储过程编写经验和优化措施
+http://www.cnblogs.com/kuangwenyao/archive/2007/04/29/732041.html
+
+2013,06,28
+office
+http://golden-ribbon.deviantart.com/art/Gaia-Ring-Tail-347238859
+http://golden-ribbon.deviantart.com/art/Gaia-Gibbon-Black-345332438
+http://mrjoes.github.io/2013/06/21/python-realtime.html
+http://lucumr.pocoo.org/2012/8/5/stateless-and-proud/
+
+2013,06,27
+office
+http://blog.curiasolutions.com/the-great-web-framework-shootout/
+http://lucumr.pocoo.org/2011/7/27/the-pluggable-pipedream/
+http://blog.kgriffs.com/2012/12/18/uwsgi-vs-gunicorn-vs-node-benchmarks.html
+http://blog.kgriffs.com/2012/12/12/gevent-vs-tornado-benchmarks.html
+http://pyrseas.wordpress.com/
+
+2013,06,26
+office
+http://blog.ianbicking.org/2010/03/12/a-webob-app-example/
+http://docs.webob.org/en/latest/do-it-yourself.html
+
+2013,06,25
+office
+http://www.brandonbloom.name/blog/2009/08/19/dropping-django/
+flask-docs-cn, jinja2-docs-cn, flask-wtf-docs-cn, flask-sqlalchemy-docs-cn, flask-login-docs-cn
+http://docs.torriacg.org/projects
+
+2013,06,24
+office
+http://mindref.blogspot.de/search/label/python
+http://mindref.blogspot.de/2012/09/python-fastest-web-framework.html
+
+2013,06,13
+office
+SSO(Single Sign-on) in Action(上篇)
+http://www.blogjava.net/security/archive/2006/10/02/sso_in_action.html
+
+2013,06.08
+office
+async file write
+https://groups.google.com/forum/?fromgroups#!topic/python-tornado/eDCeE4rBX24
+Is Tornado really non-blocking?
+http://stackoverflow.com/questions/3638844/is-tornado-really-non-blocking
+Filesystem IO with tornado
+https://groups.google.com/forum/?fromgroups#!topic/python-tornado/KZl-kJT-8zA
+Being truly asynchronous with Tornado
+http://papercruncher.com/2013/01/15/truly-async-with-tornado/
+http://stackoverflow.com/questions/11496996/python-gevent-i-dont-see-monkey-patched-the-default-file-open-read-write-close
+gevent 1.0b3: gevent.fileobject.SocketAdapter.sendall() unnecessary blocks on write
+https://github.com/surfly/gevent/issues/150
+
+2013,06,07
+office
+What single-dispatch generic functions mean for you
+http://lukasz.langa.pl/8/single-dispatch-generic-functions/
+Primer to Asynchronous Applications
+http://bottlepy.org/docs/dev/async.html
+
+2013,06,06
+office
+MVCC思想在分布式系统中的应用
+http://www.cnblogs.com/weidagang2046/archive/2012/03/13/mvcc.html
+How FriendFeed uses MySQL to store schema-less data
+http://backchannel.org/blog/friendfeed-schemaless-mysql
+
+2013,06.05
+office
+yfrog API - Chunked Upload API
+http://twitter.yfrog.com/page/api#a9
+
+2013,06,05
+home
+系列之2─強大的外掛解碼方案-LAV Filters
+http://lysandria1985.blogspot.com/2013/01/2-lav-filters.html
+
+2013,06,04
+office
+Injecting arbitrary code into a running Python process (pyrasite)
+http://ascii.io/a/1148
+
+2013,06,02
+home
+Locks, Actors, And STM In Pictures
+http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html
+Making A Website With Haskell
+http://adit.io/posts/2013-04-15-making-a-website-with-haskell.html
+
+2013,05,31
+office
+http://www.python.org/dev/peps/pep-3146/
+Rewriting Reddit
+http://www.aaronsw.com/weblog/rewritingreddit
+
+2013,05,30
+office
+关于sasl
+http://bluehua.org/2010/12/01/1484.html
+Configuring Fetchmail, Exim4 and Mutt
+http://blogs.gaixie.org/tommy/?p=25
+
+2013,05,29
+office
+http://linux.vbird.org/linux_server/0380mail.php
+
+2013,05,28
+office
+Electric Duncan
+http://technicae.cogitat.io/
+A Conversation with Guido about Callbacks
+http://technicae.cogitat.io/2012/03/conversation-with-guido-about-callbacks.html
+
+2013,05,25
+home
+浏览器的渲染原理简介
+http://coolshell.cn/articles/9666.html
+
+2013,05,24
+office
+Tornado starttls
+https://gist.github.com/weaver/293449
+Tornado in threads
+https://gist.github.com/dvdotsenko/3870302
+
+2013,05,23
+office
+Another Overnight Sensation: Mailbox Is Dropbox's Instagram
+http://www.forbes.com/sites/anthonykosner/2013/03/16/another-overnight-sensation-mailbox-is-dropboxs-instagram/
+Mailbox formats
+http://rfunk.livejournal.com/1571.html
+IMAP vs POP3
+http://www.wikivs.com/wiki/IMAP_vs_POP3
+POP Message Numbers and Synchronization - Python
+http://www.devshed.com/c/a/Python/Deleting-Email-and-More-with-the-PyMailGUI-Client/1/
+
+2013,05,22
+office
+Good Python modules for fuzzy string comparison?
+http://stackoverflow.com/questions/682367/good-python-modules-for-fuzzy-string-comparison
+
+2013,05,20
+office
+https://www.fastmail.fm/help/technology_standards.html
+[心得] 几种不同的电子邮件安全性认证方式比较
+http://bbs.csdn.net/topics/370165806
+
+2013,05,16
+home
+30个提高Web程序执行效率的好经验
+http://www.aqee.net/30-best-practices-to-boost-your-web-application-performance/
+
+2013,05,11
+home
+Creating Texture Atlases in Racket
+http://jeapostrophe.github.io/2013-05-06-texture--post.html
+Project Raincat
+http://raincat.bysusanlin.com/
+The guide to implementing 2D platformers
+http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/
+TILE BASED GAMES
+http://www.tonypa.pri.ee/tbw/start.html
+MindCipher
+http://www.mindcipher.com/
+
+2013,05,10
+home
+Rust: What I learnt so far
+http://www.darkcoding.net/software/rust-what-i-learnt-so-far/
+
+2013,05,08
+office
+http://www.250bpm.com/blog
+
+2013,05,05
+home
+字符串匹配的Boyer-Moore算法
+http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html
+
+2013,05,03
+home
+GNU 线性编程工具包（GNU Linear Programming Kit），第 1 部分: 线性优化简介
+http://www.ibm.com/developerworks/cn/linux/l-glpk1/
+多线程的 Python 教程--“贪吃蛇”
+http://www.oschina.net/translate/multithreaded-python-tutorial-with-threadworms
+十年前的老文：以 Linux 的名义
+http://www.oschina.net/news/40142/under-the-name-of-linux
+https://bitbucket.org/kardianos/staticserv
+https://bitbucket.org/kardianos/pullextract
+
+2013,05,02
+home
+字符串匹配的KMP算法
+http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html
+
+2013,05,01
+home
+横向扩展（Facebook）
+http://shiningray.cn/facebook-scaling-out.html
+基本A*算法python实现
+http://blog.csdn.net/lanphaday/article/details/1329956
+A*寻径算法新手入门
+http://www.cnblogs.com/me-sa/archive/2010/05/18/A-Star-Pathfinding-for-Beginners.html
+
+2013,04,30
+home
+D 语言字符串的故事
+http://www.cnblogs.com/lucifer1982/archive/2010/03/20/a-story-of-D-language-string.html
+数据驱动的种萝卜方法
+http://blog.csdn.net/solaris_navi/article/details/7948362
+
+2013,04,22
+home
+Re: python标准库貌似没有实现链表？
+http://blog.est.im/post/48319644529
+HAProxy like zero-copy in Python with memoryview
+http://blog.est.im/post/46390709551
+Less copies in Python with the buffer protocol and memoryviews
+http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews/
+Python Memory Views
+https://profiles.google.com/116139041198229909169/buzz/SmLJKHwpLPC
+@cached_property
+http://blog.est.im/post/34212978554
+
+2013,04,20
+home
+纸上谈兵: 算法与数据结构
+http://www.cnblogs.com/vamei/archive/2013/03/22/2974052.html
+
+2013,04,18
+home
+https://code.google.com/p/rietveld/
+http://www.csdn.net/article/2013-04-16/2814902-how-pinterest-scaling-0-to-billions-pv
+
+2013,04,08
+office
+Non-blocking read from stdin in python
+http://repolinux.wordpress.com/2012/10/09/non-blocking-read-from-stdin-in-python/
+Useless Use of Kill -9 form letter
+http://partmaps.org/era/unix/award.html#uuk9letter
+
+2013,04,07
+office
+How to extract images from a Video using FFmpeg
+http://linuxers.org/tutorial/how-extract-images-video-using-ffmpeg
+
+2013,04,03
+Fast PyPy-compatible ordered map in 89 lines of Python
+http://pythonsweetness.tumblr.com/post/45227295342/fast-pypy-compatible-ordered-map-in-89-lines-of-python
+Compiling Python for Windows Phone 8
+http://www.codeproject.com/Articles/515115/Compiling-Python-for-Windows-Phone-8
+
+2013,03,24
+http://www.huangz.me
+Redis 设计与实现
+http://www.redisbook.com
+Real World Haskell 中文版
+http://rwh.readthedocs.org
+SICP 解题集
+http://sicp.readthedocs.org
+用LLVM开发新语言
+http://liancheng.github.com/llvm-tutorial-cn/
+
+2013,03,21
+为 Key-Value 数据库实现MVCC 事务
+http://yangguan.org/implementation-of-mvcc-transactions-for-key-value-stores/
+
+2013,03,20
+Redis Presharding
+http://oldblog.antirez.com/post/redis-presharding.html
+Redis Cluster
+http://redis.io/presentation/Redis_Cluster.pdf
+Redis 常见的性能问题和解决方法
+http://zhupan.iteye.com/blog/1576108
+
+2013,03,13
+The Adventures of a Pythonista in Schemeland
+http://www.phyast.pitt.edu/~micheles/scheme/index.html
+
+2013,03,10
+Writing Great Unit Tests: Best and Worst Practices
+http://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/
+
+2013,03,09
+微軟 Philip Su 離職信 寫12年職場心得、建議
+http://blog.longwin.com.tw/2013/03/microsoft-philipsu-company-comment-2013/
+Concurrent Object-Oriented Programming in Python with ATOM
+http://python.org/workshops/1997-10/proceedings/atom/
+
+2013,03,08
+Why Python, Ruby, and Javascript are Slow
+https://speakerdeck.com/alex/why-python-ruby-and-javascript-are-slow
+
+2013,02,22
+SCP vs RSync vs SMB vs FTP
+http://squarism.com/2010/02/11/scp-vs-rsync-vs-smb-vs-ftp/
+
+2013,02,21
+Concurrent connections to Redis with gevent and redis-py
+http://gehrcke.de/2013/01/highly-concurrent-connections-to-redis-with-gevent-and-redis-py/
+gevent For the Working Python Developer
+http://sdiehl.github.com/gevent-tutorial/
+denik / gevent-multiprocess.py
+https://gist.github.com/denik/1169975
+
+2013,02,20
+Re-raising Exceptions
+http://blog.ianbicking.org/2007/09/12/re-raising-exceptions/
+
+2013,02,19
+Python MySQL Documentation
+http://www.mikusa.com/python-mysql-docs/index.html
+
+2013,02,16
+A guide to analyzing Python performance
+http://www.huyng.com/posts/python-performance-analysis/
+The structure of .pyc files
+http://nedbatchelder.com/blog/200804/the_structure_of_pyc_files.html
+
+2013,02,05
+A FreeBSD 9 Desktop How-to
+https://cooltrainer.org/2012/01/02/a-freebsd-9-desktop-how-to/
+
+2013,01,31
+Linux 中软件 RAID 的使用
+http://www.ibm.com/developerworks/cn/linux/l-cn-raid/
+
+2013,01,26
+一个书法爱好者20岁时写的字（请多批）
+http://tieba.baidu.com/p/1546918836
+偶尔写写字（最近一直没进步）
+http://tieba.baidu.com/p/1484019834
+
+2013,01,24
+home
+Python处理海量数据的实战研究
+http://blog.csdn.net/quicktest/article/details/7453189
+
+2013,01,20
+home
+神的编辑嚣emacs的简单配置
+http://blog.csdn.net/sw2wolf/article/details/8223073
+Common Lisp中的并发编程
+http://blog.csdn.net/sw2wolf/article/details/7949256
+2013,01,13
+home
+http://yanghao.org/blog/archives/171
+使用gpart给freebsd分区
+http://yanghao.org/blog/archives/225
+ZFS时代FreeBSD系统的数据冗余策略
+https://blog.delphij.net/2008/04/zfsfreebsd-1.html
+FreeBSD 9.0 的 GPT 纯 ZFS 安装
+https://wiki.freebsdchina.org/doc/z/gptzfsboot
+基于GPT和ZFS的FreeBSD安装
+http://blog.csdn.net/raptor/article/details/6440670
+
+2013,01,10
+home
+http://www.oschina.net/translate/how-does-mysql-replication-really-work
+
+2013,01,09
+home
+http://www.oschina.net/translate/mysql-to-redis-in-one-step
+https://wiki.freebsdchina.org/howto/c/config_your_csh
+http://dirk.sh/diary/use_csh_not_bash/
+http://dirk.sh/diary/using-django-smart_str-smart_unicode/
+http://www.ibm.com/developerworks/cn/linux/l-schm/index1.html
+
+2013,01,06
+home
+http://zh.lisp.wikia.com/wiki/Lisp_%E7%BB%B4%E5%9F%BA
+http://acl.readthedocs.org
+
+2012,12,31
+home
+http://qiujj.com/static/clojure-handbook.html
+http://xumingming.sinaapp.com/302/clojure-functional-programming-for-the-jvm-clojure-tutorial/
+
+2012,12,27
+home
+http://code.google.com/p/pyftpdlib/
+http://appsmth.appspot.com/smth/subject/python/81541
+http://www.zhouwenyi.com/node/9752
+http://superuser.com/questions/236883/why-does-emacs-create-a-file-that-starts-with
+
+2012,12,26
+office
+http://www.keakon.net/2010/12/14/%E7%94%A8datetime%E5%92%8Cpytz%E6%9D%A5%E8%BD%AC%E6%8D%A2%E6%97%B6%E5%8C%BA
+http://hi.baidu.com/limodou/item/72da32384b25c7ff97f88df1
+http://hi.baidu.com/limodou/item/4a13b3107fca86f89d778af1
+
+2012,12,25
+office
+http://billyf2010.blog.com/2010/03/14/centos-change-system-clock-date-and-timezone-ref-httplinuxsysadminblogcom200812howto-change-the-timezone-on-rhelcentos-and-httpwwwforumpsoftnetshowthreadphpt13307/
+http://stackoverflow.com/questions/9683278/how-to-get-hard-disk-drivers-serial-number-in-python
+
+2012,12,24
+home
+http://blog.chinaunix.net/uid-20507206-id-1939717.html
+http://seriss.com/people/erco/fltk/
+http://seriss.com/people/erco/fltk-videos/
+http://www3.telus.net/public/robark/
+
+office
+http://doc.qt.digia.com/qt/developing-on-mac.html
+http://www.douban.com/group/topic/35231933/
+
+2012,12,22
+office
+netcfg and vpn: https://bbs.archlinux.org/viewtopic.php?pid=1208363
+
+2012,12,15
+home
+http://mail.python.org/pipermail/python-ideas/2012-October/016492.html
+http://www.cosc.canterbury.ac.nz/greg.ewing/python/generators/yf_current/Examples/Scheduler/scheduler.txt
+http://stevedower.id.au/blog/async-api-for-python/
+
+2012,12,03
+office
+http://stackoverflow.com/questions/4553129/when-to-use-os-name-sys-platform-or-platform-system
+home
+http://www.keakon.net/2012/12/03/Tornado%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C
+http://www.keakon.net/2012/12/03/SQLAlchemy%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C
+
+2012,12,02
+home
+http://paradigmx.net/blog/2012/02/05/go-for-android/
+http://gimite.net/en/index.php?Run%20native%20executable%20in%20Android%20App
+
+2012,11,29
+home
+http://www.yankay.com/go-clear-concurreny/
+
+2012,11,28
+office
+http://en.wikipedia.org/wiki/Comparison_of_UPnP_AV_media_servers
+
+2012,11,26
+office
+http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go
+http://www.cs.nccu.edu.tw/~lien/Class/Seminar/2006f/Speech08/speech.htm
+http://blog.csdn.net/musiccow/article/details/6387603
+
+2012,11,17
+home
+http://www.ruanyifeng.com/blog/2012/11/gaussian_blur.html
+
+2012,11,16
+home
+http://www.doughellmann.com/articles/misc/dict-performance/index.html
+
+2012,11,07
+office
+http://caterpillar.onlyfun.net/Gossip/AlgorithmGossip/HeapSort.htm
+
+2012,11,04
+home
+http://sunxiunan.com/?p=2022
+http://gclsg.lisp.tw/
+
+2012,10,19
+home
+http://jakevdp.github.com/blog/2012/10/07/xkcd-style-plots-in-matplotlib/
+http://blog.ablepear.com/2012/10/bundling-python-files-into-stand-alone.html
+
+2012,10,18
+office
+http://lepture.com/work/tornado-project/
+
+2012,10,17
+office
+http://datadriven.com.au/2008/12/zip-files-and-encoding-i-hate-you/
+http://trac.edgewall.org/ticket/10679
+http://bugs.python.org/issue10614
+
+2012,10,16
+office
+http://ihower.tw/blog/archives/6483/
+
+2012,10,15
+office
+http://www.cyberciti.biz/faq/unix-linux-test-existence-of-file-in-bash/
+http://edyfox.codecarver.org/html/vim_fileencodings_detection.html
+
+2012,10,12
+home
+http://stackoverflow.com/questions/10405210/create-and-stream-a-large-archive-without-storing-it-in-memory-or-on-disk
+
+2012,09,24
+home
+http://robbin.iteye.com/blog/451014
+
+2012,09,22
+home
+http://www.yankay.com/google-spanner%E5%8E%9F%E7%90%86-%E5%85%A8%E7%90%83%E7%BA%A7%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93/
+
+2012,09,20
+home
+https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+http://huangx.in/2012/9/python_profiling.html
+
+office
+http://stackoverflow.com/questions/4148790/lazy-logger-message-string-evaluation/4149231
+
+2012,09,19
+home
+http://irw.ncut.edu.tw/peterju/scheme.html
+
+office
+http://server-support.co/blog/pc/trimming-down-libreoffice-portable/
+
+2012,09,18
+home
+http://blog.skydark.info/programming/2012/06/15/why-lisp/
+
+2012,09,16
+home
+http://www.oschina.net/question/12_70252
