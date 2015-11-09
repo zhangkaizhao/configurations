@@ -5,3 +5,23 @@ http://stackoverflow.com/a/14463925
 
 ref:
 http://dev.mysql.com/doc/refman/5.0/en/converting-tables-to-innodb.html
+
+===============
+http://www.librehat.com/mysql-engine-innodb-and-myisam-convert/
+
+enter mysql client:
+
+    USE wordpress;
+    SHOW TABLES;
+    ALTER TABLE wp_commentmeta ENGINE=MYISAM;
+    ALTER TABLE wp_comments ENGINE=MYISAM;
+
+change default engine in configuration file:
+
+    $ vi /etc/my.cnf
+
+    [mysqld]
+    default-storage-engine=MYISAM
+    innodb=OFF
+
+then remember to restart mysqld.
