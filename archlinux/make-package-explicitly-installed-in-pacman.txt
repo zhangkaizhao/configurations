@@ -1,0 +1,20 @@
+http://unix.stackexchange.com/a/2016/126066
+
+
+I found the answer on Arch Linux Forums
+
+Since pacman 3.4 you can use
+
+    # pacman -D
+
+to modify only the database. So:
+
+    # pacman -D --asexplicit <pkgs>
+
+will make <pkgs> explicitly installed.
+
+edited Oct 13 '10 at 16:03
+
+answered Sep 14 '10 at 11:55
+
+Stefan

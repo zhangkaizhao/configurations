@@ -1,0 +1,67 @@
+https://bbs.archlinux.org/viewtopic.php?pid=744788#p744788
+
+
+2010-04-17 01:37:39
+Allan
+Developer
+
+man pacman wrote:
+...
+QUERY OPTIONS
+...
+       -e, --explicit
+           Restrict or filter output to packages explicitly installed. This
+           option can be combined with -t to list top-level packages- those
+           packages that were explicitly installed but are not required by any
+           other package. (-Qet is equivalent to the pacman 2.9.X -Qe option.)
+
+So... "pacman -Qe" is the correct answer
+
+=========================
+https://www.quora.com/How-can-I-show-the-list-of-all-installed-packages-in-Arch-Linux-pacman-packet-manager/answer/Fardin-Shikhiyev
+
+
+Fardin Shikhiyev, I'm an Arch Linux user for nearly a year.
+
+To search for already installed packages:
+
+    $ pacman -Qs string1 string2 ...
+
+To display extensive information about a given package:
+
+    $ pacman -Si package_name
+
+For locally installed packages:
+
+    $ pacman -Qi package_name
+
+Passing two -i flags will also display the list of backup files and their modification states:
+
+    $ pacman -Qii package_name
+
+To retrieve a list of the files installed by a package:
+
+    $ pacman -Ql package_name
+
+For packages not installed, use pkgfile.
+To verify the presence of the files installed by a package:
+
+    $ pacman -Qk package_name
+
+Passing the k flag twice will perform a more thorough check.
+One can also query the database to know which package a file in the file system belongs to:
+
+    $ pacman -Qo /path/to/file_name
+
+To list all packages no longer required as dependencies (orphans):
+
+    $ pacman -Qdt
+
+To list all packages explicitly installed and not required as dependencies:
+
+    $ pacman -Qet
+
+Visit Arch Wiki (the best distro wiki ever in my opinion) for more information about using Pacman.
+https://wiki.archlinux.org/index.php/Pacman
+
+Written 9 Sep
