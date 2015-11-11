@@ -1,0 +1,64 @@
+http://www.awaysoft.com/taor/fedora-21%E5%AE%89%E8%A3%85fcitx%E8%BE%93%E5%85%A5%E6%B3%95.html
+
+
+Fedora 21安装fcitx输入法
+
+首先安装fcitx、im-choose，如果需要配置，可以安装fcitx-configtool，执行：
+
+
+   sudo dnf install fcitx-pinyin
+   sudo dnf install im-chooser
+   sudo dnf install fcitx-configtool
+
+然后在终端中执行：
+
+    gsettings set org.gnome.settings-daemon.plugins.keyboard active false
+
+最后执行im-chooser，选择fcitx，注销即可。
+
+
+====================
+https://www.netroby.com/view/3681
+
+Fedora 20 install fcitx replace ibus
+
+1、删除ibus，并安装fcitx所需要的包
+
+    $ sudo yum remove ibus
+    $ sudo yum install fcitx-data fcitx-configtool fcitx-pinyin fcitx-gtk2 fcitx-gtk3 fcitx fcitx-table-chinese fcitx-libs fcitx-ui-light fcitx-cloudpinyin fcitx-libpinyin
+
+2、切换到fcitx输入法
+
+    $ imsettings-switch fcitx
+
+回车后，会报一个错，如下：
+
+    GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._imsettings_2derror_2dquark.Code5: Current desktop
+
+这个时候需要查看如下值，并将true修改为false，意思是处iBus外还允许其他的输入法：
+
+    $ gsettings get org.gnome.settings-daemon.plugins.keyboard active
+    $ gsettings set org.gnome.settings-daemon.plugins.keyboard active false
+
+再次执行
+
+    $ imsettings-switch fcitx
+
+就可以了，会提示“将输入法切换至fcitx”
+(im-chooser图形化工具实际上执行的就是imsetting-swith)
+
+3、执行
+
+    $ fcitx-configtool
+
+打开fcitx具体的配置界面
+点击“外观”标签，找到“状态栏隐藏模式”一项修改为“显示”
+
+4、最后执行
+
+    $ gnome-session-quit
+
+重启X
+至此，fcitx输入法设置完成
+
+http://www.netroby.com/view/3681 2014-07-18 11:46:44
