@@ -1,0 +1,6 @@
+https://github.com/yyuu/pyenv/issues/86
+
+
+use PYTHON_CONFIGURE_OPTS like:
+
+    $ PYTHON_CONFIGURE_OPTS="--enable-unicode=ucs4" pyenv install 2.7.4
