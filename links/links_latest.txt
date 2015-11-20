@@ -1,3 +1,18 @@
+2015,11,20
+==========
+home
+
+Rethinking Systems Programming
+By Christoph Burgdorf
+http://thoughtram.io/rust-and-nickel/
+
+2015,11,14
+==========
+home
+
+This Week in D
+http://arsdnet.net/this-week-in-d/
+
 2015,11,08
 ==========
 home
