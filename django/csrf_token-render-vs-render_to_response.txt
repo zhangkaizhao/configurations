@@ -1,0 +1,6 @@
+http://stackoverflow.com/a/13048311/3449199
+
+
+A {% csrf_token %} was used in a template, but the context did not provide the value. This is usually caused by not using RequestContext. warnings.warn("A {% csrf_token %} was used in a template, but the context did not provide the value. This is usually caused by not using RequestContext.")
+
+render() is the same as a call to render_to_response() with a context_instance argument that forces the use of a RequestContext.
