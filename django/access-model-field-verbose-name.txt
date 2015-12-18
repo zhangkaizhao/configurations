@@ -1,0 +1,14 @@
+http://blog.e-shell.org/66
+
+via Model._meta :
+
+    Model._meta.get_field('field_name').verbose_name
+
+To access field in template by Model instance, define a filter like:
+
+    from django import template
+    register = template.Library()
+
+    @register.filter
+    def get_object_field(obj):
+        return obj._meta.getfield
