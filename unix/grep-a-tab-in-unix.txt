@@ -1,0 +1,22 @@
+http://stackoverflow.com/a/1825573/3449199
+
+
+If using GNU grep, you can use the Perl-style regexp:
+
+    $ grep -P '\t' *
+
+answered Dec 1 '09 at 11:28
+unwind
+
+-----------------------
+http://stackoverflow.com/a/5694596/3449199
+
+The trick is to use $ sign before single quotes. It also works for cut and other tools.
+
+    $ grep $'\t' sample.txt
+
+answered Apr 17 '11 at 16:04
+antimirov
+
+edited Oct 3 '13 at 16:45
+ideasman42
