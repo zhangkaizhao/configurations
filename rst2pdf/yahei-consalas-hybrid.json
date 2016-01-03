@@ -1,0 +1,31 @@
+{
+    "styles":
+    {
+        "base":
+        {
+            "wordWrap": "CJK"
+        }
+
+    },
+    "embeddedFonts" : [[
+        "YaHei Consolas Hybrid.ttc",
+        "YaHei Consolas Hybrid.ttc",
+        "YaHei Consolas Hybrid.ttc",
+        "YaHei Consolas Hybrid.ttc"
+    ]],
+    "fontsAlias" : {
+        "stdFont": "YaHei Consolas Hybrid",
+        "stdBold": "YaHei Consolas Hybrid",
+        "stdItalic": "YaHei Consolas Hybrid",
+        "stdBoldItalic": "YaHei Consolas Hybrid",
+        "stdSans": "YaHei Consolas Hybrid",
+        "stdSansBold": "YaHei Consolas Hybrid",
+        "stdSansItalic": "YaHei Consolas Hybrid",
+        "stdSansBoldItalic": "YaHei Consolas Hybrid",
+        "stdMono": "YaHei Consolas Hybrid",
+        "stdMonoBold": "YaHei Consolas Hybrid",
+        "stdMonoItalic": "YaHei Consolas Hybrid",
+        "stdMonoBoldItalic": "YaHei Consolas Hybrid",
+        "stdSerif": "YaHei Consolas Hybrid"
+    }
+}

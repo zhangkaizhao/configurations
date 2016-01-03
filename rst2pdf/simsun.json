@@ -1,0 +1,31 @@
+{
+    "styles":
+    {
+        "base":
+        {
+            "wordWrap": "CJK"
+        }
+
+    },
+    "embeddedFonts" : [[
+        "simsun.ttc",
+        "simsun.ttc",
+        "simsun.ttc",
+        "simsun.ttc"
+    ]],
+    "fontsAlias" : {
+        "stdFont": "SimSun",
+        "stdBold": "SimSun",
+        "stdItalic": "SimSun",
+        "stdBoldItalic": "SimSun",
+        "stdSans": "SimSun",
+        "stdSansBold": "SimSun",
+        "stdSansItalic": "SimSun",
+        "stdSansBoldItalic": "SimSun",
+        "stdMono": "SimSun",
+        "stdMonoBold": "SimSun",
+        "stdMonoItalic": "SimSun",
+        "stdMonoBoldItalic": "SimSun",
+        "stdSerif": "SimSun"
+    }
+}

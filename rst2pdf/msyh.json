@@ -1,0 +1,31 @@
+{
+    "styles":
+    {
+        "base":
+        {
+            "wordWrap": "CJK"
+        }
+
+    },
+    "embeddedFonts" : [[
+        "msyh.ttc",
+        "msyhbd.ttc",
+        "msyh.ttc",
+        "msyhbd.ttc"
+    ]],
+    "fontsAlias" : {
+        "stdFont": "Microsoft YaHei",
+        "stdBold": "Microsoft YaHei",
+        "stdItalic": "Microsoft YaHei",
+        "stdBoldItalic": "Microsoft YaHei",
+        "stdSans": "Microsoft YaHei",
+        "stdSansBold": "Microsoft YaHei",
+        "stdSansItalic": "Microsoft YaHei",
+        "stdSansBoldItalic": "Microsoft YaHei",
+        "stdMono": "Microsoft YaHei",
+        "stdMonoBold": "Microsoft YaHei",
+        "stdMonoItalic": "Microsoft YaHei",
+        "stdMonoBoldItalic": "Microsoft YaHei",
+        "stdSerif": "Microsoft YaHei"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "styles":
+    {
+        "base":
+        {
+            "wordWrap": "CJK"
+        }
+
+    },
+    "embeddedFonts" : [[
+        "YaHei Mono.ttc",
+        "YaHei Mono.ttc",
+        "YaHei Mono.ttc",
+        "YaHei Mono.ttc"
+    ]],
+    "fontsAlias" : {
+        "stdFont": "YaHei Mono",
+        "stdBold": "YaHei Mono",
+        "stdItalic": "YaHei Mono",
+        "stdBoldItalic": "YaHei Mono",
+        "stdSans": "YaHei Mono",
+        "stdSansBold": "YaHei Mono",
+        "stdSansItalic": "YaHei Mono",
+        "stdSansBoldItalic": "YaHei Mono",
+        "stdMono": "YaHei Mono",
+        "stdMonoBold": "YaHei Mono",
+        "stdMonoItalic": "YaHei Mono",
+        "stdMonoBoldItalic": "YaHei Mono",
+        "stdSerif": "YaHei Mono"
+    }
+}
