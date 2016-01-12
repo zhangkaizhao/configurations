@@ -1,1 +1,1 @@
-export PATH=/home/zkc/miniconda3/bin:$PATH
+export PATH=/opt/miniconda3/bin:$PATH
