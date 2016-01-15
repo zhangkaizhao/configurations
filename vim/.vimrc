@@ -1,3 +1,5 @@
+"execute pathogen#infect()
+
 " => general
 
 filetype plugin on
@@ -48,11 +50,12 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-autocmd FileType css setlocal expandtab shiftwidth=2 softtabstop=2
-autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2
-autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2
-autocmd FileType ruby setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd FileType css setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
+autocmd FileType ruby setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
+autocmd FileType yaml setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 
 " => others
 
@@ -60,6 +63,9 @@ autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
 " http://stackoverflow.com/a/7342997
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\|\t/
+
+" http://www.codingpy.com/article/vim-and-python-match-in-heaven/
+"autocmd BufRead,BufNewFile *.py,*.pyw,*.c,*.h match RedundantWhitespace /\s\+$/
 
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
 func! DeleteTrailingWS()
