@@ -1,1 +1,1 @@
-source "/home/zkc/.dnx/dnvm/dnvm.sh"
+source "$HOME/.dnx/dnvm/dnvm.sh"
