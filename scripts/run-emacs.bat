@@ -1,2 +1,2 @@
-set PATH=D:\programs\emacs\bin;%PATH%
+call D:\scripts\set-emacs.bat
 runemacs
