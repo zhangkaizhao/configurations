@@ -1,0 +1,16 @@
+http://stackoverflow.com/a/1104009/3449199
+
+How to run multiple .BAT files within a .BAT file
+
+==========
+
+use
+
+    call msbuild.bat
+    call unit-tests.bat
+    call deploy.bat
+
+When not using CALL, the current batch file stops and the called batch file starts executing. It's a peculiar behavior dating back to the early MS-DOS days
+
+answered Jul 9 '09 at 13:48
+Philippe Leybaert
