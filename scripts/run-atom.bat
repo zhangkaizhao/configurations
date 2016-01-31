@@ -5,4 +5,5 @@ call D:\scripts\set-php.bat
 call D:\scripts\set-go.bat
 call D:\scripts\set-stack.bat
 call D:\scripts\set-cargo.bat
+call D:\scripts\set-racer.bat
 atom
