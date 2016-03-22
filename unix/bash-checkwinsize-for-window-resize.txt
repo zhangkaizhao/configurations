@@ -1,0 +1,23 @@
+http://unix.stackexchange.com/a/167911/126066
+
+It is mostly to do with the size of the window assumed by the terminal is not the same as your actual window size. If you are using bash, you can try this.
+
+    $shopt  | grep checkwinsize
+
+If you don't get
+
+    checkwinsize    on
+
+Then activate it with
+
+    $shopt -s checkwinsize
+
+Then just attempt running another command (like ls) or resizing the window once, the above works for me every time.
+
+For Redhat systems particularly, the issue is often caused by misconfiguring ~/.bashrc not to call /etc/bashrc. Normally, bash loads ~/.bashrc which is expected to call /etc/bashrc, which by default contains shopt -s checkwinsize.
+
+edited Sep 12 '15 at 0:58
+rogerdpack
+
+answered Nov 14 '14 at 6:34
+saketrp
