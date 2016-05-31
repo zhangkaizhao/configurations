@@ -57,6 +57,15 @@ autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
 autocmd FileType ruby setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType yaml setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 
+" => spell
+"set spell spelllang=en_us
+" https://robots.thoughtbot.com/vim-spell-checking
+autocmd BufRead,BufNewFile *.markdown setlocal spell
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.rst setlocal spell
+autocmd BufRead,BufNewFile *.txt setlocal spell
+"autocmd FileType gitcommit setlocal spell
+
 " => others
 
 " highlight all redundant white spaces and tabs
