@@ -1,6 +1,12 @@
 #export GOOS=linux
 #export GOARCH=amd64
-export GOROOT=$HOME/go
+
+# GOROOT
+#export GOROOT=$HOME/go
 #export GOBIN=$GOROOT/bin
-export GOPATH=$HOME/goext
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+#export PATH=$GOROOT/bin:$PATH
+
+# GOPATH
+#export GOPATH=$HOME/goext
+export GOPATH=/opt/moredata/goext
+export PATH=$GOPATH/bin:$PATH

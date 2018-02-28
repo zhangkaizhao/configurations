@@ -1,0 +1,62 @@
+====
+Copr
+====
+
+2017,12,04
+==========
+
+dnf copr enable heikoada/gtk-themes
+-----------------------------------
+
+https://copr.fedorainfracloud.org/coprs/heikoada/gtk-themes/
+
+* adapta-gtk-theme
+* ...
+
+dnf copr enable tcg/themes
+--------------------------
+
+https://copr.fedorainfracloud.org/coprs/tcg/themes/
+
+* materia-theme
+* ...
+
+dnf copr enable tcg/devel
+-------------------------
+
+https://copr.fedorainfracloud.org/coprs/tcg/devel/
+
+* dart
+* dmd
+* fsharp
+* nim
+* ponyc
+* swift-language
+* ...
+
+dnf copr enable @dotnet-sig/dotnet
+----------------------------------
+
+https://copr.fedorainfracloud.org/coprs/g/dotnet-sig/dotnet/
+
+* dotnet-sdk
+
+2017,12,15
+==========
+
+dnf copr enable jsouthworth/racket
+----------------------------------
+
+https://copr.fedorainfracloud.org/coprs/jsouthworth/racket/
+
+* racket
+
+2017,12,25
+==========
+
+dnf copr enable librehat/shadowsocks
+------------------------------------
+
+https://copr.fedorainfracloud.org/coprs/librehat/shadowsocks/
+
+* shadowsocks-libev
