@@ -6,36 +6,34 @@
 ## Stackage
 
 # USTC
-#setup-info: "http://mirrors.ustc.edu.cn/stackage/stack-setup.yaml"
-#urls:
-#  latest-snapshot: http://mirrors.ustc.edu.cn/stackage/snapshots.json
-#  lts-build-plans: http://mirrors.ustc.edu.cn/stackage/lts-haskell/
-#  nightly-build-plans: http://mirrors.ustc.edu.cn/stackage/stackage-nightly/
-
-# Tsinghua
-# https://mirrors.tuna.tsinghua.edu.cn/help/stackage/
-setup-info: "http://mirrors.tuna.tsinghua.edu.cn/stackage/stack-setup.yaml"
+setup-info: "http://mirrors.ustc.edu.cn/stackage/stack-setup.yaml"
 urls:
-  latest-snapshot: http://mirrors.tuna.tsinghua.edu.cn/stackage/snapshots.json
-  lts-build-plans: http://mirrors.tuna.tsinghua.edu.cn/stackage/lts-haskell/
-  nightly-build-plans: http://mirrors.tuna.tsinghua.edu.cn/stackage/stackage-nightly/
+  latest-snapshot: http://mirrors.ustc.edu.cn/stackage/snapshots.json
+  lts-build-plans: http://mirrors.ustc.edu.cn/stackage/lts-haskell/
+  nightly-build-plans: http://mirrors.ustc.edu.cn/stackage/stackage-nightly/
+
+# Tsinghua https://mirrors.tuna.tsinghua.edu.cn/help/stackage/
+#setup-info: "http://mirrors.tuna.tsinghua.edu.cn/stackage/stack-setup.yaml"
+#urls:
+#  latest-snapshot: http://mirrors.tuna.tsinghua.edu.cn/stackage/snapshots.json
+#  lts-build-plans: http://mirrors.tuna.tsinghua.edu.cn/stackage/lts-haskell/
+#  nightly-build-plans: http://mirrors.tuna.tsinghua.edu.cn/stackage/stackage-nightly/
 
 ## Hackage
 
 # USTC
-#package-indices:
-#  - name: USTC
-#    download-prefix: https://mirrors.ustc.edu.cn/hackage/package/
-#    http: https://mirrors.ustc.edu.cn/hackage/00-index.tar.gz
-
-# Tsinghua
-# https://mirrors.tuna.tsinghua.edu.cn/help/hackage/
 package-indices:
-  - name: Tsinghua
-    download-prefix: http://mirrors.tuna.tsinghua.edu.cn/hackage/package/
-    # Relax strict Hackage revision matching? #3520
-    # https://github.com/commercialhaskell/stack/issues/3520
-    http: http://mirrors.tuna.tsinghua.edu.cn/hackage/01-index.tar.gz
+  - name: USTC
+    download-prefix: https://mirrors.ustc.edu.cn/hackage/package/
+    http: https://mirrors.ustc.edu.cn/hackage/01-index.tar.gz
+
+# Tsinghua https://mirrors.tuna.tsinghua.edu.cn/help/hackage/
+#package-indices:
+#  - name: Tsinghua
+#    download-prefix: http://mirrors.tuna.tsinghua.edu.cn/hackage/package/
+#    # Relax strict Hackage revision matching? #3520
+#    # https://github.com/commercialhaskell/stack/issues/3520
+#    http: http://mirrors.tuna.tsinghua.edu.cn/hackage/01-index.tar.gz
 
 templates:
   params:
