@@ -1,0 +1,31 @@
+{
+    "styles":
+    {
+        "base":
+        {
+            "wordWrap": "CJK"
+        }
+
+    },
+    "embeddedFonts" : [[
+        "sarasa-regular.ttc",
+        "sarasa-bold.ttc",
+        "sarasa-italic.ttc",
+        "sarasa-bolditalic.ttc"
+    ]],
+    "fontsAlias" : {
+        "stdFont": "Sarasa UI SC",
+        "stdBold": "Sarasa UI SC",
+        "stdItalic": "Sarasa UI SC",
+        "stdBoldItalic": "Sarasa UI SC",
+        "stdSans": "Sarasa UI SC",
+        "stdSansBold": "Sarasa UI SC",
+        "stdSansItalic": "Sarasa UI SC",
+        "stdSansBoldItalic": "Sarasa UI SC",
+        "stdMono": "Sarasa Mono SC",
+        "stdMonoBold": "Sarasa Mono SC",
+        "stdMonoItalic": "Sarasa Mono SC",
+        "stdMonoBoldItalic": "Sarasa Mono SC",
+        "stdSerif": "Sarasa UI SC"
+    }
+}
