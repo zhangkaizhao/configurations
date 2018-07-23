@@ -2,7 +2,7 @@
 <opml version="2.0">
     <head>
         <title>QuiteRSS</title>
-        <dateModified>周五 7月 20 00:05:26 2018</dateModified>
+        <dateModified>周一 7月 23 16:37:03 2018</dateModified>
     </head>
     <body>
         <outline text="algorithm"/>
@@ -214,6 +214,7 @@
         </outline>
         <outline text="Go">
             <outline text="陈亦的个人页面" type="rss" htmlUrl="https://my.oschina.net/goal" xmlUrl="http://my.oschina.net/goal/rss"/>
+            <outline text="Air on G" type="rss" htmlUrl="http://air.googol.im/" xmlUrl="http://air.googol.im/index.xml"/>
             <outline text="blog.campoy.cat" type="rss" htmlUrl="http://blog.campoy.cat/" xmlUrl="http://blog.campoy.cat/feeds/posts/default"/>
             <outline text="Code Gangsta" type="rss" htmlUrl="https://codegangsta.io" xmlUrl="https://codegangsta.io/index.xml"/>
             <outline text="FuXiaohei.Me" type="rss" htmlUrl="http://fuxiaohei.me" xmlUrl="http://fuxiaohei.me/feed.xml"/>
@@ -240,7 +241,6 @@
         </outline>
         <outline text="Lisp">
             <outline text="Common Lisp Tips" type="rss" htmlUrl="http://lisptips.com/" xmlUrl="http://lisptips.com/rss"/>
-            <outline text="Paul Graham: Essays" type="rss" htmlUrl="http://www.paulgraham.com/" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss"/>
             <outline text="Paul Khuong: some Lisp" type="rss" htmlUrl="http://www.pvk.ca/" xmlUrl="http://www.pvk.ca/atom.xml"/>
             <outline text="Planet Lisp" type="rss" htmlUrl="http://planet.lisp.org/" xmlUrl="http://planet.lisp.org/rss20.xml"/>
         </outline>
