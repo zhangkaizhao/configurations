@@ -1,5 +1,3 @@
-"execute pathogen#infect()
-
 " => general
 
 filetype plugin on
@@ -68,6 +66,46 @@ autocmd FileType yaml setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 "autocmd BufRead,BufNewFile *.rst setlocal spell
 "autocmd BufRead,BufNewFile *.txt setlocal spell
 "autocmd FileType gitcommit setlocal spell
+
+" => packages
+
+" Use minpac to manage packages for Vim 8: https://github.com/k-takata/minpac .
+" Windows:
+"   cd /d %USERPROFILE%
+"   git clone https://github.com/k-takata/minpac.git vimfiles\pack\minpac\opt\minpac
+" Linux/macOS:
+"   mkdir -p ~/.vim/pack/minpac/opt
+"   git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
+" Use `call minpac#update()` to install or update packages.
+" Use `call minpac#clean()` to uninstall unused packages.
+set packpath^=~/.vim
+silent! packadd minpac
+
+if exists('*minpac#init')
+  call minpac#init()
+  call minpac#add('k-takata/minpac', {'type': 'opt'})
+
+  " bufferhint https://github.com/bsdelf/bufferhint.git
+  call minpac#add('bsdelf/bufferhint')
+  " idris-vim https://github.com/idris-hackers/idris-vim.git
+  call minpac#add('idris-hackers/idris-vim')
+  " rust.vim https://github.com/rust-lang/rust.vim.git
+  call minpac#add('rust-lang/rust.vim')
+  " vim-crystal https://github.com/rhysd/vim-crystal.git
+  call minpac#add('rhysd/vim-crystal')
+  " vim-fish https://github.com/dag/vim-fish.git
+  call minpac#add('dag/vim-fish')
+  " vim-go https://github.com/fatih/vim-go.git
+  call minpac#add('fatih/vim-go')
+  " vim-markdown-preview https://github.com/JamshedVesuna/vim-markdown-preview.git
+  call minpac#add('JamshedVesuna/vim-markdown-preview')
+  " vim-preview https://github.com/greyblake/vim-preview.git
+  call minpac#add('greyblake/vim-preview')
+  " vim-racer https://github.com/racer-rust/vim-racer.git
+  call minpac#add('racer-rust/vim-racer')
+  " vim-vue https://github.com/posva/vim-vue.git
+  call minpac#add('posva/vim-vue')
+endif
 
 " => others
 
