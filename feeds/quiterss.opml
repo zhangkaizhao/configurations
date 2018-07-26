@@ -2,7 +2,7 @@
 <opml version="2.0">
     <head>
         <title>QuiteRSS</title>
-        <dateModified>周一 7月 23 16:37:03 2018</dateModified>
+        <dateModified>周四 7月 26 23:47:02 2018</dateModified>
     </head>
     <body>
         <outline text="algorithm"/>
@@ -265,6 +265,7 @@
         </outline>
         <outline text="Python">
             <outline text="...and then it crashed" type="rss" htmlUrl="http://blog.etianen.com/" xmlUrl="http://blog.etianen.com/atom.xml"/>
+            <outline text="卡瓦邦噶！" type="rss" htmlUrl="https://www.kawabangga.com" xmlUrl="https://www.kawabangga.com/feed"/>
             <outline text="Armin Ronacher's Thoughts and Writings" type="rss" htmlUrl="http://lucumr.pocoo.org/" xmlUrl="http://lucumr.pocoo.org/feed.atom"/>
             <outline text="Ben's Development Blog" type="rss" htmlUrl="http://bdarnell.github.com/" xmlUrl="http://bdarnell.github.io/atom.xml"/>
             <outline text="bitprophet.org" type="rss" htmlUrl="http://bitprophet.org/" xmlUrl="http://bitprophet.org//index.xml"/>
@@ -273,6 +274,7 @@
             <outline text="Dabeaz" type="rss" htmlUrl="http://dabeaz.blogspot.com/" xmlUrl="http://dabeaz.blogspot.com/feeds/posts/default"/>
             <outline text="dbader.org" type="rss" htmlUrl="https://dbader.org/" xmlUrl="https://dbader.org/rss"/>
             <outline text="Eat at Joe's" type="rss" htmlUrl="http://mrjoes.github.com/2015/06/17/flask-admin-120.html" xmlUrl="http://feeds.feedburner.com/eamj"/>
+            <outline text="Just lepture" type="rss" htmlUrl="https://lepture.com/" xmlUrl="https://lepture.com/feed.xml"/>
             <outline text="kmod's blog" type="rss" htmlUrl="http://blog.kevmod.com" xmlUrl="http://blog.kevmod.com/feed/"/>
             <outline text="Mauveweb" type="rss" htmlUrl="http://mauveweb.co.uk/" xmlUrl="http://mauveweb.co.uk/rss.xml"/>
             <outline text="Neopythonic" type="rss" htmlUrl="http://neopythonic.blogspot.com/" xmlUrl="http://neopythonic.blogspot.com/feeds/posts/default"/>
@@ -314,6 +316,7 @@
             <outline text="The Rust Community Blog" type="rss" htmlUrl="http://blog.community.rs/" xmlUrl="http://blog.community.rs/feed.xml"/>
             <outline text="The Rust Programming Language Blog" type="rss" htmlUrl="https://blog.rust-lang.org/" xmlUrl="http://blog.rust-lang.org/feed.xml"/>
             <outline text="This Week in Rust" type="rss" htmlUrl="https://this-week-in-rust.org/" xmlUrl="http://this-week-in-rust.org/atom.xml"/>
+            <outline text="Xudong-Huang's Blog" type="rss" htmlUrl="https://blog.zhpass.com/" xmlUrl="https://blog.zhpass.com/atom.xml"/>
         </outline>
         <outline text="Scheme">
             <outline text="eighty-twenty news" type="rss" htmlUrl="https://eighty-twenty.org/" xmlUrl="http://www.eighty-twenty.org/index.atom"/>
