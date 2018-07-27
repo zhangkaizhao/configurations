@@ -26,7 +26,10 @@ colorscheme desert
 
 set colorcolumn=120
 
+" PEP 008
 autocmd FileType python setlocal colorcolumn=80
+" rustfmt default config
+autocmd FileType rust setlocal colorcolumn=100
 
 " => comments
 
