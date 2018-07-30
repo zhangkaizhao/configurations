@@ -96,6 +96,8 @@ if exists('*minpac#init')
   call minpac#add('rust-lang/rust.vim')
   " vim-crystal https://github.com/rhysd/vim-crystal.git
   call minpac#add('rhysd/vim-crystal')
+  " vim-elixir https://github.com/elixir-editors/vim-elixir.git
+  call minpac#add('elixir-editors/vim-elixir')
   " vim-fish https://github.com/dag/vim-fish.git
   call minpac#add('dag/vim-fish')
   " vim-go https://github.com/fatih/vim-go.git
