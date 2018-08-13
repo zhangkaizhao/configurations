@@ -112,6 +112,12 @@ if exists('*minpac#init')
   call minpac#add('posva/vim-vue')
 endif
 
+" => keymap
+
+" Buffer Hint: https://bsdelf.github.io/posts/intro-buffer-hint
+nnoremap - :call bufferhint#Popup()<CR>
+nnoremap \ :call bufferhint#LoadPrevious()<CR>
+
 " => others
 
 " highlight all redundant white spaces and tabs
