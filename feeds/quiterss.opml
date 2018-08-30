@@ -2,7 +2,7 @@
 <opml version="2.0">
     <head>
         <title>QuiteRSS</title>
-        <dateModified>周四 8月 30 22:09:21 2018</dateModified>
+        <dateModified>周四 8月 30 22:33:09 2018</dateModified>
     </head>
     <body>
         <outline text="algorithm"/>
@@ -32,31 +32,7 @@
             <outline text="Planet PostgreSQL" type="rss" htmlUrl="https://planet.postgresql.org" xmlUrl="http://planet.postgresql.org/rss20.xml"/>
             <outline text="PostgreSQL news" type="rss" htmlUrl="https://www.postgresql.org/" xmlUrl="http://www.postgresql.org/news.rss"/>
         </outline>
-        <outline text="devel">
-            <outline text="并发编程网 – ifeve.com" type="rss" htmlUrl="http://ifeve.com" xmlUrl="http://ifeve.com/feed/"/>
-            <outline text="解道jdon.com" type="rss" htmlUrl="https://www.jdon.com/" xmlUrl="http://www.jdon.com/rss"/>
-            <outline text="开源中国社区最新新闻" type="rss" htmlUrl="https://www.oschina.net/news/rss" xmlUrl="http://www.oschina.net/news/rss"/>
-            <outline text="码农IO官方博客" type="rss" htmlUrl="http://blog.manong.io/" xmlUrl="http://blog.manong.io/rss.xml"/>
-            <outline text="阮一峰的网络日志" type="rss" htmlUrl="http://www.ruanyifeng.com/blog/" xmlUrl="http://feeds.feedburner.com/ruanyifeng"/>
-            <outline text="文章 – 伯乐在线" type="rss" htmlUrl="http://blog.jobbole.com" xmlUrl="http://blog.jobbole.com/feed/"/>
-            <outline text="Discord Blog - Medium" type="rss" htmlUrl="https://blog.discordapp.com?source=rss----cb96a1f03649---4" xmlUrl="https://blog.discordapp.com/feed"/>
-            <outline text="Dropbox Tech Blog" type="rss" htmlUrl="https://dropboxtechblog.wordpress.com" xmlUrl="https://blogs.dropbox.com/tech/feed/"/>
-            <outline text="Fog Creek Blog" type="rss" htmlUrl="https://blog.fogcreek.com" xmlUrl="http://blog.fogcreek.com/feed/"/>
-            <outline text="Giant Robots Smashing Into Other Giant Robots" type="rss" htmlUrl="https://robots.thoughtbot.com/the-real-story-behind-story-points" xmlUrl="http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots"/>
-            <outline text="High Scalability" type="rss" htmlUrl="http://highscalability.com/blog/" xmlUrl="http://feeds.feedburner.com/HighScalability"/>
-            <outline text="Highly Scalable Blog" type="rss" htmlUrl="https://highlyscalable.wordpress.com" xmlUrl="https://highlyscalable.wordpress.com/feed/"/>
-            <outline text="InfoQ China" type="rss" htmlUrl="http://www.infoq.com/cn" xmlUrl="http://www.infoq.com/cn/feed"/>
-            <outline text="Inside Skylight" type="rss" htmlUrl="https://blog.skylight.io/" xmlUrl="http://blog.skylight.io/rss/"/>
-            <outline text="Lobsters" type="rss" htmlUrl="https://lobste.rs/" xmlUrl="https://lobste.rs/rss"/>
-            <outline text="Mixpanel Engineering" type="rss" htmlUrl="https://engineering.mixpanel.com" xmlUrl="https://code.mixpanel.com/feed/"/>
-            <outline text="Real World Tech" type="rss" htmlUrl="https://www.realworldtech.com" xmlUrl="http://www.realworldtech.com/feed/"/>
-            <outline text="Reddit blog" type="rss" htmlUrl="https://redditblog.com" xmlUrl="http://www.redditblog.com/feeds/posts/default"/>
-            <outline text="Techparty" type="rss" htmlUrl="http://techparty.org/" xmlUrl="http://techparty.org/feed.xml"/>
-            <outline text="ThoughtWorks洞见" type="rss" htmlUrl="http://insights.thoughtworkers.org" xmlUrl="http://insights.thoughtworkers.org/feed/"/>
-            <outline text="Toptal Blog" type="rss" htmlUrl="https://www.toptal.com/blog" xmlUrl="http://www.toptal.com/blog.rss"/>
-            <outline text="via @codeship" type="rss" htmlUrl="https://blog.codeship.com" xmlUrl="http://blog.codeship.com/feed/"/>
-        </outline>
-        <outline text="developer">
+        <outline text="developer_blog">
             <outline text=":wq ~/notes" type="rss" htmlUrl="http://blog.liancheng.info" xmlUrl="http://blog.liancheng.info/rss.xml"/>
             <outline text="@kgriffs" type="rss" htmlUrl="http://blog.kgriffs.com/" xmlUrl="http://blog.kgriffs.com/feed.xml"/>
             <outline text="4G Spaces" type="rss" htmlUrl="http://localhost:4000" xmlUrl="https://blog.youxu.info/feed.xml"/>
@@ -199,6 +175,30 @@
             <outline text="Zhiwei Li" type="rss" htmlUrl="https://zhiwei.li/text" xmlUrl="http://zhiwei.li/text/feed/"/>
             <outline text="zzzeek" type="rss" htmlUrl="http://techspot.zzzeek.org" xmlUrl="http://techspot.zzzeek.org/feed/index.xml"/>
         </outline>
+        <outline text="development">
+            <outline text="并发编程网 – ifeve.com" type="rss" htmlUrl="http://ifeve.com" xmlUrl="http://ifeve.com/feed/"/>
+            <outline text="解道jdon.com" type="rss" htmlUrl="https://www.jdon.com/" xmlUrl="http://www.jdon.com/rss"/>
+            <outline text="开源中国社区最新新闻" type="rss" htmlUrl="https://www.oschina.net/news/rss" xmlUrl="http://www.oschina.net/news/rss"/>
+            <outline text="码农IO官方博客" type="rss" htmlUrl="http://blog.manong.io/" xmlUrl="http://blog.manong.io/rss.xml"/>
+            <outline text="阮一峰的网络日志" type="rss" htmlUrl="http://www.ruanyifeng.com/blog/" xmlUrl="http://feeds.feedburner.com/ruanyifeng"/>
+            <outline text="文章 – 伯乐在线" type="rss" htmlUrl="http://blog.jobbole.com" xmlUrl="http://blog.jobbole.com/feed/"/>
+            <outline text="Discord Blog - Medium" type="rss" htmlUrl="https://blog.discordapp.com?source=rss----cb96a1f03649---4" xmlUrl="https://blog.discordapp.com/feed"/>
+            <outline text="Dropbox Tech Blog" type="rss" htmlUrl="https://dropboxtechblog.wordpress.com" xmlUrl="https://blogs.dropbox.com/tech/feed/"/>
+            <outline text="Fog Creek Blog" type="rss" htmlUrl="https://blog.fogcreek.com" xmlUrl="http://blog.fogcreek.com/feed/"/>
+            <outline text="Giant Robots Smashing Into Other Giant Robots" type="rss" htmlUrl="https://robots.thoughtbot.com/the-real-story-behind-story-points" xmlUrl="http://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots"/>
+            <outline text="High Scalability" type="rss" htmlUrl="http://highscalability.com/blog/" xmlUrl="http://feeds.feedburner.com/HighScalability"/>
+            <outline text="Highly Scalable Blog" type="rss" htmlUrl="https://highlyscalable.wordpress.com" xmlUrl="https://highlyscalable.wordpress.com/feed/"/>
+            <outline text="InfoQ China" type="rss" htmlUrl="http://www.infoq.com/cn" xmlUrl="http://www.infoq.com/cn/feed"/>
+            <outline text="Inside Skylight" type="rss" htmlUrl="https://blog.skylight.io/" xmlUrl="http://blog.skylight.io/rss/"/>
+            <outline text="Lobsters" type="rss" htmlUrl="https://lobste.rs/" xmlUrl="https://lobste.rs/rss"/>
+            <outline text="Mixpanel Engineering" type="rss" htmlUrl="https://engineering.mixpanel.com" xmlUrl="https://code.mixpanel.com/feed/"/>
+            <outline text="Real World Tech" type="rss" htmlUrl="https://www.realworldtech.com" xmlUrl="http://www.realworldtech.com/feed/"/>
+            <outline text="Reddit blog" type="rss" htmlUrl="https://redditblog.com" xmlUrl="http://www.redditblog.com/feeds/posts/default"/>
+            <outline text="Techparty" type="rss" htmlUrl="http://techparty.org/" xmlUrl="http://techparty.org/feed.xml"/>
+            <outline text="ThoughtWorks洞见" type="rss" htmlUrl="http://insights.thoughtworkers.org" xmlUrl="http://insights.thoughtworkers.org/feed/"/>
+            <outline text="Toptal Blog" type="rss" htmlUrl="https://www.toptal.com/blog" xmlUrl="http://www.toptal.com/blog.rss"/>
+            <outline text="via @codeship" type="rss" htmlUrl="https://blog.codeship.com" xmlUrl="http://blog.codeship.com/feed/"/>
+        </outline>
         <outline text="distributed_file_system">
             <outline text="JuiceFS 博客" type="rss" htmlUrl="https://juicefs.io/blog/cn" xmlUrl="https://juicefs.io/blog/cn/feed/"/>
         </outline>
@@ -216,7 +216,7 @@
             <outline text="博客园_siyao zheng" type="rss" htmlUrl="http://www.cnblogs.com/zhengsyao/p/erts_allocators_speech_by_lukas_larsson.html" xmlUrl="http://www.cnblogs.com/zhengsyao/rss"/>
             <outline text="A Blog from the Erlang/OTP team" type="rss" htmlUrl="http://blog.erlang.org/" xmlUrl="http://blog.erlang.org/feed.xml"/>
         </outline>
-        <outline text="game_devel">
+        <outline text="game_development">
             <outline text="博客园_再见理想" type="rss" htmlUrl="http://www.cnblogs.com/beyondnet/archive/2009/11/02/1594410.html" xmlUrl="http://www.cnblogs.com/beyondnet/rss"/>
             <outline text="博客园_Nowpaper 十五英寸的世界" type="rss" htmlUrl="http://www.cnblogs.com/nowpaper/p/5453102.html" xmlUrl="http://www.cnblogs.com/nowpaper/rss"/>
             <outline text="Code@Pig Home" type="rss" htmlUrl="http://kasicass.blog.163.com" xmlUrl="http://kasicass.blog.163.com/rss"/>
@@ -261,7 +261,7 @@
             <outline text="宇宙的心弦" type="rss" htmlUrl="https://www.physixfan.com" xmlUrl="http://www.physixfan.com/feed"/>
             <outline text="Matrix67: The Aha Moments" type="rss" htmlUrl="http://www.matrix67.com/blog" xmlUrl="http://www.matrix67.com/blog/feed"/>
         </outline>
-        <outline text="microsoft"/>
+        <outline text="Microsoft"/>
         <outline text="mine">
             <outline text="林飞雨" type="rss" htmlUrl="http://halfcool.blogspot.com/" xmlUrl="http://halfcool.blogspot.com/feeds/posts/default"/>
             <outline text="halfcool-devel" type="rss" htmlUrl="http://halfcool-devel.blogspot.com/" xmlUrl="http://halfcool-devel.blogspot.com/feeds/posts/default"/>
