@@ -108,6 +108,8 @@ if exists('*minpac#init')
   call minpac#add('greyblake/vim-preview')
   " vim-racer https://github.com/racer-rust/vim-racer.git
   call minpac#add('racer-rust/vim-racer')
+  " vim-toml https://github.com/cespare/vim-toml.git
+  call minpac#add('cespare/vim-toml')
   " vim-vue https://github.com/posva/vim-vue.git
   call minpac#add('posva/vim-vue')
 endif
