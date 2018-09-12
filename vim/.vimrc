@@ -88,6 +88,8 @@ if exists('*minpac#init')
   call minpac#init()
   call minpac#add('k-takata/minpac', {'type': 'opt'})
 
+  " ALE https://github.com/w0rp/ale
+  call minpac#add('w0rp/ale')
   " bufferhint https://github.com/bsdelf/bufferhint.git
   call minpac#add('bsdelf/bufferhint')
   " idris-vim https://github.com/idris-hackers/idris-vim.git
