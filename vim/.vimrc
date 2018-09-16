@@ -81,7 +81,7 @@ autocmd FileType yaml setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 "   git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
 " Use `call minpac#update()` to install or update packages.
 " Use `call minpac#clean()` to uninstall unused packages.
-set packpath^=~/.vim
+silent! set packpath^=~/.vim
 silent! packadd minpac
 
 if exists('*minpac#init')
@@ -116,6 +116,19 @@ if exists('*minpac#init')
   call minpac#add('cespare/vim-toml')
   " vim-vue https://github.com/posva/vim-vue.git
   call minpac#add('posva/vim-vue')
+
+  " -> pack configurations
+
+  " ALE https://github.com/w0rp/ale
+  "let g:ale_linters_explicit = 1
+  "let g:ale_completion_delay = 500
+  "let g:ale_echo_delay = 20
+  "let g:ale_lint_delay = 500
+  let g:ale_echo_msg_format = '[%linter%] %code: %%s'
+  "let g:ale_lint_on_enter = 1
+  "let g:ale_lint_on_text_changed = 'normal'
+  let g:ale_lint_on_insert_leave = 1
+  "let g:airline#extensions#ale#enabled = 1
 endif
 
 " => keymap
