@@ -119,7 +119,8 @@ if exists('*minpac#init')
 
   " -> pack configurations
 
-  " ALE https://github.com/w0rp/ale
+  " - ALE https://github.com/w0rp/ale
+
   "let g:ale_linters_explicit = 1
   "let g:ale_completion_delay = 500
   "let g:ale_echo_delay = 20
@@ -129,6 +130,9 @@ if exists('*minpac#init')
   "let g:ale_lint_on_text_changed = 'normal'
   let g:ale_lint_on_insert_leave = 1
   "let g:airline#extensions#ale#enabled = 1
+
+  " pylint disabled
+  let g:ale_python_pylint_executable = ''
 endif
 
 " => keymap
