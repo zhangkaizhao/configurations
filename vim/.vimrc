@@ -99,6 +99,8 @@ if exists('*minpac#init')
   call minpac#add('bsdelf/bufferhint')
   " idris-vim https://github.com/idris-hackers/idris-vim.git
   call minpac#add('idris-hackers/idris-vim')
+  " lightline.vim https://github.com/itchyny/lightline.vim
+  call minpac#add('itchyny/lightline.vim')
   " rust.vim https://github.com/rust-lang/rust.vim.git
   call minpac#add('rust-lang/rust.vim')
   " vim-crystal https://github.com/rhysd/vim-crystal.git
@@ -138,6 +140,13 @@ if exists('*minpac#init')
 
   " pylint disabled
   let g:ale_python_pylint_executable = ''
+
+  " - lightline.vim
+  set laststatus=2
+  set noshowmode
+  let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
 endif
 
 " => keymap
