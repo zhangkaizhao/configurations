@@ -31,6 +31,11 @@ autocmd FileType python setlocal colorcolumn=80
 " rustfmt default config
 autocmd FileType rust setlocal colorcolumn=100
 
+" => cursor position
+
+set cursorline
+"set cursorcolumn
+
 " => comments
 
 " Disable automatic comment insertion
