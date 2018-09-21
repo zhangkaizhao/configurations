@@ -101,6 +101,8 @@ if exists('*minpac#init')
   call minpac#add('idris-hackers/idris-vim')
   " lightline.vim https://github.com/itchyny/lightline.vim
   call minpac#add('itchyny/lightline.vim')
+  " NERDTree https://github.com/scrooloose/nerdtree
+  call minpac#add('scrooloose/nerdtree')
   " rust.vim https://github.com/rust-lang/rust.vim.git
   call minpac#add('rust-lang/rust.vim')
   " vim-crystal https://github.com/rhysd/vim-crystal.git
@@ -147,6 +149,10 @@ if exists('*minpac#init')
   let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
+
+  " - NERDTree
+  map <C-o> :NERDTreeToggle<CR>
+  let NERDTreeShowHidden = 1
 endif
 
 " => keymap
