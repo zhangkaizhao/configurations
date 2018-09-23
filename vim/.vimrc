@@ -103,6 +103,8 @@ if exists('*minpac#init')
   call minpac#add('itchyny/lightline.vim')
   " NERDTree https://github.com/scrooloose/nerdtree
   call minpac#add('scrooloose/nerdtree')
+  " nim.vim https://github.com/zah/nim.vim
+  call minpac#add('zah/nim.vim')
   " rust.vim https://github.com/rust-lang/rust.vim.git
   call minpac#add('rust-lang/rust.vim')
   " vim-crystal https://github.com/rhysd/vim-crystal.git
