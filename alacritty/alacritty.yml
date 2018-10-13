@@ -21,8 +21,7 @@ window:
   dimensions:
     #columns: 80
     columns: 122
-    #lines: 24
-    lines: 26
+    lines: 24
 
   # Adds this many blank pixels of padding around the window
   # Units are physical pixels; this is not DPI aware.
@@ -221,7 +220,7 @@ visual_bell:
   duration: 0
 
 # Background opacity
-background_opacity: 1.0
+background_opacity: 0.8
 
 # Mouse bindings
 #
