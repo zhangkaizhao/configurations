@@ -59,6 +59,7 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
+" TODO using for loop?
 autocmd FileType css setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
@@ -108,6 +109,8 @@ if exists('*minpac#init')
   call minpac#add('zah/nim.vim')
   " rust.vim https://github.com/rust-lang/rust.vim.git
   call minpac#add('rust-lang/rust.vim')
+  " typescript-vim https://github.com/leafgarland/typescript-vim
+  call minpac#add('leafgarland/typescript-vim')
   " vim-crystal https://github.com/rhysd/vim-crystal.git
   call minpac#add('rhysd/vim-crystal')
   " vim-elixir https://github.com/elixir-editors/vim-elixir.git
