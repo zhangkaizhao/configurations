@@ -121,6 +121,8 @@ if exists('*minpac#init')
   call minpac#add('fatih/vim-go')
   " vim-markdown-preview https://github.com/JamshedVesuna/vim-markdown-preview.git
   call minpac#add('JamshedVesuna/vim-markdown-preview')
+  " vim-pony https://github.com/jakwings/vim-pony
+  call minpac#add('jakwings/vim-pony')
   " vim-preview https://github.com/greyblake/vim-preview.git
   call minpac#add('greyblake/vim-preview')
   " vim-racer https://github.com/racer-rust/vim-racer.git
