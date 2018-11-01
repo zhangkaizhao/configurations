@@ -1,0 +1,3 @@
+6a1e46d152667695.b none swap sw
+#6a1e46d152667695.a / ffs rw,wxallowed 1 1
+6a1e46d152667695.a / ffs rw,softdep,noatime,wxallowed 1 1
