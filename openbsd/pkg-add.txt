@@ -1,0 +1,90 @@
+# pkg installed
+
+## 2018-10-29
+
+**OpenBSD 6.4**
+
+* quirks
+
+Firmware automatically installed after the first time booting into os:
+
+* athn-firmware
+* intel-firmware
+* radeondrm-firmware
+* uvideo-firmware
+* vmm-firmware
+
+(Use `fw_update` to update them in the future!)
+
+## 2018-10-30
+
+* wget
+* python (python-3.6.6p1)
+* ruby (ruby-2.5.1)
+* vim (vim-8.1.0438-no_x11)
+* git
+* crystal
+* ponyc
+* go
+* erlang (erlang-19.3p4v0)
+* elixir
+
+## 2018-10-31
+
+* gnome
+
+## 2018-11-01
+
+* audacious audacious-plugins
+* ffmpeg
+* mpv
+
+* chromium
+* firefox firefox-i18n-zh-CN
+* thunderbird thunderbird-i18n-zh-CN
+* chrome-gnome-shell
+
+* roboto-fonts
+* hack-fonts
+* font-awesome
+* zh-fonts-arphicttf
+* zh-wqy-zenhei-ttf
+* noto-emoji
+
+* mariadb-server
+* postgresql-server
+* redis
+
+* jdk
+* node
+* rust
+* ghc
+* ocaml opam
+* mono
+* nim
+* racket-minimal (racket-minimal-7.0p3)
+* sbcl
+
+* keepassxc (keepassxc-2.3.4)
+* htop
+* cmake
+* emacs (emacs-26.1p2-gtk3)
+
+* gimp
+* libreoffice
+
+* freeciv-client freeciv-server
+
+## 2018-11-02
+
+* freecol
+* wesnoth
+
+* mercurial
+* subversion
+
+* ruby24-bundler
+
+## 2018-11-03
+
+* asciidoc
