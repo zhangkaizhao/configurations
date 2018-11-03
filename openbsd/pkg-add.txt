@@ -87,4 +87,5 @@ Firmware automatically installed after the first time booting into os:
 
 ## 2018-11-03
 
+* privoxy
 * asciidoc
