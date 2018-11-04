@@ -1,0 +1,8 @@
+= Chrome extensions
+
+2018,03,27
+
+* Adblock plus
+* Flag for Chrome
+* PrintWhatYouLike
+* Proxy SwitchySharp
