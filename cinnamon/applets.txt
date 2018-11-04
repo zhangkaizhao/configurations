@@ -1,0 +1,39 @@
+# Cinnamon Applets
+
+2018,04,19
+
+- https://cinnamon-spices.linuxmint.com/
+- https://cinnamon-spices.linuxmint.com/applets
+- https://github.com/linuxmint/cinnamon-spices-applets
+
+In use:
+
+* Cinnamenu@json
+
+  https://cinnamon-spices.linuxmint.com/applets/view/282
+
+  https://github.com/linuxmint/cinnamon-spices-applets/tree/master/Cinnamenu%40json
+
+* ScreenShot+RecordDesktop@tech71
+
+  https://cinnamon-spices.linuxmint.com/applets/view/41
+
+  https://github.com/linuxmint/cinnamon-spices-applets/tree/master/ScreenShot%2BRecordDesktop%40tech71
+
+* placesCenter@scollins
+
+  https://cinnamon-spices.linuxmint.com/applets/view/128
+
+  https://github.com/linuxmint/cinnamon-spices-applets/tree/master/placesCenter%40scollins
+
+* timeout@narutrey
+
+  https://cinnamon-spices.linuxmint.com/applets/view/278
+
+  https://github.com/linuxmint/cinnamon-spices-applets/tree/master/timeout%40narutrey
+
+* weather@mockturtl
+
+  https://cinnamon-spices.linuxmint.com/applets/view/17
+
+  https://github.com/linuxmint/cinnamon-spices-applets/tree/master/weather%40mockturtl
