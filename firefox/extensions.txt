@@ -32,3 +32,19 @@ https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-a
 * Ublock Origin
 * Disconnect
 * HTTPS Everywhere
+
+## 2018-11-04
+
+* Proxy SwitchyOmega https://addons.mozilla.org/firefox/addon/switchyomega/
+
+* Disconnect https://addons.mozilla.org/firefox/addon/disconnect/
+* HTTPS Everywhere https://addons.mozilla.org/firefox/addon/https-everywhere/
+* uBlock Origin https://addons.mozilla.org/firefox/addon/ublock-origin/
+* 终结内容农场 https://addons.mozilla.org/firefox/addon/content-farm-terminator/
+
+* GNOME Shell integration https://addons.mozilla.org/firefox/addon/gnome-shell-integration/
+
+* ColorZilla https://addons.mozilla.org/firefox/addon/colorzilla/
+* Emoji Cheatsheet https://addons.mozilla.org/firefox/addon/emoji-cheatsheet/
+* Flagfox https://addons.mozilla.org/firefox/addon/flagfox/
+* 网页剪贴簿 https://addons.mozilla.org/firefox/addon/web-scrapbook/
