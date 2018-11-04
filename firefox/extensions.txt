@@ -1,0 +1,34 @@
+# Firefox extensions
+
+2018,03,27
+
+* Adblock plus
+* ColorZilla
+* FlagFox
+* FoxyProxy Standard
+* Save as PDF
+* Content Farm Terminator
+* Web ScrapBook
+
+old:
+
+* AutoProxy
+* CHM Reader
+* ChmFox
+* Firebug
+* Flashblock
+* iWeb2x
+* Live HTTP headers
+* Pencil
+* ScrapBook
+* Web2PDF converter
+* Zotero
+
+## for privacy, security and utility
+
+https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-and-utility/
+
+* NoScript
+* Ublock Origin
+* Disconnect
+* HTTPS Everywhere
