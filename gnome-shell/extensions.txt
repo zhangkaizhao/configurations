@@ -1,0 +1,25 @@
+# GNOME Shell extensions
+
+2018-11-04
+
+System extensions enabled:
+
+* AlternateTab https://extensions.gnome.org/extension/15/alternatetab/
+* Applications Menu https://extensions.gnome.org/extension/6/applications-menu/
+* Removal Drive Menu https://extensions.gnome.org/extension/7/removable-drive-menu/
+* Screenshot Window Sizer https://extensions.gnome.org/extension/881/screenshot-window-sizer/
+* User Themes https://extensions.gnome.org/extension/19/user-themes/
+* Window List https://extensions.gnome.org/extension/602/window-list/
+* windowNavigator https://extensions.gnome.org/extension/10/windownavigator/
+
+Other extensions installed and enabled:
+
+* Argos https://extensions.gnome.org/extension/1176/argos/
+* Emoji Selector https://extensions.gnome.org/extension/1162/emoji-selector/
+* Impatience https://extensions.gnome.org/extension/277/impatience/
+* Notifications Alert https://extensions.gnome.org/extension/258/notifications-alert-on-user-menu/
+* OpenWeather https://extensions.gnome.org/extension/750/openweather/
+* Panel OSD https://extensions.gnome.org/extension/708/panel-osd/
+* Screenshot Tool https://extensions.gnome.org/extension/1112/screenshot-tool/
+* Status Area Horizontal Spacing https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/
+* TopIcons Plus https://extensions.gnome.org/extension/1031/topicons/
