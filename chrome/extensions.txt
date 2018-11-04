@@ -1,4 +1,4 @@
-= Chrome extensions
+# Chrome extensions
 
 2018,03,27
 
@@ -6,3 +6,20 @@
 * Flag for Chrome
 * PrintWhatYouLike
 * Proxy SwitchySharp
+
+## 2018-11-04
+
+* Proxy SwitchyOmega https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif
+
+* Disconnect https://chrome.google.com/webstore/detail/jeoacafpbcihiomhlakheieifhpjdfeo
+* HTTPS Everywhere https://chrome.google.com/webstore/detail/gcbommkclmclpchllfjekcdonpmejbdp
+* uBlock Origin https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm
+* 终结内容农场 https://chrome.google.com/webstore/detail/lcghoajegeldpfkfaejegfobkapnemjl
+
+* GNOME Shell integration https://chrome.google.com/webstore/detail/gphhapmejobijbbhgpjhcjognlahblep
+
+* Print Edit WE https://chrome.google.com/webstore/detail/olnblpmehglpcallpnbgmikjblmkopia
+* PrintWhatYouLike https://chrome.google.com/webstore/detail/npgfabafajliaooeicdoahbpoajfmbbe
+
+* Chromoji - Emoji for Google Chrome https://chrome.google.com/webstore/detail/cahedbegdkagmcjfolhdlechbkeaieki
+* Emoji Keyboard by Emojione https://chrome.google.com/webstore/detail/ipdjnhgkpapgippgcgkfcbpdpcgifncb
