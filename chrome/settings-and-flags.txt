@@ -1,0 +1,29 @@
+# Chrome settings and flags
+
+2018-11-06
+
+source: https://www.c0ffee.net/blog/openbsd-on-a-laptop/
+
+Be sure to turn off all it's phone-home settings in the settings panel:
+
+* disable Auto Sign-In
+* set default search engine to DuckDuckGo (or anything except Google—lots of additional telemetry gets turned on by default when Google is the default search engine)
+* disable "prediction service to help complete searches and URLs"
+* disable "prediction service to load pages more quickly"
+* disable "web service to help resolve navigation errors"
+* disable "Safe Browsing"
+* disable "improve Safe Browsing"
+* disable "Do Not Track" header—it really just makes it easier to fingerprint you.
+* block third-party cookies
+* disable "offer to translate pages"
+* disable "show notifications when new printers are detected"
+* disable "continue running background apps when Chromium is closed"
+
+Also, set the following in chrome://flags:
+
+* Smooth Scrolling: (personal preference)
+* UI Layout for the browser's top chrome: set to "Normal" to get the classic Chromium look back
+* Identity consistency between browser and cookie jar: set to "Disabled" to keep Google from hijacking any Google login to sign you into Chrome
+* SafeSearch URLs reporting: disabled
+
+It should go without saying, but don't sign in to Chrome.
