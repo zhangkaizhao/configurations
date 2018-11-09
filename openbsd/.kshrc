@@ -3,14 +3,17 @@
 
 ## Personal
 
-alias vi='vim'
+set -o emacs
+
+# There are issues in ksh when EDITOR is set to vim.
+#export EDITOR='vim'
+export PAGER='less'
+export CLICOLOR=1
+
 alias la='ls -a'
 alias ll='ls -lh'
 alias lla='ls -lah'
-
-export EDITOR='vim'
-export PAGER='less'
-export CLICOLOR=1
+alias vi='vim'
 
 # JDK 1.8
 export PATH=/usr/local/jdk-1.8.0/bin:$PATH
