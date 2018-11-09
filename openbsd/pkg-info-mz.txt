@@ -37,8 +37,10 @@ opam--
 ponyc--
 postgresql-server--
 privoxy--
+py3-docutils--
 py3-pip--
 python--%3.6
+qbittorrent--
 quirks--
 racket-minimal--
 redis--
@@ -50,6 +52,7 @@ sbcl--
 subversion--
 thunderbird--
 thunderbird-i18n-zh-CN--
+txt2tags--
 vim--no_x11
 wesnoth--
 wget--

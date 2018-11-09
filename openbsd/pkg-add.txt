@@ -89,3 +89,9 @@ Firmware automatically installed after the first time booting into os:
 
 * privoxy
 * asciidoc
+* py3_docutils
+* txt2tags
+
+## 2018-11-05
+
+* qbittorrent
