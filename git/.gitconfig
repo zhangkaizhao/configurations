@@ -5,3 +5,6 @@
 	email = zhangkaizhao@gmail.com
 [core]
 	quotepath = false
+[commit]
+	template = /home/kaizhao/.git-commit-template.txt
+	cleanup = strip

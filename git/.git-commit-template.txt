@@ -1,0 +1,21 @@
+# WHAT
+# <issue id> (this commit will...) <subject>
+
+
+# WHY and HOW
+# Explain why this change is being made
+
+
+# RELATED
+# Provide links or keys to any relevant issues or other resources
+
+
+# REMEMBER
+# use lower case in the subject line
+# start with a verb in imperative tone in the subject line
+# do not end the subject line with a period
+# separate subject from body with a blank line
+# use the body to explain what and why vs. how
+# can use multiple lines with "-" for bullet points in body
+
+# Source: https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of?slide=40
