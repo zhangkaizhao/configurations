@@ -56,5 +56,6 @@ txt2tags--
 vim--no_x11
 wesnoth--
 wget--
+zeal--
 zh-fonts-arphicttf--
 zh-wqy-zenhei-ttf--

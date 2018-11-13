@@ -95,3 +95,7 @@ Firmware automatically installed after the first time booting into os:
 ## 2018-11-05
 
 * qbittorrent
+
+## 2018-11-13
+
+* zeal
