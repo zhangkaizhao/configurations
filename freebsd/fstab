@@ -1,0 +1,6 @@
+/dev/ada0p6	/	ufs	rw	2	2
+/dev/ada0p7	none	swap	sw	0	0
+
+# For openjdk8
+fdesc	/dev/fd		fdescfs		rw	0	0
+proc    /proc           procfs          rw      0       0

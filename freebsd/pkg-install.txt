@@ -1,0 +1,5 @@
+# packages installed
+
+## 2018-11-27
+
+* gnome-menus : for gnome shell extension `Applications Menu`

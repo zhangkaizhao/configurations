@@ -1,8 +1,3 @@
-# Bash completion
-
-[[ $PS1 && -f /usr/local/share/bash-completion/bash_completion.sh ]] && \
-    source /usr/local/share/bash-completion/bash_completion.sh
-
 # Bash options
 
 shopt -s checkwinsize
@@ -46,7 +41,13 @@ export PAGER="less"
 # 2018-06-27 local bin for pip --user
 export PATH=$HOME/.local/bin:$PATH
 
+# 2018-06-29 Rust Cargo by rustup
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # chruby
 if [[ -f /usr/local/share/chruby/chruby.sh ]]; then
   source /usr/local/share/chruby/chruby.sh
 fi
+
+# GNUStep
+source /usr/local/GNUstep/System/Library/Makefiles/GNUstep.sh
