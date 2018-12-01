@@ -1,0 +1,12 @@
+# BOOTx64.efi
+
+Export from FreeBSD Installer Image.
+e.g. https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/11.2/FreeBSD-11.2-RELEASE-amd64-bootonly.iso
+
+Steps:
+
+* Open iso file with 7-zip
+* Enter [BOOT] directory (there are two img files under this directory)
+* Export the larger img file to any place
+* Open img file with 7-zip
+* Export the file `BOOTx64.efi` in it
