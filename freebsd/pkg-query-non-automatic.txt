@@ -17,6 +17,8 @@ www/chromium
 devel/chruby
 devel/cmake
 devel/codeblocks
+x11-fonts/comfortaa-ttf
+x11-fonts/comic-neue
 sysutils/coreutils
 devel/cppcheck
 lang/crystal
@@ -34,6 +36,8 @@ lang/elixir
 lang/erlang
 textproc/fcitx-qt5
 textproc/fcitx-table-other
+x11-fonts/fira
+x11-fonts/firacode
 www/firefox
 www/firefox-i18n
 benchmarks/flamegraph
@@ -62,6 +66,7 @@ graphics/gwenview
 irc/hexchat
 sysutils/htop
 java/intellij
+japanese/font-migu
 textproc/jq
 audio/juk
 graphics/kamera
@@ -154,6 +159,7 @@ x11-themes/slim-freebsd-black-theme
 x11-themes/slim-freebsd-themes
 x11-themes/slim-themes
 multimedia/smplayer
+x11-fonts/sourcecodepro-ttf
 graphics/spectacle
 math/speedcrunch
 devel/stack
@@ -178,6 +184,7 @@ benchmarks/wrk
 archivers/xarchiver
 x11-wm/xcompmgr
 x11-drivers/xf86-input-libinput
+x11-drivers/xf86-video-ati
 x11-drivers/xf86-video-dummy
 x11-wm/xfce4
 audio/xfce4-mixer
@@ -190,8 +197,10 @@ misc/xfce4-weather-plugin
 x11/xorg
 www/yarn
 devel/zeal
+chinese/arphicttf
 chinese/fcitx
 chinese/fcitx-configtool
 chinese/fcitx-libpinyin
+chinese/moettf
 shells/zsh
 textproc/zsh-syntax-highlighting

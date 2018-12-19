@@ -3,3 +3,24 @@
 ## 2018-11-27
 
 * gnome-menus : for gnome shell extension `Applications Menu`
+
+## 2018-12-01
+
+* comfortaa-ttf
+* fira
+* firacode
+* zh-arphicttf
+* zh-moettf
+
+## 2018-12-03
+
+* sourcecodepro-ttf
+* comic-neue
+
+## 2018-12-05
+
+* ja-font-migu
+
+## 2018-12-19
+
+* xf86-video-ati
