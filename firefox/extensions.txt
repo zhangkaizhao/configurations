@@ -48,3 +48,7 @@ https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-a
 * Emoji Cheatsheet https://addons.mozilla.org/firefox/addon/emoji-cheatsheet/
 * Flagfox https://addons.mozilla.org/firefox/addon/flagfox/
 * 网页剪贴簿 https://addons.mozilla.org/firefox/addon/web-scrapbook/
+
+## 2018-12-14
+
+* Replace Google CDN https://addons.mozilla.org/firefox/addon/replace-google-cdn/
