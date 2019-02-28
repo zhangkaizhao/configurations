@@ -1,0 +1,9 @@
+apache
+curl
+dmd
+ldc
+neovim
+nginx
+redis
+vim
+wget
