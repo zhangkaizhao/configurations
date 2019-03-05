@@ -1,3 +1,8 @@
+# Bash completion
+
+[[ $PS1 && -f /usr/local/share/bash-completion/bash_completion.sh ]] && \
+  source /usr/local/share/bash-completion/bash_completion.sh
+
 # Bash options
 
 shopt -s checkwinsize
@@ -43,6 +48,9 @@ export PATH=$HOME/.local/bin:$PATH
 
 # 2018-06-29 Rust Cargo by rustup
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# 2018-12-10 Hashell GHC by ghcup
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 # chruby
 if [[ -f /usr/local/share/chruby/chruby.sh ]]; then
