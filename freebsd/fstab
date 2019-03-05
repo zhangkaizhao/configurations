@@ -1,5 +1,9 @@
-/dev/ada0p6	/	ufs	rw	2	2
-/dev/ada0p7	none	swap	sw	0	0
+#/dev/ada0p6	/	ufs	rw	2	2
+#/dev/ada0p7	none	swap	sw	0	0
+#/dev/ada0p7	/	ufs	rw	2	2
+#/dev/ada0p8	none	swap	sw	0	0
+/dev/gptid/094f89b7-6666-11e8-b88c-c86000b97e88	/	ufs	rw	2	2
+/dev/gptid/40011697-6666-11e8-b88c-c86000b97e88	none	swap	sw	0	0
 
 # For openjdk8
 fdesc	/dev/fd		fdescfs		rw	0	0
