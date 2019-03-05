@@ -52,3 +52,9 @@
 ## 2019-03-04
 
 * ponyc
+
+## 2019-03-05
+
+* lato
+* Hasklig
+* qbittorrent

@@ -1,3 +1,4 @@
+x11-fonts/Hasklig
 x11/alacritty
 audio/alsa-utils
 net-p2p/amule
@@ -91,6 +92,7 @@ x11-fm/konqueror
 x11/konsole
 graphics/krita
 audio/lame
+x11-fonts/lato
 editors/libreoffice
 security/libressl
 www/lighttpd
@@ -139,6 +141,7 @@ devel/pycharm-ce
 lang/pypy3
 lang/python3
 lang/python37
+net-p2p/qbittorrent
 print/qpdfview
 textproc/qstardict
 devel/qtcreator
