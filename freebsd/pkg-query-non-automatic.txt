@@ -126,7 +126,6 @@ net-im/pidgin
 ports-mgmt/pkg
 x11/plasma5-plasma
 deskutils/plasma5-sddm-kcm
-editors/poedit
 lang/ponyc
 databases/postgresql10-server
 www/privoxy
