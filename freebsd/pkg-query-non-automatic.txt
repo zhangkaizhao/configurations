@@ -7,6 +7,8 @@ textproc/aspell
 multimedia/audacious
 multimedia/audacious-plugins
 audio/audacity
+devel/autoconf
+devel/automake
 shells/bash
 shells/bash-completion
 sysutils/bsdisks
@@ -26,6 +28,8 @@ ftp/curl
 devel/devhelp
 lang/dlang-tools
 editors/dlangide
+sysutils/docker
+sysutils/docker-machine
 x11-fm/dolphin
 devel/dolphin-plugins
 multimedia/dragon
@@ -48,6 +52,7 @@ games/freecol
 deskutils/freemind
 sysutils/fusefs-ext2
 sysutils/fusefs-ntfs
+lang/gcc
 sysutils/gdisk
 graphics/gimp
 devel/git
@@ -62,9 +67,12 @@ textproc/goldendict
 devel/gorm
 textproc/groff
 multimedia/gstreamer-ffmpeg
+x11-themes/gtk-arc-themes
+x11-themes/gtk-murrine-engine
 graphics/gwenview
 irc/hexchat
 sysutils/htop
+graphics/inkscape
 java/intellij
 japanese/font-migu
 textproc/jq
@@ -95,7 +103,6 @@ net-p2p/mldonkey
 lang/mono
 graphics/mupdf
 x11-toolkits/mygui
-databases/mysql57-server
 editors/neovim
 editors/neovim-qt
 www/nginx
@@ -103,6 +110,7 @@ lang/nim
 devel/nimble
 devel/ninja
 www/node
+x11-themes/numix-theme
 lang/ocaml
 graphics/ogre3d
 graphics/okular
@@ -111,6 +119,7 @@ java/openjdk8
 multimedia/openshot
 archivers/p7zip
 archivers/p7zip-codec-rar
+sysutils/parallel
 x11-fm/pcmanfm-qt
 multimedia/phonon-vlc
 net-im/pidgin
@@ -118,6 +127,7 @@ ports-mgmt/pkg
 x11/plasma5-plasma
 deskutils/plasma5-sddm-kcm
 editors/poedit
+lang/ponyc
 databases/postgresql10-server
 www/privoxy
 devel/py-pip
@@ -132,7 +142,6 @@ lang/python3
 lang/python37
 print/qpdfview
 textproc/qstardict
-misc/qt4-qtconfig
 devel/qtcreator
 x11/qterminal
 net/quiterss
@@ -148,6 +157,7 @@ textproc/rubygem-asciidoctor
 sysutils/rubygem-bundler
 x11/rxvt-unicode
 net/samba47
+textproc/sassc
 lang/scala
 x11/sddm
 x11-themes/sddm-freebsd-black-theme
@@ -175,13 +185,13 @@ archivers/unrar
 x11-fonts/urwfonts
 x11/urxvt-font-size
 editors/vim
-multimedia/vlc
 deskutils/vym
 games/wesnoth
 ftp/wget
 x11-fonts/wqy
 benchmarks/wrk
 archivers/xarchiver
+x11/xclip
 x11-wm/xcompmgr
 x11-drivers/xf86-input-libinput
 x11-drivers/xf86-video-ati
