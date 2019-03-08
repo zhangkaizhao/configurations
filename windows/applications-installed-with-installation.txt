@@ -1,0 +1,36 @@
+.NET Core SDK                   https://dotnet.microsoft.com/
+7zip                            https://www.7-zip.org/
+Docker Desktop                  https://www.docker.com/
+Dropbox                         https://www.dropbox.com/
+Erlang                          https://www.erlang.org/
+Firefox                         https://www.mozilla.org/firefox/all/
+Free Download Manager 3.9.7     https://www.freedownloadmanager.org/
+GIMP                            https://www.gimp.org
+Git                             https://git-scm.com/
+GoldenDict                      https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows
+Google Chrome                   https://www.google.com/chrome
+HWiNFO64                        https://www.hwinfo.com/
+Hyper                           https://hyper.is/
+KDevelop                        https://www.kdevelop.org/
+KeePassXC                       https://keepassxc.org/
+Krita                           https://krita.org/
+LibreOffice                     https://www.libreoffice.org/
+Miniconda3                      https://conda.io/miniconda.html
+MPC-BE                          https://sourceforge.net/projects/mpcbe/
+msys2                           https://www.msys2.org/
+Node.js                         https://nodejs.org/
+OneDrive                        https://onedrive.live.com/
+Poedit                          https://poedit.net/
+Python                          https://www.python.org/
+qBittorent                      https://www.qbittorent.org/
+Ruby                            https://rubyinstaller.org/
+rustup                          https://rustup.rs/
+Sublime Text 3                  https://www.sublimetext.com/
+SumatraPDF                      https://www.sumatrapdfreader.org/
+Telegram Desktop                https://desktop.telegram.org/
+VirtualBox                      https://www.virtualbox.org/
+Visual Studio Code              https://code.visualstudio.com/
+Visual Studio Community 2017    https://visualstudio.microsoft.com/
+Winamp                          https://www.winamp.com/
+Yong (Chinese Input Method)     http://yong.dgod.net/
+Zeal                            https://zealdocs.org/

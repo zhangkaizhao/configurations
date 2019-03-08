@@ -1,0 +1,18 @@
+Alacritty               https://github.com/jwilm/alacritty
+Apache Tomcat           https://tomcat.apache.org/
+Cmder                   https://cmder.net/
+Eclipse                 https://www.eclipse.org/
+Elixir                  https://elixir-lang.org/
+Go                      https://golang.org/
+mpv                     https://mpv.io/
+Neovim                  https://neovim.io/
+openjdk-11-x86_64       https://github.com/ojdkbuild/ojdkbuild
+openjdk-8-x86_64        https://github.com/ojdkbuild/ojdkbuild
+openjdk-8-x86           https://github.com/ojdkbuild/ojdkbuild
+ponyc                   https://github.com/ponylang/ponyc
+Privoxy                 https://www.privoxy.org/
+pypy3                   https://pypy.org/
+QuiteRSS                https://quiterss.org/
+Resin                   https://caucho.com/
+Rufus                   https://rufus.ie/
+Vim                     https://github.com/vim/vim-win32-installer
