@@ -1,4 +1,3 @@
-x11-fonts/Hasklig
 x11/alacritty
 audio/alsa-utils
 net-p2p/amule
@@ -41,8 +40,6 @@ lang/elixir
 lang/erlang
 textproc/fcitx-qt5
 textproc/fcitx-table-other
-x11-fonts/fira
-x11-fonts/firacode
 www/firefox
 www/firefox-i18n
 benchmarks/flamegraph
@@ -51,6 +48,7 @@ x11-fonts/font-awesome
 games/freeciv
 games/freecol
 deskutils/freemind
+lang/fsharp
 sysutils/fusefs-ext2
 sysutils/fusefs-ntfs
 lang/gcc
@@ -64,7 +62,6 @@ devel/gnustep
 games/gnustep-ladder
 games/gnustep-sudoku
 lang/go
-textproc/goldendict
 devel/gorm
 textproc/groff
 multimedia/gstreamer-ffmpeg
@@ -76,6 +73,7 @@ sysutils/htop
 graphics/inkscape
 java/intellij
 japanese/font-migu
+japanese/font-mplus-outline
 textproc/jq
 audio/juk
 graphics/kamera
@@ -86,6 +84,7 @@ deskutils/kchmviewer
 graphics/kcolorchooser
 x11/kde-baseapps
 sysutils/kdeadmin
+devel/kdevelop
 security/keepassxc
 sysutils/khelpcenter
 x11-fm/konqueror
@@ -123,7 +122,6 @@ archivers/p7zip
 archivers/p7zip-codec-rar
 sysutils/parallel
 x11-fm/pcmanfm-qt
-multimedia/phonon-vlc
 net-im/pidgin
 ports-mgmt/pkg
 x11/plasma5-plasma
@@ -187,7 +185,7 @@ archivers/unrar
 x11-fonts/urwfonts
 x11/urxvt-font-size
 editors/vim
-deskutils/vym
+multimedia/vlc
 games/wesnoth
 ftp/wget
 x11-fonts/wqy
@@ -214,5 +212,7 @@ chinese/fcitx
 chinese/fcitx-configtool
 chinese/fcitx-libpinyin
 chinese/moettf
+chinese/sourcehansans-sc-otf
+chinese/sourcehanserif-sc-otf
 shells/zsh
 textproc/zsh-syntax-highlighting

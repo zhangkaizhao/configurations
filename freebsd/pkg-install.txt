@@ -58,3 +58,27 @@
 * lato
 * Hasklig
 * qbittorrent
+
+## 2019-03-10
+
+* zh-sourcehanserif-sc-otf
+
+* fsharp
+* kdevelop
+
+## 2019-03-12
+
+deleted qt4-* and qt4 based applications goldendict-1.0.1 and vym-2.2.4.
+
+## 2019-03-13
+
+deleted:
+
+* fira
+* firacode
+* Hasklig
+
+## 2019-03-23
+
+* ja-font-mplus-outline
+* zh-sourcehansans-sc-otf
