@@ -1,0 +1,27 @@
+[ -f ~/.cshrc ] && source ~/.cshrc
+
+# alias
+
+alias grep grep --color
+alias l ls -l
+alias la ls -la
+alias ll ls -lhF
+alias vi vim
+
+# environment variables
+
+setenv CLICOLOR 1
+setenv EDITOR vim
+setenv PAGER less
+
+# 2018-06-27 local bin for pip --user
+setenv PATH $HOME/.local/bin:$PATH
+
+# 2018-06-29 Rust Cargo by rustup
+setenv PATH $HOME/.cargo/bin:$PATH
+
+# 2018-12-10 Hashell GHC by ghcup
+setenv PATH $HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH
+
+# GNUStep
+source /usr/local/GNUstep/System/Library/Makefiles/GNUstep.csh
