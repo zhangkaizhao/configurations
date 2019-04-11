@@ -99,3 +99,20 @@ Firmware automatically installed after the first time booting into os:
 ## 2018-11-13
 
 * zeal
+
+## 2018-12-05
+
+* migu
+* comic-neue
+
+## 2018-12-07
+
+* gcc (gcc-4.9.4p12 for ghcup install ghc-8.4.4 and gcc>=4.4 needed)
+
+## 2019-04-11
+
+* mplus-fonts
+
+deleted:
+
+* migu

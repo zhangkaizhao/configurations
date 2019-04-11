@@ -4,6 +4,7 @@ audacious-plugins--
 chrome-gnome-shell--
 chromium--
 cmake--
+comic-neue--
 crystal--
 elixir--
 emacs--gtk3%emacs
@@ -15,6 +16,7 @@ font-awesome--
 freeciv-client--
 freeciv-server--
 freecol--
+gcc--%4.9
 ghc--
 gimp--
 git--
@@ -28,6 +30,7 @@ libreoffice--
 mariadb-server--
 mercurial--
 mono--
+mplus-fonts--
 mpv--
 nim--
 node--
