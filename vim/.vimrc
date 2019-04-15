@@ -59,7 +59,7 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" TODO using for loop?
+autocmd FileType crystal setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType css setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
@@ -127,12 +127,16 @@ if exists('*minpac#init')
   call minpac#add('greyblake/vim-preview')
   " vim-racer https://github.com/racer-rust/vim-racer.git
   call minpac#add('racer-rust/vim-racer')
+  " vim-radon https://github.com/rubik/vim-radon
+  call minpac#add('rubik/vim-radon')
   " vim-signify https://github.com/mhinz/vim-signify
   call minpac#add('mhinz/vim-signify')
   " vim-toml https://github.com/cespare/vim-toml.git
   call minpac#add('cespare/vim-toml')
   " vim-vue https://github.com/posva/vim-vue.git
   call minpac#add('posva/vim-vue')
+  " zig.vim https://github.com/ziglang/zig.vim
+  call minpac#add('ziglang/zig.vim')
 
   " -> pack configurations
 
@@ -161,6 +165,9 @@ if exists('*minpac#init')
   " - NERDTree
   map <C-o> :NERDTreeToggle<CR>
   let NERDTreeShowHidden = 1
+
+  " - zig.vim
+  let g:zig_fmt_autosave = 0
 endif
 
 " => keymap
