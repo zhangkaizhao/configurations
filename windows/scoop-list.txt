@@ -1,8 +1,14 @@
 apache
+consul
 curl
+deno
 dmd
+graphviz
+jq
 neovim
 nginx
 redis
+ripgrep
 vim
 wget
+ziglang

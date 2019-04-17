@@ -1,5 +1,6 @@
 .NET Core SDK                   https://dotnet.microsoft.com/
 7zip                            https://www.7-zip.org/
+Brave                           https://www.brave.com/
 Docker Desktop                  https://www.docker.com/
 Dropbox                         https://www.dropbox.com/
 Erlang                          https://www.erlang.org/
@@ -11,10 +12,13 @@ GoldenDict                      https://github.com/goldendict/goldendict/wiki/Ea
 Google Chrome                   https://www.google.com/chrome
 HWiNFO64                        https://www.hwinfo.com/
 Hyper                           https://hyper.is/
+IntelliJ IDEA Community Edition https://www.jetbrains.com/idea/
 KDevelop                        https://www.kdevelop.org/
 KeePassXC                       https://keepassxc.org/
+Keybase                         https://keybase.io/
 Krita                           https://krita.org/
 LibreOffice                     https://www.libreoffice.org/
+Microsoft Edge                  https://www.microsoftedgeinsider.com/
 Miniconda3                      https://conda.io/miniconda.html
 MPC-BE                          https://sourceforge.net/projects/mpcbe/
 msys2                           https://www.msys2.org/
@@ -31,6 +35,8 @@ Telegram Desktop                https://desktop.telegram.org/
 VirtualBox                      https://www.virtualbox.org/
 Visual Studio Code              https://code.visualstudio.com/
 Visual Studio Community 2017    https://visualstudio.microsoft.com/
+Vivaldi                         https://vivaldi.com/
 Winamp                          https://www.winamp.com/
+WPS Office                      https://www.wps.com/
 Yong (Chinese Input Method)     http://yong.dgod.net/
 Zeal                            https://zealdocs.org/

@@ -16,3 +16,4 @@ QuiteRSS                https://quiterss.org/
 Resin                   https://caucho.com/
 Rufus                   https://rufus.ie/
 Vim                     https://github.com/vim/vim-win32-installer
+Zig                     https://ziglang.org/
