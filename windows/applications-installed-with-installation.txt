@@ -1,5 +1,6 @@
 .NET Core SDK                   https://dotnet.microsoft.com/
 7zip                            https://www.7-zip.org/
+Alacritty                       https://github.com/jwilm/alacritty
 Brave                           https://www.brave.com/
 Docker Desktop                  https://www.docker.com/
 Dropbox                         https://www.dropbox.com/

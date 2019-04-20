@@ -1,4 +1,3 @@
-Alacritty               https://github.com/jwilm/alacritty
 Apache Tomcat           https://tomcat.apache.org/
 Cmder                   https://cmder.net/
 Eclipse                 https://www.eclipse.org/
