@@ -1,0 +1,3 @@
+Apache Tomcat       /usr/local/programs/apache-tomcat-<version>
+Resin               /usr/local/programs/resin-<version>
+TextLive            /usr/local/textlive

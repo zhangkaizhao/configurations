@@ -1,0 +1,40 @@
+# packages installed
+
+## 2019-02-12
+
+For nerves project https://hexdocs.pm/nerves/installation.html
+
+* fwup squashfs coreutils xz
+
+## 2019-02-22
+
+* zig
+
+## 2019-03-02
+
+* ponyc
+
+## 2019-03-04
+
+* linkerd
+
+## 2019-03-18
+
+* rebar
+* rebar3
+
+## 2019-03-20
+
+* tomcat
+
+## 2019-03-23
+
+* mdbook
+
+## 2019-03-29
+
+* istioctl
+
+## 2019-04-15
+
+* nnn
