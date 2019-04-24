@@ -3,8 +3,10 @@
 [user]
 	name = Kaizhao Zhang
 	email = zhangkaizhao@gmail.com
+	signingKey = 15D4774D6F72B487
 [core]
 	quotepath = false
 [commit]
 	template = /home/kaizhao/.git-commit-template.txt
 	cleanup = strip
+	gpgSign = true
