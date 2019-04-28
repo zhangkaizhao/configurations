@@ -1,0 +1,16 @@
+freeciv         (needs compile, too many dependencies)
+go              (needs compile)
+grpc            (needs compile, upgrade failed)
+haproxy         (compile failed)
+hub             (needs compile with go)
+rabbitmq-server (needs compile with erlang)
+unrar           (unfree, needs configuration)
+
+espeak          (unsupported yet)
+etcd            (unsupported yet)
+mkvtoolnix      (unsupported yet)
+pypy3           (unsupported yet)
+rethinkdb       (unsupported yet)
+
+linkerd         (not found)
+ruby-install    (not found)

@@ -17,6 +17,7 @@ mgba
 mpv
 neteasemusic
 pencil
+powershell
 qbittorrent
 qt-creator
 racket

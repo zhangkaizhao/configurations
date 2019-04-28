@@ -38,3 +38,10 @@ For nerves project https://hexdocs.pm/nerves/installation.html
 ## 2019-04-15
 
 * nnn
+
+## 2019-04-26
+
+uninstall all except:
+
+* bash-completion
+* shadowsocks-libev
