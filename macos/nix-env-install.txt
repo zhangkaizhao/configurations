@@ -1,6 +1,6 @@
 apache-maven
 asciidoc
-bash
+bash-interactive
 bash-completion
 chez-scheme
 chruby
