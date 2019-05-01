@@ -30,6 +30,7 @@ if [ -f $HOME/.bash-completion/bash_completion ]; then
   export BASH_COMPLETION_DIR=$HOME/.bash-completion/completions
   export BASH_COMPLETION_COMPAT_DIR=$HOME/.bash-completion/completions
   source $HOME/.bash-completion/bash_completion
+  source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
 fi
 
 # Nix - chruby
@@ -65,10 +66,4 @@ export PATH=$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH
 # 2019-02-09 OCaml opam
 test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
-# swiftenv https://swiftenv.fuller.li/en/latest/installation.html
-# Run `git clone https://github.com/kylef/swiftenv.git ~/.swiftenv` first.
-export SWIFTENV_ROOT="$HOME/.swiftenv"
-export PATH="$SWIFTENV_ROOT/bin:$PATH"
-if which swiftenv > /dev/null; then
-  eval "$(swiftenv init -)";
-fi
+source $HOME/projects/configurations/rcs/swiftenv.sh
