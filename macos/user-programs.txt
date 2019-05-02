@@ -1,0 +1,3 @@
+ghcup           ~/.ghcup            https://github.com/haskell/ghcup
+Netbeans        ~/netbeans          https://netbeans.apache.org/
+swiftenv        ~/.swiftenv         https://github.com/kylef/swiftenv

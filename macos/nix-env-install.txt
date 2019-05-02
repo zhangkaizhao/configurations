@@ -58,5 +58,6 @@ tree
 vala
 wget
 wrk
+xz
 yarn
 zig
