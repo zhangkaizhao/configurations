@@ -30,6 +30,7 @@ if [ -f $HOME/.bash-completion/bash_completion ]; then
   export BASH_COMPLETION_DIR=$HOME/.bash-completion/completions
   export BASH_COMPLETION_COMPAT_DIR=$HOME/.bash-completion/completions
   source $HOME/.bash-completion/bash_completion
+  # bash completion support for core Git
   source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
 fi
 
@@ -56,9 +57,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# 2018,07,20 Tex Live 2018
+# 2019-05-02 TeX Live 2019
 # https://tug.org/texlive/upgrade.html
-export PATH=/usr/local/texlive/2018/bin/x86_64-darwin:$PATH
+export PATH=/usr/local/texlive/2019/bin/x86_64-darwin:$PATH
 
 # 2018-12-12 Haskell ghcup
 export PATH=$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH

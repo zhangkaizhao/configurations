@@ -1,2 +1,2 @@
-bash-completion
+ghostscript
 shadowsocks-libev

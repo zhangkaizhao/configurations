@@ -45,3 +45,9 @@ uninstall all except:
 
 * bash-completion
 * shadowsocks-libev
+
+## 2019-05-02
+
+Add back Homebrew packages required by TeX Live 2019:
+
+* ghostscript
