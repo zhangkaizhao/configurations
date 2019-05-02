@@ -1,3 +1,2 @@
 Apache Tomcat       /usr/local/programs/apache-tomcat-<version>     https://tomcat.apache.org/
 Resin               /usr/local/programs/resin-<version>             https://caucho.com/
-TeX Live            /usr/local/texlive                              https://www.tug.org/texlive/
