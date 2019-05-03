@@ -5,9 +5,7 @@ chrome-gnome-shell--
 chromium--
 cmake--
 comic-neue--
-crystal--
 elixir--
-emacs--gtk3%emacs
 erlang--
 ffmpeg--
 firefox--
@@ -21,6 +19,8 @@ ghc--
 gimp--
 git--
 gnome--
+gnome-tweaks--
+gnupg--%gnupg2
 go--
 hack-fonts--
 htop--
@@ -38,6 +38,7 @@ noto-emoji--
 ocaml--
 opam--
 ponyc--
+postgresql-client--
 postgresql-server--
 privoxy--
 py3-docutils--
@@ -49,7 +50,6 @@ racket-minimal--
 redis--
 roboto-fonts--
 ruby--
-ruby24-bundler--
 rust--
 sbcl--
 subversion--

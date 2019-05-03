@@ -1,0 +1,7 @@
+# ln -s
+
+## 2019-05-03
+
+For Git GPG sign:
+
+ln -s /usr/local/bin/gpg2 /usr/local/bin/gpg
