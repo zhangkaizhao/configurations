@@ -1,24 +1,25 @@
 apache-maven
 asciidoc
-bash-interactive
 bash-completion
+bash-interactive
 chez-scheme
 chruby
 clojure
 cmake
 cockroach
 consul
-dub (needs compile)
 crystal
 cscope
 ctags
 dmd
 docbook5
 doxygen
+dub (needs compile)
 elixir
 erlang
 ffmpeg
 gnupg
+go
 gperftools
 graphviz
 groovy
@@ -44,6 +45,7 @@ postgresql
 privoxy
 protobuf
 python3
+rabbitmq-server
 rebar
 rebar3
 redis

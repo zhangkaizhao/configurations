@@ -14,6 +14,7 @@ LibreOffice                         https://www.libreoffice.org/
 MacPass             (auto update)   https://macpassapp.org/
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
+Steam               (auto update)   https://store.steampowered.com/about/
 Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
 TextMate            (auto update)   https://macromates.com/
