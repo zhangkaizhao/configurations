@@ -32,6 +32,10 @@ if [ -f $HOME/.bash-completion/bash_completion ]; then
   source $HOME/.bash-completion/bash_completion
   # bash completion support for core Git
   source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
+  # bash completion support for Homebrew
+  if [ -f /usr/local/Homebrew/completions/bash/brew ]; then
+    source /usr/local/Homebrew/completions/bash/brew
+  fi
 fi
 
 # Nix - chruby

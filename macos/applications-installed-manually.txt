@@ -7,7 +7,7 @@ Firefox             (auto update)   https://www.mozilla.org/firefox/all/
 GitBook Editor                      https://legacy.gitbook.com/editor
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
 Google Chrome       (auto update)   https://www.google.com/chrome
-Hyper                               https://hyper.is/
+Hyper               (auto update)   https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
 LibreOffice                         https://www.libreoffice.org/
