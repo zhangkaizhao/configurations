@@ -1,3 +1,4 @@
+.NET Core SDK                       https://dotnet.microsoft.com/
 Android Studio      (auto update)   https://developer.android.com/studio
 Dash                (auto update)   https://kapeli.com/dash
 Brave               (auto update)   https://www.brave.com/
