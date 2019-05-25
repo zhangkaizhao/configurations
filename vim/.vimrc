@@ -6,6 +6,15 @@ filetype indent on
 set autoread
 set autoindent
 
+" => filetype
+
+" Slang: Slim-inspired templating language for Crystal
+" https://github.com/jeromegn/slang
+" http://slim-lang.com/
+autocmd BufNewFile,BufRead *.slang setlocal filetype=slim
+
+autocmd BufNewFile,BufRead *.lqd setlocal filetype=liquid
+
 " => encoding
 
 set encoding=utf-8
@@ -101,6 +110,8 @@ if exists('*minpac#init')
   call minpac#add('bsdelf/bufferhint')
   " idris-vim https://github.com/idris-hackers/idris-vim.git
   call minpac#add('idris-hackers/idris-vim')
+  " kotlin-vim https://github.com/udalov/kotlin-vim
+  call minpac#add('udalov/kotlin-vim')
   " lightline.vim https://github.com/itchyny/lightline.vim
   call minpac#add('itchyny/lightline.vim')
   " NERDTree https://github.com/scrooloose/nerdtree
@@ -109,6 +120,8 @@ if exists('*minpac#init')
   call minpac#add('zah/nim.vim')
   " rust.vim https://github.com/rust-lang/rust.vim.git
   call minpac#add('rust-lang/rust.vim')
+  " swift.vim https://github.com/keith/swift.vim
+  call minpac#add('keith/swift.vim')
   " typescript-vim https://github.com/leafgarland/typescript-vim
   call minpac#add('leafgarland/typescript-vim')
   " vim-crystal https://github.com/rhysd/vim-crystal.git
@@ -131,6 +144,8 @@ if exists('*minpac#init')
   call minpac#add('rubik/vim-radon')
   " vim-signify https://github.com/mhinz/vim-signify
   call minpac#add('mhinz/vim-signify')
+  " vim-slim https://github.com/slim-template/vim-slim
+  call minpac#add('slim-template/vim-slim')
   " vim-toml https://github.com/cespare/vim-toml.git
   call minpac#add('cespare/vim-toml')
   " vim-vue https://github.com/posva/vim-vue.git
