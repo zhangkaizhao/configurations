@@ -38,6 +38,5 @@ Visual Studio Code              https://code.visualstudio.com/
 Visual Studio Community 2017    https://visualstudio.microsoft.com/
 Vivaldi                         https://vivaldi.com/
 Winamp                          https://www.winamp.com/
-WPS Office                      https://www.wps.com/
 Yong (Chinese Input Method)     http://yong.dgod.net/
 Zeal                            https://zealdocs.org/

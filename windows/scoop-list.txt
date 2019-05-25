@@ -1,14 +1,24 @@
+7zip
 apache
+cacert
+cmake
 consul
+cpu-z [extra]
 curl
 deno
 dmd
+gpu-z [extra]
 graphviz
 jq
+julia
+mpv-git [extra]
 neovim
 nginx
+nuget
+privoxy [extra]
 redis
 ripgrep
+sqlite
 vim
 wget
 ziglang
