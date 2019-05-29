@@ -1,4 +1,5 @@
 7zip
+alacritty [extra]
 apache
 cacert
 cmake
@@ -7,15 +8,18 @@ cpu-z [extra]
 curl
 deno
 dmd
+gawk
 gpu-z [extra]
 graphviz
 jq
 julia
+make
 mpv-git [extra]
 neovim
 nginx
 nuget
 privoxy [extra]
+protobuf [extra]
 redis
 ripgrep
 sqlite
