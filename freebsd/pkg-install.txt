@@ -82,3 +82,46 @@ deleted:
 
 * ja-font-mplus-outline
 * zh-sourcehansans-sc-otf
+
+## 2019-04-07
+
+deleted:
+
+* xfce*
+* ede
+
+## 2019-04-22
+
+deleted:
+
+* pycharm-ce
+
+## 2019-04-29
+
+deleted:
+
+* plasma5-plasma
+* all other KDE packages
+
+added:
+
+* iosevka
+
+## 2019-05-19
+
+added:
+
+* materia-gtk-theme
+* gnome-icons-elementary
+
+## 2019-05-29
+
+* lightdm-gtk-greeter
+
+## 2019-06-01
+
+deleted:
+
+* xf86-input-libinput
+* xf86-video-ati
+* xf86-video-dummy

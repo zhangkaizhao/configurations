@@ -1,0 +1,14 @@
+pkg
+
+pkg-install.txt:
+
+  History of packages installation.
+
+pkg-query-non-automatic.txt:
+
+  Packages installed manually.
+  Query using `pkg query -e '%a = 0' %o`, see `pkg help query`.
+
+pkg-absent.txt:
+
+  Packages marked expired or not available yet.
