@@ -1,5 +1,3 @@
-pkg
-
 pkg-install.txt:
 
   History of packages installation.
@@ -8,6 +6,8 @@ pkg-query-non-automatic.txt:
 
   Packages installed manually.
   Query using `pkg query -e '%a = 0' %o`, see `pkg help query`.
+  And then `| cut -d'/' -f2` to select only package name.
+  That is `pkg query -e '%a = 0' %o| cut -d'/' -f2`.
 
 pkg-absent.txt:
 
