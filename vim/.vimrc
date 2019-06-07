@@ -6,6 +6,11 @@ filetype indent on
 set autoread
 set autoindent
 
+" CVE-2019-12735
+" Chinese: https://zhuanlan.zhihu.com/p/68191151
+" Original in English: https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md
+set nomodeline
+
 " => filetype
 
 " Slang: Slim-inspired templating language for Crystal
