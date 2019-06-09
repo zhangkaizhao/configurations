@@ -1,3 +1,4 @@
 # Scoop
 
+* official package
 * do not install applications which need simulated environment

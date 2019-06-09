@@ -1,4 +1,5 @@
 Apache Tomcat           https://tomcat.apache.org/
+Chromium                https://download-chromium.appspot.com/
 Cmder                   https://cmder.net/
 Eclipse                 https://www.eclipse.org/
 Elixir                  https://elixir-lang.org/

@@ -8,12 +8,16 @@ cpu-z [extra]
 curl
 deno
 dmd
+emule-community [extra]
 gawk
 gpu-z [extra]
 graphviz
 jq
 julia
+keepassxc [extra]
+krita [extra]
 make
+mariadb
 mpv-git [extra]
 neovim
 nginx
@@ -23,6 +27,9 @@ protobuf [extra]
 redis
 ripgrep
 sqlite
+telegram [extra]
+unrar
+unzip
 vim
 wget
 ziglang
