@@ -5,22 +5,6 @@ alias ll='ls -lh'
 alias lla='ls -alh'
 alias vi='vim'
 
-export HOMEBREW_NO_AUTO_UPDATE=1
-
-# Nix
-if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then
-  source $HOME/.nix-profile/etc/profile.d/nix.sh;
-fi
-
-# Nix - bash completion
-#if [ -e $HOME/.nix-profile/etc/profile.d/bash-completion.sh ]; then
-#  source $HOME/.nix-profile/etc/profile.d/bash-completion.sh;
-#fi
-#
-## https://github.com/NixOS/nixpkgs/issues/44434
-#export BASH_COMPLETION_USER_DIR=$HOME/.nix-profile/share/bash-completion/completions
-#export XDG_DATA_DIRS=$HOME/.nix-profile/share/:$XDG_DATA_DIRS
-
 # https://github.com/scop/bash-completion
 # The last release for Bash 3.2 is 1.3 (latest version of Bash on macOS).
 # https://github.com/scop/bash-completion/archive/1.3.zip
@@ -38,10 +22,26 @@ if [ -f $HOME/.bash-completion/bash_completion ]; then
   fi
 fi
 
-# Nix - chruby
-if [ -e $HOME/.nix-profile/share/chruby/chruby.sh ]; then
-  source $HOME/.nix-profile/share/chruby/chruby.sh
-fi
+## Homebrew
+
+export HOMEBREW_NO_AUTO_UPDATE=1
+
+export HOMEBREW_GITHUB_API_TOKEN=""
+
+## Nix
+
+#if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then
+#  source $HOME/.nix-profile/etc/profile.d/nix.sh;
+#fi
+
+## Nix - chruby
+#if [ -e $HOME/.nix-profile/share/chruby/chruby.sh ]; then
+#  source $HOME/.nix-profile/share/chruby/chruby.sh
+#fi
+
+## MacPorts
+
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 # Haskell Stack
 export PATH=$HOME/.local/bin:$PATH
