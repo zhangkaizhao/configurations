@@ -1,8 +1,8 @@
 freeciv         (needs compile, too many dependencies)
 grpc            (needs compile, upgrade failed)
-haproxy         (compile failed)
 unrar           (unfree, needs configuration)
 
+envoy           (unsupported yet)
 espeak          (unsupported yet)
 etcd            (unsupported yet)
 mkvtoolnix      (unsupported yet)

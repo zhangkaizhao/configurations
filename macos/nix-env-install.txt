@@ -19,14 +19,17 @@ dub
 elixir
 erlang
 ffmpeg
+figlet
 gnupg
 go
 gperftools
 graphviz
 groovy
+haproxy
 heroku
 hexyl
 htop
+jq
 kotlin
 ldc
 lua
