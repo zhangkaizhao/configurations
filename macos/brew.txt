@@ -1,0 +1,15 @@
+# Homebrew
+
+## Homebrew Core
+
+Which packages:
+
+* required by Homebrew Cask. e.g. ghostscript is required by MacTex.
+* not found in preferred packages system. e.g. shadowsocks-libev
+
+## Homebrew Cask
+
+Which packages:
+
+* official package
+* does not support auto update
