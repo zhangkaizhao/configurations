@@ -125,3 +125,14 @@ deleted:
 * xf86-input-libinput
 * xf86-video-ati
 * xf86-video-dummy
+
+## 2019-06-21
+
+* figlet
+
+## 2019-07-06
+
+deleted:
+
+* lightdm
+* lightdm-gtk-greeter
