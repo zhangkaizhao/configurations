@@ -143,4 +143,15 @@ deleted:
 
 ## 2019-08-12
 
+added:
+
 * goldendict
+* py36-virtualenv
+
+deleted:
+
+* py27-pip
+* py27-requests
+* py36-pipenv
+* py36-requests
+* python3
