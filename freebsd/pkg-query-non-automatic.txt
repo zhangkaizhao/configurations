@@ -1,3 +1,4 @@
+adapta-gtk-theme
 alacritty
 alsa-utils
 amule
@@ -59,6 +60,7 @@ gnustep
 gnustep-ladder
 gnustep-sudoku
 go
+goldendict
 gorm
 groff
 gstreamer-ffmpeg

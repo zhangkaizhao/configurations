@@ -136,3 +136,11 @@ deleted:
 
 * lightdm
 * lightdm-gtk-greeter
+
+## 2019-07-23
+
+* adapta-gtk-theme
+
+## 2019-08-12
+
+* goldendict
