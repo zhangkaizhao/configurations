@@ -1,0 +1,7 @@
+*
+!.gitignore
+!README*
+!doc.rst
+!sample-*.rst
+!docutils.conf
+!docutils-*.tex
