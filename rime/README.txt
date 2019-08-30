@@ -2,9 +2,9 @@
 
 拼音和潮语
 
-dioghv in gekio == dieghv in dieziu
+dioghv in gekion == dieghv in dieziu
 
-gekio 揭阳
+gekion 揭阳
 
 dieziu 潮州
 
