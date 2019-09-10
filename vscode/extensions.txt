@@ -1,23 +1,26 @@
-# Visual Studio Code extensions
-
-2018-11-04
-
-* bungcip.better-toml
-* davidanson.vscode-markdownlint
-* dbaeumer.vscode-eslint
-* faustinoaq.crystal-lang
-* hackwaly.ocaml
-* joaompinto.asciidoctor-vscode
-* kosz78.nim
-* lextudio.restructuredtext
-* mathiasfrohlich.kotlin
-* mjmcloug.vscode-elixir
-* ms-ceintl.vscode-language-pack-zh-hans
-* ms-python.python
-* ms-vscode.cpptools
-* ms-vscode.go
-* pgourlain.erlang
-* rebornix.ruby
-* redhat.java
-* redhat.vscode-yaml
-* rust-lang.rust
+bungcip.better-toml
+davidanson.vscode-markdownlint
+dbaeumer.vscode-eslint
+faustinoaq.crystal-lang
+hackwaly.ocaml
+joaompinto.asciidoctor-vscode
+kosz78.nim
+lextudio.restructuredtext
+mathiasfrohlich.kotlin
+mjmcloug.vscode-elixir
+ms-azuretools.vscode-docker
+ms-ceintl.vscode-language-pack-zh-hans
+ms-pyright.pyright
+ms-python.python
+ms-vscode.cpptools
+ms-vscode.csharp
+ms-vscode.go
+npruehs.pony
+pgourlain.erlang
+rebornix.ruby
+redhat.java
+redhat.vscode-yaml
+rust-lang.rust
+sissel.shopify-liquid
+veelenga.crystal-ameba
+visualstudioexptteam.vscodeintellicode
