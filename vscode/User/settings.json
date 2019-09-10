@@ -1,0 +1,11 @@
+{
+    "editor.fontFamily": "monospace",
+    "editor.suggestSelection": "first",
+    "files.associations": {
+        "*.lqd": "liquid"
+    },
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
