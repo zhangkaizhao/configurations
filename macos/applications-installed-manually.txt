@@ -1,7 +1,6 @@
 .NET Core SDK                       https://dotnet.microsoft.com/
 Android Studio      (auto update)   https://developer.android.com/studio
 Dash                (auto update)   https://kapeli.com/dash
-Brave               (auto update)   https://www.brave.com/
 Docker Desktop      (auto update)   https://www.docker.com/
 Dropbox                             https://www.dropbox.com/
 Eclipse SDK                         https://www.eclipse.org/
