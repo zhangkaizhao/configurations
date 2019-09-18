@@ -25,6 +25,7 @@ luajit
 mariadb-10.2
 mariadb-10.2-server
 memcached
+neovim
 nginx
 nodejs10
 ocaml

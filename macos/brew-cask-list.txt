@@ -3,6 +3,7 @@ avidemux
 blender
 emacs
 feeds
+geany
 gimp
 gitter
 java
