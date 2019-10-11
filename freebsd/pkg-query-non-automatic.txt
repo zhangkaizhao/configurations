@@ -75,6 +75,7 @@ ja-font-migu
 ja-font-mplus-outline
 jq
 kchmviewer
+kde-baseapps
 keepassxc
 lame
 lato
@@ -98,7 +99,7 @@ nim
 nimble
 ninja
 node
-numix-theme
+npm
 ocaml
 openexr
 openjdk8
@@ -109,6 +110,7 @@ parallel
 pcmanfm-qt
 pidgin
 pkg
+plasma5-plasma
 ponyc
 postgresql10-server
 privoxy
@@ -134,6 +136,7 @@ rubygem-bundler
 rxvt-unicode
 sassc
 scala
+sddm
 sddm-freebsd-black-theme
 shadowsocks-libev
 shards
@@ -173,5 +176,6 @@ zh-fcitx-libpinyin
 zh-moettf
 zh-sourcehansans-sc-otf
 zh-sourcehanserif-sc-otf
+zig
 zsh
 zsh-syntax-highlighting

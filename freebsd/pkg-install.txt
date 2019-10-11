@@ -155,3 +155,18 @@ deleted:
 * py36-pipenv
 * py36-requests
 * python3
+
+## 2019-09-07
+
+* npm
+* ruby26
+
+## 2019-09-21
+
+* sddm
+* plasma5-plasma
+* kde-baseapps
+
+## 2019-10-11
+
+* zig
