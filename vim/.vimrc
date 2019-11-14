@@ -175,6 +175,8 @@ if exists('*minpac#init')
 
   " pylint disabled
   let g:ale_python_pylint_executable = ''
+  " mypy disabled
+  let g:ale_python_mypy_executable = ''
 
   " - lightline.vim
   set laststatus=2
