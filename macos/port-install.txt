@@ -59,3 +59,4 @@ wget
 wrk
 xz
 yarn
+zig
