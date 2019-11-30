@@ -8,7 +8,6 @@ cscope
 ctags
 dmd
 doxygen
-dub
 elixir
 erlang
 figlet
@@ -27,7 +26,7 @@ mariadb-10.2-server
 memcached
 neovim
 nginx
-nodejs10
+nodejs12
 ocaml
 opam
 openjdk8-openj9
@@ -36,8 +35,10 @@ postgresql11
 postgresql11-server
 privoxy
 protobuf3-cpp
+py38-ipython
+py38-virtualenv
 pypy3
-python37
+python38
 rabbitmq-server
 rebar
 rebar3
@@ -46,7 +47,7 @@ rlwrap
 ruby26
 sassc
 sbcl
-scala2.12
+scala2.13
 shards
 sqlite3
 thrift
