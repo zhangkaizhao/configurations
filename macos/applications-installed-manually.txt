@@ -13,6 +13,7 @@ IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
 LibreOffice                         https://www.libreoffice.org/
 MacPass             (auto update)   https://macpassapp.org/
+NetEase cloud music (auto update)   https://music.163.com/
 OneDrive                            https://onedrive.live.com/
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/

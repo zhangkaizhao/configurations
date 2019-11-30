@@ -16,7 +16,6 @@ lighttable
 mactex
 mgba
 mpv
-neteasemusic
 pencil
 powershell
 qbittorrent
