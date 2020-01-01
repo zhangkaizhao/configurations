@@ -170,3 +170,14 @@ deleted:
 ## 2019-10-11
 
 * zig
+
+## 2019-12-29
+
+* ldc
+* python38
+* geany
+* geany-plugins
+
+## 2020-01-01
+
+* virtualbox-ose

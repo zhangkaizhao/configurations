@@ -50,6 +50,8 @@ fusefs-ext2
 fusefs-ntfs
 gcc
 gdisk
+geany
+geany-plugins
 gimp
 git
 gnome-icons-elementary
@@ -79,6 +81,7 @@ kde-baseapps
 keepassxc
 lame
 lato
+ldc
 libreoffice
 libressl
 lighttpd
@@ -119,6 +122,7 @@ py37-sqlite3
 py37-tkinter
 pypy3
 python37
+python38
 qbittorrent
 qpdfview
 qstardict
@@ -158,6 +162,7 @@ unrar
 urwfonts
 urxvt-font-size
 vim
+virtualbox-ose
 vlc
 wesnoth
 wget
