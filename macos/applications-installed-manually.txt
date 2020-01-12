@@ -15,6 +15,7 @@ LibreOffice                         https://www.libreoffice.org/
 MacPass             (auto update)   https://macpassapp.org/
 NetEase cloud music (auto update)   https://music.163.com/
 OneDrive                            https://onedrive.live.com/
+PxCook                              https://www.fancynode.com.cn/pxcook
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
 Steam               (auto update)   https://store.steampowered.com/about/
