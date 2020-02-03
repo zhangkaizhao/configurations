@@ -3,6 +3,12 @@ avidemux
 blender
 emacs
 feeds
+font-cascadia-mono
+font-cascadia-mono-pl
+font-jetbrains-mono
+font-pt-mono
+font-ubuntu
+font-victor-mono
 geany
 gimp
 gitter
