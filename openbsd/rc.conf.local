@@ -1,3 +1,4 @@
 apmd_flags="-A"
 multicast=YES
-pkg_scripts="apmd messagebus avahi_daemon gdm privoxy"
+#pkg_scripts="apmd messagebus avahi_daemon gdm privoxy"
+pkg_scripts="apmd messagebus avahi_daemon"

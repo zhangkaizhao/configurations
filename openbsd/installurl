@@ -1,2 +1,4 @@
 #https://cdn.openbsd.org/pub/OpenBSD
-http://ftp.jaist.ac.jp/pub/OpenBSD
+#http://ftp.jaist.ac.jp/pub/OpenBSD
+#https://mirrors.tuna.tsinghua.edu.cn/OpenBSD
+https://mirrors.bfsu.edu.cn/OpenBSD

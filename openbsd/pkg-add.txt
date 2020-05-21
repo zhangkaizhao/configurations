@@ -31,7 +31,7 @@ Firmware automatically installed after the first time booting into os:
 
 ## 2018-10-31
 
-* gnome
+* gnome (meta)
 
 ## 2018-11-01
 
@@ -116,3 +116,44 @@ Firmware automatically installed after the first time booting into os:
 deleted:
 
 * migu
+
+## 2020-05-18
+
+* mate (meta)
+
+## 2020-05-19
+
+* curl
+* zip
+* unzip
+* unrar
+* p7zip
+* qterminal
+
+* fcitx
+* fcitx-gtk3
+* fcitx-qt5
+
+* portslist (for ports)
+
+* mate-extras (meta: atril, mate-system-monitor, mate-utils, mate-calc, mate-control-center, engrampa, eom, pluma)
+
+* clisp
+* crystal
+
+deleted:
+
+* gnome (meta)
+* asciidoc
+* chrome-gnome-shell
+* gcc--%4.9
+* ghc
+* mono
+* nim
+* txt2tags
+* (some fonts)
+
+## 2020-05-21
+
+* scrot
+* screenfetch
