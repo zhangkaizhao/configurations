@@ -1,5 +1,5 @@
+amule--
 audacious--
-audacious-plugins--
 chromium--
 clisp--
 cmake--
@@ -14,6 +14,7 @@ fcitx-pinyin--
 fcitx-qt5--
 ffmpeg--
 firefox--
+firefox-i18n-zh-CN--
 font-awesome--
 freeciv-client--
 freeciv-server--
@@ -22,6 +23,7 @@ gimp--
 git--
 go--
 htop--
+janet--
 jdk--%11
 keepassxc--
 libreoffice--
@@ -30,6 +32,7 @@ mariadb-server--
 mate--
 mate-extras--
 mercurial--
+mldonkey--
 mplus-fonts--
 mpv--
 node--
@@ -44,6 +47,7 @@ privoxy--
 py3-pip--
 py3-virtualenv--
 python--%3.7
+python--%3.8
 qbittorrent--
 qterminal--
 quirks--

@@ -157,3 +157,13 @@ deleted:
 
 * scrot
 * screenfetch
+
+## 2020-05-22
+
+Upgraded to OpenBSD 6.7.
+
+The audacious package is a meta package now with audacious-player and audacious-plugins packages.
+
+* amule
+* mldonkey
+* janet
