@@ -17,3 +17,6 @@ export PATH=/usr/local/jdk-11/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 # ghcup 2018-12-07
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+
+# Disable core dumps 2020-06-11
+ulimit -c 0
