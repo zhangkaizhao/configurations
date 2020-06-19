@@ -35,6 +35,7 @@ mercurial--
 mldonkey--
 mplus-fonts--
 mpv--
+netsurf--
 node--
 noto-fonts--
 ocaml--
@@ -72,5 +73,6 @@ wesnoth--
 wget--
 zeal--
 zh-fonts-arphicttf--
+zh-wqy-bitmapfont--
 zh-wqy-zenhei-ttf--
 zip--
