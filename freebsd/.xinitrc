@@ -19,4 +19,8 @@ export QT_IM_MODULE=fcitx
 
 #exec /usr/local/bin/startfluxbox
 
-exec ck-launch-session gnome-session
+#exec ck-launch-session gnome-session
+
+exec ck-launch-session mate-session
+
+#exec startplasma-x11

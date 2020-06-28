@@ -181,3 +181,16 @@ deleted:
 ## 2020-01-01
 
 * virtualbox-ose
+
+## 2020-06-05
+
+* mate (meta)
+
+## 2020-06-12
+
+* drm-kmod
+* ubuntu-font
+
+## 2020-06-23
+
+* ipmitool

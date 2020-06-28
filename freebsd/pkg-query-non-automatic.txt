@@ -30,6 +30,7 @@ dlang-tools
 dlangide
 docker
 docker-machine
+drm-kmod
 dub
 e2fsprogs
 elixir
@@ -73,6 +74,7 @@ htop
 inkscape
 intellij
 iosevka
+ipmitool
 ja-font-migu
 ja-font-mplus-outline
 jq
@@ -87,6 +89,7 @@ libressl
 lighttpd
 lilyterm
 lsof
+mate
 materia-gtk-theme
 mesa-demos
 meslo
@@ -106,7 +109,6 @@ npm
 ocaml
 openexr
 openjdk8
-openshot
 p7zip
 p7zip-codec-rar
 parallel
@@ -158,6 +160,7 @@ tcshrc
 telegram-desktop
 thunderbird
 tome4
+ubuntu-font
 unrar
 urwfonts
 urxvt-font-size
