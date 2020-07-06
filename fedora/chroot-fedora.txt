@@ -1,0 +1,16 @@
+# chroot fedora
+
+2020-07-02
+
+https://docs.fedoraproject.org/en-US/quick-docs/bootloading-with-grub2/#restoring-bootloader-using-live-disk
+
+# mkdir -p /mnt/fedora
+
+# mount /dev/sdaX /mnt/fedora
+
+# mount -o bind /dev /mnt/fedora/dev
+# mount -o bind /proc /mnt/fedora/proc
+# mount -o bind /sys /mnt/fedora/sys
+# mount -o bind /run /mnt/fedora/run
+
+# chroot /mnt/fedora
