@@ -4,6 +4,7 @@ Default fonts:
 
 * sans-serif: Lato
 * serif: Merriweather
+* monospace: Ubuntu Mono
 
 Fallback for CJK fonts: Source Han fonts, WenQuanYi fonts, Arphic fonts.
 
