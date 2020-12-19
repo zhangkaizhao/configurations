@@ -1,0 +1,37 @@
+# pkg
+
+pkg_info pkgname
+
+  show information of the installed package
+
+pkg_info -Q pattern
+
+  search package
+
+pkg_info -E /path/to/file
+
+  look for packages that contains the given /path/to/file
+
+pkg_info -L pkgname
+
+  show the files within the package
+
+pkg_add -n pkgname
+
+  pretend to install the package (copy packages to PKG_CACHE)
+
+pkg_add -a pkgname
+
+  install the package as installed automatically
+
+pkg_add -aa pkgname
+
+  mark installed package to be installed automatically
+
+pkg_delete pkgname
+
+  delete the installed package
+
+pkg_delete -a
+
+  delete unused dependencies (packages that are not needed by anything marked as installed manually)
