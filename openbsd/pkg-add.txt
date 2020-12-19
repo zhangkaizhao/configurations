@@ -175,3 +175,11 @@ The audacious package is a meta package now with audacious-player and audacious-
 ## 2020-06-19
 
 * zh-wqy-bitmapfont
+
+## 2020-12-19
+
+* lxqt
+
+deleted:
+
+* netsurf

@@ -27,6 +27,7 @@ janet--
 jdk--%11
 keepassxc--
 libreoffice--
+lxqt--
 mariadb-client--
 mariadb-server--
 mate--
@@ -35,7 +36,6 @@ mercurial--
 mldonkey--
 mplus-fonts--
 mpv--
-netsurf--
 node--
 noto-fonts--
 ocaml--
