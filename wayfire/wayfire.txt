@@ -1,0 +1,32 @@
+Wayfire
+
+wayfire
+wf-shell
+wcm
+wayfire-plugins-extra
+
+# Terminal
+alacritty
+
+# Output
+kanshi
+
+# Notifications
+mako
+
+# Idle and Screen locker
+swayidle
+swaylock
+
+# Launcher
+wofi
+
+# Logout
+wlogout
+
+# Screenshots
+grim
+slurp
+
+# Screen brightness
+light
