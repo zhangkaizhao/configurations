@@ -106,16 +106,26 @@ autocmd FileType yaml setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2
 silent! set packpath^=~/.vim
 silent! packadd minpac
 
-if exists('*minpac#init')
+if exists('g:loaded_minpac')
   call minpac#init()
   call minpac#add('k-takata/minpac', {'type': 'opt'})
 
   " ALE https://github.com/w0rp/ale
   call minpac#add('w0rp/ale')
-  " bufferhint https://github.com/bsdelf/bufferhint.git
+  " base16-vim https://github.com/chriskempson/base16-vim
+  call minpac#add('chriskempson/base16-vim')
+  " bufferhint https://github.com/bsdelf/bufferhint
   call minpac#add('bsdelf/bufferhint')
-  " idris-vim https://github.com/idris-hackers/idris-vim.git
+  " elm-vim https://github.com/ElmCast/elm-vim
+  call minpac#add('ElmCast/elm-vim')
+  " gleam.vim https://github.com/gleam-lang/gleam.vim
+  call minpac#add('gleam-lang/gleam.vim')
+  " idris-vim https://github.com/idris-hackers/idris-vim
   call minpac#add('idris-hackers/idris-vim')
+  " inko.vim https://gitlab.com/inko-lang/inko.vim
+  "call minpac#add('https://gitlab.com/inko-lang/inko.vim')
+  " janet.vim https://github.com/janet-lang/janet.vim
+  call minpac#add('bakpakin/janet.vim')
   " kotlin-vim https://github.com/udalov/kotlin-vim
   call minpac#add('udalov/kotlin-vim')
   " lightline.vim https://github.com/itchyny/lightline.vim
@@ -124,37 +134,47 @@ if exists('*minpac#init')
   call minpac#add('scrooloose/nerdtree')
   " nim.vim https://github.com/zah/nim.vim
   call minpac#add('zah/nim.vim')
-  " rust.vim https://github.com/rust-lang/rust.vim.git
+  " Odin.vim https://github.com/Tetralux/odin.vim
+  call minpac#add('Tetralux/odin.vim')
+  " rust.vim https://github.com/rust-lang/rust.vim
   call minpac#add('rust-lang/rust.vim')
   " swift.vim https://github.com/keith/swift.vim
   call minpac#add('keith/swift.vim')
   " typescript-vim https://github.com/leafgarland/typescript-vim
   call minpac#add('leafgarland/typescript-vim')
-  " vim-crystal https://github.com/rhysd/vim-crystal.git
-  call minpac#add('rhysd/vim-crystal')
-  " vim-elixir https://github.com/elixir-editors/vim-elixir.git
+  " vala.vim https://github.com/arrufat/vala.vim
+  call minpac#add('arrufat/vala.vim')
+  " vim-crystal https://github.com/vim-crystal/vim-crystal
+  call minpac#add('vim-crystal/vim-crystal')
+  " vim-elixir https://github.com/elixir-editors/vim-elixir
   call minpac#add('elixir-editors/vim-elixir')
-  " vim-fish https://github.com/dag/vim-fish.git
+  " vim-fish https://github.com/dag/vim-fish
   call minpac#add('dag/vim-fish')
-  " vim-go https://github.com/fatih/vim-go.git
+  " vim-go https://github.com/fatih/vim-go
   call minpac#add('fatih/vim-go')
-  " vim-markdown-preview https://github.com/JamshedVesuna/vim-markdown-preview.git
+  " vim-graphql https://github.com/jparise/vim-graphql
+  call minpac#add('jparise/vim-graphql')
+  " vim-markdown-preview https://github.com/JamshedVesuna/vim-markdown-preview
   call minpac#add('JamshedVesuna/vim-markdown-preview')
+  " vim-nix https://github.com/LnL7/vim-nix
+  call minpac#add('LnL7/vim-nix')
   " vim-pony https://github.com/jakwings/vim-pony
   call minpac#add('jakwings/vim-pony')
-  " vim-preview https://github.com/greyblake/vim-preview.git
+  " vim-preview https://github.com/greyblake/vim-preview
   call minpac#add('greyblake/vim-preview')
-  " vim-racer https://github.com/racer-rust/vim-racer.git
+  " vim-racer https://github.com/racer-rust/vim-racer
   call minpac#add('racer-rust/vim-racer')
   " vim-radon https://github.com/rubik/vim-radon
   call minpac#add('rubik/vim-radon')
+  " vim-rails https://github.com/tpope/vim-rails
+  call minpac#add('tpope/vim-rails')
   " vim-signify https://github.com/mhinz/vim-signify
   call minpac#add('mhinz/vim-signify')
   " vim-slim https://github.com/slim-template/vim-slim
   call minpac#add('slim-template/vim-slim')
-  " vim-toml https://github.com/cespare/vim-toml.git
+  " vim-toml https://github.com/cespare/vim-toml
   call minpac#add('cespare/vim-toml')
-  " vim-vue https://github.com/posva/vim-vue.git
+  " vim-vue https://github.com/posva/vim-vue
   call minpac#add('posva/vim-vue')
   " zig.vim https://github.com/ziglang/zig.vim
   call minpac#add('ziglang/zig.vim')
@@ -177,6 +197,12 @@ if exists('*minpac#init')
   let g:ale_python_pylint_executable = ''
   " mypy disabled
   let g:ale_python_mypy_executable = ''
+
+  " rls disabled
+  let g:ale_rust_rls_executable = ''
+
+  " - base16-vim https://github.com/chriskempson/base16-vim
+  "colorscheme base16-materia
 
   " - lightline.vim
   set laststatus=2
