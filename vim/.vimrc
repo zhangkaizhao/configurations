@@ -140,6 +140,8 @@ if exists('g:loaded_minpac')
   call minpac#add('rust-lang/rust.vim')
   " swift.vim https://github.com/keith/swift.vim
   call minpac#add('keith/swift.vim')
+  " Tagbar https://github.com/preservim/tagbar
+  call minpac#add('preservim/tagbar')
   " typescript-vim https://github.com/leafgarland/typescript-vim
   call minpac#add('leafgarland/typescript-vim')
   " vala.vim https://github.com/arrufat/vala.vim
@@ -214,6 +216,9 @@ if exists('g:loaded_minpac')
   " - NERDTree
   map <C-o> :NERDTreeToggle<CR>
   let NERDTreeShowHidden = 1
+
+  " - Tagbar
+  nmap <F8> :TagbarToggle<CR>
 
   " - zig.vim
   let g:zig_fmt_autosave = 0
