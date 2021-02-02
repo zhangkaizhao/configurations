@@ -1,8 +1,8 @@
 # Wayfire
 
-2020-01-08
+2021-02-02
 
-Try Wayfire 0.6.0 on Arch Linux.
+Try Wayfire 0.7.0 on Arch Linux.
 
 https://wayfire.org/
 
@@ -41,14 +41,13 @@ See `wayfire.txt`.
 
 ## known issues
 
-wayfire core issues:
-
-* the whole wayfire session crashes while closing a window if `animate` plugin is disabled
-  (so `animate` plugin can not be disabled now)
-* there are no buttons for window actions for gtk2 applications if `decoration` plugin is disabled
-  (instead `<super> KEY_Q` or `<alt> KEY_F4` can be used to close current window)
-
 applications do not work:
 
 * goldendict (failed to start, coredump)
 * zeal (failed to start, coredump)
+
+## tips
+
+* there are no buttons for window actions of some applications e.g. gtk2 applications if `decoration` plugin is disabled
+  (and `<super> KEY_Q` or `<alt> KEY_F4` can be used to close current window)
+

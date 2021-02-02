@@ -14,6 +14,9 @@ kanshi
 # Notifications
 mako
 
+# Screen color temperature
+wlsunset
+
 # Idle and Screen locker
 swayidle
 swaylock
