@@ -39,13 +39,6 @@ See `wayfire.txt`.
 * KEY_BRIGHTNESSDOWN (e.g. KEY_Fn KEY_F5): brightness down (light -U 5 by default)
 * KEY_BRIGHTNESSUP (e.g. KEY_Fn KEY_F6): brightness up (light -A 5 by default)
 
-## known issues
-
-applications do not work:
-
-* goldendict (failed to start, coredump)
-* zeal (failed to start, coredump)
-
 ## tips
 
 * there are no buttons for window actions of some applications e.g. gtk2 applications if `decoration` plugin is disabled

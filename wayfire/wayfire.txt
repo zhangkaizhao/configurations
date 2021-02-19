@@ -3,7 +3,6 @@ Wayfire
 wayfire
 wf-shell
 wcm
-wayfire-plugins-extra
 
 # Terminal
 alacritty
