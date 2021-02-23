@@ -4,13 +4,15 @@ Default fonts:
 
 * sans-serif: Lato
 * serif: Merriweather
-* monospace: Ubuntu Mono
+* monospace: Fantasque Sans Mono
 
-Fallback for CJK fonts: Source Han fonts, WenQuanYi fonts, Arphic fonts.
+Fallback CJK fonts sorted by priority: LXGW WenKai, Source Han fonts, WenQuanYi fonts, Arphic fonts.
 
 ----
 
-Q: Why Source Han fonts over other CJK fonts for CJK fonts?
+Notes:
 
-A: Because Source Han fonts have Bold font style and the others only have regular font style.
-   And the others which do not base on Source Han fonts have not enought CJK characters.
+Advantages of Source Han CJK fonts (Source Han Sans and Source Han Serif):
+
+1. Source Han fonts have Bold font style and most of the other fonts only have regular font style.
+2. Most of the other fonts (those do not base on Source Han CJK fonts) do not have enought CJK characters.
