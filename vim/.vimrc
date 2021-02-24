@@ -195,6 +195,9 @@ if exists('g:loaded_minpac')
   let g:ale_lint_on_insert_leave = 1
   "let g:airline#extensions#ale#enabled = 1
 
+  " ccls options https://github.com/MaskRay/ccls/wiki/Customization#initialization-options
+  let g:ale_c_ccls_init_options = { 'cache': { 'directory': '/tmp/ccls-cache', }, }
+
   " pylint disabled
   let g:ale_python_pylint_executable = ''
   " mypy disabled
@@ -205,6 +208,11 @@ if exists('g:loaded_minpac')
 
   " - base16-vim https://github.com/chriskempson/base16-vim
   "colorscheme base16-materia
+
+
+  " - Buffer Hint: https://bsdelf.github.io/posts/intro-buffer-hint
+  nnoremap - :call bufferhint#Popup()<CR>
+  nnoremap \ :call bufferhint#LoadPrevious()<CR>
 
   " - lightline.vim
   set laststatus=2
@@ -225,10 +233,6 @@ if exists('g:loaded_minpac')
 endif
 
 " => keymap
-
-" Buffer Hint: https://bsdelf.github.io/posts/intro-buffer-hint
-nnoremap - :call bufferhint#Popup()<CR>
-nnoremap \ :call bufferhint#LoadPrevious()<CR>
 
 " => others
 
