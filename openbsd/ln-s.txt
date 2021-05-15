@@ -5,3 +5,5 @@
 For Git GPG sign:
 
 ln -s /usr/local/bin/gpg2 /usr/local/bin/gpg
+
+note: removed on 2021-05-15 because gpg2 pkg uses this path for its binary path and gpg2 is a soft link to it now.

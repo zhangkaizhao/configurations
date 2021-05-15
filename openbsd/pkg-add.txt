@@ -179,7 +179,18 @@ The audacious package is a meta package now with audacious-player and audacious-
 ## 2020-12-19
 
 * lxqt
+* lximage-qt
+* pavucontrol-qt
+* screengrab
+
+* featherpad
+* kitty
+* mupdf
 
 deleted:
 
 * netsurf
+
+## 2021-05-15
+
+* ruby (ruby-3.0.1)
