@@ -1,5 +1,6 @@
 7zip
 alacritty [extra]
+Audacious [extra]
 apache
 cacert
 cmake
@@ -7,17 +8,23 @@ consul
 cpu-z [extra]
 curl
 deno
+dig
 dmd
 emule-community [extra]
 gawk
 gpu-z [extra]
+goldendict [extra]
 graphviz
 jq
 julia
 keepassxc [extra]
 krita [extra]
+linkerd [extra]
 make
 mariadb
+mdbook
+minio
+minio-client
 mpv-git [extra]
 neovim
 nginx
@@ -26,10 +33,13 @@ privoxy [extra]
 protobuf [extra]
 redis
 ripgrep
+rust-analyzer
+shadowsocks-rust
 sqlite
 telegram [extra]
 unrar
 unzip
 vim
+vlc [extra]
 wget
-ziglang
+zeal

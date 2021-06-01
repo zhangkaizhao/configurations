@@ -1,4 +1,7 @@
 # Scoop
 
-* official package
-* do not install applications which need simulated environment
+Which packages?
+
+* official packages
+* do not need "simulated environment" (appending path to PATH environment)
+* do not support auto update
