@@ -2,7 +2,7 @@
 
 Default fonts:
 
-* sans-serif: Lato
+* sans-serif: Open Sans
 * serif: Merriweather
 * monospace: Fantasque Sans Mono
 
