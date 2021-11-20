@@ -1,0 +1,188 @@
+# CJK fonts
+
+My preference for fallback CJK fonts is new fonts > Source Han fonts > other new fonts > WenQuanYi fonts > Arphic fonts.
+
+Most of the CJK fonts are still in active development. They will be better and better.
+
+## Overview
+
+Overview of CJK fonts of sans-serif for Simplified Chinese now:
+
+1) Swei Gothic CJK SC is the best at this time. Although it has an issue about leg-ectomy of Source Han Sans SC.
+2) Source Han Sans SC has a line gap issue which resulting in too high font height.
+3) Most of other Source Han Sans SC based fonts have character issues.
+4) Most of other not Source Han Sans SC based CJK fonts of serif have only one font weight or not enough CJK characters.
+
+Overview of CJK fonts of serif for Simplifided Chinese now:
+
+1) Swei Sugar CJK SC is the best at this time.
+2) Source Han Sans SC has a line gap issue which resulting in too high font height.
+3) Most of other Source Han Serif SC based fonts have character issues.
+4) Most of other not Source Han Serif SC based CJK fonts of serif have only one font weight or not enough CJK characters.
+
+## Source Han CJK fonts (Source Han Sans and Source Han Serif)
+
+Advantages:
+
+1) Source Han fonts have most font weights and most of the other fonts have very little font weights or only Regular.
+2) Most of other not Source Han CJK fonts based fonts do not have enough CJK characters.
+
+Disadvantages:
+
+1) Source Han Sans SC and Source Han Serif SC have a line gap issue which resulting in too high font height.
+
+## Other fonts and their issues
+
+### san-serif
+
+1. LXGW WenKai
+
+Very formal and beautiful!
+
+LXGW WenKai has bold and light font weight since [0.301][LXGW WenKai 0.301].
+
+[LXGW WenKai 0.301]: https://github.com/lxgw/LxgwWenKai/releases/tag/0.301
+
+1) Its bold weight is not bold enough.
+
+2. JiangChengYuanTi
+
+Not bad!
+
+1) Some characters in the font are not for Simplified Chinese but Traditional Chinese (Taiwan/Japanese/...).
+
+3. LXGW New Clear Gothic
+
+1) It only has two font weight Regular and Book.
+
+4. MaoKenTangYuan
+
+1) Some characters in the font are not for Simplified Chinese but Traditional Chinese (Taiwan/Japanese/...).
+2) It only has one font weight now.
+3) It has not enough CJK characters now.
+
+5. Kingnam Maiyuan
+
+1) Some strokes have design problems which resulting in hardly distinguishable. e.g. "干" vs. "千" and so on.
+2) It only has one font weight now.
+
+6. Yozai
+
+1) The display is not clear enough for small font sizes. e.g. text of WikiPedia.
+
+7. Droid Sans Fallback and WenQuanYi fonts
+
+Droid Sans Fallback [already][Droid Sans on maoken] had more CJK characters than WenQuanYi fonts.
+
+[Droid Sans on maoken]: https://www.maoken.com/freefonts/2428.html
+
+1) They only have one font weight.
+
+### serif
+
+1. Clear Han Serif
+
+Very beautiful!
+
+1) It only has one font weight now.
+
+2. FlyFlowerSong
+
+Not bad!
+
+1) It only has one font weight now.
+
+3. I.Ming
+
+Not bad!
+
+1) Some characters in the font are not for Simplified Chinese but Traditional Chinese (Taiwan/Japanese/...).
+2) It only has one font weight now.
+
+4. HanaMinA/HanaMinB
+
+Not bad!
+
+1) Some characters in the font are not for Simplified Chinese but Traditional Chinese (Taiwan/Japanese/...).
+2) It only has one font weight now.
+
+5. MaoKenWangZhenYaSong
+
+1) Some characters in the font have issues due to the transition from its original font.
+2) It only has one font weight now.
+
+### Arphic fonts
+
+1) They only have one font weight.
+2) They may have copyright issues.
+
+## Fallback CJK fonts in web browsers
+
+1. Firefox
+
+Firefox is the only web browser which has complete and correct support of fallback CJK fonts at the moment.
+
+2. Google Chrome and other Chromium-based web browsers
+
+1) They only pick the first matched sans-serif CJK font for all(sans-serif, serif, monospace).
+2) They just ignore real font files of font weights and only use one font weight to emulating other font weights.
+
+3. Otter browser, Midori and other Webkit-based web browsers
+
+1) They only pick the first matched sans-serif CJK font for all(sans-serif, serif, monospace).
+2) They use real font files of font weights.
+
+## Appendix: Font sources
+
+### Fonts which have own home page or repository
+
+sans-serif:
+
+* 思源黑体 Source Han Sans https://github.com/adobe-fonts/source-han-sans
+* 獅尾圓體 Swei Gothic https://github.com/max32002/swei-gothic
+* 霞鹜文楷 LXGW WenKai https://github.com/lxgw/LxgwWenKai
+* 霞鹜新晰黑 LXGW New Clear Gothic https://github.com/lxgw/LxgwNewClearGothic
+* 猫啃网糖圆体 MaoKenTangYuan https://github.com/NightFurySL2001/TangYuan-font
+* 悠哉字体 Yozai https://github.com/lxgw/yozai-font
+
+serif:
+
+* 思源宋体 Source Han Serif https://github.com/adobe-fonts/source-han-serif
+* 獅尾加糖宋體 Swei Sugar https://github.com/max32002/swei-sugar
+* I.明體 I.Ming https://github.com/ichitenfont/I.Ming
+* 花園明朝 HanaMinA/HanaMinB http://fonts.jp/hanazono/
+
+### Maoken free Chinese fonts
+
+猫啃 Maoken: https://www.maoken.com/
+
+sans-serif:
+
+* 思源黑体 Source Han Sans https://www.maoken.com/freefonts/657.html
+* 獅尾圓體 Swei Gothic https://www.maoken.com/freefonts/4006.html
+* 江城圆体 JiangChengYuanTi https://www.maoken.com/freefonts/4916.html
+* 霞鹜文楷 LXGW WenKai https://www.maoken.com/freefonts/9704.html
+* 霞鹜新晰黑 LXGW New Clear Gothic https://www.maoken.com/freefonts/8999.html
+* 猫啃网糖圆体 MaoKenTangYuan https://www.maoken.com/tangyuan
+* 荆南麦圆体 Kingnam Maiyuan https://www.maoken.com/freefonts/12727.html
+* 悠哉字体 Yozai https://www.maoken.com/freefonts/5423.html
+
+serif:
+
+* 思源宋体 Source Han Serif https://www.maoken.com/freefonts/664.html
+* 屏显臻宋 Clear Han Serif https://www.maoken.com/freefonts/3329.html
+* 飞花宋体 FlyFlowerSong https://www.maoken.com/freefonts/10168.html
+* 獅尾加糖宋體 Swei Sugar https://www.maoken.com/freefonts/7889.html
+* I.明體 I.Ming https://www.maoken.com/freefonts/139.html
+* 花園明朝 HanaMinA/HanaMinB https://www.maoken.com/freefonts/112.html
+
+其他：
+
+* 演示夏行楷 Slidexiaxing https://www.maoken.com/freefonts/6085.html
+* 演示悠然小楷 slideyouran https://www.maoken.com/freefonts/3521.html
+* 杨任东竹石体 https://www.maoken.com/freefonts/760.html
+* 齊伋體 https://www.maoken.com/freefonts/3094.html https://github.com/LingDong-/qiji-font
+* 仓耳舒圆体 https://www.maoken.com/freefonts/6941.html
+* 雷盖体 Reggae https://www.maoken.com/freefonts/13389.html
+* しっぽり明朝 Shippori Mincho https://www.maoken.com/freefonts/11145.html
+* 細鳴りフォント https://www.maoken.com/freefonts/5239.html

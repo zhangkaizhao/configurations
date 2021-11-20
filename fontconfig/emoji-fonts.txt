@@ -1,0 +1,158 @@
+# Emoji fonts
+
+Display in general applications:
+
+------------------------------------------------------------------
+                     | GTK            | Qt    | Alacritty | Kitty
+------------------------------------------------------------------
+ JoyPixels           | COLOR [^gtk-1] | COLOR | COLOR     | COLOR
+------------------------------------------------------------------
+ Noto Color Emoji    | COLOR [^gtk-1] | COLOR | COLOR     | COLOR
+------------------------------------------------------------------
+ Twemoji             | COLOR
+------------------------------------------------------------------
+ OpenMoji            | B/W [^gtk-1]   | B/W   | B/W       | B/W
+------------------------------------------------------------------
+ Twitter Color Emoji | B/W
+------------------------------------------------------------------
+
+[^gtk-1]: B/W or TOFU only in XFCE4 Terminal
+
+Display in web browsers:
+
+--------------------------------------------------------------------
+                        | Firefox | Google Chrome | Midori | Falkon
+--------------------------------------------------------------------
+ JoyPixels              | COLOR
+--------------------------------------------------------------------
+ Noto Color Emoji       | COLOR
+--------------------------------------------------------------------
+ Twemoji                | COLOR
+--------------------------------------------------------------------
+ OpenMoji               | B/W
+--------------------------------------------------------------------
+ Twitter Color Emoji    | COLOR   | B/W           | B/W    | B/W
+--------------------------------------------------------------------
+
+Display in generated PDF from HTML:
+
+--------------------------------------------------------------------------------------------------
+                     | Firefox | Google Chrome       | Midori | Falkon              | wkhtmltopdf
+--------------------------------------------------------------------------------------------------
+ JoyPixels           | TOFU    | in atril    | BLACK | COLOR  | in atril    | BLACK | TOFU
+                     |         |-------------|-------|        |---------------------|
+                     |         | in qpdfview | COLOR |        | in qpdfview | COLOR |
+--------------------------------------------------------------------------------------------------
+ Noto Color Emoji    | COLOR   | in atril    | BLACK | COLOR  | in atril    | BLACK | TOFU
+                     |         |-------------|-------|        |---------------------|
+                     |         | in qpdfview | COLOR |        | in qpdfview | COLOR |
+--------------------------------------------------------------------------------------------------
+ Twemoji             | TOFU    | in atril    | BLACK | COLOR  | in atril    | BLACK | TOFU
+                     |         |-------------|-------|        |---------------------|
+                     |         | in qpdfview | COLOR |        | in qpdfview | COLOR |
+--------------------------------------------------------------------------------------------------
+ OpenMoji            | B/W
+--------------------------------------------------------------------------------------------------
+ Twitter Color Emoji | COLOR   | B/W                 | B/W    | B/W                 | B/W
+--------------------------------------------------------------------------------------------------
+
+Tests:
+
+* Test environment:
+
+  * Arch Linux x86_64 5.15.2-arch1-1
+  * LANG=zh_CN.UTF-8
+  * fontconfig 2.13.94
+  * freetype 2.11.0
+
+* Test Emoji fonts:
+
+  * JoyPixels 6.6.0
+  * Noto Color Emoji 20211101
+  * Twemoji 13.1.0 (https://aur.archlinux.org/ttf-twemoji)
+  * OpenMoji 13.1.0 (https://aur.archlinux.org/otf-openmoji)
+  * Twitter Color Emoji 13.1.0 (https://aur.archlinux.org/ttf-twemoji-color)
+
+* Tested GTK(gtk3) applications:
+
+  * XFCE4 Terminal 0.8.10
+  * MATE Terminal 1.26.0
+  * mousepad 0.5.7
+  * Pluma 1.26.0
+  * Sublime Text 4121
+  * Visual Studio Code 1.62.3
+
+* Tested Qt(qt5) applications:
+
+  * qTerminal 1.0.0
+  * Notepadqq 1.4.8
+  * FeatherPad 1.0.1
+
+* Tested GPU-based applications:
+
+  * Alacritty 0.9.0
+  * Kitty 0.23.1
+
+* Tested GTK-based(gtk3) web browser:
+
+  * Firefox 94.0.2
+  * Google Chrome 96.0.4664.45
+  * Midori 9.0
+
+* Tested Qt-Based(qt5) web browser:
+
+  * Falkon 3.1.0
+
+Notes:
+
+1) It seems that JoyPixels is hidden from `fc-match` when Twemoji is available.
+   (maybe because of `/usr/share/fontconfig/conf.avail/75-twemoji.conf`)
+2) The above result is made for each Emoji font when it is the only available Emoji font.
+3) Some applications behave strangely when there are more than one Emoji font available.
+4) Most general GTK applications use Noto Color Emoji if Noto Color Emoji is available.
+5) Most general Qt applications and Alacritty performs well on the preference for Emoji fonts.
+6) Kitty uses Noto Color Emoji if Noto Color Emoji is available.
+7) Firefox itself has its own default Emoji font placed in `/usr/lib/firefox/fonts/TwemojiMozilla.ttf`.
+8) Google Chrome/Falkon (blink-based) use Noto Color Emoji if Noto Color Emoji is available.
+9) Midori (webkit-based) performs well on (the preference for) Emoji fonts.
+10) In generated PDF from HTML, OpenMoji/Twitter Color Emoji are embedded as normal fonts.
+
+At last my preference for Emoji fonts is Noto Color Emoji > JoyPixels > Twemoji > Twitter Color Emoji > OpenMoji.
+(for a generic preference for Emoji fonts provided by fontconfig see `/usr/share/fontconfig/conf.avail/60-generic.conf`)
+
+## References
+
+Emoji and symbols on Arch Linux Wiki: https://wiki.archlinux.org/title/Fonts#Emoji_and_symbols
+
+Emoji fonts come in different formats: CBDT/CBLC (Google), SBIX (Apple), COLR/CPAL (Microsoft), SVG (Mozilla/Adobe).
+
+-------------------------------------------------------------------------------------------------------
+ Software  | CBDT/CBLC | SBIX | COLR/CPAL | SVG | Emoji font fallback
+-------------------------------------------------------------------------------------------------------
+ Freetype  | Yes       | Yes  | Yes       | No  | –
+-------------------------------------------------------------------------------------------------------
+ Pango     | Freetype                           | Yes
+-------------------------------------------------------------------------------------------------------
+ WebKitGTK | Freetype                           | Yes
+-------------------------------------------------------------------------------------------------------
+ Qt        | Freetype                           | No
+-------------------------------------------------------------------------------------------------------
+ Chromium  | Freetype                           | Yes
+-------------------------------------------------------------------------------------------------------
+ Firefox   | Freetype                     | Yes | No, see Firefox#Font troubleshooting for workaround.
+-------------------------------------------------------------------------------------------------------
+
+CBDT/CBLC:
+
+* noto-fonts-emoji — Google's open-source Emoji 13.1.
+* ttf-joypixels — EmojiOne creator's proprietary Emoji 13.1.
+* ttf-twemoji (AUR) — Twitter's open-source Emoji 13.0.
+
+SVG:
+
+* otf-openmoji (AUR) — German University of Design in Schwäbisch Gmünd open-source Emoji 13.0.
+* ttf-twemoji-color (AUR) — Twitter's open-source Emoji 13.0.
+
+Outline only:
+
+* ttf-symbola (AUR) — provides many Unicode symbols, including emoji.
