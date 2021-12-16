@@ -1,0 +1,2 @@
+PDFFonts    ~/.local/bin/PDFFonts           https://github.com/phst/PDFFonts
+typos       ~/.local/bin/typos              https://github.com/crate-ci/typos

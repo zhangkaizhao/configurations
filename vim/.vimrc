@@ -65,7 +65,12 @@ set noignorecase
 " => sounds
 
 set noerrorbells
-set novisualbell
+
+" disable bells/visualbells https://unix.stackexchange.com/a/5313/126066
+" 1. enable vim's internal visual bell
+set visualbell
+" 2. set the effect of the vim visual bell to do nothing
+set t_vb=
 
 " => tab
 

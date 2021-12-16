@@ -1,3 +1,8 @@
-ghcup           ~/.ghcup            https://github.com/haskell/ghcup
-Netbeans        ~/netbeans          https://netbeans.apache.org/
-swiftenv        ~/.swiftenv         https://github.com/kylef/swiftenv
+deno            ~/.deno                 https://deno.land/
+ghcup           ~/.ghcup                https://github.com/haskell/ghcup
+nvm             ~/.nvm                  https://github.com/nvm-sh/nvm
+opam            ~/.opam                 https://opam.ocaml.org/
+ponyup          ~/.local/share/ponyup   https://github.com/ponylang/ponyup
+rbenv           ~/.rbenv                https://github.com/rbenv/rbenv
+rustup          ~/.rustup               https://www.rust-lang.org/
+swiftenv        ~/.swiftenv             https://github.com/kylef/swiftenv

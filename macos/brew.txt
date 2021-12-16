@@ -4,12 +4,14 @@
 
 Which packages:
 
-* required by Homebrew Cask. e.g. ghostscript is required by MacTex.
-* not found in preferred packages system. e.g. shadowsocks-libev
+* required by some Homebrew casks
+* required by some local/user programs
+* not have too many dependencies
 
 ## Homebrew Cask
 
 Which packages:
 
-* official package
-* does not support auto update
+* official packages
+* have extract versions
+* not support auto update

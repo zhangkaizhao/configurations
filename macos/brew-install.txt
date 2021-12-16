@@ -57,3 +57,128 @@ Add back Homebrew packages required by TeX Live 2019:
 Add back Homebrew packages required for PowerShell:
 
 * openssl
+
+## 2020-11-23
+
+* gnupg
+
+## 2020-12-21
+
+casks:
+
+* android-file-transfer
+
+## 2021-11-30
+
+casks:
+
+* transmission
+
+## 2021-12-01
+
+* chruby
+* ruby-install
+
+other dependencies for compiling rubies:
+
+* autoconf
+* automake
+* bison
+* gdbm
+* libyaml
+
+casks:
+
+* fontforge
+* birdfont
+* font-inconsolata (homebrew/cask-fonts)
+
+## 2021-12-02
+
+casks:
+
+* font-hanamina (homebrew/cask-fonts)
+
+## 2021-12-04
+
+* wget
+
+casks:
+
+* font-linux-biolinum (homebrew/cask-fonts)
+* font-linux-libertine (homebrew/cask-fonts)
+
+## 2021-12-07
+
+casks:
+
+* font-hack (homebrew/cask-fonts)
+
+## 2021-12-10
+
+casks:
+
+* otf-inconsolata (oh-my-home/fonts)
+* otf-inter (oh-my-home/fonts)
+* otf-merriweather (oh-my-home/fonts)
+* otf-montserrat (oh-my-home/fonts)
+* otf-public-sans (oh-my-home/fonts)
+* otf-victor-mono (oh-my-home/fonts)
+* ttc-source-han-sans (oh-my-home/fonts)
+* ttc-source-han-serif (oh-my-home/fonts)
+
+* ttf-i-ming (oh-my-home/fonts)
+* ttf-lxgw-new-clear-gothic (oh-my-home/fonts)
+* ttf-lxgw-wenkai (oh-my-home/fonts)
+* ttf-swei-gothic-cjk-sc (oh-my-home/fonts)
+* ttf-swei-sugar-cjk-sc (oh-my-home/fonts)
+
+* ttf-noto-color-emoji (oh-my-home/fonts)
+* ttf-ubuntu-font-family (oh-my-home/fonts)
+
+removed casks:
+
+* font-inconsolata (homebrew/cask-fonts)
+* font-ubuntu-mono (homebrew/cask-fonts)
+* font-victor-mono (homebrew/cask-fonts)
+
+## 2021-12-11
+
+* libressl (for ponyup https://github.com/ponylang/ponyup )
+
+casks:
+
+* ttf-andika (oh-my-home/fonts)
+* ttf-charis-sil (oh-my-home/fonts)
+* ttf-doulos-sil (oh-my-home/fonts)
+* ttf-gentium-plus (oh-my-home/fonts)
+
+## 2021-12-12
+
+* zstd (for extracting new RPM files)
+
+casks:
+
+* ttf-openmoji (oh-my-home/fonts)
+* ttf-twemoji-mozilla (oh-my-home/fonts)
+* ttf-twemoji (oh-my-home/fonts)
+* ttf-twitter-color-emoji (oh-my-home/fonts)
+
+## 2021-12-13
+
+* mdbook
+* rust-analyzer
+* tokei
+
+## 2021-12-15
+
+* minimal-racket
+* tree
+
+casks:
+
+* thonny
+
+## 2021-12-16
+
+* go

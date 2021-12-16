@@ -1,30 +1,51 @@
 ## General
 
-alias ls='ls -F'
-alias l='ls -l'
-alias la='ls -a'
-alias ll='ls -lh'
-alias lla='ls -alh'
-alias vi='vim'
+# 2019-02-11 https://stackoverflow.com/questions/7165108/in-os-x-lion-lang-is-not-set-to-utf-8-how-to-fix-it
+# https://medium.com/@rajsek/zsh-bash-startup-files-loading-order-bashrc-zshrc-etc-e30045652f2e
+#export LC_ALL=zh_CN.UTF-8
+export LANG=zh_CN.UTF-8
 
-# Turn off the beep https://unix.stackexchange.com/a/593495/126066
-bind 'set bell-style none'
+# Alias stuff from https://github.com/MrElendig/dotfiles-alice/blob/master/.zshrc
+export CLICOLOR=true
+alias ls="ls -F"
+alias ll="ls -lh"
 
-# https://github.com/scop/bash-completion
-# The last release for Bash 3.2 is 1.3 (latest version of Bash on macOS).
-# https://github.com/scop/bash-completion/archive/1.3.zip
-# Download it and unzip to $HOME/.bash-completion first.
-if [ -f $HOME/.bash-completion/bash_completion ]; then
-  export BASH_COMPLETION=$HOME/.bash-completion/bash_completion
-  export BASH_COMPLETION_DIR=$HOME/.bash-completion/completions
-  export BASH_COMPLETION_COMPAT_DIR=$HOME/.bash-completion/completions
-  source $HOME/.bash-completion/bash_completion
-  # bash completion support for core Git
-  source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
-  # bash completion support for Homebrew
-  if [ -f /usr/local/Homebrew/completions/bash/brew ]; then
-    source /usr/local/Homebrew/completions/bash/brew
-  fi
+# other alias and variables
+alias vi="vim"
+export EDITOR="vim"
+
+# turn off the beep/bell sound from https://blog.vghaisas.com/zsh-beep-sound/
+# Turn off all beeps
+unsetopt BEEP
+# Turn off autocomplete beeps
+# unsetopt LIST_BEEP
+
+# simple from https://wiki.archlinux.org/index.php/zsh
+autoload -Uz compinit promptinit
+compinit
+promptinit
+
+prompt restore
+
+# Git Integration from https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
+zstyle ':vcs_info:*' enable git
+
+## Plugins
+
+if [[ -f /usr/local/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
+  source /usr/local/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
+if [[ -f /usr/local/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh ]]; then
+  source /usr/local/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+fi
+if [[ -f /usr/local/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
+  source /usr/local/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
 ## Homebrew
@@ -32,7 +53,8 @@ fi
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_AUTO_UPDATE=1
 
-export HOMEBREW_GITHUB_API_TOKEN=""
+# 2018-07-19 wakeofwind
+export HOMEBREW_GITHUB_API_TOKEN="1c04781bbe9573ecc17b37bb780662811c470684"
 
 # 2021-04-15 https://mirrors.ustc.edu.cn/help/homebrew-bottles.html
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
@@ -124,3 +146,5 @@ if [ -f $HOME/.rbenv/bin/rbenv ]; then
 fi
 # ruby-build https://github.com/rbenv/ruby-build
 export RUBY_BUILD_MIRROR_URL="https://repo.huaweicloud.com/ruby/ruby/"
+
+# vim: set ts=2 sw=2 et:

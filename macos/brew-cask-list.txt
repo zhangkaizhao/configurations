@@ -1,33 +1,57 @@
 alacritty
 avidemux
+birdfont
 blender
 emacs
 feeds
-font-cascadia-mono
-font-cascadia-mono-pl
-font-jetbrains-mono
-font-pt-mono
-font-ubuntu
-font-victor-mono
+font-cascadia-mono (homebrew/cask-fonts)
+font-cascadia-mono-pl (homebrew/cask-fonts)
+font-fantasque-sans-mono (homebrew/cask-fonts)
+font-hack (homebrew/cask-fonts)
+font-hanamina (homebrew/cask-fonts)
+font-jetbrains-mono (homebrew/cask-fonts)
+font-linux-biolinum (homebrew/cask-fonts)
+font-linux-libertine (homebrew/cask-fonts)
+font-meslo-lg (homebrew/cask-fonts)
+fontforge
+fsnotes
 geany
 gimp
 gitter
 java
-julia
 keepassxc
 kindle
 kitty
 krita
 lighttable
-mactex
 mgba
 mpv
+otf-inconsolata (oh-my-home/fonts)
+otf-inter (oh-my-home/fonts)
+otf-merriweather (oh-my-home/fonts)
+otf-montserrat (oh-my-home/fonts)
+otf-public-sans (oh-my-home/fonts)
+otf-victor-mono (oh-my-home/fonts)
 pencil
 powershell
 qbittorrent
 qt-creator
-racket
 terminus
 the-battle-for-wesnoth
+thonny
+transmission
+ttc-source-han-sans (oh-my-home/fonts)
+ttc-source-han-serif (oh-my-home/fonts)
+ttf-andika (oh-my-home/fonts)
+ttf-charis-sil (oh-my-home/fonts)
+ttf-doulos-sil (oh-my-home/fonts)
+ttf-gentium-plus (oh-my-home/fonts)
+ttf-noto-color-emoji (oh-my-home/fonts)
+ttf-openmoji (oh-my-home/fonts)
+ttf-twemoji-mozilla (oh-my-home/fonts)
+ttf-twemoji (oh-my-home/fonts)
+ttf-twitter-color-emoji (oh-my-home/fonts)
+ttf-ubuntu-font-family (oh-my-home/fonts)
 vienna
+wezterm
 xmind
