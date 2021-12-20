@@ -147,6 +147,10 @@ fi
 # ruby-build https://github.com/rbenv/ruby-build
 export RUBY_BUILD_MIRROR_URL="https://repo.huaweicloud.com/ruby/ruby/"
 
+# 2021-12-20 git commit with gpg sign issue https://stackoverflow.com/q/41052538/3449199
+# Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
+export GPG_TTY=$(tty)
+
 ## Other general but must be placed at the bottom
 
 # show hidden files and directories in zsh completions from https://unix.stackexchange.com/a/308322/126066
