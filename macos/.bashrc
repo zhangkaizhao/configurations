@@ -40,10 +40,6 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 # 2021-06-18 Homebrew uses `/usr/local/sbin` now.
 export PATH="/usr/local/sbin:$PATH"
 
-## MacPorts
-
-#export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-
 ## Nix
 
 #if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then
@@ -57,8 +53,8 @@ export PATH="/usr/local/sbin:$PATH"
 
 ## Other misc
 
-# Haskell Stack
-export PATH=$HOME/.local/bin:$PATH
+# user bins
+export PATH=$HOME/bin:$PATH
 
 # Rust Rustup
 export PATH=$HOME/.cargo/bin:$PATH
@@ -88,17 +84,6 @@ export PATH="$SWIFTENV_ROOT/bin:$PATH"
 if which swiftenv > /dev/null; then
   eval "$(swiftenv init -)";
 fi
-
-# 2021-09-13 `brew info openjdk@11`
-export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
-
-# 2021-12-01 `brew info chruby`
-if [ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]; then
-  source /usr/local/opt/chruby/share/chruby/chruby.sh
-fi
-
-# 2021-12-03 for nvui and nvim
-export PATH="/usr/local/programs/bin:$PATH"
 
 # 2021-12-04 for ConTeXt https://wiki.contextgarden.net/Installation
 #export PATH=/usr/local/programs/context/tex/texmf-osx-64/bin:$PATH

@@ -1,0 +1,11 @@
+~/bin/gpg               /opt/pkg/bin/gpg2
+~/bin/mate              /Applications/TextMate.app/Contents/MacOS/mate
+~/bin/subl              /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
+
+~/bin/crystal           /usr/local/programs/crystal/bin/crystal
+~/bin/shards            /usr/local/programs/crystal/embedded/bin/shards
+~/bin/go                /usr/local/programs/go/bin/go
+~/bin/gofmt             /usr/local/programs/go/bin/gofmt
+~/bin/nvim              /usr/local/programs/nvim/bin/nvim
+~/bin/nvui              /usr/local/programs/nvui/bin/nvui
+~/bin/zig               /usr/local/programs/zig/zig

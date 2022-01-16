@@ -1,6 +1,12 @@
 Apache Tomcat       /usr/local/programs/apache-tomcat-<version>     https://tomcat.apache.org/
 ConTeXt             /usr/local/programs/context                     https://wiki.contextgarden.net/
+Crystal             /usr/local/programs/crystal                     https://crystal-lang.org/
+Go                  /usr/local/programs/go                          https://go.dev/
+Koka                /usr/local/programs/koka                        http://koka-lang.org/
 neovim              /usr/local/programs/nvim                        https://neovim.io/
 nvui                /usr/local/programs/nvui                        https://github.com/rohit-px2/nvui
 Resin               /usr/local/programs/resin-<version>             https://caucho.com/
+zig                 /usr/local/programs/zig                         https://ziglang.org/
+
+shadowsocks-rust    /usr/local/bin/sslocal                          https://github.com/shadowsocks/shadowsocks-rust
 TeX Live            /usr/local/texlive                              https://www.tug.org/texlive/

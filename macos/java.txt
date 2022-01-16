@@ -1,0 +1,4 @@
+See java/jdk-in-macos.txt in https://github.com/zhangkaizhao/tips
+
+OpenJDK-11      /Library/Java/JavaVirtualMachines/jdk-11.*
+OpenJDK-1.8     /Library/Java/JavaVirtualMachines/jdk8u*

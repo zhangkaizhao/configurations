@@ -1,25 +1,31 @@
 .NET Core SDK                       https://dotnet.microsoft.com/
+AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
 Android Studio      (auto update)   https://developer.android.com/studio
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
 Docker Desktop      (auto update)   https://www.docker.com/
+draw.io Desktop                     https://github.com/jgraph/drawio-desktop
 Dropbox                             https://www.dropbox.com/
 Eclipse SDK                         https://www.eclipse.org/
 Firefox             (auto update)   https://www.mozilla.org/firefox/all/
+FreeCol                             http://www.freecol.org/
 GitBook Editor                      https://legacy.gitbook.com/editor
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
 Google Chrome       (auto update)   https://www.google.com/chrome
-Hyper               (auto update)   https://hyper.is/
+Hyper                               https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
+Lapce                               https://github.com/lapce/lapce
 LibreOffice                         https://www.libreoffice.org/
 MacPass             (auto update)   https://macpassapp.org/
 medict                              https://github.com/terasum/medict
 Microsoft Edge      (auto update)   https://www.microsoft.com/edge
 NetEase cloud music (auto update)   https://music.163.com/
 NetNewsWire         (auto update)   https://netnewswire.com/
-OneDrive                            https://onedrive.live.com/
+OneDrive            (auto update)   https://onedrive.live.com/
+PostgreSQL                          https://www.postgresql.org/
 PxCook                              https://www.fancynode.com.cn/pxcook
+Racket                              https://racket-lang.org/
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
 Steam               (auto update)   https://store.steampowered.com/about/
@@ -28,6 +34,7 @@ Telegram Desktop    (auto update)   https://desktop.telegram.org/
 TeX Live Utility    (auto update)   http://amaxwell.github.io/tlutility/
 TextMate            (auto update)   https://macromates.com/
 Transmission        (auto update)   https://transmissionbt.com/
+Vagrant                             https://www.vagrantup.com/
 VirtualBox                          https://www.virtualbox.org/
 Visual Studio Code  (auto update)   https://code.visualstudio.com/
 Visual Studio       (auto update)   https://visualstudio.microsoft.com/

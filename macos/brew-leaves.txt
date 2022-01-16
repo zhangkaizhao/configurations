@@ -1,19 +1,1 @@
-autoconf (for compiling rubies via chruby)
-automake (for compiling rubies via chruby)
-bison (for compiling rubies via chruby)
-gdbm (for compiling rubies via chruby)
-chruby
-gnupg
-go
 libressl (for ponyup)
-libyaml (for compiling rubies via chruby)
-mdbook
-minimal-racket
-openjdk@11
-ruby-install
-rust-analyzer
-shadowsocks-libev
-tokei
-tree
-wget
-zstd (for extracting new RPM files)

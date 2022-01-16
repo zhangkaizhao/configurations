@@ -27,44 +27,34 @@ promptinit
 
 prompt restore
 
+# no remove postfix slash of command line from https://unix.stackexchange.com/a/315611/126066
+#setopt noautoremoveslash
+# or from https://unix.stackexchange.com/q/160026/126066
+#unsetopt autoremoveslash
+
 # Git Integration from https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
-autoload -Uz vcs_info
-precmd_vcs_info() { vcs_info }
-precmd_functions+=( precmd_vcs_info )
-setopt prompt_subst
-RPROMPT=\$vcs_info_msg_0_
-zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
-zstyle ':vcs_info:*' enable git
+#autoload -Uz vcs_info
+#precmd_vcs_info() { vcs_info }
+#precmd_functions+=( precmd_vcs_info )
+#setopt prompt_subst
+#RPROMPT=\$vcs_info_msg_0_
+#zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
+#zstyle ':vcs_info:*' enable git
 
 ## Plugins
-
-if [[ -f /usr/local/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
-  source /usr/local/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-fi
-if [[ -f /usr/local/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh ]]; then
-  source /usr/local/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
-fi
-if [[ -f /usr/local/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
-  source /usr/local/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
 
 ## Homebrew
 
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_AUTO_UPDATE=1
 
-# 2018-07-19 wakeofwind
-export HOMEBREW_GITHUB_API_TOKEN="1c04781bbe9573ecc17b37bb780662811c470684"
+export HOMEBREW_GITHUB_API_TOKEN=""
 
 # 2021-04-15 https://mirrors.ustc.edu.cn/help/homebrew-bottles.html
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 
 # 2021-06-18 Homebrew uses `/usr/local/sbin` now.
 export PATH="/usr/local/sbin:$PATH"
-
-## MacPorts
-
-#export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 ## Nix
 
@@ -79,8 +69,8 @@ export PATH="/usr/local/sbin:$PATH"
 
 ## Other misc
 
-# Haskell Stack
-export PATH=$HOME/.local/bin:$PATH
+# user bins
+export PATH=$HOME/bin:$PATH
 
 # Rust Rustup
 export PATH=$HOME/.cargo/bin:$PATH
@@ -110,17 +100,6 @@ export PATH="$SWIFTENV_ROOT/bin:$PATH"
 if which swiftenv > /dev/null; then
   eval "$(swiftenv init -)";
 fi
-
-# 2021-09-13 `brew info openjdk@11`
-export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
-
-# 2021-12-01 `brew info chruby`
-if [ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]; then
-  source /usr/local/opt/chruby/share/chruby/chruby.sh
-fi
-
-# 2021-12-03 for nvui and nvim
-export PATH="/usr/local/programs/bin:$PATH"
 
 # 2021-12-04 for ConTeXt https://wiki.contextgarden.net/Installation
 #export PATH=/usr/local/programs/context/tex/texmf-osx-64/bin:$PATH

@@ -2,7 +2,9 @@
 
 Package systems: Homebrew, MacPorts, Nix, pkgsrc.
 
-Other applications/programs: applications installed manually, local programs, user programs and user local programs.
+Other applications/programs: applications installed manually, local programs, user programs, user binaries and java.
+
+And some soft links.
 
 ## Homebrew
 
@@ -40,7 +42,11 @@ Notes: removed since macOS Catalina due to [/nix will not be writable on macOS C
 
 ## pkgsrc
 
-## Other applications
+[pkgin-install.txt](pkgin-install.txt): installed packages
+
+[pkgin-absent.txt](pkgin-absent.txt): absent packages
+
+## Others
 
 [Applications installed manually](applications-installed-manually.txt) which mostly installed to `/Applications`
 
@@ -48,4 +54,8 @@ Notes: removed since macOS Catalina due to [/nix will not be writable on macOS C
 
 [User programs](user-programs.txt) which mostly put in `~/`
 
-[User local programs](user-local-programs.txt) which mostly put in `~/.local/bin`
+[User binaries](user-binaries.txt) which mostly put in `~/bin`
+
+[Java](java.txt)
+
+[Soft links](soft-links.txt)

@@ -18,7 +18,6 @@ fsnotes
 geany
 gimp
 gitter
-java
 keepassxc
 kindle
 kitty
@@ -33,13 +32,11 @@ otf-montserrat (oh-my-home/fonts)
 otf-public-sans (oh-my-home/fonts)
 otf-victor-mono (oh-my-home/fonts)
 pencil
-powershell
 qbittorrent
 qt-creator
 terminus
 the-battle-for-wesnoth
 thonny
-transmission
 ttc-source-han-sans (oh-my-home/fonts)
 ttc-source-han-serif (oh-my-home/fonts)
 ttf-andika (oh-my-home/fonts)

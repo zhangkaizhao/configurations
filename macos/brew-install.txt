@@ -179,6 +179,10 @@ casks:
 
 * thonny
 
-## 2021-12-16
+## 2021-12-17 -
 
-* go
+Most formulae are replaced by pkgsrc packages and local/user programs/binaries.
+
+Some formulae are removed.
+
+Some casks are replaced by applications installed manually.

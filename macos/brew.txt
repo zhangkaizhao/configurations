@@ -1,17 +1,16 @@
 # Homebrew
 
-## Homebrew Core
+## Homebrew Formula
 
 Which packages:
 
 * required by some Homebrew casks
-* required by some local/user programs
-* not have too many dependencies
+* required by some local/user programs/binaries, e.g. libressl for ponyup
 
 ## Homebrew Cask
 
 Which packages:
 
 * official packages
-* have extract versions
-* not support auto update
+* have exact versions
+* do not support auto update

@@ -1,0 +1,12 @@
+ascii-image-converter   ~/bin/ascii-image-converter     https://github.com/TheZoraiz/ascii-image-converter
+filebrowser             ~/bin/filebrowser               https://filebrowser.org/
+fq                      ~/bin/fq                        https://github.com/wader/fq
+k3sup                   ~/bin/k3sup                     https://k3sup.dev/
+kubectl                 ~/bin/kubectl                   https://kubernetes.io/
+mdBook                  ~/bin/mdbook                    https://rust-lang.github.io/mdBook/
+mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
+PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
+rust-analyzer           ~/bin/rust-analyzer             https://rust-analyzer.github.io/
+skm                     ~/bin/skm                       https://github.com/TimothyYe/skm
+typos                   ~/bin/typos                     https://github.com/crate-ci/typos
+zls                     ~/bin/zls                       https://github.com/zigtools/zls

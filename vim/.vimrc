@@ -209,7 +209,9 @@ if exists('g:loaded_minpac')
   let g:ale_python_mypy_executable = ''
 
   " rls disabled
-  let g:ale_rust_rls_executable = ''
+  "let g:ale_rust_rls_executable = ''
+  " only enable rustc and rust-analyzer for rust
+  let g:ale_linters = {'rust': ['rustc', 'analyzer']}
 
   " - base16-vim https://github.com/chriskempson/base16-vim
   "colorscheme base16-materia

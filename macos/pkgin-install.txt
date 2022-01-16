@@ -1,0 +1,17 @@
+autoconf (for compiling rubies via chruby)
+automake (for compiling rubies via chruby)
+bison (for compiling rubies via chruby)
+fontconfig
+gdbm (for compiling rubies via chruby)
+gnupg2
+gopls
+htop
+kakoune
+libyaml (for compiling rubies via chruby)
+pkgconf (for compiling crystal programs with Crystal compiler)
+qemu
+rust-analyzer
+tokei
+tree
+wget
+zstd
