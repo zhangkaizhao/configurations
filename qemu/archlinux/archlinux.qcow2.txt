@@ -1,0 +1,4 @@
+----
+mirror:
+https://mirrors.tuna.tsinghua.edu.cn/archlinux/images/v20211201.40458/Arch-Linux-x86_64-basic-20211201.40458.qcow2
+----
