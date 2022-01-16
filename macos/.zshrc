@@ -142,7 +142,7 @@ export PATH=$HOME/.local/share/ponyup/bin:$PATH
 # 2021-12-14 rbenv https://github.com/rbenv/rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 if [ -f $HOME/.rbenv/bin/rbenv ]; then
-  eval "$(rbenv init - bash)"
+  eval "$(rbenv init - zsh)"
 fi
 # ruby-build https://github.com/rbenv/ruby-build
 export RUBY_BUILD_MIRROR_URL="https://repo.huaweicloud.com/ruby/ruby/"
