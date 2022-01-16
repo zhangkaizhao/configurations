@@ -37,7 +37,7 @@ set noswapfile
 " => color
 
 syntax on
-colorscheme desert
+"colorscheme desert
 
 set colorcolumn=120
 
