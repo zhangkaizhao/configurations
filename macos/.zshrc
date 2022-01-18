@@ -20,6 +20,13 @@ unsetopt BEEP
 # Turn off autocomplete beeps
 # unsetopt LIST_BEEP
 
+# https://unix.stackexchange.com/questions/167582/why-zsh-ends-a-line-with-a-highlighted-percent-symbol
+# (Reference is https://zsh.sourceforge.io/Doc/Release/Options.html#Prompting )
+# turn off PROMPT_CR and PROMPT_SP to behave more like traditional shells for partial lines (not end with a newline)
+unsetopt prompt_cr prompt_sp
+# or put nothing at the end of partial lines
+#export PROMPT_EOL_MARK=''
+
 # simple from https://wiki.archlinux.org/index.php/zsh
 autoload -Uz compinit promptinit
 compinit
