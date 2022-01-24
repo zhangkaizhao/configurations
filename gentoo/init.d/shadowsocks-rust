@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+depend() {
+    after net
+}
+
+description="a fast tunnel proxy that helps you bypass firewalls"
+command="/usr/local/bin/ssserver"
+command_user="zkc:zkc"
+command_args="-c /usr/local/etc/shadowsocks-rust/config.json"
+supervisor="supervise-daemon"

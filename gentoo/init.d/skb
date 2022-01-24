@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+depend() {
+    after net
+}
+
+description="simple knownledge base"
+command="/home/zkc/projects/skb/bin/skb"
+command_user="zkc:zkc"
+supervisor="supervise-daemon"
+supervise_daemon_args="-d /home/zkc/projects/skb"

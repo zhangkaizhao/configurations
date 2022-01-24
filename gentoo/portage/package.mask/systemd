@@ -1,0 +1,3 @@
+# https://wiki.gentoo.org/wiki/Gentoo_Without_systemd
+sys-apps/systemd
+#sys-fs/udev

@@ -1,0 +1,9 @@
+# eselect
+
+editor -> /usr/bin/vi
+
+locale -> en_US.UTF-8
+
+profile -> default/linux/amd64/17.1 (stable)
+
+vi -> vim

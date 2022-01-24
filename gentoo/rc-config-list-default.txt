@@ -1,0 +1,12 @@
+# rc-config list default
+
+cronie
+dhcpcd
+local
+maddy
+netmount
+nginx
+ntpd
+shadowsocks-rust
+skb
+sshd

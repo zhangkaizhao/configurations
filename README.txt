@@ -23,6 +23,10 @@ Machines and Operating Systems:
 
   * macOS
 
+* Linode VPS (running my website *.zhangkaizhao.com ) [2]
+
+  * Gentoo
+
 Notes:
 
 Unfortunately, the ASUS K43SA machine retired on November 30, 2021.
@@ -31,3 +35,4 @@ There will be a new machine in the future.
 
 
 [1]: https://www.asus.com/Laptops/K43SA/
+[2]: https://www.linode.com/

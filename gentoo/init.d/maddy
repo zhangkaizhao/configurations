@@ -1,0 +1,18 @@
+#!/sbin/openrc-run
+
+depend() {
+    after net
+}
+
+description="maddy mail server"
+command="/usr/local/bin/maddy"
+command_args="-config /etc/maddy/maddy.conf"
+command_user="maddy:maddy"
+# https://wiki.gentoo.org/wiki/OpenRC/supervise-daemon
+supervisor="supervise-daemon"
+supervise_daemon_args="-d /var/lib/maddy"
+
+start_pre() {
+    # default runtime_dir. see `man 5 maddy`
+    install -d -o maddy -g maddy /run/maddy
+}

@@ -1,0 +1,9 @@
+# maddy
+
+Follow [official installation and configuration of maddy](https://maddy.email/tutorials/setting-up/).
+
+Set capabilities before running the maddy daemons as non root processes which bind privileged ports (SMTP and IMAP):
+
+    # setcap 'cap_net_bind_service=+ep' /usr/local/bin/maddy
+
+See unix/non-root-processes-bind-privileged-ports.txt in https://github.com/zhangkaizhao/tips .

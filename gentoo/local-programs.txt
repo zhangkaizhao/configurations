@@ -1,0 +1,2 @@
+maddy               /usr/local/bin/maddy                            https://github.com/foxcpp/maddy
+shadowsocks-rust    /usr/local/bin/ssserver                         https://github.com/shadowsocks/shadowsocks-rust

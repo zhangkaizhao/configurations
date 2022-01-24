@@ -1,0 +1,16 @@
+Found the following certs:
+  Certificate Name: mta-sts.zhangkaizhao.com
+    Domains: mta-sts.zhangkaizhao.com
+    Certificate Path: /etc/letsencrypt/live/mta-sts.zhangkaizhao.com/fullchain.pem
+    Private Key Path: /etc/letsencrypt/live/mta-sts.zhangkaizhao.com/privkey.pem
+    ...
+  Certificate Name: mx1.zhangkaizhao.com
+    Domains: mx1.zhangkaizhao.com
+    Certificate Path: /etc/letsencrypt/live/mx1.zhangkaizhao.com/fullchain.pem
+    Private Key Path: /etc/letsencrypt/live/mx1.zhangkaizhao.com/privkey.pem
+    ...
+  Certificate Name: zhangkaizhao.com
+    Domains: zhangkaizhao.com www.zhangkaizhao.com
+    Certificate Path: /etc/letsencrypt/live/zhangkaizhao.com/fullchain.pem
+    Private Key Path: /etc/letsencrypt/live/zhangkaizhao.com/privkey.pem
+    ...
