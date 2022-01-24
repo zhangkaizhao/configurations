@@ -5,10 +5,9 @@ window:
   dimensions:
     columns: 122
     lines: 32
+  opacity: 0.8 # option `background_opacity` has been changed to `window.opacity` since 0.10.0
 
 font:
   normal:
     family: Ubuntu Mono
   size: 14.0
-
-background_opacity: 0.8

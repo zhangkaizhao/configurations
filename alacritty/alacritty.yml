@@ -5,5 +5,4 @@ window:
   dimensions:
     columns: 122
     lines: 26
-
-background_opacity: 0.8
+  opacity: 0.8 # option `background_opacity` has been changed to `window.opacity` since 0.10.0
