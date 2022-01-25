@@ -5,6 +5,7 @@ Normally for Arch Linux. But also specially for:
 * EFI
 * Fedora
 * FreeBSD
+* Gentoo
 * macOS
 * OpenBSD
 * Windows

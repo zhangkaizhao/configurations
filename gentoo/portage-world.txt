@@ -33,7 +33,6 @@ net-misc/ntp
 net-misc/telnet-bsd
 net-misc/whois
 net-proxy/privoxy
-net-proxy/shadowsocks-libev
 sys-apps/dstat
 sys-apps/iproute2
 sys-apps/openrc
