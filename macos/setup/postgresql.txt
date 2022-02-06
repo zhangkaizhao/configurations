@@ -1,0 +1,19 @@
+# PostgreSQL
+
+2022-02-06
+
+version: 14.1
+
+Initialization:
+
+    initdb -D $HOME/var/postgresql/14
+
+(user/password: current login user/password)
+
+Start:
+
+    pg_ctrl -D $HOME/var/postgresql/14 start
+
+Stop:
+
+    pg_ctrl -D $HOME/var/postgresql/14 stop

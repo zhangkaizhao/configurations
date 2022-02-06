@@ -1,0 +1,23 @@
+# MariaDB
+
+2022-02-06
+
+version 10.6.5
+
+Initialization:
+
+    mariadb-install-db --no-defaults --datadir=$HOME/var/mariadb
+
+(user: current login user)
+
+Start:
+
+    mariadbd-safe --datadir=$HOME/var/mariadb
+
+Set password for the user (current login user) to make it as an administrator:
+
+    mariadb-admin password
+
+Stop:
+
+    kill `cat $HOME/var/mariadb/$(hostname).pid`
