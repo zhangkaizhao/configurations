@@ -23,7 +23,6 @@ Microsoft Edge      (auto update)   https://www.microsoft.com/edge
 NetEase cloud music (auto update)   https://music.163.com/
 NetNewsWire         (auto update)   https://netnewswire.com/
 OneDrive            (auto update)   https://onedrive.live.com/
-PostgreSQL                          https://www.postgresql.org/
 PxCook                              https://www.fancynode.com.cn/pxcook
 Racket                              https://racket-lang.org/
 Skim                (auto update)   https://skim-app.sourceforge.io/

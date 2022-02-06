@@ -9,6 +9,7 @@ htop
 kakoune
 libyaml (for compiling rubies via chruby)
 pkgconf (for compiling crystal programs with Crystal compiler)
+postgresql14
 qemu
 rust-analyzer
 tokei
