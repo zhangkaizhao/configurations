@@ -6,12 +6,19 @@ gdbm (for compiling rubies via chruby)
 gnupg2
 gopls
 htop
+hyperfine
+iverilog
+jq
 kakoune
 libyaml (for compiling rubies via chruby)
+mariadb-server
+mosquitto
 pkgconf (for compiling crystal programs with Crystal compiler)
 postgresql14
 qemu
+redis
 rust-analyzer
+sbcl
 tokei
 tree
 wget

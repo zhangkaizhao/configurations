@@ -3,6 +3,7 @@ AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
 Android Studio      (auto update)   https://developer.android.com/studio
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
+DBeaver CE          (auto update)   https://dbeaver.io/
 Docker Desktop      (auto update)   https://www.docker.com/
 draw.io Desktop                     https://github.com/jgraph/drawio-desktop
 Dropbox                             https://www.dropbox.com/
@@ -39,4 +40,5 @@ Visual Studio Code  (auto update)   https://code.visualstudio.com/
 Visual Studio       (auto update)   https://visualstudio.microsoft.com/
 Vivaldi             (auto update)   https://vivaldi.com/
 VLC                 (auto update)   https://www.videolan.org/vlc/
+wkhtmltopdf                         https://wkhtmltopdf.org/
 Yandex Disk                         https://disk.yandex.com/
