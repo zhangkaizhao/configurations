@@ -6,6 +6,7 @@ alias la='ls -a'
 alias ll='ls -lh'
 alias lla='ls -alh'
 alias vi='vim'
+export EDITOR="vim"
 
 # Turn off the beep https://unix.stackexchange.com/a/593495/126066
 bind 'set bell-style none'
@@ -31,8 +32,6 @@ fi
 
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_AUTO_UPDATE=1
-
-export HOMEBREW_GITHUB_API_TOKEN=""
 
 # 2021-04-15 https://mirrors.ustc.edu.cn/help/homebrew-bottles.html
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
