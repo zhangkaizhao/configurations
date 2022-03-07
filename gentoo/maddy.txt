@@ -1,5 +1,9 @@
 # maddy
 
+2022-01-25
+
+version: 0.5.1
+
 Follow [official installation and configuration of maddy](https://maddy.email/tutorials/setting-up/).
 
 Set capabilities before running the maddy daemons as non root processes which bind privileged ports (SMTP and IMAP):
