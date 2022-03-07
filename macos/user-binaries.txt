@@ -1,4 +1,5 @@
 ascii-image-converter   ~/bin/ascii-image-converter     https://github.com/TheZoraiz/ascii-image-converter
+colima                  ~/bin/colima                    https://github.com/abiosoft/colima
 filebrowser             ~/bin/filebrowser               https://filebrowser.org/
 fq                      ~/bin/fq                        https://github.com/wader/fq
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz

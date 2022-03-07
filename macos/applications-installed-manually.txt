@@ -5,7 +5,6 @@ Atom                (auto update)   https://atom.io/
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
 DBeaver CE          (auto update)   https://dbeaver.io/
-Docker Desktop      (auto update)   https://www.docker.com/
 DevToysMac          (auto update)   https://github.com/ObuchiYuki/DevToysMac
 draw.io Desktop                     https://github.com/jgraph/drawio-desktop
 Dropbox                             https://www.dropbox.com/
