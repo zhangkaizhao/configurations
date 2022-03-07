@@ -48,7 +48,7 @@ autocmd FileType rust setlocal colorcolumn=100
 
 " => cursor position
 
-set cursorline
+"set cursorline
 "set cursorcolumn
 
 " => comments
