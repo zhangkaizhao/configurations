@@ -36,6 +36,7 @@ otf-victor-mono (oh-my-home/fonts)
 pencil
 qbittorrent
 qt-creator
+sioyek
 terminus
 the-battle-for-wesnoth
 thonny

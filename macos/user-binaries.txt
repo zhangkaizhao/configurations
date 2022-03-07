@@ -3,10 +3,13 @@ filebrowser             ~/bin/filebrowser               https://filebrowser.org/
 fq                      ~/bin/fq                        https://github.com/wader/fq
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
+jfmt                    ~/bin/jfmt                      https://github.com/scruffystuffs/jfmt.rs
 k3sup                   ~/bin/k3sup                     https://k3sup.dev/
 kubectl                 ~/bin/kubectl                   https://kubernetes.io/
 mdBook                  ~/bin/mdbook                    https://rust-lang.github.io/mdBook/
+miniserve               ~/bin/miniserve                 https://github.com/svenstaro/miniserve
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
+onefetch                ~/bin/onefetch                  https://github.com/o2sh/onefetch
 pandoc                  ~/bin/pandoc                    https://pandoc.org/
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
 rust-analyzer           ~/bin/rust-analyzer             https://rust-analyzer.github.io/

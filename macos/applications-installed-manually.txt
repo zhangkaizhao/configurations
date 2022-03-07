@@ -1,10 +1,12 @@
 .NET Core SDK                       https://dotnet.microsoft.com/
 AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
 Android Studio      (auto update)   https://developer.android.com/studio
+Atom                (auto update)   https://atom.io/
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
 DBeaver CE          (auto update)   https://dbeaver.io/
 Docker Desktop      (auto update)   https://www.docker.com/
+DevToysMac          (auto update)   https://github.com/ObuchiYuki/DevToysMac
 draw.io Desktop                     https://github.com/jgraph/drawio-desktop
 Dropbox                             https://www.dropbox.com/
 Eclipse SDK                         https://www.eclipse.org/
@@ -16,13 +18,16 @@ Google Chrome       (auto update)   https://www.google.com/chrome
 Hyper                               https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
+Lagrange            (auto update)   https://gmi.skyjake.fi/lagrange/
 Lapce                               https://github.com/lapce/lapce
 LibreOffice                         https://www.libreoffice.org/
 MacPass             (auto update)   https://macpassapp.org/
+MacVim              (auto update)   https://macvim-dev.github.io/macvim
 medict                              https://github.com/terasum/medict
 Microsoft Edge      (auto update)   https://www.microsoft.com/edge
 NetEase cloud music (auto update)   https://music.163.com/
 NetNewsWire         (auto update)   https://netnewswire.com/
+OBS Studio          (auto update)   https://obsproject.com/
 OneDrive            (auto update)   https://onedrive.live.com/
 PxCook                              https://www.fancynode.com.cn/pxcook
 Racket                              https://racket-lang.org/
