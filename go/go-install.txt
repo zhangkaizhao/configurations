@@ -1,0 +1,4 @@
+[package]                                       [homepage]
+
+golang.org/x/tools/gopls@latest                 https://github.com/golang/tools/tree/master/gopls
+github.com/google/gops@latest                   https://github.com/google/gops
