@@ -52,3 +52,7 @@ https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-a
 ## 2018-12-14
 
 * Replace Google CDN https://addons.mozilla.org/firefox/addon/replace-google-cdn/
+
+## 2022-02-08
+
+* Print Edit WE https://addons.mozilla.org/firefox/addon/print-edit-we/
