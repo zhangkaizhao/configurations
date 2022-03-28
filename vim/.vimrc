@@ -12,6 +12,11 @@ set autoindent
 set modelines=0
 set nomodeline
 
+" Do not auto add a newline at EOF
+" https://stackoverflow.com/questions/1050640/how-to-stop-vim-from-adding-a-newline-at-end-of-file
+" Vim 7.4.785 adds the fixeol option that can be disabled to automatically preserve any missing EOL at the end of the file.
+set nofixendofline
+
 " => filetype
 
 " Slang: Slim-inspired templating language for Crystal
