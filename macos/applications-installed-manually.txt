@@ -16,6 +16,7 @@ Google Chrome       (auto update)   https://www.google.com/chrome
 Hyper                               https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
+Jitsi Meet          (auto update)   https://github.com/jitsi/jitsi-meet-electron
 Lagrange            (auto update)   https://gmi.skyjake.fi/lagrange/
 Lapce                               https://github.com/lapce/lapce
 LibreOffice                         https://www.libreoffice.org/
@@ -28,6 +29,7 @@ NetNewsWire         (auto update)   https://netnewswire.com/
 OBS Studio          (auto update)   https://obsproject.com/
 OneDrive            (auto update)   https://onedrive.live.com/
 PxCook                              https://www.fancynode.com.cn/pxcook
+Quip                (auto update)   https://quip.com/
 Racket                              https://racket-lang.org/
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
