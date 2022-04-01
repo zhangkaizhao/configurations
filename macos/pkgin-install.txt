@@ -1,6 +1,8 @@
 autoconf (for compiling rubies via chruby)
 automake (for compiling rubies via chruby)
 bison (for compiling rubies via chruby)
+elixir
+erlang
 fontconfig
 gdbm (for compiling rubies via chruby)
 gnupg2
@@ -17,6 +19,7 @@ pkgconf (for compiling crystal programs with Crystal compiler)
 postgresql14
 pv
 qemu
+rebar3
 redis
 rust-analyzer
 sbcl
