@@ -1,4 +1,3 @@
-.NET Core SDK                       https://dotnet.microsoft.com/
 AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
 Android Studio      (auto update)   https://developer.android.com/studio
 Atom                (auto update)   https://atom.io/
@@ -41,7 +40,6 @@ Transmission        (auto update)   https://transmissionbt.com/
 Vagrant                             https://www.vagrantup.com/
 VirtualBox                          https://www.virtualbox.org/
 Visual Studio Code  (auto update)   https://code.visualstudio.com/
-Visual Studio       (auto update)   https://visualstudio.microsoft.com/
 Vivaldi             (auto update)   https://vivaldi.com/
 VLC                 (auto update)   https://www.videolan.org/vlc/
 wkhtmltopdf                         https://wkhtmltopdf.org/
