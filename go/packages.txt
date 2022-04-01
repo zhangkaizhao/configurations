@@ -1,0 +1,23 @@
+# go packages
+
+* dlv
+
+  repository: https://github.com/go-delve/delve
+
+  install: github.com/go-delve/delve/cmd/dlv@latest
+
+  for vscode golang.go extension
+
+* gopls
+
+  repository: https://github.com/golang/tools/tree/master/gopls
+
+  install: golang.org/x/tools/gopls@latest
+
+  for vim ale plugin and vscode golang.go extension
+
+* gops
+
+  repository: https://github.com/google/gops
+
+  install: github.com/google/gops@latest
