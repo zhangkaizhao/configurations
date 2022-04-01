@@ -11,6 +11,7 @@ mdBook                  ~/bin/mdbook                    https://rust-lang.github
 miniserve               ~/bin/miniserve                 https://github.com/svenstaro/miniserve
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
 onefetch                ~/bin/onefetch                  https://github.com/o2sh/onefetch
+opam                    ~/bin/opam                      https://opam.ocaml.org/
 pandoc                  ~/bin/pandoc                    https://pandoc.org/
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
 rust-analyzer           ~/bin/rust-analyzer             https://rust-analyzer.github.io/
