@@ -8,6 +8,16 @@
 
   for vscode golang.go extension
 
+* goimports
+
+  repository: https://cs.opensource.google/go/x/tools
+
+  install: golang.org/x/tools/cmd/goimports@latest
+
+  https://pkg.go.dev/golang.org/x/tools/cmd/goimports
+
+  via https://go.dev/doc/faq#unused_variables_and_imports
+
 * gopls
 
   repository: https://github.com/golang/tools/tree/master/gopls
