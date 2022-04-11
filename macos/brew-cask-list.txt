@@ -37,7 +37,6 @@ pencil
 qbittorrent
 qt-creator
 sioyek
-terminus
 the-battle-for-wesnoth
 thonny
 ttc-source-han-sans (oh-my-home/fonts)
