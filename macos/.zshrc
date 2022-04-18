@@ -87,6 +87,10 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 export GOPATH=$HOME/goext
 export PATH=$GOPATH/bin:$PATH
 
+# 2022-04-02 Goproxy.cn https://goproxy.cn/
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn
+
 # 2018,04,17 Node.js NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
