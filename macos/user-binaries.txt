@@ -1,3 +1,4 @@
+7zz                     ~/bin/7zz                       https://www.7-zip.org/
 ascii-image-converter   ~/bin/ascii-image-converter     https://github.com/TheZoraiz/ascii-image-converter
 colima                  ~/bin/colima                    https://github.com/abiosoft/colima
 filebrowser             ~/bin/filebrowser               https://filebrowser.org/
