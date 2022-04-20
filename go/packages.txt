@@ -31,3 +31,11 @@
   repository: https://github.com/google/gops
 
   install: github.com/google/gops@latest
+
+* minica
+
+  repository: https://github.com/jsha/minica
+
+  install: github.com/jsha/minica@latest
+
+  via https://github.com/smol-rs/smol/tree/v1.2.5#tls-certificate
