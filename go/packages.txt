@@ -32,6 +32,11 @@
 
   install: github.com/google/gops@latest
 
+* goreman
+
+  repository: https://github.com/mattn/goreman
+  install: github.com/mattn/goreman@latest
+
 * minica
 
   repository: https://github.com/jsha/minica
