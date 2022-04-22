@@ -1,6 +1,7 @@
 [package]                                       [homepage]
 
 github.com/go-delve/delve/cmd/dlv@latest        https://github.com/go-delve/delve
+github.com/antonmedv/fx@latest                  https://github.com/antonmedv/fx
 golang.org/x/tools/cmd/goimports@latest         https://pkg.go.dev/golang.org/x/tools/cmd/goimports
 golang.org/x/tools/gopls@latest                 https://github.com/golang/tools/tree/master/gopls
 github.com/google/gops@latest                   https://github.com/google/gops

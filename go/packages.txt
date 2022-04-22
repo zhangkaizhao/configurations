@@ -8,6 +8,11 @@
 
   for vscode golang.go extension
 
+* fx
+
+  repository: https://github.com/antonmedv/fx
+  install: github.com/antonmedv/fx@latest
+
 * goimports
 
   repository: https://cs.opensource.google/go/x/tools
