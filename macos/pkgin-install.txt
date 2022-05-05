@@ -9,6 +9,7 @@ gnupg2
 gopls
 htop
 hyperfine
+inetutils (for telnet)
 iverilog
 jq
 kakoune

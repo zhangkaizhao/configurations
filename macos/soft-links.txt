@@ -1,4 +1,6 @@
 ~/bin/gpg               /opt/pkg/bin/gpg2
+~/bin/telnet            /opt/pkg/bin/gtelnet
+
 ~/bin/mate              /Applications/TextMate.app/Contents/MacOS/mate
 ~/bin/subl              /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
 
