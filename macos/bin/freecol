@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+java \
+    -cp /Applications/FreeCol.app/Contents/Resources/Java/jars/ \
+    -jar /Applications/FreeCol.app/Contents/Resources/Java/FreeCol.jar \
+    --windowed \
+    --freecol-data /Applications/FreeCol.app/Contents/Resources/
