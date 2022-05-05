@@ -8,9 +8,16 @@
 
   for vscode golang.go extension
 
+* fq
+
+  repository: https://github.com/wader/fq
+
+  install: github.com/wader/fq@latest
+
 * fx
 
   repository: https://github.com/antonmedv/fx
+
   install: github.com/antonmedv/fx@latest
 
 * goimports
@@ -40,6 +47,7 @@
 * goreman
 
   repository: https://github.com/mattn/goreman
+
   install: github.com/mattn/goreman@latest
 
 * minica
@@ -49,3 +57,9 @@
   install: github.com/jsha/minica@latest
 
   via https://github.com/smol-rs/smol/tree/v1.2.5#tls-certificate
+
+* skm
+
+  repository: https://github.com/TimothyYe/skm
+
+  install: github.com/TimothyYe/skm/cmd/skm@latest
