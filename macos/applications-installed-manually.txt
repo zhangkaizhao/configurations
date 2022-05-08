@@ -12,6 +12,7 @@ Firefox             (auto update)   https://www.mozilla.org/firefox/all/
 FreeCol                             http://www.freecol.org/
 GitBook Editor                      https://legacy.gitbook.com/editor
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
+Guitar                              https://github.com/soramimi/Guitar
 Google Chrome       (auto update)   https://www.google.com/chrome
 Hyper                               https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
@@ -34,10 +35,13 @@ Racket                              https://racket-lang.org/
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
 Steam               (auto update)   https://store.steampowered.com/about/
+SourceTree          (auto update)   https://www.sourcetreeapp.com/
+Sublime Merge       (auto update)   https://www.sublimemerge.com/
 Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
 TeX Live Utility    (auto update)   http://amaxwell.github.io/tlutility/
 TextMate            (auto update)   https://macromates.com/
+Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/
 Vagrant                             https://www.vagrantup.com/
 VirtualBox                          https://www.virtualbox.org/
