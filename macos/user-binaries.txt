@@ -1,14 +1,13 @@
 7zz                     ~/bin/7zz                       https://www.7-zip.org/
-ascii-image-converter   ~/bin/ascii-image-converter     https://github.com/TheZoraiz/ascii-image-converter
-colima                  ~/bin/colima                    https://github.com/abiosoft/colima
-filebrowser             ~/bin/filebrowser               https://filebrowser.org/
+filebrowser (large)     ~/bin/filebrowser               https://filebrowser.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
+hugo        (huge)      ~/bin/hugo                      https://gohugo.io/
 k3sup                   ~/bin/k3sup                     https://k3sup.dev/
-kubectl                 ~/bin/kubectl                   https://kubernetes.io/
+kubectl     (huge)      ~/bin/kubectl                   https://kubernetes.io/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
 opam                    ~/bin/opam                      https://opam.ocaml.org/
-pandoc                  ~/bin/pandoc                    https://pandoc.org/
+pandoc      (huge)      ~/bin/pandoc                    https://pandoc.org/
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
 rust-analyzer (large)   ~/bin/rust-analyzer             https://rust-analyzer.github.io/
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod

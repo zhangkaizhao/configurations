@@ -6,7 +6,6 @@ erlang
 fontconfig
 gdbm (for compiling rubies via chruby)
 gnupg2
-gopls
 htop
 inetutils (for telnet)
 iverilog
@@ -17,6 +16,7 @@ mariadb-server
 mosquitto
 pkgconf (for compiling crystal programs with Crystal compiler)
 postgresql14
+protobuf
 pv
 qemu
 rebar3

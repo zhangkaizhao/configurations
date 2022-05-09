@@ -1,0 +1,161 @@
+# Go packages
+
+Install with `go install [build flags] [packages]`. See `go help install`.
+
+* ascii-image-converter
+
+  description: a command-line tool that converts images into ascii art and prints them out onto the console
+
+  repository: https://github.com/TheZoraiz/ascii-image-converter
+
+  install:
+
+      go install github.com/TheZoraiz/ascii-image-converter@latest
+
+* colima
+
+  description: Container runtimes on macOS (and Linux) with minimal setup.
+
+  repository: https://github.com/abiosoft/colima
+
+  install:
+
+      go install github.com/abiosoft/colima/cmd/colima@latest
+
+  note: there is no version information in the output of `colima version` command from this installation now.
+
+* dlv
+
+  description: A debugger for the Go programming language
+
+  repository: https://github.com/go-delve/delve
+
+  install:
+
+      go install github.com/go-delve/delve/cmd/dlv@latest
+
+  for vscode golang.go extension
+
+* fq
+
+  description: Tool, language and decoders for working with binary data.
+
+  repository: https://github.com/wader/fq
+
+  install:
+
+      go install github.com/wader/fq@latest
+
+* fx
+
+  description: Terminal JSON viewer
+
+  repository: https://github.com/antonmedv/fx
+
+  install:
+
+      go install github.com/antonmedv/fx@latest
+
+* goimports
+
+  description: Command goimports updates your Go import lines, adding missing ones and removing unreferenced ones.
+
+  repository: https://cs.opensource.google/go/x/tools
+
+  install:
+
+      go install golang.org/x/tools/cmd/goimports@latest
+
+  https://pkg.go.dev/golang.org/x/tools/cmd/goimports
+
+  via https://go.dev/doc/faq#unused_variables_and_imports
+
+* gopls
+
+  description: the official Go language server developed by the Go team
+
+  repository: https://github.com/golang/tools/tree/master/gopls
+
+  install:
+
+      go install golang.org/x/tools/gopls@latest
+
+  for vim ale plugin and vscode golang.go extension
+
+* gops
+
+  description: a command to list and diagnose Go processes currently running on your system
+
+  repository: https://github.com/google/gops
+
+  install:
+
+      go install github.com/google/gops@latest
+
+* goreman
+
+  description: Clone of foreman written in golang
+
+  repository: https://github.com/mattn/goreman
+
+  install:
+
+      go install github.com/mattn/goreman@latest
+
+* k3sup
+
+  description: a light-weight utility to get from zero to KUBECONFIG with k3s on any local or remote VM
+
+  repository: https://github.com/alexellis/k3sup
+
+  install:
+
+      go install github.com/alexellis/k3sup@latest
+
+  note: failed to install due to "go:linkname must refer to declared function or variable" errors with Go 1.18 now.
+
+* minica
+
+  description: a simple CA intended for use in situations where the CA operator also operates each host where a certificate will be used
+
+  repository: https://github.com/jsha/minica
+
+  install:
+
+      go install github.com/jsha/minica@latest
+
+  via https://github.com/smol-rs/smol/tree/v1.2.5#tls-certificate
+
+* protoc-gen-go
+
+  description: a protoc plugin to generate Go code for both proto2 and proto3 versions of the protocol buffer language
+
+  repository: https://github.com/protocolbuffers/protobuf-go
+
+  install:
+
+      go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+
+  https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go
+
+  note: required for the Twirp RPC framework. See https://twitchtv.github.io/twirp/docs/install.html
+
+* protoc-gen-twirp
+
+  description: a protoc plugin to generate Go code for the Twirp RPC framework
+
+  repository: https://github.com/twitchtv/twirp
+
+  install:
+
+      go install github.com/twitchtv/twirp/protoc-gen-twirp@latest
+
+* skm
+
+  description: a simple and powerful SSH Keys Manager
+
+  repository: https://github.com/TimothyYe/skm
+
+  install:
+
+      go install github.com/TimothyYe/skm/cmd/skm@latest
