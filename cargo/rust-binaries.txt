@@ -1,0 +1,155 @@
+# Rust binaries
+
+Install with `cargo install [options] crate`. See `cargo help install`.
+
+* cargo-audit
+
+  description: Audit Cargo.lock against the advisory DB
+
+  repository: https://github.com/rustsec/rustsec
+
+  install:
+
+      cargo install --features vendored-libgit2,vendored-openssl cargo-audit
+
+* cargo-bloat
+
+  description: Find out what takes most of the space in your executable.
+
+  repository: https://github.com/RazrFalcon/cargo-bloat
+
+  install:
+
+      cargo install cargo-bloat
+
+* cargo-edit
+
+  description: This tool extends Cargo to allow you to add, remove, and upgrade dependencies by modifying your Cargo.toml file from the command line.
+
+  subcommands:
+
+    - cargo add
+    - cargo rm
+    - cargo upgrade
+    - cargo set-version
+
+  repository: https://github.com/killercup/cargo-edit
+
+  install:
+
+      cargo install --features vendored-libgit2,vendored-openssl cargo-edit
+
+* cargo-license
+
+  description: A cargo subcommand to see license of dependencies.
+
+  repository: https://github.com/onur/cargo-license
+
+  install:
+
+      cargo install cargo-license
+
+* cargo-modules
+
+  description: A cargo plugin for showing an overview of a crate's modules.
+
+  repository: https://github.com/regexident/cargo-modules
+
+  install:
+
+      cargo install cargo-modules
+
+* cargo-outdated
+
+  description: A cargo subcommand for displaying when Rust dependencies are out of date
+
+  repository: https://github.com/kbknapp/cargo-outdated
+
+  install:
+
+      cargo install --features vendored-openssl cargo-outdated
+
+* cargo-update
+
+  description: A cargo subcommand for checking and applying updates to installed executables
+
+  subcommands:
+
+    - cargo install-update
+    - cargo install-update-config
+
+  repository: https://github.com/nabijaczleweli/cargo-update
+
+  install:
+
+      cargo install --features vendored-openssl cargo-update
+
+* hyperfine
+
+  description: A command-line benchmarking tool.
+
+  repository: https://github.com/sharkdp/hyperfine
+
+  install:
+
+      cargo install hyperfine
+
+* jfmt
+
+  description: a command-line tool for formatting json files in both readable and compact formats
+
+  repository: https://github.com/scruffystuffs/jfmt.rs
+
+  install:
+
+      cargo install jfmt
+
+* mdbook
+
+  description: a utility to create modern online books from Markdown files
+
+  repository: https://github.com/rust-lang/mdBook
+
+  install:
+
+      cargo install mdbook
+
+* miniserve
+
+  description: a CLI tool to serve files and dirs over HTTP
+
+  repository: https://github.com/svenstaro/miniserve
+
+  install:
+
+      cargo install miniserve
+
+* onefetch
+
+  description: A command-line Git information tool written in Rust
+
+  repository: https://github.com/o2sh/onefetch
+
+  install:
+
+      cargo install onefetch
+
+* tokei
+
+  description: Tokei is a program that displays statistics about your code.
+
+  repository: https://github.com/XAMPPRocky/tokei
+
+  install:
+
+      cargo install tokei
+
+* typos-cli
+
+  description: Source code spell checker
+
+  repository: https://github.com/crate-ci/typos
+
+  install:
+
+      cargo install typos-cli

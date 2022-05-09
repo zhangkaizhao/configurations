@@ -1,0 +1,41 @@
+# Issues
+
+## system iconv library vs. non-system iconv library on macOS
+
+Cause: this happens when there are non-system iconv libraries installed by MacPorts or pkgsrc/pkgin, etc.
+
+Solution: build with `RUSTFLAGS="-L /usr/lib"` to force using the system iconv library.
+
+e.g.
+
+    RUSTFLAGS="-L /usr/lib" cargo install cargo-audit
+
+    RUSTFLAGS="-L /usr/lib" cargo install cargo-edit
+
+    RUSTFLAGS="-L /usr/lib" cargo install cargo-outdated
+
+    RUSTFLAGS="-L /usr/lib" cargo install cargo-update
+
+Some references:
+
+* [Can't compile code when using openssl from MacPorts #3538](https://github.com/rust-lang/cargo/issues/3538)
+* [Installation fails with iconv linking error (libgit2-related) #504](https://github.com/cargo-generate/cargo-generate/issues/504)
+* [Cargo Reference - Environment Variables](https://doc.rust-lang.org/stable/cargo/reference/environment-variables.html)
+
+## shared libraries e.g. openssl not found on macOS
+
+Cause: this happens when shared libraries are not bundled by the system and don't want to use a third party package manager like Homebrew, MacPorts or pkgsrc/pkgin to manage such shared libraries.
+
+Solution: build with the Cargo features which vendor the shared libraries by the crates themselves.
+
+e.g.
+
+    cargo install --features vendored-libgit2,vendored-openssl cargo-audit
+
+    cargo install --features vendored-libgit2,vendored-openssl cargo-edit
+
+    cargo install --features vendored-openssl cargo-outdated
+
+    cargo install --features vendored-openssl cargo-update
+
+Note: this solution also resolves the issue above (system iconv library vs. non-system iconv library on macOS).
