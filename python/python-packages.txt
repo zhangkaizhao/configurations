@@ -1,0 +1,142 @@
+# Python packages
+
+Install with `pip install [options] <package>`. See `pip help install`.
+
+* cohesion
+
+  description: Cohesion is a tool for measuring Python class cohesion.
+
+  repository: https://github.com/mschwager/cohesion
+
+  install:
+
+      pip install cohesion
+
+  note: Development of Cohesion has been suspended since 2019. No lonnger in use.
+
+  This package is used as a flake8 extension.
+
+* dlint
+
+  description: Dlint is a tool for encouraging best coding practices and helping ensure Python code is secure.
+
+  repository: https://github.com/duo-labs/dlint
+
+  install
+
+      pip install dlint
+
+  note: Development of Dlint has been suspended since 2020. No longer in use.
+
+  This package is used as a flake8 extension.
+
+* docutils
+
+  description: Docutils -- Python Documentation Utilities
+
+  homepage: http://docutils.sourceforge.net/
+
+  subcommands:
+
+    - rst2html.py
+    - rst2html4.py
+    - rst2html5.py
+    - rst2latex.py
+    - rst2man.py
+    - rst2odt.py
+    - rst2odt_prepstyles.py
+    - rst2pseudoxml.py
+    - rst2s5.py
+    - rst2xetex.py
+    - rst2xml.py
+    - rstpep2html.py
+
+  install:
+
+      pip install docutils
+
+* flake8
+
+  description: the modular source code checker: pep8 pyflakes and co
+
+  repository: https://github.com/PyCQA/flake8
+
+  install:
+
+      pip install flake8
+
+* ipython
+
+  description: IPython: Productive Interactive Computing
+
+  repository: https://github.com/ipython/ipython
+
+  install:
+
+      pip install ipython
+
+* notebook
+
+  description: A web-based notebook environment for interactive computing
+
+  repository: https://github.com/jupyter/notebook
+
+  install:
+
+      pip install notebook
+
+  note: run `python -m notebook` to start
+
+* pip-tools
+
+  description: pip-tools keeps your pinned dependencies fresh.
+
+  subcommands:
+
+    - pip-compile
+    - pip-sync
+
+  repository: https://github.com/jazzband/pip-tools
+
+  install:
+
+      pip install pip-tools
+
+* radon
+
+  description: Code Metrics in Python
+
+  subcommands:
+
+    - radon cc
+    - radon raw
+    - radon mi
+    - radon hal
+
+  repository: https://github.com/rubik/radon
+
+  install:
+
+      pip install radon
+
+  note: for vim vim-radon plugin and using standalone
+
+* rst2pdf
+
+  description: Convert reStructured Text to PDF via ReportLab.
+
+  repository: https://github.com/rst2pdf/rst2pdf
+
+  install:
+
+      pip install rst2pdf
+
+* virtualenv
+
+  description: Virtual Python Environment builder
+
+  repository: https://github.com/pypa/virtualenv
+
+  install:
+
+      pip install virtualenv
