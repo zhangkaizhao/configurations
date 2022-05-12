@@ -1,0 +1,55 @@
+# Ruby gems
+
+Install with `gem install [options] GEMNAME`. See `gem help install`.
+
+* asciidoctor
+
+  description: A fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.
+
+  repository: https://github.com/asciidoctor/asciidoctor
+
+  install:
+
+      gem install asciidoctor
+
+* debug
+
+  description: Debugging functionality for Ruby.
+
+  repository: https://github.com/ruby/debug
+
+  install:
+
+      gem install debug
+
+  for VSCode Ruby rdbg Debugger https://github.com/ruby/vscode-rdbg
+
+* jekyll
+
+  description: Jekyll is a simple, blog aware, static site generator.
+
+  repository: https://github.com/jekyll/jekyll
+
+  install
+
+      gem install jekyll
+
+* jekyll-import
+
+  description: Provides the Import command for Jekyll.
+
+  repository: https://github.com/jekyll/jekyll-import
+
+  install
+
+      gem install jekyll-import
+
+* rubocop
+
+  description: a Ruby code style checking and code formatting tool
+
+  repository: https://github.com/rubocop/rubocop
+
+  install:
+
+      gem install rubocop
