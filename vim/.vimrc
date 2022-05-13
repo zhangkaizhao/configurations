@@ -120,8 +120,8 @@ if exists('g:loaded_minpac')
   call minpac#init()
   call minpac#add('k-takata/minpac', {'type': 'opt'})
 
-  " ALE https://github.com/w0rp/ale
-  call minpac#add('w0rp/ale')
+  " ALE https://github.com/dense-analysis/ale
+  call minpac#add('dense-analysis/ale')
   " base16-vim https://github.com/chriskempson/base16-vim
   call minpac#add('chriskempson/base16-vim')
   " bufferhint https://github.com/bsdelf/bufferhint
@@ -194,7 +194,7 @@ if exists('g:loaded_minpac')
 
   " -> pack configurations
 
-  " - ALE https://github.com/w0rp/ale
+  " - ALE https://github.com/dense-analysis/ale
 
   "let g:ale_linters_explicit = 1
   "let g:ale_completion_delay = 500
