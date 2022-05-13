@@ -175,7 +175,8 @@ if exists('g:loaded_minpac')
   " vim-preview https://github.com/greyblake/vim-preview
   call minpac#add('greyblake/vim-preview')
   " vim-racer https://github.com/racer-rust/vim-racer
-  call minpac#add('racer-rust/vim-racer')
+  " Active development on Racer and vim-racer has stopped.
+  "call minpac#add('racer-rust/vim-racer')
   " vim-radon https://github.com/rubik/vim-radon
   call minpac#add('rubik/vim-radon')
   " vim-rails https://github.com/tpope/vim-rails
@@ -213,10 +214,8 @@ if exists('g:loaded_minpac')
   " mypy disabled
   let g:ale_python_mypy_executable = ''
 
-  " rls disabled
-  "let g:ale_rust_rls_executable = ''
-  " only enable rustc and rust-analyzer for rust
-  let g:ale_linters = {'rust': ['rustc', 'analyzer']}
+  " Only enable rustc for Rust to avoid building crates which results in huge size target directories.
+  let g:ale_linters = {'rust': ['rustc']}
 
   " - base16-vim https://github.com/chriskempson/base16-vim
   "colorscheme base16-materia
