@@ -216,6 +216,13 @@ if exists('g:loaded_minpac')
 
   " Only enable rustc for Rust to avoid building crates which results in huge size target directories.
   let g:ale_linters = {'rust': ['rustc']}
+  " https://github.com/dense-analysis/ale/blob/v3.2.0/doc/ale-rust.txt#L249
+  " Rust Compiler Error Index https://doc.rust-lang.org/error-index.html
+  " E0432: An import was unresolved.
+  " E0433: An undeclared crate, module, or type was used.
+  " E0601: No main function was found in a binary crate.
+  " E0670: Rust 2015 does not permit the use of async fn.
+  let g:ale_rust_ignore_error_codes = ['E0432', 'E0433', 'E0601', 'E0670']
 
   " - base16-vim https://github.com/chriskempson/base16-vim
   "colorscheme base16-materia
