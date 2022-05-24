@@ -49,4 +49,5 @@ Visual Studio Code  (auto update)   https://code.visualstudio.com/
 Vivaldi             (auto update)   https://vivaldi.com/
 VLC                 (auto update)   https://www.videolan.org/vlc/
 wkhtmltopdf                         https://wkhtmltopdf.org/
+XQuartz             (auto update)   https://www.xquartz.org/
 Yandex Disk                         https://disk.yandex.com/

@@ -2,6 +2,7 @@ alacritty
 avidemux
 birdfont
 blender
+contour
 emacs
 feeds
 font-cascadia-mono (homebrew/cask-fonts)
@@ -14,6 +15,7 @@ font-linux-biolinum (homebrew/cask-fonts)
 font-linux-libertine (homebrew/cask-fonts)
 font-meslo-lg (homebrew/cask-fonts)
 fontforge
+freeplane
 fsnotes
 geany
 gimp
@@ -36,7 +38,6 @@ otf-victor-mono (oh-my-home/fonts)
 pencil
 qbittorrent
 qt-creator
-sioyek
 the-battle-for-wesnoth
 thonny
 ttc-source-han-sans (oh-my-home/fonts)
@@ -53,4 +54,3 @@ ttf-twitter-color-emoji (oh-my-home/fonts)
 ttf-ubuntu-font-family (oh-my-home/fonts)
 vienna
 wezterm
-xmind
