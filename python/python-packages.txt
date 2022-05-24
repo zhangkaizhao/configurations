@@ -12,7 +12,7 @@ Install with `pip install [options] <package>`. See `pip help install`.
 
       pip install cohesion
 
-  note: Development of Cohesion has been suspended since 2019. No lonnger in use.
+  note: Development of Cohesion has been suspended since 2019. No longer in use.
 
   This package is used as a flake8 extension.
 
@@ -86,6 +86,16 @@ Install with `pip install [options] <package>`. See `pip help install`.
       pip install notebook
 
   note: run `python -m notebook` to start
+
+* pip-audit
+
+  description: A tool for scanning Python environments for known vulnerabilities
+
+  repository: https://github.com/trailofbits/pip-audit
+
+  install:
+
+      pip install pip-audit
 
 * pip-tools
 
