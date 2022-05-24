@@ -1,4 +1,4 @@
-# Cargo
+# Rust
 
 ## Rust binaries
 
