@@ -22,7 +22,6 @@ gimp
 gitter
 gtkwave
 keepassxc
-kindle
 kitty
 krita
 lighttable

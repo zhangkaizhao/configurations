@@ -18,6 +18,7 @@ Hyper                               https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
 Jitsi Meet          (auto update)   https://github.com/jitsi/jitsi-meet-electron
+Kindle              (auto update)   https://www.amazon.com/gp/digital/fiona/kcp-landing-page
 Lagrange            (auto update)   https://gmi.skyjake.fi/lagrange/
 Lapce                               https://github.com/lapce/lapce
 LibreOffice                         https://www.libreoffice.org/
