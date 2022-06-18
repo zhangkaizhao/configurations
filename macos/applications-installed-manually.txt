@@ -20,6 +20,7 @@ iTerm2              (auto update)   https://www.iterm2.com/
 Jitsi Meet          (auto update)   https://github.com/jitsi/jitsi-meet-electron
 Kindle              (auto update)   https://www.amazon.com/gp/digital/fiona/kcp-landing-page
 Lagrange            (auto update)   https://gmi.skyjake.fi/lagrange/
+Lark                (auto update)   https://www.larksuite.com/
 Lapce                               https://github.com/lapce/lapce
 LibreOffice                         https://www.libreoffice.org/
 MacPass             (auto update)   https://macpassapp.org/
@@ -40,10 +41,12 @@ SourceTree          (auto update)   https://www.sourcetreeapp.com/
 Sublime Merge       (auto update)   https://www.sublimemerge.com/
 Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
+Tencent Meeting     (auto update)   https://meeting.tencent.com/
 TeX Live Utility    (auto update)   http://amaxwell.github.io/tlutility/
 TextMate            (auto update)   https://macromates.com/
 Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/
+ungoogled-chromium                  https://github.com/Eloston/ungoogled-chromium
 Vagrant                             https://www.vagrantup.com/
 VirtualBox                          https://www.virtualbox.org/
 Visual Studio Code  (auto update)   https://code.visualstudio.com/
@@ -52,3 +55,4 @@ VLC                 (auto update)   https://www.videolan.org/vlc/
 wkhtmltopdf                         https://wkhtmltopdf.org/
 XQuartz             (auto update)   https://www.xquartz.org/
 Yandex Disk                         https://disk.yandex.com/
+Zulip Desktop       (auto update)   https://zulip.com/apps/

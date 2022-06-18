@@ -12,3 +12,4 @@ PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/
 rust-analyzer (large)   ~/bin/rust-analyzer             https://rust-analyzer.github.io/
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod
 zls                     ~/bin/zls                       https://github.com/zigtools/zls
+zola        (huge)      ~/bin/zola                      https://www.getzola.org/
