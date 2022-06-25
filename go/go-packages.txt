@@ -112,7 +112,7 @@ Install with `go install [build flags] [packages]`. See `go help install`.
 
       go install github.com/alexellis/k3sup@latest
 
-  note: failed to install due to "go:linkname must refer to declared function or variable" errors with Go 1.18 now.
+  note: there is no version information in the output of `k3sup version` command from this installation now.
 
 * minica
 
