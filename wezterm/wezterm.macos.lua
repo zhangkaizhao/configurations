@@ -24,4 +24,6 @@ return {
     initial_rows = 26,
 
     use_ime = true,
+
+    audible_bell = "Disabled",
 }
