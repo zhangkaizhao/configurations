@@ -53,3 +53,13 @@ Install with `gem install [options] GEMNAME`. See `gem help install`.
   install:
 
       gem install rubocop
+
+* standard
+
+  description: Ruby Style Guide, with linter & automatic code fixer
+
+  repository: https://github.com/testdouble/standard
+
+  install:
+
+      gem install standard
