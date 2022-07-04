@@ -1,0 +1,17 @@
+# Sublime Text packages
+
+* MarkdownEditing
+
+  https://packagecontrol.io/packages/MarkdownEditing
+
+  description: Powerful Markdown package for Sublime Text with better syntax understanding and good color schemes.
+
+  respository: https://github.com/SublimeText-Markdown/MarkdownEditing
+
+* MarkdownPreview
+
+  https://packagecontrol.io/packages/MarkdownPreview
+
+  description: Markdown preview and build plugin for Sublime Text
+
+  repository: https://github.com/facelessuser/MarkdownPreview
