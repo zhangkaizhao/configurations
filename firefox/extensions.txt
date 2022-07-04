@@ -56,3 +56,7 @@ https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-a
 ## 2022-02-08
 
 * Print Edit WE https://addons.mozilla.org/firefox/addon/print-edit-we/
+
+## 2022-04-24
+
+* Smart RSS Reader https://addons.mozilla.org/firefox/addon/smart-rss-reader/
