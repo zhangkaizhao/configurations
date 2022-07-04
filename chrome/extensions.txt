@@ -23,3 +23,15 @@
 
 * Chromoji - Emoji for Google Chrome https://chrome.google.com/webstore/detail/cahedbegdkagmcjfolhdlechbkeaieki
 * Emoji Keyboard by Emojione https://chrome.google.com/webstore/detail/ipdjnhgkpapgippgcgkfcbpdpcgifncb
+
+## 2022-04-24
+
+* Smart RSS https://chrome.google.com/webstore/detail/smart-rss/eggggihfcaabljfpjiiaohloefmgejic
+
+## 2022-07-03
+
+* chromium-web-store https://github.com/NeverDecaf/chromium-web-store
+
+  for ungoogle-chromium
+
+* Replace Google CDN https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice
