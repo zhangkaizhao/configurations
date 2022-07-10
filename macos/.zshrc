@@ -113,8 +113,8 @@ fi
 # 2021-12-04 for ConTeXt https://wiki.contextgarden.net/Installation
 #export PATH=/usr/local/programs/context/tex/texmf-osx-64/bin:$PATH
 
-# 2021-12-04 for TeX Live 2021 https://www.tug.org/texlive/quickinstall.html
-export PATH="/usr/local/texlive/2021/bin/universal-darwin:$PATH"
+# 2022-07-09 for TeX Live 2022 https://www.tug.org/texlive/quickinstall.html
+export PATH="/usr/local/texlive/2022/bin/universal-darwin:$PATH"
 
 # 2021-12-05 Python tools
 export PATH=$HOME/Library/Python/3.8/bin:$PATH
