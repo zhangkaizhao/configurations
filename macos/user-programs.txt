@@ -1,3 +1,4 @@
+bun             ~/.bun                  https://bun.sh/
 deno            ~/.deno                 https://deno.land/
 ghcup           ~/.ghcup                https://github.com/haskell/ghcup
 nvm             ~/.nvm                  https://github.com/nvm-sh/nvm

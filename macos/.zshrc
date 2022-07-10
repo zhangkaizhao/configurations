@@ -139,6 +139,12 @@ export RUBY_BUILD_MIRROR_URL="https://repo.huaweicloud.com/ruby/ruby/"
 # Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
 export GPG_TTY=$(tty)
 
+# 2022-07-09 https://github.com/Jarred-Sumner/bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# bun completions
+[ -s "$BUN_INSTALL/_bun" ] && source "$BUN_INSTALL/_bun"
+
 ## Other general but must be placed at the bottom
 
 # show hidden files and directories in zsh completions from https://unix.stackexchange.com/a/308322/126066
