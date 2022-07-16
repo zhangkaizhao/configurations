@@ -67,6 +67,12 @@ set hlsearch
 set incsearch
 set noignorecase
 
+" => mouse
+
+" Enable the use of mouse for GUI and Win32 e.g. Windows Terminal, iTerm2, etc.
+" See `help mouse` in vim.
+set mouse=a
+
 " => sounds
 
 set noerrorbells
