@@ -1,11 +1,22 @@
+# `man bash` -> INVOCATION
+#> ...
+# > When bash is invoked as an interactive login shell, or as a non-interactive shell with the --login
+# > option, it first reads and executes commands from the file /etc/profile, if that file exists. After
+# > reading that file, it looks for ~/.bash_profile, ~/.bash_login, and ~/.profile, in that order, and
+# > reads and executes commands from the first one that exists and is readable. The --noprofile option
+# > may be used when the shell is started to inhibit this behavior.
+# > ...
+# > When an interactive shell that is not a login shell is started, bash reads and executes commands from
+# > ~/.bashrc, if that file exists. This may be inhibited by using the --norc option. The --rcfile file
+# > option will force bash to read and execute commands from file instead of ~/.bashrc.
+# > ...
+
 umask 0002
 
-. $HOME/.bashrc
+if [ -f ~/.profile ]; then
+    . ~/.profile
+fi
 
-
-# 2019-02-11 https://stackoverflow.com/questions/7165108/in-os-x-lion-lang-is-not-set-to-utf-8-how-to-fix-it
-#export LC_ALL=zh_CN.UTF-8
-export LANG=zh_CN.UTF-8
-
-# 2019-12-22 https://support.apple.com/en-us/HT208050
-export BASH_SILENCE_DEPRECATION_WARNING=1
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi

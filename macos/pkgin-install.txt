@@ -1,6 +1,6 @@
 autoconf (for compiling rubies via chruby)
 automake (for compiling rubies via chruby)
-bison (for compiling rubies via chruby)
+cmake
 elixir
 erlang
 fontconfig
@@ -11,7 +11,7 @@ inetutils (for telnet)
 iverilog
 jq
 kakoune
-libyaml (for compiling rubies via chruby)
+libev (for `opam install dream`)
 mariadb-server
 mosquitto
 pkgconf (for compiling crystal programs with Crystal compiler)
@@ -21,7 +21,6 @@ pv
 qemu
 rebar3
 redis
-rust-analyzer
 sbcl
 tree
 wget

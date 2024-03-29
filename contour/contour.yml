@@ -170,9 +170,9 @@ profiles:
         wm_class: "contour"
 
         # Environment variables to be passed to the shell.
-        environment:
-            TERM: xterm-256color
-            COLORTERM: truecolor
+        # environment:
+        #     TERM: contour
+        #     COLORTERM: truecolor
 
         # Determines the terminal type that is being advertised.
         # Possible values are:
@@ -191,8 +191,8 @@ profiles:
 
         # Determines the initial terminal sice in characters.
         terminal_size:
-            columns: 122
-            lines: 32
+            columns: 80
+            lines: 25
 
         history:
             # Number of lines to preserve (-1 for infinite).
@@ -228,7 +228,7 @@ profiles:
         # Font related configuration (font face, styles, size, rendering mode).
         font:
             # Initial font size in pixels.
-            size: 12
+            size: 14
 
             # DPI scaling factor applied on top of the system configured on (default: 1.0).
             dpi_scale: 1.0
@@ -279,7 +279,7 @@ profiles:
             regular:
                 # Font family defines the font family name, such as:
                 # Fira Code", "Courier New", or "monospace" (default).
-                family: "Inconsolata"
+                family: "monospace"
 
                 # Font weight can be one of:
                 #   thin, extra_light, light, demilight, book, normal,
@@ -341,11 +341,25 @@ profiles:
                 blinking: false
                 blinking_interval: 500
 
+        # Time duration in milliseconds for which yank highlight is shown.
+        vi_mode_highlight_timeout: 300
+
+        # Configures a `scrolloff` for cursor movements in normal and visual (block) modes.
+        #
+        # Default: 8
+        vi_mode_scrolloff: 8
+
+        status_line:
+            # Either none or indicator.
+            # This only reflects the initial state of the status line, as it can
+            # be changed at any time during runtime by the user or by an application.
+            display: none
+
         # Background configuration
         background:
             # Background opacity to use. A value of 1.0 means fully opaque whereas 0.0 means fully
             # transparent. Only values between 0.0 and 1.0 are allowed.
-            opacity: 0.8
+            opacity: 1.0
             # Some platforms can blur the transparent background (currently only Windows 10 is supported).
             blur: false
 
@@ -417,11 +431,55 @@ color_schemes:
             normal: '#f0f000'
             hover: '#ff0000'
 
+        # Color to pick for vi_mode highlights.
+        # The value format is equivalent to how selection colors and alpha contribution is defined.
+        vi_mode_highlight:
+            foreground: CellForeground
+            foreground_alpha: 1.0
+            background: '#ffa500'
+            background_alpha: 0.5
+
         # The text selection color can be customized here.
         # Leaving a value empty will default to the inverse of the content's color values.
-        # selection:
-        #     foreground: '#c0c0c0'
-        #     background: '#a000a0'
+        #
+        # The color can be specified in RGB as usual, plus
+        # - CellForeground: Selects the cell's foreground color.
+        # - CellBackground: Selects the cell's background color.
+        selection:
+            # Specifies the color to be used for the selected text.
+            #
+            # Default: CellBackground
+            foreground: CellBackground
+            # Specifies the alpha value (between 0.0 and 1.0) the configured foreground color
+            # will contribute to the original color.
+            #
+            # A value of 1.0 will paint over, whereas a value of 0.5 will give
+            # a look of a half-transparently painted grid cell.
+            foreground_alpha: 1.0
+            # Specifies the color to be used for the selected background.
+            #
+            # Default: CellForeground
+            background: CellForeground
+            # Specifies the alpha value (between 0.0 and 1.0) the configured background color
+            # will contribute to the original color.
+            #
+            # A value of 1.0 will paint over, whereas a value of 0.5 will give
+            # a look of a half-transparently painted grid cell.
+            background_alpha: 1.0
+
+        # Search match highlighting. Similar to selection highlighting.
+        search_highlight:
+            foreground: CellBackground
+            background: CellForeground
+            foreground_alpha: 1.0
+            background_alpha: 1.0
+
+        # Search match highlighting (focused term). Similar to selection highlighting.
+        search_highlight_focused:
+            foreground: CellBackground
+            background: CellForeground
+            foreground_alpha: 1.0
+            background_alpha: 1.0
 
         # Normal colors
         normal:
@@ -469,6 +527,7 @@ color_schemes:
 # - Select    : The terminal has currently an active grid cell selection (such as selected text).
 # - Insert    : The Insert input mode is active, that is the default and one way to test
 #               that the input mode is not in normal mode or any of the visual select modes.
+# - Search    : There is a search term currently being edited or already present.
 #
 # You can combine these modes by concatenating them via | and negate a single one
 # by prefixing with ~.
@@ -507,10 +566,13 @@ color_schemes:
 # - CopySelection     Copies the current selection into the clipboard buffer.
 # - DecreaseFontSize  Decreases the font size by 1 pixel.
 # - DecreaseOpacity   Decreases the default-background opacity by 5%.
+# - FocusNextSearchMatch     Focuses the next search match (if any).
+# - FocusPreviousSearchMatch Focuses the next previous match (if any).
 # - FollowHyperlink   Follows the hyperlink that is exposed via OSC 8 under the current cursor position.
 # - IncreaseFontSize  Increases the font size by 1 pixel.
 # - IncreaseOpacity   Increases the default-background opacity by 5%.
 # - NewTerminal       Spawns a new terminal at the current terminals current working directory.
+# - NoSearchHighlight Disables current search highlighting, if anything is still highlighted due to a prior search.
 # - OpenConfiguration Opens the configuration file.
 # - OpenFileManager   Opens the current working directory in a system file manager.
 # - PasteClipboard    Pastes clipboard to standard input.
@@ -530,9 +592,12 @@ color_schemes:
 # - ScrollToBottom    Scrolls to the bottom of the screen buffer.
 # - ScrollToTop       Scrolls to the top of the screen buffer.
 # - ScrollUp          Scrolls up by the multiplier factor.
+# - SearchReverse     Initiates search mode (starting to search at current cursor position, moving upwards).
 # - SendChars         Writes given characters in `chars` member to the applications input.
 # - ToggleAllKeyMaps  Disables/enables responding to all keybinds (this keybind will be preserved when disabling all others).
 # - ToggleFullScreen  Enables/disables full screen mode.
+# - ToggleInputProtection Enables/disables terminal input protection.
+# - ToggleStatusLine  Shows/hides the VT320 compatible Indicator status line.
 # - ToggleTitleBar    Shows/Hides titlebar
 # - ViNormalMode      Enters Vi-like normal mode. The cursor can then be moved via h/j/k/l movements and text can be selected via v, yanked via y, and clipboard pasted via p.
 # - WriteScreen       Writes VT sequence in `chars` member to the screen (bypassing the application).
@@ -554,6 +619,7 @@ input_mapping:
     - { mods: [Control, Shift], key: C,             action: CopySelection }
     - { mods: [Control, Shift], key: V,             action: PasteClipboard }
     - { mods: [Control],        key: C,             action: CopySelection, mode: 'Select|Insert' }
+    - { mods: [Control],        key: C,             action: CancelSelection, mode: 'Select|Insert' }
     - { mods: [Control],        key: V,             action: PasteClipboard, mode: 'Select|Insert' }
     - { mods: [Control],        key: V,             action: CancelSelection, mode: 'Select|Insert' }
     - { mods: [],               key: Escape,        action: CancelSelection, mode: 'Select|Insert' }
@@ -568,8 +634,13 @@ input_mapping:
     - { mods: [Shift],          key: PageDown,      action: ScrollPageDown }
     - { mods: [Shift],          key: PageUp,        action: ScrollPageUp }
     - { mods: [Shift],          key: UpArrow,       action: ScrollOneUp }
-    - { mods: [Shift],          key: '{',           action: ScrollMarkUp,   mode: "~Alt"}
-    - { mods: [Shift],          key: '}',           action: ScrollMarkDown, mode: "~Alt"}
+    - { mods: [Control, Alt],   key: K,             action: ScrollMarkUp,   mode: "~Alt"}
+    - { mods: [Control, Alt],   key: J,             action: ScrollMarkDown, mode: "~Alt"}
     - { mods: [Shift],          mouse: WheelDown,   action: ScrollPageDown }
     - { mods: [Shift],          mouse: WheelUp,     action: ScrollPageUp }
-    - { mods: [Control],        key: O,             action: OpenFileManager }
+    - { mods: [Control, Alt],   key: O,             action: OpenFileManager }
+    - { mods: [Control, Alt],   key: '.',           action: ToggleStatusLine }
+    - { mods: [Control, Shift], key: 'F',           action: SearchReverse }
+    - { mods: [Control, Shift], key: 'H',           action: NoSearchHighlight }
+    - { mods: [],               key: 'F3',          action: FocusNextSearchMatch }
+    - { mods: [Shift],          key: 'F3',          action: FocusPreviousSearchMatch }

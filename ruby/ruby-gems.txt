@@ -44,6 +44,16 @@ Install with `gem install [options] GEMNAME`. See `gem help install`.
 
       gem install jekyll-import
 
+* pry
+
+  description: A runtime developer console and IRB alternative with powerful introspection capabilities.
+
+  repository: https://github.com/pry/pry
+
+  install:
+
+      gem install pry
+
 * rubocop
 
   description: a Ruby code style checking and code formatting tool
@@ -54,6 +64,28 @@ Install with `gem install [options] GEMNAME`. See `gem help install`.
 
       gem install rubocop
 
+* rucoa
+
+  description: Language server for Ruby.
+
+  repository: https://github.com/r7kamura/rucoa
+
+  install:
+
+      gem install rucoa
+
+  for VSCode extension vscode-rucoa https://github.com/r7kamura/vscode-rucoa
+
+* solargraph
+
+  description: IDE tools for code completion, inline documentation, and static analysis
+
+  repository: https://github.com/castwide/solargraph
+
+  install:
+
+      gem install solargraph
+
 * standard
 
   description: Ruby Style Guide, with linter & automatic code fixer
@@ -63,3 +95,23 @@ Install with `gem install [options] GEMNAME`. See `gem help install`.
   install:
 
       gem install standard
+
+* textbringer
+
+  description: An Emacs-like text editor
+
+  repository: https://github.com/shugo/textbringer
+
+  install:
+
+      gem install textbringer
+
+* typeprof
+
+  description: A type analysis tool for Ruby code based on abstract interpretation
+
+  repository: https://github.com/ruby/typeprof
+
+  install:
+
+      gem install typeprof

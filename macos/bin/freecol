@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-# Tested with FreeCol 0.13.0
-java \
-    -cp /Applications/FreeCol.app/Contents/app/jars/ \
-    -jar /Applications/FreeCol.app/Contents/app/FreeCol.jar \
-    --windowed \
-    --freecol-data /Applications/FreeCol.app/Contents/app/data/

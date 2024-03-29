@@ -1,0 +1,5 @@
+# update ocaml-base-compiler in a switch
+
+```
+opam install ocaml-base-compiler=5.0.0 --update-invariant
+```

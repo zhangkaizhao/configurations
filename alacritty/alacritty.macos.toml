@@ -1,0 +1,17 @@
+# 2023-12-28 Alacritty uses TOML instead of YAML since 0.13.
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "Ubuntu Sans Mono"
+
+[window]
+opacity = 0.8
+
+[window.dimensions]
+columns = 122
+lines = 30

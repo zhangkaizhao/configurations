@@ -1,8 +1,7 @@
 alacritty
+android-file-transfer
 avidemux
-birdfont
-blender
-contour
+calibre
 emacs
 feeds
 font-cascadia-mono (homebrew/cask-fonts)
@@ -11,32 +10,43 @@ font-fantasque-sans-mono (homebrew/cask-fonts)
 font-hack (homebrew/cask-fonts)
 font-hanamina (homebrew/cask-fonts)
 font-jetbrains-mono (homebrew/cask-fonts)
+font-juliamono (homebrew/cask-fonts)
 font-linux-biolinum (homebrew/cask-fonts)
 font-linux-libertine (homebrew/cask-fonts)
 font-meslo-lg (homebrew/cask-fonts)
 fontforge
+foobar2000
+freecad
+freecol
 freeplane
 fsnotes
 geany
 gimp
-gitter
-gtkwave
+godot
+inkscape
 keepassxc
 kitty
 krita
-lighttable
+lapce
+librecad
 mgba
 mpv
 openscad
+otf-fragment-mono (oh-my-home/fonts)
 otf-inconsolata (oh-my-home/fonts)
+otf-intel-one-mono (oh-my-home/fonts)
 otf-inter (oh-my-home/fonts)
 otf-merriweather (oh-my-home/fonts)
 otf-montserrat (oh-my-home/fonts)
 otf-public-sans (oh-my-home/fonts)
+otf-sono (oh-my-home/fonts)
+otf-ubuntu-sans (oh-my-home/fonts)
+otf-ubuntu-sans-mono (oh-my-home/fonts)
 otf-victor-mono (oh-my-home/fonts)
 pencil
 qbittorrent
 qt-creator
+rio
 the-battle-for-wesnoth
 thonny
 ttc-source-han-sans (oh-my-home/fonts)
@@ -45,11 +55,23 @@ ttf-andika (oh-my-home/fonts)
 ttf-charis-sil (oh-my-home/fonts)
 ttf-doulos-sil (oh-my-home/fonts)
 ttf-gentium-plus (oh-my-home/fonts)
+ttf-i-ming (oh-my-home/fonts)
+ttf-lxgw-new-clear-gothic (oh-my-home/fonts)
+ttf-lxgw-wenkai (oh-my-home/fonts)
+ttf-lxgw-wenkai-gb (oh-my-home/fonts)
+ttf-lxgw-wenkai-mono (oh-my-home/fonts)
+ttf-lxgw-wenkai-mono-gb (oh-my-home/fonts)
 ttf-noto-color-emoji (oh-my-home/fonts)
 ttf-openmoji (oh-my-home/fonts)
-ttf-twemoji-mozilla (oh-my-home/fonts)
+ttf-swei-gothic-cjk-jp (oh-my-home/fonts)
+ttf-swei-gothic-cjk-sc (oh-my-home/fonts)
+ttf-swei-gothic-cjk-tc (oh-my-home/fonts)
+ttf-swei-sugar-cjk-jp (oh-my-home/fonts)
+ttf-swei-sugar-cjk-sc (oh-my-home/fonts)
+ttf-swei-sugar-cjk-tc (oh-my-home/fonts)
 ttf-twemoji (oh-my-home/fonts)
+ttf-twemoji-mozilla (oh-my-home/fonts)
 ttf-twitter-color-emoji (oh-my-home/fonts)
-ttf-ubuntu-font-family (oh-my-home/fonts)
-vienna
+vagrant
 wezterm
+wkhtmltopdf

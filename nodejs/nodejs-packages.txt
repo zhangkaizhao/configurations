@@ -1,0 +1,33 @@
+# Node.js packages
+
+Install with `npm install -g <package>`. See `npm help install`.
+
+* djot
+
+  install:
+
+    npm install -g @djot/djot
+
+* pyright:
+
+  install:
+
+    npm install -g pyright
+
+* typescript-language-server
+
+  install:
+
+    npm install -g typescript-language-server
+
+* typescript
+
+  install:
+
+    npm install -g typescript
+
+* yarn
+
+  install:
+
+    npm install -g yarn

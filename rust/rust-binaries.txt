@@ -22,13 +22,32 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install cargo-bloat
 
+* cargo-deny
+
+  description: Cargo plugin to help you manage large dependency graphs
+
+  subcommands:
+
+    - cargo deny init
+    - cargo deny check
+    - cargo deny check licenses
+    - cargo deny check bans
+    - cargo deny check advisories
+    - cargo deny check sources
+
+  repository: https://github.com/EmbarkStudios/cargo-deny
+
+  install:
+
+      cargo install --locked cargo-deny
+
 * cargo-edit
 
   description: This tool extends Cargo to allow you to add, remove, and upgrade dependencies by modifying your Cargo.toml file from the command line.
 
   subcommands:
 
-    - cargo add
+    - cargo add (removed since [v0.10.0](https://github.com/killercup/cargo-edit/releases/tag/v0.10.0))
     - cargo rm
     - cargo upgrade
     - cargo set-version
@@ -37,7 +56,7 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
   install:
 
-      cargo install --features vendored-libgit2,vendored-openssl cargo-edit
+      cargo install --features vendored-openssl cargo-edit
 
 * cargo-license
 
@@ -49,6 +68,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install cargo-license
 
+* cargo-machete
+
+  description: Find unused dependencies with this one weird trick!
+
+  repository: https://github.com/bnjbvr/cargo-machete
+
+  install:
+
+      cargo install cargo-machete
+
 * cargo-modules
 
   description: A cargo plugin for showing an overview of a crate's modules.
@@ -58,6 +87,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install cargo-modules
+
+* cargo-msrv
+
+  description: Find your minimum supported Rust version (MSRV)!
+
+  repository:
+
+  install:
+
+      cargo install cargo-msrv
 
 * cargo-outdated
 
@@ -83,6 +122,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install --features vendored-openssl cargo-update
+
+* hexyl
+
+  description: A command-line hex viewer
+
+  repository: https://github.com/sharkdp/hexyl
+
+  install:
+
+      cargo install hexyl
 
 * hyperfine
 
@@ -134,6 +183,26 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install onefetch
 
+* ripgrep
+
+  description: a line-oriented search tool that recursively searches the current directory for a regex pattern
+
+  repository: https://github.com/BurntSushi/ripgrep
+
+  install:
+
+      cargo install ripgrep
+
+* tealdeer
+
+  description: Fetch and show tldr help pages for many CLI commands
+
+  repository: https://github.com/dbrgn/tealdeer
+
+  install:
+
+      cargo install tealdeer
+
 * tokei
 
   description: Tokei is a program that displays statistics about your code.
@@ -153,3 +222,13 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install typos-cli
+
+* zee
+
+  description: A modern editor for the terminal, in the spirit of Emacs
+
+  repository: https://github.com/zee-editor/zee
+
+  install:
+
+      RUSTFLAGS='-L /usr/lib' cargo install zee

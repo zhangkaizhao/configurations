@@ -1,15 +1,10 @@
-7zz                     ~/bin/7zz                       https://www.7-zip.org/
+alire                   ~/bin/alr                       https://github.com/alire-project/alire
 filebrowser (large)     ~/bin/filebrowser               https://filebrowser.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
-hugo        (huge)      ~/bin/hugo                      https://gohugo.io/
-k3sup                   ~/bin/k3sup                     https://k3sup.dev/
-kubectl     (huge)      ~/bin/kubectl                   https://kubernetes.io/
+loc                     ~/bin/loc                       https://github.com/jiacai2050/loc
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
-opam                    ~/bin/opam                      https://opam.ocaml.org/
-pandoc      (huge)      ~/bin/pandoc                    https://pandoc.org/
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
-rust-analyzer (large)   ~/bin/rust-analyzer             https://rust-analyzer.github.io/
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod
+zigup                   ~/bin/zigup                     https://github.com/marler8997/zigup
 zls                     ~/bin/zls                       https://github.com/zigtools/zls
-zola        (huge)      ~/bin/zola                      https://www.getzola.org/

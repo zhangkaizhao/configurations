@@ -1,1 +1,74 @@
-libressl (for ponyup)
+autoconf (for ocaml opam install packages)
+automake (for compiling rubies via ruby-install)
+bison (for compiling rubies via ruby-install)
+bun (oven-sh/bun)
+cargo-audit
+cargo-bloat
+cargo-deny
+cargo-edit
+cargo-outdated
+cmake
+colima
+corral
+cpufetch
+ctop
+delve
+deno
+docker
+docker-compose
+duckdb
+fish
+flyctl
+fnm
+gdbm (for compiling rubies via ruby-install)
+gnupg
+go
+gopls
+gops
+goreman
+helix
+hexyl
+hugo
+hyperfine
+janet
+jq
+k3sup
+kerl
+koka
+kubernetes-cli
+libffi (for compiling rubies via ruby-install)
+libyaml (for compiling rubies via ruby-install or ruby-build)
+lima
+lux
+mariadb@10.11
+mdbook
+media-info
+minica
+miniserve
+minisign
+ninja
+onefetch
+opam
+openssl@1.1 (for compiling rubies via ruby-install)
+pandoc
+pdfcpu
+pkg-config
+ponyc
+postgresql@16
+protobuf
+qt@5
+quickjs
+ripgrep
+ruby-install
+sevenzip (7-zip)
+shadowsocks-rust
+smartdns
+tealdeer
+telnet
+tokei
+tree
+typos-cli
+typst
+wget
+wireguard-go
+zola

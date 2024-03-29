@@ -27,3 +27,21 @@ Also, set the following in chrome://flags:
 * SafeSearch URLs reporting: disabled
 
 It should go without saying, but don't sign in to Chrome.
+
+----
+
+How to implement scrollable tab bar in Chrome like in Firefox?
+
+https://superuser.com/a/1603546
+
+
+I waited it from 2008 and this feature is finally here!
+
+* For now it works only in latest version of **Chrome Canary**.
+* Load chrome://settings/help to check the version and if updates are available. The feature is available in version 88.0.4284.0.
+* List item chrome://flags/#scrollable-tabstrip in the browser's address bar.
+* Set the Scrollable TabStrip experiment to Enabled using the menu on its right. Click on relaunch to restart the browser.
+
+date: 2023-02-03
+version: 108.
+value: Enabled - tabs don't shrink

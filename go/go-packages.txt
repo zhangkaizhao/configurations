@@ -56,6 +56,16 @@ Install with `go install [build flags] [packages]`. See `go help install`.
 
       go install github.com/antonmedv/fx@latest
 
+* go-licenses
+
+  description: Reports on the licenses used by a Go package and its dependencies.
+
+  repository: https://github.com/google/go-licenses
+
+  install:
+
+      go install github.com/google/go-licenses@latest
+
 * goimports
 
   description: Command goimports updates your Go import lines, adding missing ones and removing unreferenced ones.

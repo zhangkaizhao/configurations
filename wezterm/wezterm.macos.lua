@@ -21,7 +21,7 @@ return {
     font_size = 14,
 
     initial_cols = 122,
-    initial_rows = 26,
+    initial_rows = 30,
 
     use_ime = true,
 

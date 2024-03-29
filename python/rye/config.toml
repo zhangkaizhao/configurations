@@ -1,0 +1,10 @@
+[behavior]
+global-python = true
+
+# [[sources]]
+# name = "default"
+# url = "http://pypi.org/simple/"
+
+[[sources]]
+name = "default"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"

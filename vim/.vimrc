@@ -162,6 +162,8 @@ if exists('g:loaded_minpac')
   call minpac#add('leafgarland/typescript-vim')
   " vala.vim https://github.com/arrufat/vala.vim
   call minpac#add('arrufat/vala.vim')
+  " vim-asciidoctor https://github.com/habamax/vim-asciidoctor
+  call minpac#add('habamax/vim-asciidoctor')
   " vim-crystal https://github.com/vim-crystal/vim-crystal
   call minpac#add('vim-crystal/vim-crystal')
   " vim-elixir https://github.com/elixir-editors/vim-elixir
@@ -176,8 +178,10 @@ if exists('g:loaded_minpac')
   call minpac#add('JamshedVesuna/vim-markdown-preview')
   " vim-nix https://github.com/LnL7/vim-nix
   call minpac#add('LnL7/vim-nix')
+  " vim-ocaml https://github.com/ocaml/vim-ocaml
+  call minpac#add('ocaml/vim-ocaml')
   " vim-pony https://github.com/jakwings/vim-pony
-  call minpac#add('jakwings/vim-pony')
+  "call minpac#add('jakwings/vim-pony')
   " vim-preview https://github.com/greyblake/vim-preview
   call minpac#add('greyblake/vim-preview')
   " vim-racer https://github.com/racer-rust/vim-racer
@@ -220,8 +224,10 @@ if exists('g:loaded_minpac')
   " mypy disabled
   let g:ale_python_mypy_executable = ''
 
+  let g:ale_ruby_standardrb_executable = ''
+
   " Only enable rustc for Rust to avoid building crates which results in huge size target directories.
-  let g:ale_linters = {'rust': ['rustc']}
+  let g:ale_linters = {'rust': []}
   " https://github.com/dense-analysis/ale/blob/v3.2.0/doc/ale-rust.txt#L249
   " Rust Compiler Error Index https://doc.rust-lang.org/error-index.html
   " E0432: An import was unresolved.

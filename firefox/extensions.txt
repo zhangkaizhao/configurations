@@ -60,3 +60,17 @@ https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-a
 ## 2022-04-24
 
 * Smart RSS Reader https://addons.mozilla.org/firefox/addon/smart-rss-reader/
+
+## 2023-08-13
+
+* Redirector https://addons.mozilla.org/firefox/addon/redirector/
+
+## 2023-09-11
+
+* Save Page WE https://addons.mozilla.org/firefox/addon/save-page-we/
+
+  for integration of Print Edit WE
+
+## 2023-09-27
+
+* Tampermonkey https://addons.mozilla.org/firefox/addon/tampermonkey/

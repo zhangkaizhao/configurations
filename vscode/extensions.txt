@@ -15,6 +15,7 @@ ms-python.python
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.go
+ms-vscode.makefile-tools
 npruehs.pony
 pgourlain.erlang
 rebornix.ruby

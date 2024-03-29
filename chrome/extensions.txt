@@ -35,3 +35,17 @@
   for ungoogle-chromium
 
 * Replace Google CDN https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice
+
+## 2023-08-13
+
+* Redirector https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd
+
+## 2023-09-11
+
+* Save Page WE https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof
+
+  for integration of Print Edit WE
+
+## 2023-09-27
+
+* Tampermonkey https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo

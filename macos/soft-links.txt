@@ -1,23 +1,13 @@
-~/bin/gpg               /opt/pkg/bin/gpg2
-~/bin/telnet            /opt/pkg/bin/gtelnet
-
 ~/bin/mate              /Applications/TextMate.app/Contents/MacOS/mate
 ~/bin/subl              /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
+~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli
+
+~/bin/racket            /Applications/Racket v8.10/bin/racket
+~/bin/raco              /Applications/Racket v8.10/bin/raco
 
 ~/bin/crystal           /usr/local/programs/crystal/bin/crystal
 ~/bin/shards            /usr/local/programs/crystal/embedded/bin/shards
 
-~/bin/docker            /usr/local/programs/docker/docker
-
-~/bin/go                /usr/local/programs/go/bin/go
-~/bin/gofmt             /usr/local/programs/go/bin/gofmt
-
-~/bin/lima              /usr/local/programs/lima/bin/lima
-~/bin/docker.lima       /usr/local/programs/lima/bin/docker.lima
-~/bin/nerdctl.lima      /usr/local/programs/lima/bin/nerdctl.lima
-~/bin/podman.lima       /usr/local/programs/lima/bin/podman.lima
-
 ~/bin/nvim              /usr/local/programs/nvim/bin/nvim
-~/bin/nvui              /usr/local/programs/nvui/bin/nvui
 
 ~/bin/zig               /usr/local/programs/zig/zig

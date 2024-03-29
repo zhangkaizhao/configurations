@@ -1,0 +1,31 @@
+# Chez Scheme
+
+2022-04-15
+
+version: 9.5.6
+
+steps:
+
+- `wget https://github.com/cisco/ChezScheme/releases/download/v9.5.6/csv9.5.6.tar.gz`
+- `tar xf csv9.5.6.tar.gz`
+- `cd csv9.5.6/`
+- `./configure --threads`
+- `make install`
+
+then copy `../bin/chez` to `$HOME/bin`:
+
+- `copy ../bin/chez $HOME/bin/chez`
+
+Keep the source files and compiled files for uninstall in the future.
+
+uninstall:
+
+- `cd csv9.5.6/`
+- `make uninstall`
+
+then remove `$HOME/bin/chez`:
+
+- `rm $HOME/bin/chez`
+
+
+see details: `csv9.5.6/BUILDING`

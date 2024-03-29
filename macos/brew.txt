@@ -5,7 +5,7 @@
 Which packages:
 
 * required by some Homebrew casks
-* required by some local/user programs/binaries, e.g. libressl for ponyup
+* required by some local/user programs/binaries
 
 ## Homebrew Cask
 

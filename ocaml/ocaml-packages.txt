@@ -1,0 +1,12 @@
+OCaml packages
+
+Install with `opam install [options] <package>`. See `opam --help`.
+
+* dune
+* merlin
+* ocaml-lsp-server
+* ocamlformat
+* utop
+* odoc
+
+ref: https://dev.to/yawaramin/practical-ocaml-314j
