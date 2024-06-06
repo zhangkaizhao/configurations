@@ -3,7 +3,6 @@ android-file-transfer
 avidemux
 calibre
 emacs
-feeds
 font-cascadia-mono (homebrew/cask-fonts)
 font-cascadia-mono-pl (homebrew/cask-fonts)
 font-fantasque-sans-mono (homebrew/cask-fonts)
@@ -29,6 +28,7 @@ kitty
 krita
 lapce
 librecad
+mattermost
 mgba
 mpv
 openscad

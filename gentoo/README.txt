@@ -1,5 +1,9 @@
 # configurations of Gentoo running on Linode VPS
 
+2024-05:
+The Linode VPS was deleted in 2024-05 due to unused for a long time.
+And the Gentoo OS on it was removed in the meanwhile, of course.
+
 Package system: Portage.
 
 Other programs: local programs, and user binaries.

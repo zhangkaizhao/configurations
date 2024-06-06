@@ -1,8 +1,8 @@
 asdf            ~/.asdf                 https://github.com/asdf-vm/asdf
 ghcup           ~/.ghcup                https://github.com/haskell/ghcup
-kx              ~/.local/share/kx       https://github.com/halostatue/kx
 opam            ~/.opam                 https://opam.ocaml.org/
 pyenv           ~/.pyenv                https://github.com/pyenv/pyenv
 rbenv           ~/.rbenv                https://github.com/rbenv/rbenv
 rustup          ~/.rustup               https://www.rust-lang.org/
 rye             ~/.rye                  https://github.com/mitsuhiko/rye
+vfox            ~/.version-fox          https://github.com/version-fox/vfox

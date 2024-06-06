@@ -86,9 +86,9 @@ if isatty
     set -x GPG_TTY (tty)
 end
 
-# 2022-07-09 for TeX Live 2022 https://www.tug.org/texlive/quickinstall.html
-# 2023-03-25 for TeX Live 2023 https://tug.org/texlive/upgrade.html
-set -gx PATH "/usr/local/texlive/2023/bin/universal-darwin" $PATH
+# TeX Live install: https://www.tug.org/texlive/quickinstall.html
+# TeX Live upgrade: https://tug.org/texlive/upgrade.html
+set -gx PATH "/usr/local/texlive/2024/bin/universal-darwin" $PATH
 
 # 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
 # `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
@@ -136,22 +136,13 @@ if test -f "$HOME/.opam/opam-init/init.fish"
     source "$HOME/.opam/opam-init/init.fish" > /dev/null 2> /dev/null; or true
 end
 
-# Erlang kerl https://github.com/kerl/kerl
-# NOTE: need to set a global variable for default Erlang: set --universal kerl_default_erlang_version 26.1.2
-if set -q kerl_default_erlang_version
-    source "$HOME/.kerl/installations/$kerl_default_erlang_version/activate.fish" > /dev/null 2> /dev/null; or true
-end
-
-# 2023-10-14 kx - Elixir Version Manager https://github.com/halostatue/kx
-test -s "$HOME/.local/share/kx/scripts/kx.fish"; and source "$HOME/.local/share/kx/scripts/kx.fish"
-
 # 2023-07-28 asdf https://asdf-vm.com/guide/getting-started.html
 #if test -f "$HOME/.asdf/asdf.fish"
 #    source "$HOME/.asdf/asdf.fish"
 #end
 
-# 2023-11-06 Node.js fnm https://github.com/Schniz/fnm
-type -q fnm; and fnm env | source
+# 2024-05-12 vfox https://vfox.lhan.me/guides/quick-start.html
+type -q vfox; and vfox activate fish | source
 
 # 2024-01-26 Flutter https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
 set -gx PUB_HOSTED_URL https://mirrors.tuna.tsinghua.edu.cn/dart-pub

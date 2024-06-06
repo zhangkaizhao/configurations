@@ -24,9 +24,9 @@ Machines and Operating Systems:
 
   * macOS
 
-* Linode VPS (running my website *.zhangkaizhao.com ) [2]
+* Linode VPS (running my website *.zhangkaizhao.com , deleted since 2024-05) [2]
 
-  * Gentoo
+  * Gentoo (removed since 2024-05)
 
 Notes:
 

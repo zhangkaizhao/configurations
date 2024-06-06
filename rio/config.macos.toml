@@ -109,8 +109,9 @@ blinking-cursor = false
 # blur = false
 # decorations = "Enabled"
 [window]
-width = 840
+width = 920
 height = 480
+foreground-opacity = 0.8
 background-opacity = 0.8
 
 # Renderer
@@ -189,7 +190,7 @@ performance = "Low"
 # style = "italic"
 # weight = 800
 [fonts]
-family = "LXGW WenKai Mono"
+family = "Inconsolata"
 size = 16
 
 # Scroll

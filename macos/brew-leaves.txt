@@ -7,6 +7,7 @@ cargo-bloat
 cargo-deny
 cargo-edit
 cargo-outdated
+chezscheme
 cmake
 colima
 corral
@@ -14,15 +15,14 @@ cpufetch
 ctop
 delve
 deno
+dmd
 docker
 docker-compose
 duckdb
 fish
 flyctl
-fnm
 gdbm (for compiling rubies via ruby-install)
 gnupg
-go
 gopls
 gops
 goreman
@@ -69,6 +69,7 @@ tokei
 tree
 typos-cli
 typst
+vfox
 wget
 wireguard-go
 zola

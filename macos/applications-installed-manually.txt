@@ -2,7 +2,6 @@ AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
 Android Studio      (auto update)   https://developer.android.com/studio
 Bilibili            (auto update)   https://app.bilibili.com/
 Blender                             https://www.blender.org/
-Contour                             https://github.com/contour-terminal/contour
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
 DBeaver CE          (auto update)   https://dbeaver.io/
@@ -48,6 +47,7 @@ Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
 Tencent Meeting     (auto update)   https://meeting.tencent.com/
 TextMate            (auto update)   https://macromates.com/
+TheiaIDE            (auto update)   https://theia-ide.org/
 Therm                               https://github.com/trufae/Therm
 Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/

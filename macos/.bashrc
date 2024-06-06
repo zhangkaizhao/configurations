@@ -75,9 +75,9 @@ export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
 # Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
 export GPG_TTY=$(tty)
 
-# 2022-07-09 for TeX Live 2022 https://www.tug.org/texlive/quickinstall.html
-# 2023-03-25 for TeX Live 2023 https://tug.org/texlive/upgrade.html
-export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
+# TeX Live install: https://www.tug.org/texlive/quickinstall.html
+# TeX Live upgrade: https://tug.org/texlive/upgrade.html
+export PATH="/usr/local/texlive/2024/bin/universal-darwin:$PATH"
 
 # 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
 # `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
@@ -126,12 +126,13 @@ test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/
 # 2023-07-28 asdf https://asdf-vm.com/guide/getting-started.html
 #if [ -f $HOME/.asdf/asdf.sh ]; then
 #  source "$HOME/.asdf/asdf.sh"
+#  source "$HOME/.asdf/completions/asdf.bash"
 #fi
 
-# 2018,04,17 Node.js NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# 2024-05-12 vfox https://vfox.lhan.me/guides/quick-start.html
+if [ $(command -v vfox) ]; then
+  eval "$(vfox activate bash)"
+fi
 
 # 2024-01-26 Flutter https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
 export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub

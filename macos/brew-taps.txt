@@ -1,5 +1,3 @@
-homebrew/cask-fonts
-homebrew/cask-versions
 homebrew/services
 oh-my-home/fonts
 oven-sh/bun

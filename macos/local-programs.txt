@@ -2,8 +2,5 @@ Crystal             /usr/local/programs/crystal                     https://crys
 Flutter             /usr/local/programs/flutter                     https://flutter.dev/
 neovim              /usr/local/programs/nvim                        https://neovim.io/
 Vale                /usr/local/programs/vale                        https://vale.dev/
-zig                 /usr/local/programs/zig                         https://ziglang.org/
 
 TeX Live            /usr/local/texlive                              https://www.tug.org/texlive/
-
-Chez Scheme         /usr/local                                      https://github.com/cisco/ChezScheme
