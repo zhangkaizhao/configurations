@@ -95,24 +95,6 @@ set -gx PATH "/usr/local/texlive/2024/bin/universal-darwin" $PATH
 # `~/.emacs.d/bin/doom install`
 set -gx PATH "$HOME/.emacs.d/bin" $PATH
 
-# 2021-12-14 rbenv https://github.com/rbenv/rbenv
-if test -f "$HOME/.rbenv/bin/rbenv"
-    set -gx PATH "$HOME/.rbenv/bin" $PATH
-    rbenv init - fish | source
-end
-
-# 2021-12-14 pyenv https://github.com/pyenv/pyenv
-if test -f "$HOME/.pyenv/bin/pyenv"
-    set -gx PATH "$HOME/.pyenv/bin" $PATH
-    pyenv init - fish | source
-end
-
-# 2023-04-29 rye https://github.com/mitsuhiko/rye
-#set -gx RYE_HOME "$HOME/.rye"
-#if test -d "$RYE_HOME/shims"
-#    set -gx PATH "$RYE_HOME/shims" $PATH
-#end
-
 # Go
 set -gx GOPATH "$HOME/goext"
 set -gx PATH "$GOPATH/bin" $PATH
@@ -136,15 +118,10 @@ if test -f "$HOME/.opam/opam-init/init.fish"
     source "$HOME/.opam/opam-init/init.fish" > /dev/null 2> /dev/null; or true
 end
 
-# 2023-07-28 asdf https://asdf-vm.com/guide/getting-started.html
-#if test -f "$HOME/.asdf/asdf.fish"
-#    source "$HOME/.asdf/asdf.fish"
-#end
-
-# 2024-05-12 vfox https://vfox.lhan.me/guides/quick-start.html
-type -q vfox; and vfox activate fish | source
-
 # 2024-01-26 Flutter https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
 set -gx PUB_HOSTED_URL https://mirrors.tuna.tsinghua.edu.cn/dart-pub
 set -gx FLUTTER_STORAGE_BASE_URL https://mirrors.tuna.tsinghua.edu.cn/flutter
 set -gx PATH "/usr/local/programs/flutter/bin" $PATH
+
+# 2024-06-27 mise https://mise.jdx.dev/getting-started.html
+type -q mise; and mise activate fish | source

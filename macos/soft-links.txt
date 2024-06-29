@@ -1,13 +1,7 @@
 ~/bin/mate              /Applications/TextMate.app/Contents/MacOS/mate
 ~/bin/subl              /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
+
+~/bin/racket            /Applications/Racket v8.13/bin/racket
+~/bin/raco              /Applications/Racket v8.13/bin/raco
+
 ~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli
-
-~/bin/racket            /Applications/Racket v8.10/bin/racket
-~/bin/raco              /Applications/Racket v8.10/bin/raco
-
-~/bin/crystal           /usr/local/programs/crystal/bin/crystal
-~/bin/shards            /usr/local/programs/crystal/embedded/bin/shards
-
-~/bin/nvim              /usr/local/programs/nvim/bin/nvim
-
-~/bin/zig               /usr/local/programs/zig/zig

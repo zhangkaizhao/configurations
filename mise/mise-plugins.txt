@@ -1,0 +1,17 @@
+mise plugins
+
+https://mise.jdx.dev/plugins.html
+
+* bun (core)
+* crystal
+* deno (core)
+* dmd
+* elixir
+* erlang (core)
+* go (core)
+* janet
+* lua
+* node (core)
+* python (core)
+* ruby (core)
+* zig

@@ -1,3 +1,2 @@
 homebrew/services
 oh-my-home/fonts
-oven-sh/bun

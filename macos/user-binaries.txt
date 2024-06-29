@@ -1,10 +1,11 @@
+PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
 alire                   ~/bin/alr                       https://github.com/alire-project/alire
 filebrowser (large)     ~/bin/filebrowser               https://filebrowser.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
 loc                     ~/bin/loc                       https://github.com/jiacai2050/loc
+mise                    ~/bin/mise                      https://mise.jdx.dev/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
-PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod
 zigup                   ~/bin/zigup                     https://github.com/marler8997/zigup
 zls                     ~/bin/zls                       https://github.com/zigtools/zls

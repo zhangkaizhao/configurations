@@ -8,4 +8,5 @@ https://github.com/version-fox
 * kotlin
 * nodejs
 * python
+* ruby
 * zig

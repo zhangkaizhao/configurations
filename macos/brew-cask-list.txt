@@ -3,16 +3,17 @@ android-file-transfer
 avidemux
 calibre
 emacs
-font-cascadia-mono (homebrew/cask-fonts)
-font-cascadia-mono-pl (homebrew/cask-fonts)
-font-fantasque-sans-mono (homebrew/cask-fonts)
-font-hack (homebrew/cask-fonts)
-font-hanamina (homebrew/cask-fonts)
-font-jetbrains-mono (homebrew/cask-fonts)
-font-juliamono (homebrew/cask-fonts)
-font-linux-biolinum (homebrew/cask-fonts)
-font-linux-libertine (homebrew/cask-fonts)
-font-meslo-lg (homebrew/cask-fonts)
+flameshot
+font-cascadia-mono
+font-cascadia-mono-pl
+font-fantasque-sans-mono
+font-hack
+font-hanamin
+font-jetbrains-mono
+font-juliamono
+font-linux-biolinum
+font-linux-libertine
+font-meslo-lg
 fontforge
 foobar2000
 freecad
@@ -44,6 +45,7 @@ otf-ubuntu-sans (oh-my-home/fonts)
 otf-ubuntu-sans-mono (oh-my-home/fonts)
 otf-victor-mono (oh-my-home/fonts)
 pencil
+pinta
 qbittorrent
 qt-creator
 rio
@@ -75,3 +77,4 @@ ttf-twitter-color-emoji (oh-my-home/fonts)
 vagrant
 wezterm
 wkhtmltopdf
+xournal-plus-plus

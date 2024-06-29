@@ -84,24 +84,6 @@ export PATH="/usr/local/texlive/2024/bin/universal-darwin:$PATH"
 # `~/.emacs.d/bin/doom install`
 export PATH="$HOME/.emacs.d/bin:$PATH"
 
-# 2021-12-14 rbenv https://github.com/rbenv/rbenv
-if [ -f $HOME/.rbenv/bin/rbenv ]; then
-  export PATH="$HOME/.rbenv/bin:$PATH"
-  eval "$(rbenv init - bash)"
-fi
-
-# 2021-12-14 pyenv https://github.com/pyenv/pyenv
-if [ -f $HOME/.pyenv/bin/pyenv ]; then
-  export PATH="$HOME/.pyenv/bin:$PATH"
-  eval "$(pyenv init - bash)"
-fi
-
-# 2023-04-29 rye https://github.com/mitsuhiko/rye
-#export RYE_HOME="$HOME/.rye"
-#if [ -d $RYE_HOME/shims ]; then
-#  export PATH="$RYE_HOME/shims:$PATH"
-#fi
-
 # Go
 export GOPATH=$HOME/goext
 export PATH=$GOPATH/bin:$PATH
@@ -123,18 +105,12 @@ export PATH=$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH
 # 2019-02-09 OCaml opam
 test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
-# 2023-07-28 asdf https://asdf-vm.com/guide/getting-started.html
-#if [ -f $HOME/.asdf/asdf.sh ]; then
-#  source "$HOME/.asdf/asdf.sh"
-#  source "$HOME/.asdf/completions/asdf.bash"
-#fi
-
-# 2024-05-12 vfox https://vfox.lhan.me/guides/quick-start.html
-if [ $(command -v vfox) ]; then
-  eval "$(vfox activate bash)"
-fi
-
 # 2024-01-26 Flutter https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
 export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
 export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 export PATH=/usr/local/programs/flutter/bin:$PATH
+
+# 2024-06-27 mise https://mise.jdx.dev/getting-started.html
+if [ $(command -v mise) ]; then
+  eval "$(mise activate bash)"
+fi

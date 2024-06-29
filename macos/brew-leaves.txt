@@ -1,7 +1,6 @@
 autoconf (for ocaml opam install packages)
 automake (for compiling rubies via ruby-install)
 bison (for compiling rubies via ruby-install)
-bun (oven-sh/bun)
 cargo-audit
 cargo-bloat
 cargo-deny
@@ -14,8 +13,6 @@ corral
 cpufetch
 ctop
 delve
-deno
-dmd
 docker
 docker-compose
 duckdb
@@ -30,10 +27,8 @@ helix
 hexyl
 hugo
 hyperfine
-janet
 jq
 k3sup
-kerl
 koka
 kubernetes-cli
 libffi (for compiling rubies via ruby-install)
@@ -43,9 +38,12 @@ lux
 mariadb@10.11
 mdbook
 media-info
+meson (for building janet via mise)
 minica
 miniserve
 minisign
+mise
+neovim
 ninja
 onefetch
 opam
@@ -69,7 +67,7 @@ tokei
 tree
 typos-cli
 typst
-vfox
 wget
 wireguard-go
+zellij
 zola

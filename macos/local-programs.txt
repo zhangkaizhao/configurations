@@ -1,6 +1,4 @@
-Crystal             /usr/local/programs/crystal                     https://crystal-lang.org/
 Flutter             /usr/local/programs/flutter                     https://flutter.dev/
-neovim              /usr/local/programs/nvim                        https://neovim.io/
 Vale                /usr/local/programs/vale                        https://vale.dev/
 
 TeX Live            /usr/local/texlive                              https://www.tug.org/texlive/
