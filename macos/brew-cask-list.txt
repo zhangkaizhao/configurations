@@ -2,6 +2,7 @@ alacritty
 android-file-transfer
 avidemux
 calibre
+deltachat
 emacs
 flameshot
 font-cascadia-mono
@@ -17,7 +18,6 @@ font-meslo-lg
 fontforge
 foobar2000
 freecad
-freecol
 freeplane
 fsnotes
 geany

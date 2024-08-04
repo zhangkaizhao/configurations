@@ -2,6 +2,7 @@ AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
 Android Studio      (auto update)   https://developer.android.com/studio
 Bilibili            (auto update)   https://app.bilibili.com/
 Blender                             https://www.blender.org/
+Cloudflare WARP     (auto update)   https://one.one.one.one/
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
 DBeaver CE          (auto update)   https://dbeaver.io/
@@ -14,9 +15,10 @@ Feishu              (auto update)   https://www.feishu.cn/
 Firefox             (auto update)   https://www.mozilla.org/firefox/all/
 Focus                               https://github.com/focus-editor/focus
 Freeciv21                           https://github.com/longturn/freeciv21
-GitBook Editor                      https://legacy.gitbook.com/editor
+fSpy                                https://fspy.io/
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
 Google Chrome       (auto update)   https://www.google.com/chrome
+Google Drive        (auto update)   https://drive.google.com/
 Hyper                               https://hyper.is/
 IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/

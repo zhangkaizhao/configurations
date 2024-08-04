@@ -4,8 +4,6 @@ bison (for compiling rubies via ruby-install)
 cargo-audit
 cargo-bloat
 cargo-deny
-cargo-edit
-cargo-outdated
 chezscheme
 cmake
 colima
@@ -16,6 +14,7 @@ delve
 docker
 docker-compose
 duckdb
+fastfetch
 fish
 flyctl
 gdbm (for compiling rubies via ruby-install)
@@ -32,6 +31,7 @@ k3sup
 koka
 kubernetes-cli
 libffi (for compiling rubies via ruby-install)
+libvirt (for running Vagrant boxes with libvirt provider)
 libyaml (for compiling rubies via ruby-install or ruby-build)
 lima
 lux
@@ -42,7 +42,6 @@ meson (for building janet via mise)
 minica
 miniserve
 minisign
-mise
 neovim
 ninja
 onefetch
