@@ -1,51 +1,113 @@
 # Chrome extensions
 
-2018,03,27
+Note: most extensions are also available for other web browsers e.g. Yandex browser, Vivaldi, Orion, etc.
+
+Some references:
+
+* https://riseup.net/en/security/network-security/better-web-browsing
+
+
+## Current extensions
+
+### chromium-web-store
+
+https://github.com/NeverDecaf/chromium-web-store
+
+for ungoogle-chromium
+
+since 2022-07-03
+
+### Content Farm Terminator
+
+https://chrome.google.com/webstore/detail/lcghoajegeldpfkfaejegfobkapnemjl
+
+https://github.com/danny0838/content-farm-terminator
+
+### Dark Reader
+
+https://chrome.google.com/webstore/detail/eimadpbcbfnmbkopoojfekhnkhdbieeh
+
+https://darkreader.org/
+
+https://github.com/darkreader/darkreader
+
+### GNOME Shell integration
+
+https://chrome.google.com/webstore/detail/gphhapmejobijbbhgpjhcjognlahblep
+
+for GNOME Shell
+
+### Print Edit WE
+
+https://chrome.google.com/webstore/detail/olnblpmehglpcallpnbgmikjblmkopia
+
+### Privacy Badger
+
+https://chrome.google.com/webstore/detail/npgfabafajliaooeicdoahbpoajfmbbe
+
+https://privacybadger.org/
+
+https://github.com/EFForg/privacybadger
+
+### Proxy SwitchyOmega
+
+https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif
+
+https://github.com/FelisCatus/SwitchyOmega
+
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+
+https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+
+### Redirector
+
+https://chrome.google.com/webstore/detail/ocgpenflpmgnfapjedencafcfakcekcd
+
+https://github.com/einaregilsson/Redirector
+
+since 2023-08-13
+
+### Smart RSS
+
+https://chrome.google.com/webstore/detail/eggggihfcaabljfpjiiaohloefmgejic
+
+https://github.com/SmartRSS/Smart-RSS
+
+since 2022-04-24
+
+### Tampermonkey
+
+https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo
+
+https://www.tampermonkey.net/
+
+since 2023-09-27
+
+### Tencent TranSmart
+
+https://chrome.google.com/webstore/detail/lkjkfecdnfjopaeaibboihfkmhdjmanm
+
+https://transmart.qq.com/
+
+since 2024-07-25
+
+### uBlock Origin
+
+https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm
+
+https://github.com/gorhill/uBlock
+
+
+## Retired extensions
 
 * Adblock plus
 * Flag for Chrome
 * PrintWhatYouLike
 * Proxy SwitchySharp
 
-## 2018-11-04
-
-* Proxy SwitchyOmega https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif
-
-* Disconnect https://chrome.google.com/webstore/detail/jeoacafpbcihiomhlakheieifhpjdfeo
-* HTTPS Everywhere https://chrome.google.com/webstore/detail/gcbommkclmclpchllfjekcdonpmejbdp
-* uBlock Origin https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm
-* 终结内容农场 https://chrome.google.com/webstore/detail/lcghoajegeldpfkfaejegfobkapnemjl
-
-* GNOME Shell integration https://chrome.google.com/webstore/detail/gphhapmejobijbbhgpjhcjognlahblep
-
-* Print Edit WE https://chrome.google.com/webstore/detail/olnblpmehglpcallpnbgmikjblmkopia
-* PrintWhatYouLike https://chrome.google.com/webstore/detail/npgfabafajliaooeicdoahbpoajfmbbe
-
 * Chromoji - Emoji for Google Chrome https://chrome.google.com/webstore/detail/cahedbegdkagmcjfolhdlechbkeaieki
+* Disconnect https://chrome.google.com/webstore/detail/jeoacafpbcihiomhlakheieifhpjdfeo
 * Emoji Keyboard by Emojione https://chrome.google.com/webstore/detail/ipdjnhgkpapgippgcgkfcbpdpcgifncb
-
-## 2022-04-24
-
-* Smart RSS https://chrome.google.com/webstore/detail/smart-rss/eggggihfcaabljfpjiiaohloefmgejic
-
-## 2022-07-03
-
-* chromium-web-store https://github.com/NeverDecaf/chromium-web-store
-
-  for ungoogle-chromium
-
-* Replace Google CDN https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice
-
-## 2023-08-13
-
-* Redirector https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd
-
-## 2023-09-11
-
-* Save Page WE https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof
-
-  for integration of Print Edit WE
-
-## 2023-09-27
-
-* Tampermonkey https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+* HTTPS Everywhere https://chrome.google.com/webstore/detail/gcbommkclmclpchllfjekcdonpmejbdp
+* PrintWhatYouLike https://chrome.google.com/webstore/detail/npgfabafajliaooeicdoahbpoajfmbbe
+* Replace Google CDN https://chrome.google.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice
