@@ -1,76 +1,117 @@
 # Firefox extensions
 
-2018,03,27
+Some references:
+
+* https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-and-utility/
+* https://riseup.net/en/security/network-security/better-web-browsing
+
+
+## Current extensions
+
+### Content Farm Terminator
+
+https://addons.mozilla.org/firefox/addon/content-farm-terminator/
+
+https://github.com/danny0838/content-farm-terminator
+
+### Dark Reader
+
+https://addons.mozilla.org/firefox/addon/darkreader/
+
+https://darkreader.org/
+
+https://github.com/darkreader/darkreader
+
+### GNOME Shell integration
+
+https://addons.mozilla.org/firefox/addon/gnome-shell-integration/
+
+for GNOME Shell
+
+### Print Edit WE
+
+https://addons.mozilla.org/firefox/addon/print-edit-we/
+
+since 2022-02-08
+
+### Privacy Badger
+
+https://addons.mozilla.org/firefox/addon/privacy-badger17/
+
+https://privacybadger.org/
+
+https://github.com/EFForg/privacybadger
+
+since 2024-07-25
+
+### Proxy SwitchyOmega
+
+https://addons.mozilla.org/firefox/addon/switchyomega/
+
+https://github.com/FelisCatus/SwitchyOmega
+
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+
+https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+
+### Redirector
+
+https://addons.mozilla.org/firefox/addon/redirector/
+
+https://github.com/einaregilsson/Redirector
+
+since 2023-08-13
+
+### Smart RSS Reader
+
+https://addons.mozilla.org/firefox/addon/smart-rss-reader/
+
+https://github.com/SmartRSS/Smart-RSS
+
+since 2022-04-24
+
+### Tampermonkey
+
+https://addons.mozilla.org/firefox/addon/tampermonkey/
+
+https://www.tampermonkey.net/
+
+since 2023-09-27
+
+### Tencent TranSmart
+
+https://addons.mozilla.org/firefox/addon/%E8%85%BE%E8%AE%AF%E7%BF%BB%E8%AF%91/
+
+https://transmart.qq.com/
+
+### uBlock Origin
+
+https://addons.mozilla.org/firefox/addon/ublock-origin/
+
+https://github.com/gorhill/uBlock
+
+
+## Retired extensions
 
 * Adblock plus
-* ColorZilla
-* FlagFox
-* FoxyProxy Standard
-* Save as PDF
-* Content Farm Terminator
-* Web ScrapBook
-
-old:
-
 * AutoProxy
 * CHM Reader
 * ChmFox
 * Firebug
 * Flashblock
+* FoxyProxy Standard
 * iWeb2x
 * Live HTTP headers
 * Pencil
+* Save as PDF
 * ScrapBook
 * Web2PDF converter
 * Zotero
 
-## for privacy, security and utility
-
-https://hobo.house/2016/11/10/10-must-have-firefox-addons-for-privacy-security-and-utility/
-
-* NoScript
-* Ublock Origin
-* Disconnect
-* HTTPS Everywhere
-
-## 2018-11-04
-
-* Proxy SwitchyOmega https://addons.mozilla.org/firefox/addon/switchyomega/
-
-* Disconnect https://addons.mozilla.org/firefox/addon/disconnect/
-* HTTPS Everywhere https://addons.mozilla.org/firefox/addon/https-everywhere/
-* uBlock Origin https://addons.mozilla.org/firefox/addon/ublock-origin/
-* 终结内容农场 https://addons.mozilla.org/firefox/addon/content-farm-terminator/
-
-* GNOME Shell integration https://addons.mozilla.org/firefox/addon/gnome-shell-integration/
-
 * ColorZilla https://addons.mozilla.org/firefox/addon/colorzilla/
+* Disconnect https://addons.mozilla.org/firefox/addon/disconnect/
 * Emoji Cheatsheet https://addons.mozilla.org/firefox/addon/emoji-cheatsheet/
 * Flagfox https://addons.mozilla.org/firefox/addon/flagfox/
-* 网页剪贴簿 https://addons.mozilla.org/firefox/addon/web-scrapbook/
-
-## 2018-12-14
-
+* HTTPS Everywhere https://addons.mozilla.org/firefox/addon/https-everywhere/
 * Replace Google CDN https://addons.mozilla.org/firefox/addon/replace-google-cdn/
-
-## 2022-02-08
-
-* Print Edit WE https://addons.mozilla.org/firefox/addon/print-edit-we/
-
-## 2022-04-24
-
-* Smart RSS Reader https://addons.mozilla.org/firefox/addon/smart-rss-reader/
-
-## 2023-08-13
-
-* Redirector https://addons.mozilla.org/firefox/addon/redirector/
-
-## 2023-09-11
-
-* Save Page WE https://addons.mozilla.org/firefox/addon/save-page-we/
-
-  for integration of Print Edit WE
-
-## 2023-09-27
-
-* Tampermonkey https://addons.mozilla.org/firefox/addon/tampermonkey/
+* WebScrapBook https://addons.mozilla.org/firefox/addon/webscrapbook/
