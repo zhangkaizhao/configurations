@@ -1,4 +1,5 @@
 ghcup           ~/.ghcup                https://github.com/haskell/ghcup
+ivm             ~/.local/share/ivm      https://github.com/inko-lang/ivm
 mise            ~/.local/share/mise     https://github.com/jdx/mise
 opam            ~/.opam                 https://opam.ocaml.org/
 rustup          ~/.rustup               https://www.rust-lang.org/

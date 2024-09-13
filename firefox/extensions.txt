@@ -90,6 +90,12 @@ https://addons.mozilla.org/firefox/addon/ublock-origin/
 
 https://github.com/gorhill/uBlock
 
+### 火山翻译
+
+https://addons.mozilla.org/firefox/addon/%E7%81%AB%E5%B1%B1%E7%BF%BB%E8%AF%91-%E5%88%92%E8%AF%8D%E5%92%8C%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91/
+
+https://translate.volcengine.com/extension
+
 
 ## Retired extensions
 

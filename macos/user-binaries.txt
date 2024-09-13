@@ -3,6 +3,7 @@ alire                   ~/bin/alr                       https://github.com/alire
 filebrowser (large)     ~/bin/filebrowser               https://filebrowser.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
+ivm                     ~/bin/ivm                       https://github.com/inko-lang/ivm
 loc                     ~/bin/loc                       https://github.com/jiacai2050/zigcli/blob/main/src/bin/loc.zig
 mise                    ~/bin/mise                      https://mise.jdx.dev/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae

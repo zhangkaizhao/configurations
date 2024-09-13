@@ -97,6 +97,12 @@ https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm
 
 https://github.com/gorhill/uBlock
 
+### 火山翻译
+
+https://chrome.google.com/webstore/detail/klgfhbiooeogdfodpopgppeadghjjemk
+
+https://translate.volcengine.com/extension
+
 
 ## Retired extensions
 

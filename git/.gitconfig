@@ -6,6 +6,7 @@
 	signingKey = 15D4774D6F72B487
 [core]
 	quotepath = false
+	autocrlf = false
 [commit]
 	template = ~/.git-commit-template.txt
 	cleanup = strip

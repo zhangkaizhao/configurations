@@ -118,9 +118,13 @@ if test -f "$HOME/.opam/opam-init/init.fish"
     source "$HOME/.opam/opam-init/init.fish" > /dev/null 2> /dev/null; or true
 end
 
-# 2024-01-26 Flutter https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
-set -gx PUB_HOSTED_URL https://mirrors.tuna.tsinghua.edu.cn/dart-pub
-set -gx FLUTTER_STORAGE_BASE_URL https://mirrors.tuna.tsinghua.edu.cn/flutter
+# 2024-09-10 Dart Pub, Flutter and Flutter SDK
+# https://help.mirrors.cernet.edu.cn/dart-pub/
+# https://help.mirrors.cernet.edu.cn/flutter/
+# https://help.mirrors.cernet.edu.cn/flutter-sdk.git
+set -gx PUB_HOSTED_URL "https://mirrors.cernet.edu.cn/dart-pub"
+set -gx FLUTTER_STORAGE_BASE_URL "https://mirrors.cernet.edu.cn/flutter"
+set -gx FLUTTER_GIT_URL "https://mirrors.cernet.edu.cn/flutter-sdk.git"
 set -gx PATH "/usr/local/programs/flutter/bin" $PATH
 
 # 2024-06-27 mise https://mise.jdx.dev/getting-started.html

@@ -136,10 +136,10 @@ if exists('g:loaded_minpac')
   call minpac#add('ElmCast/elm-vim')
   " gleam.vim https://github.com/gleam-lang/gleam.vim
   call minpac#add('gleam-lang/gleam.vim')
-  " idris-vim https://github.com/idris-hackers/idris-vim
-  call minpac#add('idris-hackers/idris-vim')
-  " inko.vim https://gitlab.com/inko-lang/inko.vim
-  "call minpac#add('https://gitlab.com/inko-lang/inko.vim')
+  " idris2-vim https://github.com/edwinb/idris2-vim
+  call minpac#add('edwinb/idris2-vim')
+  " inko.vim https://github.com/inko-lang/inko.vim
+  call minpac#add('https://github.com/inko-lang/inko.vim')
   " janet.vim https://github.com/janet-lang/janet.vim
   call minpac#add('bakpakin/janet.vim')
   " kotlin-vim https://github.com/udalov/kotlin-vim

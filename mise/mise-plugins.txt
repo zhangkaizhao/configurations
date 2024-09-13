@@ -3,12 +3,14 @@ mise plugins
 https://mise.jdx.dev/plugins.html
 
 * bun (core)
+* chezscheme
 * crystal
 * deno (core)
 * dmd
 * elixir
 * erlang (core)
 * go (core)
+* idris2
 * janet
 * lua
 * node (core)

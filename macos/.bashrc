@@ -105,9 +105,13 @@ export PATH=$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH
 # 2019-02-09 OCaml opam
 test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
-# 2024-01-26 Flutter https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
-export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
-export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
+# 2024-09-10 Dart Pub, Flutter and Flutter SDK
+# https://help.mirrors.cernet.edu.cn/dart-pub/
+# https://help.mirrors.cernet.edu.cn/flutter/
+# https://help.mirrors.cernet.edu.cn/flutter-sdk.git
+export PUB_HOSTED_URL="https://mirrors.cernet.edu.cn/dart-pub"
+export FLUTTER_STORAGE_BASE_URL="https://mirrors.cernet.edu.cn/flutter"
+export FLUTTER_GIT_URL="https://mirrors.cernet.edu.cn/flutter-sdk.git"
 export PATH=/usr/local/programs/flutter/bin:$PATH
 
 # 2024-06-27 mise https://mise.jdx.dev/getting-started.html

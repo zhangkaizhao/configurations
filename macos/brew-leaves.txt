@@ -1,10 +1,10 @@
+aria2
 autoconf (for ocaml opam install packages)
-automake (for compiling rubies via ruby-install)
-bison (for compiling rubies via ruby-install)
+bat
 cargo-audit
 cargo-bloat
 cargo-deny
-chezscheme
+cloc
 cmake
 colima
 corral
@@ -17,7 +17,6 @@ duckdb
 fastfetch
 fish
 flyctl
-gdbm (for compiling rubies via ruby-install)
 gnupg
 gopls
 gops
@@ -26,14 +25,15 @@ helix
 hexyl
 hugo
 hyperfine
+inko
 jq
 k3sup
 koka
 kubernetes-cli
-libffi (for compiling rubies via ruby-install)
 libvirt (for running Vagrant boxes with libvirt provider)
 libyaml (for compiling rubies via ruby-install or ruby-build)
 lima
+llvm (for compiling inko compilers via ivm)
 lux
 mariadb@10.11
 mdbook
@@ -46,7 +46,6 @@ neovim
 ninja
 onefetch
 opam
-openssl@1.1 (for compiling rubies via ruby-install)
 pandoc
 pdfcpu
 pkg-config
@@ -66,7 +65,12 @@ tokei
 tree
 typos-cli
 typst
+vlmcsd
 wget
 wireguard-go
+yq
 zellij
 zola
+zsh-autosuggestions
+zsh-history-substring-search
+zsh-syntax-highlighting
