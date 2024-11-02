@@ -1,3 +1,5 @@
+confirm-before-quit = false
+
 [window]
 width = 850
 height = 480

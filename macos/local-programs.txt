@@ -1,4 +1,0 @@
-Flutter             /usr/local/programs/flutter                     https://flutter.dev/
-Vale                /usr/local/programs/vale                        https://vale.dev/
-
-TeX Live            /usr/local/texlive                              https://www.tug.org/texlive/

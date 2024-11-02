@@ -5,9 +5,6 @@
 export CLICOLOR=true
 export EDITOR="vim"
 
-# user bins
-export PATH="$HOME/bin:$PATH"
-
 alias ls="ls -F"
 alias ll="ls -lh"
 alias vi="vim"
@@ -17,6 +14,17 @@ alias vi="vim"
 # 2) https://apple.stackexchange.com/a/366319
 ulimit -n 524288
 #ulimit -u 2048
+
+# set unique entries in PATH https://unix.stackexchange.com/a/62599/126066
+typeset -U path PATH
+
+_prepend_path() {
+  path[1,0]=$1
+  export PATH
+}
+
+# user bins
+_prepend_path "$HOME/bin"
 
 #-----------
 # Programs
@@ -58,41 +66,27 @@ prompt restore
 #zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
 #zstyle ':vcs_info:*' enable git
 
-if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-  source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# 2024-09-15 https://github.com/zsh-users/zsh-autosuggestions
+# Installed by `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
+if [ -f ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
-if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
-  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# 2024-09-15 https://github.com/zsh-users/zsh-syntax-highlighting
+# Installed by `git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-syntax-highlighting`
+if [ -f ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+  source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-if [ -f /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh ]; then
-  source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+# 2024-09-15 https://github.com/zsh-users/zsh-history-substring-search
+# Installed by `git clone https://github.com/zsh-users/zsh-history-substring-search ~/.zsh/zsh-history-substring-search`
+if [ -f ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh ]; then
+  source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 fi
 
-# Homebrew
-export HOMEBREW_NO_ANALYTICS=1
-export HOMEBREW_NO_AUTO_UPDATE=1
-export HOMEBREW_NO_INSTALL_UPGRADE=1
-export HOMEBREW_NO_GITHUB_API=1
-
-# https://mirrors.ustc.edu.cn/help/brew.git.html
-export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
-
-# 2023-09-12 brew 4.0+:
-# 1: https://brew.sh/2023/02/16/homebrew-4.0.0/
-# 2: https://mirrors.ustc.edu.cn/help/homebrew-bottles.html
-export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
-export HOMEBREW_API_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles/api"
-
-# 2021-06-18 Homebrew uses `/usr/local/sbin` now.
-export PATH="/usr/local/sbin:$PATH"
-
-# 2023-08-11 MariaDB: brew info mariadb@10.11
-export PATH="/usr/local/opt/mariadb@10.11/bin:$PATH"
-
-# 2024-01-05 PostgreSQL: brew info postgresql@16
-export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
+# 2024-10-04 pkgsrc and pkgin
+_prepend_path "/opt/pkg/sbin"
+_prepend_path "/opt/pkg/bin"
 
 # 2021-12-20 git commit with gpg sign issue https://stackoverflow.com/q/41052538/3449199
 # Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
@@ -100,47 +94,73 @@ export GPG_TTY=$(tty)
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-export PATH="/usr/local/texlive/2024/bin/universal-darwin:$PATH"
+_prepend_path "/opt/programs/texlive/2024/bin/universal-darwin"
 
-# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
-# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
-# `~/.emacs.d/bin/doom install`
-export PATH="$HOME/.emacs.d/bin:$PATH"
+# 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
+_prepend_path "/opt/programs/fastfetch/usr/bin"
+
+# 2024-10-06 pandoc https://pandoc.org/
+_prepend_path "/opt/programs/pandoc/bin"
+
+# 2024-11-02 lima https://lima-vm.io/
+_prepend_path "/opt/programs/lima/bin"
+
+# 2024-09-26 Dart Pub, Flutter and Flutter SDK
+# https://mirrors.tuna.tsinghua.edu.cn/help/dart-pub/
+# https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
+# https://mirrors.tuna.tsinghua.edu.cn/help/flutter-sdk.git/
+export PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
+export FLUTTER_STORAGE_BASE_URL="https://mirrors.tuna.tsinghua.edu.cn/flutter"
+export FLUTTER_GIT_URL="https://mirrors.tuna.tsinghua.edu.cn/git/flutter-sdk.git"
+_prepend_path "/opt/programs/flutter/bin"
+
+# 2024-10-08 Python
+_prepend_path "/opt/programs/python/bin"
+
+# 2024-10-08 Ruby
+_prepend_path "/opt/programs/ruby/bin"
+
+# 2024-10-08 Erlang
+_prepend_path "/opt/programs/erlang/bin"
+
+# 2024-10-08 Elixir
+_prepend_path "/opt/programs/elixir/bin"
+
+# 2024-10-09 Node
+_prepend_path "/opt/programs/node/bin"
+
+# 2024-10-30 Chez Scheme
+_prepend_path "/opt/programs/chez-scheme/bin"
 
 # Go
+_prepend_path "/opt/programs/go/bin"
+
+# Go GOPATH
 export GOPATH=$HOME/goext
-export PATH=$GOPATH/bin:$PATH
+_prepend_path "$GOPATH/bin"
 
 # 2022-04-02 Goproxy.cn https://goproxy.cn/
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
 
-# Rust Rustup
-export PATH=$HOME/.cargo/bin:$PATH
-
-# Use ustc mirror: https://mirrors.ustc.edu.cn/help/rust-static.html
+# Rust rustup https://mirrors.ustc.edu.cn/help/rust-static.html
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 
+# Rust Cargo
+_prepend_path "$HOME/.cargo/bin"
+
 # 2018-12-12 Haskell ghcup
-export PATH=$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH
+_prepend_path "$HOME/.ghcup/bin"
+_prepend_path "$HOME/.cabal/bin"
 
 # 2019-02-09 OCaml opam
 test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
-# 2024-09-10 Dart Pub, Flutter and Flutter SDK
-# https://help.mirrors.cernet.edu.cn/dart-pub/
-# https://help.mirrors.cernet.edu.cn/flutter/
-# https://help.mirrors.cernet.edu.cn/flutter-sdk.git
-export PUB_HOSTED_URL="https://mirrors.cernet.edu.cn/dart-pub"
-export FLUTTER_STORAGE_BASE_URL="https://mirrors.cernet.edu.cn/flutter"
-export FLUTTER_GIT_URL="https://mirrors.cernet.edu.cn/flutter-sdk.git"
-export PATH=/usr/local/programs/flutter/bin:$PATH
-
-# 2024-06-27 mise https://mise.jdx.dev/getting-started.html
-if [ $(command -v mise) ]; then
-  eval "$(mise activate zsh)"
-fi
+# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
+# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
+# `~/.emacs.d/bin/doom install`
+_prepend_path "$HOME/.emacs.d/bin"
 
 #----------
 # Other general but must be placed at the bottom

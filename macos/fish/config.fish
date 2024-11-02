@@ -9,6 +9,8 @@
 set -gx LANG zh_CN.UTF-8
 set -gx EDITOR vim
 
+alias ll "ls -lh"
+
 # Correct $PATH
 function correct_path
     set PATH ''
@@ -44,8 +46,6 @@ correct_manpath
 # user bins
 set -gx PATH "$HOME/bin" $PATH
 
-alias ll "ls -lh"
-
 #-----------
 # Programs
 #-----------
@@ -54,30 +54,6 @@ alias ll "ls -lh"
 # https://fishshell.com/docs/3.6/faq.html#how-do-i-change-the-greeting-message
 #set -U fish_greeting
 set -g fish_greeting
-
-# Homebrew
-set -gx HOMEBREW_NO_ANALYTICS 1
-set -gx HOMEBREW_NO_AUTO_UPDATE 1
-set -gx HOMEBREW_NO_INSTALL_UPGRADE 1
-set -gx HOMEBREW_NO_GITHUB_API 1
-
-# https://mirrors.ustc.edu.cn/help/brew.git.html
-set -gx HOMEBREW_BREW_GIT_REMOTE "https://mirrors.ustc.edu.cn/brew.git"
-
-# 2023-09-12 brew 4.0+:
-# 1: https://brew.sh/2023/02/16/homebrew-4.0.0/
-# 2: https://mirrors.ustc.edu.cn/help/homebrew-bottles.html
-set -gx HOMEBREW_BOTTLE_DOMAIN "https://mirrors.ustc.edu.cn/homebrew-bottles"
-set -gx HOMEBREW_API_DOMAIN "https://mirrors.ustc.edu.cn/homebrew-bottles/api"
-
-# 2021-06-18 Homebrew uses `/usr/local/sbin` now.
-set -gx PATH "/usr/local/sbin" $PATH
-
-# 2023-08-11 MariaDB: brew info mariadb@10.11
-set -gx PATH "/usr/local/opt/mariadb@10.11/bin" $PATH
-
-# 2024-01-05 PostgreSQL: brew info postgresql@16
-set -gx PATH "/usr/local/opt/postgresql@16/bin" $PATH
 
 # 2021-12-20 git commit with gpg sign issue https://stackoverflow.com/q/41052538/3449199
 # Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
@@ -88,14 +64,48 @@ end
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-set -gx PATH "/usr/local/texlive/2024/bin/universal-darwin" $PATH
+set -gx PATH "/opt/programs/texlive/2024/bin/universal-darwin" $PATH
 
-# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
-# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
-# `~/.emacs.d/bin/doom install`
-set -gx PATH "$HOME/.emacs.d/bin" $PATH
+# 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
+set -gx PATH "/opt/programs/fastfetch/usr/bin" $PATH
+
+# 2024-10-06 pandoc https://pandoc.org/
+set -gx PATH "/opt/programs/pandoc/bin" $PATH
+
+# 2024-11-02 lima https://lima-vm.io/
+set -gx PATH "/opt/programs/lima/bin" $PATH
+
+# 2024-09-26 Dart Pub, Flutter and Flutter SDK
+# https://mirrors.tuna.tsinghua.edu.cn/help/dart-pub/
+# https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
+# https://mirrors.tuna.tsinghua.edu.cn/help/flutter-sdk.git/
+set -gx PUB_HOSTED_URL "https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
+set -gx FLUTTER_STORAGE_BASE_URL "https://mirrors.tuna.tsinghua.edu.cn/flutter"
+set -gx FLUTTER_GIT_URL "https://mirrors.tuna.tsinghua.edu.cn/git/flutter-sdk.git"
+set -gx PATH "/usr/local/programs/flutter/bin" $PATH
+
+# 2024-10-08 Python
+set -gx PATH "/opt/programs/python/bin" $PATH
+
+# 2024-10-08 Ruby
+set -gx PATH "/opt/programs/ruby/bin" $PATH
+
+# 2024-10-08 Erlang
+set -gx PATH "/opt/programs/erlang/bin" $PATH
+
+# 2024-10-08 Elixir
+set -gx PATH "/opt/programs/elixir/bin" $PATH
+
+# 2024-10-09 Node
+set -gx PATH "/opt/programs/node/bin" $PATH
+
+# 2024-10-30 Chez Scheme
+set -gx PATH "/opt/programs/chez-scheme/bin" $PATH
 
 # Go
+set -gx PATH "/opt/programs/go/bin" $PATH
+
+# Go GOPATH
 set -gx GOPATH "$HOME/goext"
 set -gx PATH "$GOPATH/bin" $PATH
 
@@ -103,29 +113,32 @@ set -gx PATH "$GOPATH/bin" $PATH
 set -gx GO111MODULE on
 set -gx GOPROXY https://goproxy.cn
 
-# Rust Rustup
-set -gx PATH "$HOME/.cargo/bin" $PATH
-
-# Use ustc mirror: https://mirrors.ustc.edu.cn/help/rust-static.html
+# Rust rustup https://mirrors.ustc.edu.cn/help/rust-static.html
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 
+# Rust Cargo
+set -gx PATH "$HOME/.cargo/bin" $PATH
+
 # 2018-12-12 Haskell ghcup
-set PATH "$HOME/.cabal/bin" "$HOME/.ghcup/bin" $PATH
+set -gx PATH "$HOME/.cabal/bin" "$HOME/.ghcup/bin" $PATH
 
 # 2023-11-03 OCaml opam: opam init -v
 if test -f "$HOME/.opam/opam-init/init.fish"
     source "$HOME/.opam/opam-init/init.fish" > /dev/null 2> /dev/null; or true
 end
 
-# 2024-09-10 Dart Pub, Flutter and Flutter SDK
-# https://help.mirrors.cernet.edu.cn/dart-pub/
-# https://help.mirrors.cernet.edu.cn/flutter/
-# https://help.mirrors.cernet.edu.cn/flutter-sdk.git
-set -gx PUB_HOSTED_URL "https://mirrors.cernet.edu.cn/dart-pub"
-set -gx FLUTTER_STORAGE_BASE_URL "https://mirrors.cernet.edu.cn/flutter"
-set -gx FLUTTER_GIT_URL "https://mirrors.cernet.edu.cn/flutter-sdk.git"
-set -gx PATH "/usr/local/programs/flutter/bin" $PATH
+# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
+# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
+# `~/.emacs.d/bin/doom install`
+set -gx PATH "$HOME/.emacs.d/bin" $PATH
 
 # 2024-06-27 mise https://mise.jdx.dev/getting-started.html
-type -q mise; and mise activate fish | source
+#type -q mise; and mise activate fish | source
+#type -q mise; and mise activate --shims fish | source
+
+# 2024-08-02 proto https://moonrepo.dev/proto
+#if type -q proto
+#    set -gx PROTO_HOME "$HOME/.proto"
+#    set -gx PATH "$PROTO_HOME/shims" "$PROTO_HOME/bin" $PATH
+#end

@@ -1,0 +1,38 @@
+Hack                        https://github.com/source-foundry/Hack
+HanaMinA                    https://glyphwiki.org/hanazono/
+HanaMinB
+HONOR Sans CN
+I.Ming                      https://github.com/ichitenfont/I.Ming
+I.MingCP
+I.MingVar
+I.MingVarCP
+Inconsolata                 https://github.com/googlefonts/Inconsolata
+Intel One Mono              https://github.com/intel/intel-one-mono
+Inter                       https://github.com/rsms/inter
+LXGW Bright Code GB         https://github.com/lxgw/LxgwBright-Code
+LXGW WenKai                 https://github.com/lxgw/LxgwWenKai
+LXGW WenKai Mono
+LXGW WenKai GB              https://github.com/lxgw/LxgwWenkaiGB
+LXGW WenKai Mono GB
+Merriweather                https://github.com/SorkinType/Merriweather
+MiSans                      https://hyperos.mi.com/font/download
+MiSans L3
+Montserrat                  https://github.com/JulietaUla/Montserrat
+Noto Color Emoji            https://github.com/googlefonts/noto-emoji
+Plangothic P1               https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project
+Plangothic P2
+Public Sans                 https://github.com/uswds/public-sans
+Source Code Pro             https://github.com/adobe-fonts/source-code-pro
+Source Han Sans SC          https://github.com/adobe-fonts/source-han-sans
+Source Han Serif SC         https://github.com/adobe-fonts/source-han-serif
+Ubuntu Sans                 https://github.com/canonical/Ubuntu-Sans-fonts
+Ubuntu Sans Mono            https://github.com/canonical/Ubuntu-Sans-Mono-fonts
+Twemoji                     https://github.com/twitter/twemoji
+Twemoji Mozilla             https://github.com/mozilla/twemoji-colr
+Twitter Color Emoji         https://github.com/13rac1/twemoji-color-font
+
+Andika                      https://github.com/silnrsi/font-andika
+Charis SIL                  https://github.com/silnrsi/font-charis
+Doulos SIL                  https://github.com/silnrsi/font-doulos
+Gentium Plus                https://github.com/silnrsi/font-gentium
+Gentium Book Plus

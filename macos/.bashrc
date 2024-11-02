@@ -4,15 +4,9 @@
 
 export EDITOR="vim"
 
-# user bins
-export PATH="$HOME/bin:$PATH"
-
-alias ls='ls -F'
-alias l='ls -l'
-alias la='ls -a'
-alias ll='ls -lh'
-alias lla='ls -alh'
-alias vi='vim'
+alias ls="ls -F"
+alias ll="ls -lh"
+alias vi="vim"
 
 # 2023-07-30 open files limit:
 # 0) https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c
@@ -21,6 +15,16 @@ alias vi='vim'
 ulimit -n 524288
 #ulimit -u 2048
 
+# prepend path and remove duplicates from PATH https://superuser.com/a/462852/477397
+_prepend_path() {
+    PATH=${PATH//":$1"/} # delete any instances in the middle or at the end
+    PATH=${PATH//"$1:"/} # delete any instances at the beginning
+    export PATH="$1:$PATH" # prepend to beginning
+}
+
+# user bins
+_prepend_path "$HOME/bin"
+
 #-----------
 # Programs
 #-----------
@@ -28,7 +32,7 @@ ulimit -n 524288
 # Bash itself
 
 # Turn off the beep https://unix.stackexchange.com/a/593495/126066
-bind 'set bell-style none'
+bind "set bell-style none"
 
 # https://github.com/scop/bash-completion
 # The last release for Bash 3.2 is 1.3 (latest version of Bash on macOS).
@@ -47,29 +51,9 @@ if [ -f $HOME/.bash-completion/bash_completion ]; then
   fi
 fi
 
-# Homebrew
-export HOMEBREW_NO_ANALYTICS=1
-export HOMEBREW_NO_AUTO_UPDATE=1
-export HOMEBREW_NO_INSTALL_UPGRADE=1
-export HOMEBREW_NO_GITHUB_API=1
-
-# https://mirrors.ustc.edu.cn/help/brew.git.html
-export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
-
-# 2023-09-12 brew 4.0+:
-# 1: https://brew.sh/2023/02/16/homebrew-4.0.0/
-# 2: https://mirrors.ustc.edu.cn/help/homebrew-bottles.html
-export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
-export HOMEBREW_API_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles/api"
-
-# 2021-06-18 Homebrew uses `/usr/local/sbin` now.
-export PATH="/usr/local/sbin:$PATH"
-
-# 2023-08-11 MariaDB: brew info mariadb@10.11
-export PATH="/usr/local/opt/mariadb@10.11/bin:$PATH"
-
-# 2024-01-05 PostgreSQL: brew info postgresql@16
-export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
+# 2024-10-04 pkgsrc and pkgin
+_prepend_path "/opt/pkg/sbin"
+_prepend_path "/opt/pkg/bin"
 
 # 2021-12-20 git commit with gpg sign issue https://stackoverflow.com/q/41052538/3449199
 # Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
@@ -77,44 +61,89 @@ export GPG_TTY=$(tty)
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-export PATH="/usr/local/texlive/2024/bin/universal-darwin:$PATH"
+_prepend_path "/opt/programs/texlive/2024/bin/universal-darwin"
 
-# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
-# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
-# `~/.emacs.d/bin/doom install`
-export PATH="$HOME/.emacs.d/bin:$PATH"
+# 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
+_prepend_path "/opt/programs/fastfetch/usr/bin"
+
+# 2024-10-06 pandoc https://pandoc.org/
+_prepend_path "/opt/programs/pandoc/bin"
+
+# 2024-11-02 lima https://lima-vm.io/
+_prepend_path "/opt/programs/lima/bin"
+
+# 2024-09-26 Dart Pub, Flutter and Flutter SDK
+# https://mirrors.tuna.tsinghua.edu.cn/help/dart-pub/
+# https://mirrors.tuna.tsinghua.edu.cn/help/flutter/
+# https://mirrors.tuna.tsinghua.edu.cn/help/flutter-sdk.git/
+export PUB_HOSTED_URL="https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
+export FLUTTER_STORAGE_BASE_URL="https://mirrors.tuna.tsinghua.edu.cn/flutter"
+export FLUTTER_GIT_URL="https://mirrors.tuna.tsinghua.edu.cn/git/flutter-sdk.git"
+_prepend_path "/opt/programs/flutter/bin"
+
+# 2024-10-08 Python
+_prepend_path "/opt/programs/python/bin"
+
+# 2024-10-08 Ruby
+_prepend_path "/opt/programs/ruby/bin"
+
+# 2024-10-08 Erlang
+_prepend_path "/opt/programs/erlang/bin"
+
+# 2024-10-08 Elixir
+_prepend_path "/opt/programs/elixir/bin"
+
+# 2024-10-09 Node
+_prepend_path "/opt/programs/node/bin"
+
+# 2024-10-30 Chez Scheme
+_prepend_path "/opt/programs/chez-scheme/bin"
 
 # Go
+_prepend_path "/opt/programs/go/bin"
+
+# Go GOPATH
 export GOPATH=$HOME/goext
-export PATH=$GOPATH/bin:$PATH
+_prepend_path "$GOPATH/bin"
 
 # 2022-04-02 Goproxy.cn https://goproxy.cn/
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
 
-# Rust Rustup
-export PATH=$HOME/.cargo/bin:$PATH
-
-# Use ustc mirror: https://mirrors.ustc.edu.cn/help/rust-static.html
+# Rust rustup https://mirrors.ustc.edu.cn/help/rust-static.html
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 
+# Rust Cargo
+_prepend_path "$HOME/.cargo/bin"
+
 # 2018-12-12 Haskell ghcup
-export PATH=$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH
+_prepend_path "$HOME/.ghcup/bin"
+_prepend_path "$HOME/.cabal/bin"
 
 # 2019-02-09 OCaml opam
 test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
-# 2024-09-10 Dart Pub, Flutter and Flutter SDK
-# https://help.mirrors.cernet.edu.cn/dart-pub/
-# https://help.mirrors.cernet.edu.cn/flutter/
-# https://help.mirrors.cernet.edu.cn/flutter-sdk.git
-export PUB_HOSTED_URL="https://mirrors.cernet.edu.cn/dart-pub"
-export FLUTTER_STORAGE_BASE_URL="https://mirrors.cernet.edu.cn/flutter"
-export FLUTTER_GIT_URL="https://mirrors.cernet.edu.cn/flutter-sdk.git"
-export PATH=/usr/local/programs/flutter/bin:$PATH
+# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
+# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
+# `~/.emacs.d/bin/doom install`
+_prepend_path "$HOME/.emacs.d/bin"
 
-# 2024-06-27 mise https://mise.jdx.dev/getting-started.html
-if [ $(command -v mise) ]; then
-  eval "$(mise activate bash)"
+#----------
+# Other general but must be placed at the bottom
+#----------
+
+# remove duplicates from PATH https://unix.stackexchange.com/a/40973/126066
+if [ -n "$PATH" ]; then
+  old_PATH=$PATH:; PATH=
+  while [ -n "$old_PATH" ]; do
+    x=${old_PATH%%:*}       # the first remaining entry
+    case $PATH: in
+      *:"$x":*) ;;          # already there
+      *) PATH=$PATH:$x;;    # not there yet
+    esac
+    old_PATH=${old_PATH#*:}
+  done
+  PATH=${PATH#:}
+  unset old_PATH x
 fi

@@ -1,0 +1,11 @@
+# Python
+
+2024-10-10
+
+version: 3.13.0
+
+```
+./configure --prefix=/opt/programs/python --enable-shared --disable-gil
+make
+make install
+```

@@ -1,0 +1,23 @@
+# https://nix.dev/manual/nix/2.18/installation/upgrading
+
+2024-09-19
+
+for root:
+
+```sh
+sudo -i nix-channel --add https://mirrors.cernet.edu.cn/nix-channels/nixpkgs-unstable nixpkgs
+sudo -i nix-channel --update
+sudo -i nix-env --install --attr nixpkgs.nix
+sudo -i launchctl remove org.nixos.nix-daemon
+sudo -i launchctl load /Library/LaunchDaemons/org.nixos.nix-daemon.plist
+sudo -i nix-channel --remove nixpkgs
+```
+
+note: remove channel for root to avoid conflict errors for normal usage for user.
+
+for user:
+
+```sh
+nix-channel --update
+nix-env --install --attr nixpkgs.nix
+```

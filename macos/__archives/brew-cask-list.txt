@@ -7,6 +7,7 @@ emacs
 flameshot
 font-cascadia-mono
 font-cascadia-mono-pl
+font-commit-mono
 font-fantasque-sans-mono
 font-hack
 font-hanamin

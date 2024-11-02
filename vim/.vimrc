@@ -184,9 +184,6 @@ if exists('g:loaded_minpac')
   "call minpac#add('jakwings/vim-pony')
   " vim-preview https://github.com/greyblake/vim-preview
   call minpac#add('greyblake/vim-preview')
-  " vim-racer https://github.com/racer-rust/vim-racer
-  " Active development on Racer and vim-racer has stopped.
-  "call minpac#add('racer-rust/vim-racer')
   " vim-radon https://github.com/rubik/vim-radon
   call minpac#add('rubik/vim-radon')
   " vim-rails https://github.com/tpope/vim-rails

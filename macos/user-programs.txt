@@ -1,5 +1,6 @@
-ghcup           ~/.ghcup                https://github.com/haskell/ghcup
-ivm             ~/.local/share/ivm      https://github.com/inko-lang/ivm
-mise            ~/.local/share/mise     https://github.com/jdx/mise
-opam            ~/.opam                 https://opam.ocaml.org/
-rustup          ~/.rustup               https://www.rust-lang.org/
+Go packages                 ~/goext                 https://pkg.go.dev/
+Hashell toolchains          ~/.ghcup                https://www.haskell.org/ghcup/
+Haskell Cabal packages      ~/.cabal                https://www.haskell.org/cabal/
+OCaml Opam packages         ~/.opam                 https://opam.ocaml.org/
+Rust toolchains             ~/.rustup               https://www.rust-lang.org/
+Rust Cargo crates           ~/.cargo                https://crates.io/

@@ -1,0 +1,11 @@
+# Erlang
+
+2024-10-10
+
+version: 27.1.1
+
+```
+./configure --prefix=/opt/programs/erlang --without-javac --with-ssl=/opt/pkg
+make
+make install
+```

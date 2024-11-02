@@ -1,0 +1,13 @@
+# Ruby
+
+2024-10-10
+
+version: 3.3.5
+
+```
+mkdir build
+cd build
+../configure --prefix=/opt/programs/ruby --enable-shared
+make
+make install
+```

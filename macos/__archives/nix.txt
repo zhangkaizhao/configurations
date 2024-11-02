@@ -1,0 +1,65 @@
+Nix
+
+https://nix.dev/
+
+## basics
+
+query available packages:
+
+```shell
+nix-env -qaA nixpkgs.[package name]
+```
+
+install package:
+
+```shell
+nix-env -iA nixpkgs.[package name]
+```
+
+update channel:
+
+```shell
+nix-channel --update
+```
+
+upgrade all installed packages:
+
+```shell
+nix-env -uA
+```
+
+list all installed packages (with version):
+
+```shell
+nix-env -q
+```
+
+enter a new shell with packages [package name 1] and [package name 2]:
+
+```shell
+nix-shell -p [package name 1] [package name 2]
+```
+
+delete old generations:
+
+```shell
+nix-shell --delete-generations +1
+```
+
+delete unreachable store objects:
+
+```shell
+nix-collect-garbage
+```
+
+delete old generations and delete unreachable store objects:
+
+```shell
+nix-collect-garbage -d
+```
+
+query available packages with new command:
+
+```shell
+nix search [package name]
+```

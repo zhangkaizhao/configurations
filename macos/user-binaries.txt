@@ -1,12 +1,23 @@
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
 alire                   ~/bin/alr                       https://github.com/alire-project/alire
-filebrowser (large)     ~/bin/filebrowser               https://filebrowser.org/
+colima                  ~/bin/colima                    https://github.com/abiosoft/colima
+docker                  ~/bin/docker                    https://www.docker.com/
+docker-compose          ~/bin/docker-compose            https://docs.docker.com/compose/
+duckdb                  ~/bin/duckdb                    https://duckdb.org/
+filebrowser             ~/bin/filebrowser               https://filebrowser.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
 ivm                     ~/bin/ivm                       https://github.com/inko-lang/ivm
 loc                     ~/bin/loc                       https://github.com/jiacai2050/zigcli/blob/main/src/bin/loc.zig
+mdbook                  ~/bin/mdbook                    https://github.com/rust-lang/mdBook
 mise                    ~/bin/mise                      https://mise.jdx.dev/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
+opam                    ~/bin/opam                      https://opam.ocaml.org/
+proto                   ~/bin/proto                     https://moonrepo.dev/proto
+skm                     ~/bin/skm                       https://github.com/TimothyYe/skm
+typos                   ~/bin/typos                     https://github.com/crate-ci/typos
+zellij                  ~/bin/zellij                    https://zellij.dev/
+ziggy                   ~/bin/ziggy                     https://github.com/kristoff-it/ziggy
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod
 zigup                   ~/bin/zigup                     https://github.com/marler8997/zigup
 zls                     ~/bin/zls                       https://github.com/zigtools/zls

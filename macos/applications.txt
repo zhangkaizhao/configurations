@@ -1,49 +1,86 @@
+Alacritty                           https://alacritty.org/
 AltTab              (auto update)   https://github.com/lwouis/alt-tab-macos
+aMule                               https://amule.org/
+Android File Transfer               https://www.android.com/filetransfer/
 Android Studio      (auto update)   https://developer.android.com/studio
+Avidemux                            https://www.avidemux.org/nightly/
+Basilisk                            https://www.basilisk-browser.org/
 Bilibili            (auto update)   https://app.bilibili.com/
 Blender                             https://www.blender.org/
+Brave Browser       (auto update)   https://brave.com/
+calibre                             https://calibre-ebook.com/
 Cloudflare WARP     (auto update)   https://one.one.one.one/
 CotEditor           (auto update)   https://coteditor.com/
 Dash                (auto update)   https://kapeli.com/dash
-DBeaver CE          (auto update)   https://dbeaver.io/
+DBeaver             (auto update)   https://dbeaver.io/
+Delta Chat                          https://delta.chat/
 DevToysMac          (auto update)   https://github.com/ObuchiYuki/DevToysMac
-DingTalkLite        (auto update)   https://www.dingtalk.com/
+DingTalk Lite       (auto update)   https://www.dingtalk.com/
 draw.io Desktop     (audo update)   https://github.com/jgraph/drawio-desktop
 Dropbox             (auto update)   https://www.dropbox.com/
-Eclipse SDK         (auto update)   https://www.eclipse.org/
-Feishu              (auto update)   https://www.feishu.cn/
+Eclipse             (auto update)   https://www.eclipse.org/
+Emacs                               https://emacsformacosx.com/
 Firefox             (auto update)   https://www.mozilla.org/firefox/all/
+Flameshot                           https://flameshot.org/
+Foobar2000                          https://www.foobar2000.org/
 Focus                               https://github.com/focus-editor/focus
+FontForge                           https://fontforge.org/
+FreeCAD                             https://www.freecad.org/
 Freeciv21                           https://github.com/longturn/freeciv21
+Freeplane                           https://www.freeplane.org/
+FSNotes                             https://fsnot.es/
 fSpy                                https://fspy.io/
+Geany                               https://www.geany.org/
+GIMP                                https://www.gimp.org/
+Godot                               https://godotengine.org/
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
 Google Chrome       (auto update)   https://www.google.com/chrome
 Google Drive        (auto update)   https://drive.google.com/
 Hyper                               https://hyper.is/
-IntelliJ IDEA CE    (auto update)   https://www.jetbrains.com/idea/
+IINA                (auto update)   https://iina.io/
+Inkscape                            https://inkscape.org/
+IntelliJ IDEA Community Edition     (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
+KeepassXC                           https://keepassxc.org/
 Kindle              (auto update)   https://www.amazon.com/gp/digital/fiona/kcp-landing-page
+kitty                               https://sw.kovidgoyal.net/kitty/
+Krita                               https://krita.org/
+KugouMusic          (auto update)   https://www.kugou.com/
 Lagrange            (auto update)   https://gmi.skyjake.fi/lagrange/
+Lapce                               https://lapce.dev/
+Lark                (auto update)   https://www.feishu.cn/
+LibreCAD                            https://librecad.org/
 LibreOffice                         https://www.libreoffice.org/
 LocalSend                           https://localsend.org/
 MacPass             (auto update)   https://macpassapp.org/
 MacVim              (auto update)   https://macvim-dev.github.io/macvim
-NetEase cloud music (auto update)   https://music.163.com/
+Mattermost                          https://mattermost.com/
+mpv                                 https://mpv.io/
+Netease Music       (auto update)   https://music.163.com/
 NetNewsWire         (auto update)   https://netnewswire.com/
 NotepadNext                         https://github.com/dail8859/NotepadNext
-OBS Studio          (auto update)   https://obsproject.com/
+OBS                 (auto update)   https://obsproject.com/
 OneDrive            (auto update)   https://onedrive.live.com/
+Open Sound Meter    (auto update)   https://opensoundmeter.com/
+OpenSCAD                            https://openscad.org/
 Orion               (auto update)   https://browser.kagi.com/
+Pale Moon                           https://www.palemoon.org/
+Pencil                              https://pencil.evolus.vn/
+Pinta                               https://www.pinta-project.com/
 Pulsar                              https://pulsar-edit.dev/
 PxCook                              https://www.fancynode.com.cn/pxcook
+qBittorrent                         https://github.com/qbittorrent/qBittorrent
+Qt Creator                          https://www.qt.io/
 QQMusic             (auto update)   https://y.qq.com/
+QuiteRSS            (auto update)   https://github.com/QuiteRSS/quiterss
 Racket                              https://racket-lang.org/
+Rio                                 https://github.com/raphamorim/rio
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
 Sloth               (auto update)   https://sveinbjorn.org/sloth
-Steam               (auto update)   https://store.steampowered.com/about/
 SourceTree          (auto update)   https://www.sourcetreeapp.com/
 Squirrel            (auto update)   https://rime.im/
+Steam               (auto update)   https://store.steampowered.com/about/
 Sublime Merge       (auto update)   https://www.sublimemerge.com/
 Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
@@ -54,14 +91,18 @@ Therm                               https://github.com/trufae/Therm
 Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/
 ungoogled-chromium                  https://github.com/ungoogled-software/ungoogled-chromium-macos
+Vagrant                             https://developer.hashicorp.com/vagrant
 VCMI                                https://vcmi.eu/
 Vienna              (auto update)   https://www.vienna-rss.com/
 VirtualBox                          https://www.virtualbox.org/
 Visual Studio Code  (auto update)   https://code.visualstudio.com/
 Vivaldi             (auto update)   https://vivaldi.com/
 VLC                 (auto update)   https://www.videolan.org/vlc/
+WezTerm                             https://github.com/wez/wezterm
+WhatsApp            (auto update)   https://www.whatsapp.com/
+Xournal++                           https://xournalpp.github.io/
 XQuartz             (auto update)   https://www.xquartz.org/
 Yandex Browser      (auto update)   https://browser.yandex.ru/
-Yandex Disk                         https://disk.yandex.com/
+Yandex Disk                         https://disk.yandex.ru/
 Zed                 (auto update)   https://zed.dev/
 Zulip Desktop       (auto update)   https://zulip.com/apps/

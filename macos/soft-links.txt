@@ -1,7 +1,17 @@
+~/bin/gpg               /opt/pkg/bin/gpg2
+~/bin/telnet            /opt/pkg/bin/gtelnet
+
+~/bin/crystal           /opt/programs/crystal/bin/crystal
+~/bin/shards            /opt/programs/crystal/embedded/bin/shards
+
+~/bin/nvim              /opt/programs/nvim/bin/nvim
+~/bin/zig               /opt/programs/zig/zig
+
+~/bin/code              /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code
+~/bin/emacs             /Applications/Emacs.app/Contents/MacOS/Emacs
+~/bin/emacsclient       /Applications/Emacs.app/Contents/MacOS/bin/emacsclient
 ~/bin/mate              /Applications/TextMate.app/Contents/MacOS/mate
-~/bin/subl              /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
-
-~/bin/racket            /Applications/Racket v8.13/bin/racket
-~/bin/raco              /Applications/Racket v8.13/bin/raco
-
+~/bin/racket            /Applications/Racket\ v8.13/bin/racket
+~/bin/raco              /Applications/Racket\ v8.13/bin/raco
+~/bin/subl              /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 ~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli

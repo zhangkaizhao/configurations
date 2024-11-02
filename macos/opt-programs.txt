@@ -1,0 +1,16 @@
+Crystal         /opt/programs/crystal           https://www.crystal-lang.org/
+Elixir          /opt/programs/elixir            https://www.elixir-lang.org/
+Erlang          /opt/programs/erlang            https://www.erlang.org/
+Go              /opt/programs/go                https://go.dev/
+Node.js         /opt/programs/node              https://www.nodejs.org/
+Python          /opt/programs/python            https://www.python.org/
+Ruby            /opt/programs/ruby              https://www.ruby-lang.org/
+
+Flutter         /opt/programs/flutter           https://flutter.dev/
+Lima            /opt/programs/lima              https://lima-vm.io/
+Neovim          /opt/programs/nvim              https://neovim.io/
+TeX Live        /opt/programs/texlive           https://www.tug.org/texlive/
+Vale            /opt/programs/vale              https://vale.dev/
+
+smartdns        /opt/programs/smartdns          https://github.com/mokeyish/smartdns-rs
+vlmcsd          /opt/programs/vlmcsd            https://github.com/Wind4/vlmcsd
