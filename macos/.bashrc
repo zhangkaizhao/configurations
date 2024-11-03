@@ -22,9 +22,6 @@ _prepend_path() {
     export PATH="$1:$PATH" # prepend to beginning
 }
 
-# user bins
-_prepend_path "$HOME/bin"
-
 #-----------
 # Programs
 #-----------
@@ -128,6 +125,9 @@ test -r $HOME/.opam/opam-init/init.sh && . $HOME/.opam/opam-init/init.sh > /dev/
 # `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
 # `~/.emacs.d/bin/doom install`
 _prepend_path "$HOME/.emacs.d/bin"
+
+# user binaries
+_prepend_path "$HOME/bin"
 
 #----------
 # Other general but must be placed at the bottom

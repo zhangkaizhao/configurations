@@ -43,9 +43,6 @@ function correct_manpath
 end
 correct_manpath
 
-# user bins
-set -gx PATH "$HOME/bin" $PATH
-
 #-----------
 # Programs
 #-----------
@@ -142,3 +139,6 @@ set -gx PATH "$HOME/.emacs.d/bin" $PATH
 #    set -gx PROTO_HOME "$HOME/.proto"
 #    set -gx PATH "$PROTO_HOME/shims" "$PROTO_HOME/bin" $PATH
 #end
+
+# user binaries
+set -gx PATH "$HOME/bin" $PATH
