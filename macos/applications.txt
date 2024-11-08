@@ -41,6 +41,7 @@ IINA                (auto update)   https://iina.io/
 Inkscape                            https://inkscape.org/
 IntelliJ IDEA Community Edition     (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
+JetBrains Toolbox   (auto update)   https://www.jetbrains.com/toolbox-app/
 KeepassXC                           https://keepassxc.org/
 Kindle              (auto update)   https://www.amazon.com/gp/digital/fiona/kcp-landing-page
 kitty                               https://sw.kovidgoyal.net/kitty/

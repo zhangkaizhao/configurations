@@ -7,6 +7,7 @@ duckdb                  ~/bin/duckdb                    https://duckdb.org/
 filebrowser             ~/bin/filebrowser               https://filebrowser.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
+hugo                    ~/bin/hugo                      https://gohugo.io/
 ivm                     ~/bin/ivm                       https://github.com/inko-lang/ivm
 loc                     ~/bin/loc                       https://github.com/jiacai2050/zigcli/blob/main/src/bin/loc.zig
 mdbook                  ~/bin/mdbook                    https://github.com/rust-lang/mdBook
@@ -16,6 +17,7 @@ opam                    ~/bin/opam                      https://opam.ocaml.org/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
 skm                     ~/bin/skm                       https://github.com/TimothyYe/skm
 typos                   ~/bin/typos                     https://github.com/crate-ci/typos
+typst                   ~/bin/typst                     https://typst.app/
 zellij                  ~/bin/zellij                    https://zellij.dev/
 ziggy                   ~/bin/ziggy                     https://github.com/kristoff-it/ziggy
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod

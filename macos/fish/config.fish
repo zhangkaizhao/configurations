@@ -79,7 +79,7 @@ set -gx PATH "/opt/programs/lima/bin" $PATH
 set -gx PUB_HOSTED_URL "https://mirrors.tuna.tsinghua.edu.cn/dart-pub"
 set -gx FLUTTER_STORAGE_BASE_URL "https://mirrors.tuna.tsinghua.edu.cn/flutter"
 set -gx FLUTTER_GIT_URL "https://mirrors.tuna.tsinghua.edu.cn/git/flutter-sdk.git"
-set -gx PATH "/usr/local/programs/flutter/bin" $PATH
+set -gx PATH "/opt/programs/flutter/bin" $PATH
 
 # 2024-10-08 Python
 set -gx PATH "/opt/programs/python/bin" $PATH
