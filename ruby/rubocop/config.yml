@@ -1,12 +1,33 @@
-# https://docs.rubocop.org/rubocop/1.29/configuration.html
+# https://docs.rubocop.org/rubocop/index.html (current 1.75)
+
+Bundler/GemFilename:
+  Enabled: false
 
 Bundler/OrderedGems:
   Enabled: false
 
-Layout/ArgumentAlightment:
+Layout/ArgumentAlignment:
   Enabled: false
 
 Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/StringLiterals:

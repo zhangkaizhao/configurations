@@ -64,18 +64,6 @@ Install with `gem install [options] GEMNAME`. See `gem help install`.
 
       gem install rubocop
 
-* rucoa
-
-  description: Language server for Ruby.
-
-  repository: https://github.com/r7kamura/rucoa
-
-  install:
-
-      gem install rucoa
-
-  for VSCode extension vscode-rucoa https://github.com/r7kamura/vscode-rucoa
-
 * solargraph
 
   description: IDE tools for code completion, inline documentation, and static analysis
