@@ -61,10 +61,11 @@ end
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-set -gx PATH "/opt/programs/texlive/2024/bin/universal-darwin" $PATH
+set -gx PATH "/opt/programs/texlive/2025/bin/universal-darwin" $PATH
 
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 set -gx PATH "/opt/programs/fastfetch/usr/bin" $PATH
+alias fastfetch "fastfetch --cpu-temp --gpu-temp --battery-temp"
 
 # 2024-10-06 pandoc https://pandoc.org/
 set -gx PATH "/opt/programs/pandoc/bin" $PATH
@@ -103,35 +104,52 @@ set -gx PATH "/opt/programs/chez-scheme/bin" $PATH
 set -gx PATH "/opt/programs/go/bin" $PATH
 
 # Go GOPATH
-set -gx GOPATH "$HOME/goext"
-set -gx PATH "$GOPATH/bin" $PATH
+set -gx GOPATH "/opt/programs/goext"
+set -gx PATH "/opt/programs/goext/bin" $PATH
 
 # 2022-04-02 Goproxy.cn https://goproxy.cn/
 set -gx GO111MODULE on
-set -gx GOPROXY https://goproxy.cn
+set -gx GOPROXY "https://goproxy.cn"
+
+# Rust rustup https://rust-lang.github.io/rustup/environment-variables.html
+set -gx RUSTUP_HOME "/opt/programs/rustup"
 
 # Rust rustup https://mirrors.ustc.edu.cn/help/rust-static.html
-export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+set -gx RUSTUP_DIST_SERVER "https://mirrors.ustc.edu.cn/rust-static"
+set -gx RUSTUP_UPDATE_ROOT "https://mirrors.ustc.edu.cn/rust-static/rustup"
 
-# Rust Cargo
-set -gx PATH "$HOME/.cargo/bin" $PATH
+# Rust Cargo https://doc.rust-lang.org/cargo/reference/environment-variables.html
+set -gx CARGO_HOME "/opt/programs/cargo"
+set -gx PATH "/opt/programs/cargo/bin" $PATH
 
-# 2018-12-12 Haskell ghcup
-set -gx PATH "$HOME/.cabal/bin" "$HOME/.ghcup/bin" $PATH
+# Haskell GHCup https://www.haskell.org/ghcup/guide/
+set -gx GHCUP_INSTALL_BASE_PREFIX "/opt/programs/haskell"
+set -gx PATH "/opt/programs/haskell/.ghcup/bin" $PATH
 
-# 2023-11-03 OCaml opam: opam init -v
-if test -f "$HOME/.opam/opam-init/init.fish"
-    source "$HOME/.opam/opam-init/init.fish" > /dev/null 2> /dev/null; or true
+# Haskell Cabal https://cabal.readthedocs.io/en/stable/config.html
+set -gx CABAL_DIR "/opt/programs/haskell/cabal"
+set -gx PATH "/opt/programs/haskell/cabal/bin" $PATH
+
+# OCaml opam https://opam.ocaml.org/doc/Manual.html
+set -gx OPAMROOT "/opt/programs/opam"
+
+# OCaml opam: opam init -v
+if test -f "/opt/programs/opam/opam-init/init.fish"
+    source "/opt/programs/opam/opam-init/init.fish" > /dev/null 2> /dev/null; or true
 end
 
-# 2022-11-13 Doom Emacs https://github.com/doomemacs/doomemacs
-# `git clone https://github.com/doomemacs/doomemacs ~/.emacs.d`
-# `~/.emacs.d/bin/doom install`
-set -gx PATH "$HOME/.emacs.d/bin" $PATH
+# Idris2
+set -gx PATH "/opt/programs/idris2/bin" $PATH
+
+# C2 http://c2lang.org/
+set -gx C2_LIBDIR "/opt/programs/c2c/libs"
+set -gx C2_PLUGINDIR "/opt/programs/c2c/plugins"
+
+# user binaries
+set -gx PATH "$HOME/bin" $PATH
 
 # 2024-06-27 mise https://mise.jdx.dev/getting-started.html
-#type -q mise; and mise activate fish | source
+type -q mise; and mise activate fish | source
 #type -q mise; and mise activate --shims fish | source
 
 # 2024-08-02 proto https://moonrepo.dev/proto
@@ -139,6 +157,3 @@ set -gx PATH "$HOME/.emacs.d/bin" $PATH
 #    set -gx PROTO_HOME "$HOME/.proto"
 #    set -gx PATH "$PROTO_HOME/shims" "$PROTO_HOME/bin" $PATH
 #end
-
-# user binaries
-set -gx PATH "$HOME/bin" $PATH

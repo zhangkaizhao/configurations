@@ -46,20 +46,19 @@ Install with `pip install [options] <package>`. See `pip help install`.
 
   homepage: http://docutils.sourceforge.net/
 
-  subcommands:
+  console scripts:
 
-    - rst2html.py
-    - rst2html4.py
-    - rst2html5.py
-    - rst2latex.py
-    - rst2man.py
-    - rst2odt.py
-    - rst2odt_prepstyles.py
-    - rst2pseudoxml.py
-    - rst2s5.py
-    - rst2xetex.py
-    - rst2xml.py
-    - rstpep2html.py
+    - docutils
+    - rst2html
+    - rst2html4
+    - rst2html5
+    - rst2latex
+    - rst2man
+    - rst2odt
+    - rst2pseudoxml
+    - rst2s5
+    - rst2xetex
+    - rst2xml
 
   install:
 
@@ -111,7 +110,7 @@ Install with `pip install [options] <package>`. See `pip help install`.
 
   description: pip-tools keeps your pinned dependencies fresh.
 
-  subcommands:
+  console scripts:
 
     - pip-compile
     - pip-sync
@@ -136,7 +135,7 @@ Install with `pip install [options] <package>`. See `pip help install`.
 
   description: Code Metrics in Python
 
-  subcommands:
+  console scripts:
 
     - radon cc
     - radon raw
@@ -160,6 +159,16 @@ Install with `pip install [options] <package>`. See `pip help install`.
   install:
 
       pip install rst2pdf
+
+* ruff
+
+  description: An extremely fast Python linter and code formatter, written in Rust.
+
+  repository: https://github.com/astral-sh/ruff
+
+  install:
+
+      pip install ruff
 
 * virtualenv
 

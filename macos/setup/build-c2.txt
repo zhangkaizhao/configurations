@@ -1,0 +1,18 @@
+# C2
+
+2025-07-22
+
+```
+git clone https://github.com/c2lang/c2compiler.git /opt/programs/c2c
+cd /opt/programs/c2c
+make
+```
+
+update:
+
+```
+cd /opt/programs/c2c
+make clean
+git pull
+make
+```

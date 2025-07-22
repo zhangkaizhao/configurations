@@ -1,0 +1,12 @@
+# Idris
+
+2025-07-22
+
+version: 0.7.0
+
+The latest version 0.7.0 requires Chez Scheme. See [build-chez-scheme.txt](build-chez-scheme.txt) to build it first.
+
+```
+PREFIX=/opt/programs/idris2 SCHEME=scheme CPATH=/opt/pkg/include make bootstrap
+PREFIX=/opt/programs/idris2 SCHEME=scheme CPATH=/opt/pkg/include make install
+```

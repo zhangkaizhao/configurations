@@ -8,6 +8,18 @@ Install with `npm install -g <package>`. See `npm help install`.
 
     npm install -g @djot/djot
 
+* katex
+
+  desription: Fast math typesetting for the web.
+
+  homepage: https://katex.org/
+
+  repository: https://github.com/KaTeX/KaTeX
+
+  install:
+
+    npm install -g katex
+
 * pyright:
 
   install:

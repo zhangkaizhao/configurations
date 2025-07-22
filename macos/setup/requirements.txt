@@ -3,9 +3,11 @@
 docutils
 flake8
 ipython
-notebook
+mkdocs
+#notebook
 pip-audit
 pip-tools
 python-lsp-server
 rst2pdf
+ruff
 virtualenv

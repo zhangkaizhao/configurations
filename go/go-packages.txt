@@ -12,6 +12,27 @@ Install with `go install [build flags] [packages]`. See `go help install`.
 
       go install github.com/TheZoraiz/ascii-image-converter@latest
 
+* cfssl
+
+  description:
+
+  repository: https://github.com/cloudflare/cfssl
+
+  install:
+
+      go install github.com/cloudflare/cfssl/cmd/...@latest
+
+  commands:
+
+    - cfssl
+    - cfssl-bundle
+    - cfssl-certinfo
+    - cfssl-newkey
+    - cfssl-scan
+    - cfssljson
+    - mkbundle
+    - multirootca
+
 * colima
 
   description: Container runtimes on macOS (and Linux) with minimal setup.

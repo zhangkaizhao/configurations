@@ -1,0 +1,33 @@
+# mdBook preprocessor
+
+Install with `cargo install [options] crate`. See `cargo help install`.
+
+* mdbook-katex
+
+  description: mdBook preprocessor rendering LaTeX equations to HTML.
+
+  repository: https://github.com/lzanini/mdbook-katex
+
+  install:
+
+      cargo install mdbook-katex
+
+* mdbook-last-changed
+
+  description: mdbook preprocessor to add the last modification date per page
+
+  repository: https://github.com/badboy/mdbook-last-changed
+
+  install:
+
+      cargo install mdbook-last-changed
+
+* mdbook-svgbob
+
+  description: SvgBob mdbook preprocessor which swaps code-blocks with neat SVG.
+
+  repository: https://github.com/boozook/mdbook-svgbob
+
+  install:
+
+      cargo install mdbook-svgbob

@@ -132,6 +132,8 @@ if exists('g:loaded_minpac')
   call minpac#add('chriskempson/base16-vim')
   " bufferhint https://github.com/bsdelf/bufferhint
   call minpac#add('bsdelf/bufferhint')
+  " c2.vim https://github.com/c2lang/c2.vim
+  call minpac#add('c2lang/c2.vim')
   " elm-vim https://github.com/ElmCast/elm-vim
   call minpac#add('ElmCast/elm-vim')
   " gleam.vim https://github.com/gleam-lang/gleam.vim
@@ -160,6 +162,8 @@ if exists('g:loaded_minpac')
   call minpac#add('preservim/tagbar')
   " typescript-vim https://github.com/leafgarland/typescript-vim
   call minpac#add('leafgarland/typescript-vim')
+  " typst.vim https://github.com/kaarmu/typst.vim
+  call minpac#add('kaarmu/typst.vim')
   " vala.vim https://github.com/arrufat/vala.vim
   call minpac#add('arrufat/vala.vim')
   " vim-asciidoctor https://github.com/habamax/vim-asciidoctor

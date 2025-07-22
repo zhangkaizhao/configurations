@@ -1,11 +1,22 @@
 ~/bin/gpg               /opt/pkg/bin/gpg2
 ~/bin/telnet            /opt/pkg/bin/gtelnet
 
+~/bin/ada_language_server   /opt/programs/als/ada_language_server
+
+~/bin/c2c               /opt/programs/c2c/output/c2c/c2c
+~/bin/c3c               /opt/programs/c3c/c3c
+~/bin/conan             /opt/programs/conan/bin/conan
+~/bin/nvim              /opt/programs/nvim/bin/nvim
+~/bin/odin              /opt/programs/odin/odin
+~/bin/scrcpy            /opt/programs/scrcpy/scrcpy
+~/bin/xcodegen          /opt/programs/xcodegen/bin/xcodegen
+~/bin/zig               /opt/programs/zig/zig
+
 ~/bin/crystal           /opt/programs/crystal/bin/crystal
 ~/bin/shards            /opt/programs/crystal/embedded/bin/shards
 
-~/bin/nvim              /opt/programs/nvim/bin/nvim
-~/bin/zig               /opt/programs/zig/zig
+~/bin/roc                   /opt/programs/roc/roc
+~/bin/roc_language_server   /opt/programs/roc/roc_language_server
 
 ~/bin/code              /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code
 ~/bin/emacs             /Applications/Emacs.app/Contents/MacOS/Emacs
@@ -16,4 +27,18 @@
 ~/bin/racket            /Applications/Racket\ v8.13/bin/racket
 ~/bin/raco              /Applications/Racket\ v8.13/bin/raco
 ~/bin/subl              /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+~/bin/xtool             /Applications/xtool.app/Contents/Resources/bin/xtool
 ~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli
+
+# for roc https://github.com/roc-lang/roc
+/usr/local/lib/libzstd.1.dylib              /opt/pkg/lib/libzstd.1.dylib
+
+# ffmpeg 5.x
+/opt/pkg/lib/pkgconfig/libavcodec.pc        /opt/pkg/lib/ffmpeg5/pkgconfig/libavcodec.pc
+/opt/pkg/lib/pkgconfig/libavdevice.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libavdevice.pc
+/opt/pkg/lib/pkgconfig/libavfilter.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libavfilter.pc
+/opt/pkg/lib/pkgconfig/libavformat.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libavformat.pc
+/opt/pkg/lib/pkgconfig/libavutil.pc         /opt/pkg/lib/ffmpeg5/pkgconfig/libavutil.pc
+/opt/pkg/lib/pkgconfig/libpostproc.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libpostproc.pc
+/opt/pkg/lib/pkgconfig/libswresample.pc     /opt/pkg/lib/ffmpeg5/pkgconfig/libswresample.pc
+/opt/pkg/lib/pkgconfig/libswscale.pc        /opt/pkg/lib/ffmpeg5/pkgconfig/libswscale.pc

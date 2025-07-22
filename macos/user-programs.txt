@@ -1,6 +1,0 @@
-Go packages                 ~/goext                 https://pkg.go.dev/
-Hashell toolchains          ~/.ghcup                https://www.haskell.org/ghcup/
-Haskell Cabal packages      ~/.cabal                https://www.haskell.org/cabal/
-OCaml Opam packages         ~/.opam                 https://opam.ocaml.org/
-Rust toolchains             ~/.rustup               https://www.rust-lang.org/
-Rust Cargo crates           ~/.cargo                https://crates.io/

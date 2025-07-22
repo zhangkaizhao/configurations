@@ -5,3 +5,9 @@ replace-with = 'ustc'
 
 [source.ustc]
 registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+# 2025-05-26 https://kobzol.github.io/rust/rustc/2025/05/20/disable-debuginfo-to-improve-rust-compile-times.html
+# via https://www.zhihu.com/question/11634804731/answer/1908453732124964073
+# Reference: https://doc.rust-lang.org/stable/cargo/reference/config.html
+[profile.dev]
+debug = false

@@ -5,6 +5,10 @@ Blender Add-ons
 
   https://creativedesigner3d.github.io/home_builder_3_docs/
 
+* Import-Export: Import Autodesk MAX (.max)
+
+  https://extensions.blender.org/add-ons/io-scene-max/
+
 * Import-Export: import fSpy project
 
   https://github.com/stuffmatic/fSpy-Blender

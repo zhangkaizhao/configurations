@@ -4,5 +4,4 @@ mdbook
 neovim
 pandoc
 smartdns-rs
-tokei (present broken)
 zellij

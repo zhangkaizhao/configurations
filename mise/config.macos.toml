@@ -1,0 +1,12 @@
+[env]
+# https://mise.jdx.dev/lang/node.html
+# https://mirrors.ustc.edu.cn/help/node.html
+MISE_NODE_MIRROR_URL = "https://mirrors.ustc.edu.cn/node/"
+# https://mise.jdx.dev/lang/go.html
+MISE_GO_DOWNLOAD_MIRROR = "https://mirrors.ustc.edu.cn/golang/"
+
+[settings]
+not_found_auto_install = false
+experimental = true
+# idiomatic versions default disabled #4345 https://github.com/jdx/mise/discussions/4345
+idiomatic_version_file_enable_tools = []

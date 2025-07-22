@@ -1,0 +1,8 @@
+FreeCAD Add-ons
+
+
+* Importer3D
+
+  description: Collection of 3D Mesh importers
+
+  repository: https://github.com/nrgsille76/Importer3D/tree/patch-1

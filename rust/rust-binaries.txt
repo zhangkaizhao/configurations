@@ -22,11 +22,27 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install cargo-bloat
 
+* cargo-cache
+
+  description: Manage cargo cache ($CARGO_HOME or ~/.cargo/), show sizes and remove directories selectively
+
+  repository: https://github.com/matthiaskrgr/cargo-cache
+
+  install:
+
+      cargo install cargo-cache
+
 * cargo-deny
 
   description: Cargo plugin to help you manage large dependency graphs
 
-  subcommands:
+  repository: https://github.com/EmbarkStudios/cargo-deny
+
+  install:
+
+      cargo install --locked cargo-deny
+
+  commands:
 
     - cargo deny init
     - cargo deny check
@@ -35,28 +51,22 @@ Install with `cargo install [options] crate`. See `cargo help install`.
     - cargo deny check advisories
     - cargo deny check sources
 
-  repository: https://github.com/EmbarkStudios/cargo-deny
-
-  install:
-
-      cargo install --locked cargo-deny
-
 * cargo-edit
 
   description: This tool extends Cargo to allow you to add, remove, and upgrade dependencies by modifying your Cargo.toml file from the command line.
-
-  subcommands:
-
-    - cargo add (removed since [v0.10.0](https://github.com/killercup/cargo-edit/releases/tag/v0.10.0))
-    - cargo rm
-    - cargo upgrade
-    - cargo set-version
 
   repository: https://github.com/killercup/cargo-edit
 
   install:
 
       cargo install --features vendored-openssl cargo-edit
+
+  commands:
+
+    - cargo add (removed since [v0.10.0](https://github.com/killercup/cargo-edit/releases/tag/v0.10.0))
+    - cargo rm
+    - cargo upgrade
+    - cargo set-version
 
 * cargo-license
 
@@ -112,16 +122,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
   description: A cargo subcommand for checking and applying updates to installed executables
 
-  subcommands:
-
-    - cargo install-update
-    - cargo install-update-config
-
   repository: https://github.com/nabijaczleweli/cargo-update
 
   install:
 
       cargo install --features vendored-openssl cargo-update
+
+  commands:
+
+    - cargo install-update
+    - cargo install-update-config
 
 * hexyl
 
