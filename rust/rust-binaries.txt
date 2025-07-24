@@ -203,6 +203,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install ripgrep
 
+* signify
+
+  description: Command-line implementation of the signify signature scheme
+
+  repository: https://github.com/badboy/signify-rs
+
+  install:
+
+      cargo install signify
+
 * tealdeer
 
   description: Fetch and show tldr help pages for many CLI commands
