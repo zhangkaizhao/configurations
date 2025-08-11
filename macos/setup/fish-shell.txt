@@ -1,0 +1,19 @@
+# fish shell
+
+https://fishshell.com/
+
+https://github.com/fish-shell/fish-shell
+
+2025-08-06
+
+version: 4.0.2
+
+Download [App for macOS], then unzip it, then move necessary files from its contents to the opt path:
+
+```
+mv Contents/Resources/base/usr/local /opt/programs/fish
+```
+
+Finally, add the bin path `/opt/programs/fish/bin/fish` to the '/etc/shells' file.
+
+[App for macOS]: https://github.com/fish-shell/fish-shell/releases/download/4.0.2/fish-4.0.2.app.zip

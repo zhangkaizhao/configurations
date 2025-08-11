@@ -15,6 +15,7 @@ fossil                  ~/bin/fossil                    https://fossil-scm.org/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gleam                   ~/bin/gleam                     https://gleam.run/
 glygh                   ~/bin/glygh                     https://github.com/seatedro/glyph
+gn                      ~/bin/gn                        https://gn.googlesource.com/gn
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
 helix                   ~/bin/hx                        https://helix-editor.com/
 html-to-markdown        ~/bin/html2markdown             https://github.com/JohannesKaufmann/html-to-markdown
@@ -34,6 +35,7 @@ ols                     ~/bin/ols                       https://github.com/Danie
 opam                    ~/bin/opam                      https://opam.ocaml.org/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
 rdap                    ~/bin/rdap                      https://github.com/icann/icann-rdap
+repo                    ~/bin/repo                      https://source.android.com/docs/setup/reference/repo
 skm                     ~/bin/skm                       https://github.com/TimothyYe/skm
 slint-lsp               ~/bin/slint-lsp                 https://github.com/slint-ui/slint
 tealdeer                ~/bin/tldr                      https://github.com/tealdeer-rs/tealdeer

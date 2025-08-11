@@ -48,6 +48,9 @@ correct_manpath
 #-----------
 
 # Fish shell itself
+
+set -gx PATH "/opt/programs/fish/bin" $PATH
+
 # https://fishshell.com/docs/3.6/faq.html#how-do-i-change-the-greeting-message
 #set -U fish_greeting
 set -g fish_greeting

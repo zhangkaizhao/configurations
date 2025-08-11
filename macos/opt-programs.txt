@@ -12,6 +12,7 @@ Ruby            /opt/programs/ruby              https://www.ruby-lang.org/
 
 Conan           /opt/programs/conan             https://conan.io/
 fastfetch       /opt/programs/fastfetch         https://github.com/fastfetch-cli/fastfetch
+fish            /opt/programs/fish              https://fishshell.com/
 Flutter         /opt/programs/flutter           https://flutter.dev/
 fvm             /opt/programs/fvm               https://fvm.app/
 Lima            /opt/programs/lima              https://lima-vm.io/

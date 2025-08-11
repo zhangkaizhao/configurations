@@ -44,7 +44,6 @@ pkgtools/pkg_install
 pkgtools/pkgin
 security/gnupg2
 security/minisign
-shells/fish
 shells/mksh
 sysutils/hexyl
 sysutils/neofetch
