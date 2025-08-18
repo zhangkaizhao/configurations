@@ -11,6 +11,8 @@ set -gx EDITOR vim
 
 alias ll "ls -lh"
 
+ulimit -n 524288
+
 # Correct $PATH
 function correct_path
     set PATH ''
