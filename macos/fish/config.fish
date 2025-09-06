@@ -70,7 +70,6 @@ set -gx PATH "/opt/programs/texlive/2025/bin/universal-darwin" $PATH
 
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 set -gx PATH "/opt/programs/fastfetch/usr/bin" $PATH
-alias fastfetch "fastfetch --cpu-temp --gpu-temp --battery-temp"
 
 # 2024-10-06 pandoc https://pandoc.org/
 set -gx PATH "/opt/programs/pandoc/bin" $PATH

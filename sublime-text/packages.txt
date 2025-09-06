@@ -6,7 +6,7 @@
 
   description: Powerful Markdown package for Sublime Text with better syntax understanding and good color schemes.
 
-  respository: https://github.com/SublimeText-Markdown/MarkdownEditing
+  repository: https://github.com/SublimeText-Markdown/MarkdownEditing
 
 * MarkdownPreview
 

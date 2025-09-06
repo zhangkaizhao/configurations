@@ -95,7 +95,6 @@ _prepend_path "/opt/programs/texlive/2025/bin/universal-darwin"
 
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 _prepend_path "/opt/programs/fastfetch/usr/bin"
-alias fastfetch="fastfetch --cpu-temp --gpu-temp --battery-temp"
 
 # 2024-10-06 pandoc https://pandoc.org/
 _prepend_path "/opt/programs/pandoc/bin"
