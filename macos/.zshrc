@@ -183,6 +183,11 @@ if [ $(command -v mise) ]; then
     #eval "$(mise activate --shims zsh)"
 fi
 
+# 2025-09-30 jj https://github.com/jj-vcs/jj
+if [ $(command -v jj) ]; then
+    source <(jj util completion zsh)
+fi
+
 #----------
 # Other general but must be placed at the bottom
 #----------

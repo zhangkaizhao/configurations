@@ -22,6 +22,7 @@ html-to-markdown        ~/bin/html2markdown             https://github.com/Johan
 hugo                    ~/bin/hugo                      https://gohugo.io/
 hysteria                ~/bin/hysteria                  https://github.com/apernet/hysteria
 ivm                     ~/bin/ivm                       https://github.com/inko-lang/ivm
+jj                      ~/bin/jj                        https://github.com/jj-vcs/jj
 kdoctor                 ~/bin/kdoctor                   https://github.com/Kotlin/kdoctor
 loc                     ~/bin/loc                       https://github.com/jiacai2050/zigcli
 mdbook                  ~/bin/mdbook                    https://github.com/rust-lang/mdBook

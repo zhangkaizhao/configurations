@@ -156,8 +156,5 @@ set -gx PATH "$HOME/bin" $PATH
 type -q mise; and mise activate fish | source
 #type -q mise; and mise activate --shims fish | source
 
-# 2024-08-02 proto https://moonrepo.dev/proto
-#if type -q proto
-#    set -gx PROTO_HOME "$HOME/.proto"
-#    set -gx PATH "$PROTO_HOME/shims" "$PROTO_HOME/bin" $PATH
-#end
+# 2025-09-30 jj https://github.com/jj-vcs/jj
+type -q jj; and jj util completion fish | source
