@@ -1,8 +1,8 @@
 # Python
 
-2024-10-10
+2025-10-08
 
-version: 3.13.0
+version: 3.14.0
 
 ```
 ./configure --prefix=/opt/programs/python --enable-shared --disable-gil
