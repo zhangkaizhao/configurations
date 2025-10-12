@@ -1,0 +1,32 @@
+# Odin
+
+2025-10-12
+
+version: dev-2025-10
+
+Reference: https://odin-lang.org/docs/install/
+
+The latest version dev-2025-10 requires LLVM. The supported versions of LLVM are 14, 17, 18, 19, and 20.
+
+Install it:
+
+```
+sudo pkgin install llvm
+```
+
+Build:
+
+```
+make release-native
+cd vendor/
+../misc/remove_libraries_for_other_platforms.sh
+cd ..
+mkdir /opt/programs/odin
+cp -r LICENSE base core examples odin shared vendor /opt/programs/odin/
+```
+
+Clean all before update:
+
+```
+rm -r /opt/programs/odin/*
+```
