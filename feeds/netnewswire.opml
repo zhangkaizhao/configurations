@@ -10,25 +10,29 @@
 	<outline text="面向信仰编程" title="面向信仰编程" description="" type="rss" version="RSS" htmlUrl="https://draven.co/" xmlUrl="https://draveness.me/feed.xml"/>
 	<outline text="鸟窝" title="鸟窝" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://colobu.com/atom.xml"/>
 	<outline text="阮一峰的网络日志" title="阮一峰的网络日志" description="" type="rss" version="RSS" htmlUrl="http://www.ruanyifeng.com/blog/" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"/>
+	<outline text="绅士喵" title="绅士喵" description="" type="rss" version="RSS" htmlUrl="https://blog.hentioe.dev/" xmlUrl="https://blog.hentioe.dev/rss.xml"/>
 	<outline text="下一站 - Ihcblog!" title="下一站 - Ihcblog!" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.ihcblog.com/atom.xml"/>
 	<outline text="依云's Blog" title="依云's Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.lilydjwg.me/" xmlUrl="https://blog.lilydjwg.me/posts.rss"/>
 	<outline text="Adventures in Linux and KDE" title="Adventures in Linux and KDE" description="" type="rss" version="RSS" htmlUrl="https://pointieststick.com/" xmlUrl="https://pointieststick.com/feed/"/>
-	<outline text="André Arko" title="André Arko" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://andre.arko.net/atom.xml"/>
+	<outline text="Alice the Caml" title="Alice the Caml" description="" type="rss" version="RSS" htmlUrl="https://www.alicecaml.org/" xmlUrl="https://www.alicecaml.org/atom.xml"/>
 	<outline text="Andrew Gallant's Blog on Andrew Gallant's Blog" title="Andrew Gallant's Blog on Andrew Gallant's Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.burntsushi.net/" xmlUrl="https://blog.burntsushi.net/index.xml"/>
 	<outline text="Andrew Kelley" title="Andrew Kelley" description="" type="rss" version="RSS" htmlUrl="https://andrewkelley.me/" xmlUrl="https://andrewkelley.me/rss.xml"/>
+	<outline text="Arch Linux: Recent news updates" title="Arch Linux: Recent news updates" description="" type="rss" version="RSS" htmlUrl="https://archlinux.org/news/" xmlUrl="https://archlinux.org/feeds/news/"/>
 	<outline text="Articles on gingerBill" title="Articles on gingerBill" description="" type="rss" version="RSS" htmlUrl="http:///article/" xmlUrl="https://www.gingerbill.org/article/index.xml"/>
 	<outline text="begriffs.com" title="begriffs.com" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://begriffs.com/atom.xml"/>
 	<outline text="Bitshifters" title="Bitshifters" description="" type="rss" version="RSS" htmlUrl="https://bitshifter-1.github.io/" xmlUrl="https://bitshifters.cc/feed.xml"/>
+	<outline text="Blog on AlmaLinux" title="Blog on AlmaLinux" description="" type="rss" version="RSS" htmlUrl="https://almalinux.org/blog/" xmlUrl="https://almalinux.org/blog/index.xml"/>
 	<outline text="Blogs on The Hare programming language" title="Blogs on The Hare programming language" description="" type="rss" version="RSS" htmlUrl="https://harelang.org/blog/" xmlUrl="https://harelang.org/blog/index.xml"/>
 	<outline text="BrixIT Blog" title="BrixIT Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.brixit.nl/" xmlUrl="https://blog.brixit.nl/rss/"/>
 	<outline text="brson.github.io" title="brson.github.io" description="" type="rss" version="RSS" htmlUrl="https://brson.github.io/" xmlUrl="https://brson.github.io/feed.xml"/>
 	<outline text="bun.com" title="bun.com" description="" type="rss" version="RSS" htmlUrl="https://bun.com/" xmlUrl="https://bun.sh/rss.xml"/>
-	<outline text="byroot’s blog" title="byroot’s blog" description="" type="rss" version="RSS" htmlUrl="https://byroot.github.io/" xmlUrl="https://byroot.github.io/feed.xml"/>
 	<outline text="CatKang的博客" title="CatKang的博客" description="" type="rss" version="RSS" htmlUrl="http://catkang.github.io//" xmlUrl="https://catkang.github.io/pages/feed.xml"/>
 	<outline text="charlesleifer.com" title="charlesleifer.com" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://charlesleifer.com/blog/rss/"/>
 	<outline text="Coding Horror" title="Coding Horror" description="" type="rss" version="RSS" htmlUrl="https://blog.codinghorror.com/" xmlUrl="https://blog.codinghorror.com/rss/"/>
+	<outline text="Daniel Wu" title="Daniel Wu" description="" type="rss" version="RSS" htmlUrl="https://danielw.cn/" xmlUrl="https://danielw.cn/feed.xml"/>
 	<outline text="David Edmundson's Web Log" title="David Edmundson's Web Log" description="" type="rss" version="RSS" htmlUrl="https://blog.davidedmundson.co.uk/" xmlUrl="https://blog.davidedmundson.co.uk/feed/"/>
 	<outline text="DCjanus 的博客" title="DCjanus 的博客" description="" type="rss" version="RSS" htmlUrl="https://blog.dcjanus.com/" xmlUrl="https://blog.dcjanus.com/index.xml"/>
+	<outline text="Debian 新闻" title="Debian 新闻" description="" type="rss" version="RSS" htmlUrl="https://www.debian.org/News/" xmlUrl="https://www.debian.org/News/news"/>
 	<outline text="DebugPoint.com" title="DebugPoint.com" description="" type="rss" version="RSS" htmlUrl="https://www.debugpoint.com/" xmlUrl="http://www.debugpoint.com/feed"/>
 	<outline text="defn.io" title="defn.io" description="" type="rss" version="RSS" htmlUrl="https://defn.io/" xmlUrl="https://defn.io/index.xml"/>
 	<outline text="delphij's Chaos" title="delphij's Chaos" description="" type="rss" version="RSS" htmlUrl="https://blog.delphij.net/" xmlUrl="https://blog.delphij.net/atom.xml"/>
@@ -36,7 +40,6 @@
 	<outline text="Deno" title="Deno" description="" type="rss" version="RSS" htmlUrl="https://deno.com/blog" xmlUrl="https://deno.com/feed"/>
 	<outline text="Dr. Brian Robert Callahan" title="Dr. Brian Robert Callahan" description="" type="rss" version="RSS" htmlUrl="https://briancallahan.net/blog" xmlUrl="https://briancallahan.net/blog/feed.xml"/>
 	<outline text="DragonFly BSD Digest" title="DragonFly BSD Digest" description="" type="rss" version="RSS" htmlUrl="https://www.dragonflydigest.com/" xmlUrl="https://www.dragonflydigest.com/feed"/>
-	<outline text="dry-rb news" title="dry-rb news" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://dry-rb.org/feed.xml"/>
 	<outline text="Eli Bendersky's website" title="Eli Bendersky's website" description="" type="rss" version="RSS" htmlUrl="https://eli.thegreenplace.net/" xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml"/>
 	<outline text="Elixir Lang" title="Elixir Lang" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://elixir-lang.org/atom.xml"/>
 	<outline text="emersion" title="emersion" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://emersion.fr/blog/atom.xml"/>
@@ -54,7 +57,6 @@
 	<outline text="Functionally Paranoid" title="Functionally Paranoid" description="" type="rss" version="RSS" htmlUrl="https://functionallyparanoid.com/" xmlUrl="https://functionallyparanoid.com/feed/"/>
 	<outline text="Gleam" title="Gleam" description="" type="rss" version="RSS" htmlUrl="https://gleam.run/" xmlUrl="https://gleam.run/feed.xml"/>
 	<outline text="Gregory Szorc's Digital Home" title="Gregory Szorc's Digital Home" description="" type="rss" version="RSS" htmlUrl="http://gregoryszorc.com/blog" xmlUrl="https://gregoryszorc.com/blog/feed"/>
-	<outline text="Hanami" title="Hanami" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://hanamirb.org/atom.xml"/>
 	<outline text="Here comes the Sun" title="Here comes the Sun" description="" type="rss" version="RSS" htmlUrl="https://sunng.info/blog/" xmlUrl="https://sunng.info/blog/feeds/all.atom.xml"/>
 	<outline text="Hexi Blog" title="Hexi Blog" description="" type="rss" version="RSS" htmlUrl="https://hexilee.me/" xmlUrl="https://hexilee.me/feed.xml"/>
 	<outline text="Hexops' devlog" title="Hexops' devlog" description="" type="rss" version="RSS" htmlUrl="https://devlog.hexops.com/" xmlUrl="https://devlog.hexops.com/feed.xml"/>
@@ -99,19 +101,16 @@
 	<outline text="notgull" title="notgull" description="" type="rss" version="RSS" htmlUrl="http://notgull.net/" xmlUrl="https://notgull.net/feed.xml"/>
 	<outline text="OCaml Changelog" title="OCaml Changelog" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://ocaml.org/changelog.xml"/>
 	<outline text="OCaml News @ OCaml.org" title="OCaml News @ OCaml.org" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://ocaml.org/news.xml"/>
-	<outline text="On the Edge of Ruby" title="On the Edge of Ruby" description="" type="rss" version="RSS" htmlUrl="https://eregon.me/blog/" xmlUrl="https://eregon.me/blog/feed.xml"/>
 	<outline text="OneV's Den" title="OneV's Den" description="" type="rss" version="RSS" htmlUrl="https://onevcat.com/" xmlUrl="https://onevcat.com/feed.xml"/>
 	<outline text="OpenBSD Journal" title="OpenBSD Journal" description="" type="rss" version="RSS" htmlUrl="https://undeadly.org/" xmlUrl="https://undeadly.org/cgi?action=rss"/>
 	<outline text="OpenBSD Webzine" title="OpenBSD Webzine" description="" type="rss" version="RSS" htmlUrl="https://webzine.puffy.cafe/" xmlUrl="https://webzine.puffy.cafe/atom.xml"/>
 	<outline text="Orhun's Blog" title="Orhun's Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.orhun.dev/" xmlUrl="https://blog.orhun.dev/rss.xml"/>
 	<outline text="OSnews" title="OSnews" description="" type="rss" version="RSS" htmlUrl="https://www.osnews.com/" xmlUrl="https://www.osnews.com/feed/"/>
-	<outline text="Pat Shaughnessy" title="Pat Shaughnessy" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://feeds2.feedburner.com/patshaughnessy"/>
 	<outline text="PGJones' blog" title="PGJones' blog" description="" type="rss" version="RSS" htmlUrl="https://pgjones.dev/blog/" xmlUrl="https://pgjones.dev/blog/atom.xml"/>
 	<outline text="Pony" title="Pony" description="" type="rss" version="RSS" htmlUrl="https://www.ponylang.io/" xmlUrl="https://www.ponylang.io/feed_rss_updated.xml"/>
 	<outline text="Posts on solnic.dev" title="Posts on solnic.dev" description="" type="rss" version="RSS" htmlUrl="https://solnic.dev/posts/" xmlUrl="https://solnic.codes/posts/index.xml"/>
 	<outline text="Programming Linguistics" title="Programming Linguistics" description="" type="rss" version="RSS" htmlUrl="http://pling.jondgoodwin.com/" xmlUrl="https://pling.jondgoodwin.com/index.xml"/>
 	<outline text="Racket Blog: Racket Blog" title="Racket Blog: Racket Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.racket-lang.org/index.html" xmlUrl="https://blog.racket-lang.org/feeds/all.rss.xml"/>
-	<outline text="Rails at Scale" title="Rails at Scale" description="" type="rss" version="RSS" htmlUrl="https://railsatscale.com/" xmlUrl="https://railsatscale.com/feed.xml"/>
 	<outline text="Ralf's Ramblings" title="Ralf's Ramblings" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.ralfj.de/blog/feed.xml"/>
 	<outline text="Ratfactor Feed" title="Ratfactor Feed" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://ratfactor.com/atom.xml"/>
 	<outline text="React Native Blog" title="React Native Blog" description="" type="rss" version="RSS" htmlUrl="https://reactnative.dev/blog" xmlUrl="https://reactnative.dev/blog/rss.xml"/>
@@ -129,7 +128,6 @@
 	<outline text="some random rants" title="some random rants" description="" type="rss" version="RSS" htmlUrl="https://blog.k3fu.xyz/" xmlUrl="https://blog.k3fu.xyz/feed.xml"/>
 	<outline text="Swift.org" title="Swift.org" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.swift.org/atom.xml"/>
 	<outline text="Sylvain Kerkour" title="Sylvain Kerkour" description="" type="rss" version="RSS" htmlUrl="https://kerkour.com/" xmlUrl="https://kerkour.com/feed.xml"/>
-	<outline text="Tenderlove Making" title="Tenderlove Making" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://tenderlovemaking.com/atom.xml"/>
 	<outline text="The AdaCore Blog" title="The AdaCore Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.adacore.com/" xmlUrl="https://blog.adacore.com/feed.rss"/>
 	<outline text="The Brain Dump" title="The Brain Dump" description="" type="rss" version="RSS" htmlUrl="https://floooh.github.io/" xmlUrl="https://floooh.github.io/feed.xml"/>
 	<outline text="The Crystal Programming Language" title="The Crystal Programming Language" description="" type="rss" version="RSS" htmlUrl="https://crystal-lang.org/" xmlUrl="https://crystal-lang.org/feed.xml"/>
@@ -142,6 +140,8 @@
 	<outline text="Tobias Kortkamp" title="Tobias Kortkamp" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://tobik.me/atom.xml"/>
 	<outline text="" title="" description="" type="rss" version="RSS" htmlUrl="https://ibraheem.ca/" xmlUrl="https://ibraheem.ca/rss.xml"/>
 	<outline text="Vincent Thomas" title="Vincent Thomas" description="" type="rss" version="RSS" htmlUrl="https://v-thomas.com/" xmlUrl="https://v-thomas.com/rss.xml"/>
+	<outline text="Void news" title="Void news" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://voidlinux.org/atom.xml"/>
+	<outline text="Welcome to Johnny's World" title="Welcome to Johnny's World" description="" type="rss" version="RSS" htmlUrl="https://marler8997.github.io/" xmlUrl="https://marler8997.github.io/blog/index.xml"/>
 	<outline text="Wesley Moore" title="Wesley Moore" description="" type="rss" version="RSS" htmlUrl="https://www.wezm.net/v2" xmlUrl="https://www.wezm.net/v2/rss.xml"/>
 	<outline text="Without boats, dreams dry up" title="Without boats, dreams dry up" description="" type="rss" version="RSS" htmlUrl="https://without.boats/" xmlUrl="https://without.boats/index.xml"/>
 	<outline text="Wren - development blog" title="Wren - development blog" description="" type="rss" version="RSS" htmlUrl="https://wren.io/" xmlUrl="https://wren.io/blog/rss.xml"/>

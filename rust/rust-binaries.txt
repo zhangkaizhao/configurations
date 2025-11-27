@@ -183,6 +183,26 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install miniserve
 
+* miro-pdf
+
+  description: A native pdf viewer for Windows and Linux (Wayland/X11) with configurable keybindings.
+
+  repository: https://github.com/vincent-uden/miro
+
+  install:
+
+      cargo install miro-pdf
+
+* monolith
+
+  description: CLI tool and library for saving web pages as a single HTML file
+
+  repository: https://github.com/Y2Z/monolith
+
+  install:
+
+      cargo install monolith
+
 * onefetch
 
   description: A command-line Git information tool written in Rust

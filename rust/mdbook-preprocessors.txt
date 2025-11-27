@@ -31,3 +31,15 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install mdbook-svgbob
+
+* mdbook-typst-highlight
+
+  description: mdbook preprocessor to highlight Typst code
+
+  repository: https://github.com/sitandr/mdbook-typst-highlight
+
+  install:
+
+      cargo install --git https://github.com/sitandr/mdbook-typst-highlight --locked
+
+  note: for https://github.com/sitandr/typst-examples-book

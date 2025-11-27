@@ -1,14 +1,20 @@
 C2              /opt/programs/c2c               https://github.com/c2lang/c2compiler
 C3              /opt/programs/c3c               https://github.com/c3lang/c3c
+Chez Scheme     /opt/programs/chez-scheme       https://github.com/cisco/ChezScheme
 Crystal         /opt/programs/crystal           https://www.crystal-lang.org/
 Elixir          /opt/programs/elixir            https://www.elixir-lang.org/
 Erlang          /opt/programs/erlang            https://www.erlang.org/
 Go              /opt/programs/go                https://go.dev/
+Idris           /opt/programs/idris             https://www.idris-lang.org/
 Kotlin          /opt/programs/kotlinc           https://kotlinlang.org/docs/command-line.html
+Lobster         /opt/programs/lobster           https://github.com/aardappel/lobster
+Nature          /opt/programs/nature            https://nature-lang.org/
 Node.js         /opt/programs/node              https://www.nodejs.org/
 Odin            /opt/programs/odin              https://odin-lang.org/
 Python          /opt/programs/python            https://www.python.org/
+Roc             /opt/programs/roc               https://www.roc-lang.org/
 Ruby            /opt/programs/ruby              https://www.ruby-lang.org/
+Zig             /opt/programs/zig               https://ziglang.org/
 
 Conan           /opt/programs/conan             https://conan.io/
 fastfetch       /opt/programs/fastfetch         https://github.com/fastfetch-cli/fastfetch
@@ -17,6 +23,7 @@ Flutter         /opt/programs/flutter           https://flutter.dev/
 fvm             /opt/programs/fvm               https://fvm.app/
 Lima            /opt/programs/lima              https://lima-vm.io/
 Neovim          /opt/programs/nvim              https://neovim.io/
+Pandoc          /opt/programs/pandoc            https://pandoc.org/
 scrcpy          /opt/programs/scrcpy            https://github.com/Genymobile/scrcpy
 TeX Live        /opt/programs/texlive           https://www.tug.org/texlive/
 XcodeGen        /opt/programs/xcodegen          https://github.com/yonaskolb/XcodeGen
@@ -27,7 +34,9 @@ vlmcsd          /opt/programs/vlmcsd            https://github.com/Wind4/vlmcsd
 Ada Language Server         /opt/programs/als                   https://github.com/AdaCore/ada_language_server
 Go packages                 /opt/programs/goext                 https://pkg.go.dev/
 Hashell toolchains          /opt/programs/haskell/.ghcup        https://www.haskell.org/ghcup/
-Haskell Cabal packages      /opt/programs/haskell/.cabal        https://www.haskell.org/cabal/
+Haskell Cabal packages      /opt/programs/haskell/cabal         https://www.haskell.org/cabal/
+OCaml Alice                 /opt/programs/alice                 https://github.com/alicecaml/alice
 OCaml Opam packages         /opt/programs/opam                  https://opam.ocaml.org/
+Odin Language Server        /opt/programs/ols                   https://github.com/DanielGavin/ols
 Rust toolchains             /opt/progrmas/rustup                https://www.rust-lang.org/
 Rust Cargo crates           /opt/programs/cargo                 https://crates.io/

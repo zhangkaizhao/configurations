@@ -1,0 +1,40 @@
+# Lima
+
+https://lima-vm.io/
+
+https://github.com/lima-vm/lima
+
+2025-11-16
+
+version: 2.0.1
+
+create an instance "default" from a template "debian":
+
+```
+limactl create --name=default --vm-type=qemu template://debian
+```
+
+note: The default vmType is QEMU in Lima prior to v1.0. Starting with Lima v1.0, Lima will use VZ by default on macOS (>= 13.5) for new instances, unless the config is incompatible with VZ. (e.g., legacyBIOS or 9p is enabled)
+
+start "default" instance:
+
+```
+limactl start
+```
+
+stop "default" instance:
+
+```
+limactl stop
+```
+
+list all instances:
+
+```
+limactl list
+```
+
+reference:
+
+1) https://lima-vm.io/docs/usage/
+2) https://lima-vm.io/docs/config/vmtype/

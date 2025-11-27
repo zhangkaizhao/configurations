@@ -4,6 +4,7 @@ aMule                               https://amule.org/
 Android File Transfer               https://www.android.com/filetransfer/
 Android File Transfer For Linux     https://github.com/whoozle/android-file-transfer-linux
 Android Studio      (auto update)   https://developer.android.com/studio
+Audacity                            https://github.com/audacity/audacity
 Avidemux                            https://www.avidemux.org/nightly/
 Bilibili            (auto update)   https://app.bilibili.com/
 Blender                             https://www.blender.org/
@@ -47,7 +48,6 @@ KeepassXC                           https://keepassxc.org/
 Kindle              (auto update)   https://www.amazon.com/gp/digital/fiona/kcp-landing-page
 kitty                               https://sw.kovidgoyal.net/kitty/
 Krita                               https://krita.org/
-KugouMusic          (auto update)   https://www.kugou.com/
 Lagrange            (auto update)   https://gmi.skyjake.fi/lagrange/
 Lapce                               https://lapce.dev/
 Lark                (auto update)   https://www.feishu.cn/
@@ -63,13 +63,11 @@ Netease Music       (auto update)   https://music.163.com/
 NetNewsWire         (auto update)   https://netnewswire.com/
 NotepadNext                         https://github.com/dail8859/NotepadNext
 OBS                 (auto update)   https://obsproject.com/
-Open Sound Meter    (auto update)   https://opensoundmeter.com/
 OpenSCAD                            https://openscad.org/
 Orion               (auto update)   https://browser.kagi.com/
 Pale Moon                           https://www.palemoon.org/
 Pencil                              https://pencil.evolus.vn/
 Pinta                               https://www.pinta-project.com/
-Pulsar                              https://pulsar-edit.dev/
 PxCook                              https://www.fancynode.com.cn/pxcook
 qBittorrent                         https://github.com/qbittorrent/qBittorrent
 Qt Creator                          https://www.qt.io/
@@ -89,24 +87,20 @@ Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
 Tencent Meeting     (auto update)   https://meeting.tencent.com/
 TextMate            (auto update)   https://macromates.com/
-TheiaIDE            (auto update)   https://theia-ide.org/
-Therm                               https://github.com/trufae/Therm
 Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/
 ungoogled-chromium                  https://github.com/ungoogled-software/ungoogled-chromium-macos
-Vagrant                             https://developer.hashicorp.com/vagrant
 VCMI                                https://vcmi.eu/
 Vienna              (auto update)   https://www.vienna-rss.com/
-VirtualBox                          https://www.virtualbox.org/
 Visual Studio Code  (auto update)   https://code.visualstudio.com/
 Vivaldi             (auto update)   https://vivaldi.com/
 VLC                 (auto update)   https://www.videolan.org/vlc/
 WezTerm                             https://github.com/wez/wezterm
+WPS Office          (auto update)   https://www.wps.com/
 Xournal++                           https://xournalpp.github.io/
 XQuartz             (auto update)   https://www.xquartz.org/
 xtool                               https://github.com/xtool-org/xtool
 Yandex Browser      (auto update)   https://browser.yandex.ru/
 Yandex Disk                         https://disk.yandex.ru/
 Zed                 (auto update)   https://zed.dev/
-Zen                 (auto update)   https://github.com/zen-browser/desktop
 Zulip Desktop       (auto update)   https://zulip.com/apps/

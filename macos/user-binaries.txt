@@ -21,6 +21,7 @@ helix                   ~/bin/hx                        https://helix-editor.com
 html-to-markdown        ~/bin/html2markdown             https://github.com/JohannesKaufmann/html-to-markdown
 hugo                    ~/bin/hugo                      https://gohugo.io/
 hysteria                ~/bin/hysteria                  https://github.com/apernet/hysteria
+incus                   ~/bin/incus                     https://github.com/lxc/incus
 ivm                     ~/bin/ivm                       https://github.com/inko-lang/ivm
 jj                      ~/bin/jj                        https://github.com/jj-vcs/jj
 kdoctor                 ~/bin/kdoctor                   https://github.com/Kotlin/kdoctor
@@ -31,12 +32,14 @@ mdbook-quiz             ~/bin/mdbook-quiz               https://github.com/cogni
 miniserve               ~/bin/miniserve                 https://github.com/svenstaro/miniserve
 mise                    ~/bin/mise                      https://mise.jdx.dev/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
+mox                     ~/bin/mox                       https://www.xmox.nl/
 odinfmt                 ~/bin/odinfmt                   https://github.com/DanielGavin/ols
-ols                     ~/bin/ols                       https://github.com/DanielGavin/ols
 opam                    ~/bin/opam                      https://opam.ocaml.org/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
 rdap                    ~/bin/rdap                      https://github.com/icann/icann-rdap
 repo                    ~/bin/repo                      https://source.android.com/docs/setup/reference/repo
+ruby-butler             ~/bin/rb                        https://github.com/RubyElders/ruby-butler
+rv                      ~/bin/rv                        https://github.com/spinel-coop/rv
 skm                     ~/bin/skm                       https://github.com/TimothyYe/skm
 slint-lsp               ~/bin/slint-lsp                 https://github.com/slint-ui/slint
 tealdeer                ~/bin/tldr                      https://github.com/tealdeer-rs/tealdeer

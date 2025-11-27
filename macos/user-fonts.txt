@@ -32,7 +32,6 @@ Twemoji Mozilla             https://github.com/mozilla/twemoji-colr
 Twitter Color Emoji         https://github.com/13rac1/twemoji-color-font
 
 Andika                      https://github.com/silnrsi/font-andika
-Charis SIL                  https://github.com/silnrsi/font-charis
+Charis                      https://github.com/silnrsi/font-charis
 Doulos SIL                  https://github.com/silnrsi/font-doulos
-Gentium Plus                https://github.com/silnrsi/font-gentium
-Gentium Book Plus
+Gentium                     https://github.com/silnrsi/font-gentium

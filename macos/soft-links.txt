@@ -3,11 +3,14 @@
 
 ~/bin/ada_language_server   /opt/programs/als/ada_language_server
 
+~/bin/alice             /opt/programs/alice/bin/alice
 ~/bin/c2c               /opt/programs/c2c/output/c2c/c2c
 ~/bin/c3c               /opt/programs/c3c/c3c
 ~/bin/conan             /opt/programs/conan/bin/conan
+~/bin/lobster           /opt/programs/lobster/bin/lobster
 ~/bin/nvim              /opt/programs/nvim/bin/nvim
 ~/bin/odin              /opt/programs/odin/odin
+~/bin/ols               /opt/programs/ols/ols-x86_64-darwin
 ~/bin/scrcpy            /opt/programs/scrcpy/scrcpy
 ~/bin/xcodegen          /opt/programs/xcodegen/bin/xcodegen
 ~/bin/zig               /opt/programs/zig/zig
@@ -29,6 +32,9 @@
 ~/bin/subl              /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 ~/bin/xtool             /Applications/xtool.app/Contents/Resources/bin/xtool
 ~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli
+
+/usr/local/lib/libcrypto.3.dylib            /opt/pkg/lib/libcrypto.3.dylib
+/usr/local/lib/libssl.3.dylib               /opt/pkg/lib/libssl.3.dylib
 
 # for roc https://github.com/roc-lang/roc
 /usr/local/lib/libzstd.1.dylib              /opt/pkg/lib/libzstd.1.dylib

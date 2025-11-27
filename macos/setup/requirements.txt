@@ -10,4 +10,5 @@ pip-tools
 python-lsp-server
 rst2pdf
 ruff
+uv
 virtualenv

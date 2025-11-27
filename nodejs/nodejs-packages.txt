@@ -8,6 +8,16 @@ Install with `npm install -g <package>`. See `npm help install`.
 
     npm install -g @djot/djot
 
+* git-stats
+
+  description: Local git statistics including GitHub-like contributions calendars.
+
+  repository: https://github.com/IonicaBizau/git-stats
+
+  install:
+
+    npm install -g git-stats
+
 * katex
 
   desription: Fast math typesetting for the web.
