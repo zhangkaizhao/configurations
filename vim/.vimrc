@@ -44,7 +44,13 @@ set noswapfile
 syntax on
 "colorscheme desert
 
-set colorcolumn=120
+" https://matklad.github.io/2025/11/28/size-matters.html
+" > Your display is only so many pixels long, and you do want to fit the code in. Hence, the 100
+" > columns limit, as that allows you to comfortably fit two copies of code side by side on a
+" > modern 16x9 display. Two is important — you must be able to compare two versions of code, you
+" > need to see caller and callee
+" > [to make the invariants meet](https://tigerbeetle.com/blog/2023-12-27-it-takes-two-to-contract/).
+set colorcolumn=100
 
 " PEP 008
 autocmd FileType python setlocal colorcolumn=80

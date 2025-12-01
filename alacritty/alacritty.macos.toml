@@ -13,5 +13,5 @@ family = "Ubuntu Sans Mono"
 opacity = 0.8
 
 [window.dimensions]
-columns = 122
-lines = 30
+columns = 102
+lines = 29

@@ -20,8 +20,8 @@ return {
     }),
     font_size = 14,
 
-    initial_cols = 122,
-    initial_rows = 30,
+    initial_cols = 102,
+    initial_rows = 29,
 
     use_ime = true,
 
