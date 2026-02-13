@@ -145,6 +145,9 @@ end
 # Idris2
 set -gx PATH "/opt/programs/idris2/bin" $PATH
 
+# Pony https://github.com/ponylang/ponyc
+set -gx PATH "/opt/programs/ponyc/bin" $PATH
+
 # C2 http://c2lang.org/
 set -gx C2_LIBDIR "/opt/programs/c2c/libs"
 set -gx C2_PLUGINDIR "/opt/programs/c2c/plugins"

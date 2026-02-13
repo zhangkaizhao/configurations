@@ -2,6 +2,16 @@
 
 Install with `cargo install [options] crate`. See `cargo help install`.
 
+* cargo-apk
+
+  description: Helps cargo build APKs
+
+  repository: https://github.com/rust-mobile/cargo-apk
+
+  install:
+
+      cargo install cargo-apk
+
 * cargo-audit
 
   description: Audit Cargo.lock against the advisory DB
@@ -68,6 +78,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
     - cargo upgrade
     - cargo set-version
 
+* cargo-generate
+
+  description: cargo, make me a project
+
+  repository: https://github.com/cargo-generate/cargo-generate
+
+  install:
+
+      cargo install cargo-generate
+
 * cargo-license
 
   description: A cargo subcommand to see license of dependencies.
@@ -107,6 +127,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install cargo-msrv
+
+* cargo-ndk
+
+  description: Makes building Rust libraries for Android simpler
+
+  repository: https://github.com/bbqsrc/cargo-ndk
+
+  install:
+
+      cargo install cargo-ndk
 
 * cargo-outdated
 
@@ -262,6 +292,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install typos-cli
+
+* xbuild
+
+  description: Builds rust mobile/desktop projects.
+
+  repository: https://github.com/rust-mobile/xbuild
+
+  install:
+
+      cargo install --git https://github.com/rust-mobile/xbuild.git
 
 * zee
 

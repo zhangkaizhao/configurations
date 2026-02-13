@@ -190,3 +190,13 @@ Install with `go install [build flags] [packages]`. See `go help install`.
   install:
 
       go install github.com/TimothyYe/skm/cmd/skm@latest
+
+* witr
+
+  description: witr explains why a process or port is running by tracing its ancestry.
+
+  repository: https://github.com/pranshuparmar/witr
+
+  install:
+
+      go install github.com/pranshuparmar/witr/cmd/witr@latest

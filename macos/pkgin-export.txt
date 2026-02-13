@@ -6,6 +6,7 @@ databases/postgresql16
 databases/redis
 devel/bmake
 devel/cmake
+devel/git-base
 devel/jq
 devel/lld
 devel/memcached
@@ -14,7 +15,9 @@ devel/meson
 devel/patch
 devel/pkgconf
 devel/protobuf
+editors/nano
 emulators/qemu
+fonts/SDL2_ttf
 joyent/pkgsrc-gnupg-keys
 lang/compiler-rt
 lang/llvm
@@ -33,7 +36,9 @@ pkgtools/pkgin
 security/gnupg2
 security/minisign
 shells/mksh
+sysutils/cpuid
 sysutils/tree
 textproc/libyaml
 textproc/nbsed
 textproc/scdoc
+textproc/tree-sitter

@@ -140,6 +140,8 @@ if exists('g:loaded_minpac')
   call minpac#add('bsdelf/bufferhint')
   " c2.vim https://github.com/c2lang/c2.vim
   call minpac#add('c2lang/c2.vim')
+  " c3.vim https://github.com/lerno/c3.vim
+  call minpac#add('lerno/c3.vim')
   " elm-vim https://github.com/ElmCast/elm-vim
   call minpac#add('ElmCast/elm-vim')
   " gleam.vim https://github.com/gleam-lang/gleam.vim

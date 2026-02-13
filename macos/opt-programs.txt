@@ -11,6 +11,7 @@ Lobster         /opt/programs/lobster           https://github.com/aardappel/lob
 Nature          /opt/programs/nature            https://nature-lang.org/
 Node.js         /opt/programs/node              https://www.nodejs.org/
 Odin            /opt/programs/odin              https://odin-lang.org/
+Pony            /opt/programs/ponyc             https://www.ponylang.io/
 Python          /opt/programs/python            https://www.python.org/
 Roc             /opt/programs/roc               https://www.roc-lang.org/
 Ruby            /opt/programs/ruby              https://www.ruby-lang.org/

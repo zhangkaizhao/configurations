@@ -41,7 +41,7 @@ Google Drive        (auto update)   https://drive.google.com/
 Hyper                               https://hyper.is/
 IINA                (auto update)   https://iina.io/
 Inkscape                            https://inkscape.org/
-IntelliJ IDEA Community Edition     (auto update)   https://www.jetbrains.com/idea/
+IntelliJ IDEA       (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
 JetBrains Toolbox   (auto update)   https://www.jetbrains.com/toolbox-app/
 KeepassXC                           https://keepassxc.org/
@@ -87,16 +87,15 @@ Sublime Text        (auto update)   https://www.sublimetext.com/
 Telegram Desktop    (auto update)   https://desktop.telegram.org/
 Tencent Meeting     (auto update)   https://meeting.tencent.com/
 TextMate            (auto update)   https://macromates.com/
+Theia               (auto update)   https://theia-ide.org/
 Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/
 ungoogled-chromium                  https://github.com/ungoogled-software/ungoogled-chromium-macos
 VCMI                                https://vcmi.eu/
 Vienna              (auto update)   https://www.vienna-rss.com/
-Visual Studio Code  (auto update)   https://code.visualstudio.com/
 Vivaldi             (auto update)   https://vivaldi.com/
 VLC                 (auto update)   https://www.videolan.org/vlc/
 WezTerm                             https://github.com/wez/wezterm
-WPS Office          (auto update)   https://www.wps.com/
 Xournal++                           https://xournalpp.github.io/
 XQuartz             (auto update)   https://www.xquartz.org/
 xtool                               https://github.com/xtool-org/xtool

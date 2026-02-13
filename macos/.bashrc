@@ -137,6 +137,9 @@ fi
 # Idris2
 _prepend_path "/opt/programs/idris2/bin"
 
+# Pony https://github.com/ponylang/ponyc
+_prepend_path "/opt/programs/ponyc/bin"
+
 # C2 http://c2lang.org/
 export C2_LIBDIR="/opt/programs/c2c/libs"
 export C2_PLUGINDIR="/opt/programs/c2c/plugins"

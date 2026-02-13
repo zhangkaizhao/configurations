@@ -7,9 +7,11 @@
 ~/bin/c2c               /opt/programs/c2c/output/c2c/c2c
 ~/bin/c3c               /opt/programs/c3c/c3c
 ~/bin/conan             /opt/programs/conan/bin/conan
+~/bin/fvm               /opt/programs/fvm/fvm
 ~/bin/lobster           /opt/programs/lobster/bin/lobster
 ~/bin/nvim              /opt/programs/nvim/bin/nvim
 ~/bin/odin              /opt/programs/odin/odin
+~/bin/odinfmt           /opt/programs/ols/odinfmt-x86_64-darwin
 ~/bin/ols               /opt/programs/ols/ols-x86_64-darwin
 ~/bin/scrcpy            /opt/programs/scrcpy/scrcpy
 ~/bin/xcodegen          /opt/programs/xcodegen/bin/xcodegen

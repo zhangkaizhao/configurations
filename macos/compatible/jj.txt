@@ -1,0 +1,22 @@
+# jj
+
+Since jj 0.38.0:
+
+> The minimum supported git command version is now 2.41.0.
+
+Reference: https://github.com/jj-vcs/jj/releases/tag/v0.38.0
+
+The system Git on macOS Monterey (12) is not compatible already:
+
+```
+/usr/bin/git --version
+git version 2.37.1 (Apple Git-137.1)
+```
+
+So install Git from pkgsrc for Darwin 12.3:
+
+```
+sudo pkgin install git-base
+/opt/pkg/bin/git --version
+git version 2.48.1
+```
