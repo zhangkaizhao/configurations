@@ -1,6 +1,6 @@
 # Archives of configurations on macOS
 
-Package managers: Homebrew, MacPorts, Nix.
+Package managers: Homebrew, pkgsrc, Nix.
 
 ## Homebrew
 
@@ -16,17 +16,13 @@ Package managers: Homebrew, MacPorts, Nix.
 
 Notes: removed due to unsupported already since 2024-09.
 
-## MacPorts
+## pkgsrc
 
-[port-install.txt](port-install.txt): installed packages
+[pkgin-export.txt](pkgin-export.txt): installed packages (which can be imported in other places)
 
-[port-select.txt](port-select.txt): selected derivations
+[pkgin-absent.txt](pkgin-absent.txt): absent packages
 
-[port-load.txt](port-load.txt): loaded services
-
-[port-absent.txt](port-absent.txt): absent packages
-
-Notes: removed since 2020-11-23.
+Notes: removed since 2026-04-01.
 
 ## Nix
 

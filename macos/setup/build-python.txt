@@ -1,11 +1,17 @@
 # Python
 
-2025-10-08
+2026-04-01
 
-version: 3.14.0
+version: 3.14.3
 
 ```
+CFLAGS="-I/opt/local/include" \
+LDFLAGS="-L/opt/local/lib" \
 ./configure --prefix=/opt/programs/python --enable-shared --disable-gil
 make
 make install
 ```
+
+references:
+
+* https://docs.python.org/3.14/using/configure.html

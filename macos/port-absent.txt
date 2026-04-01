@@ -1,0 +1,5 @@
+fastfetch           (too many dependencies)
+
+onefetch            (outdated)
+pijul               (outdated)
+tokei               (outdated)

@@ -40,7 +40,7 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
   install:
 
-      cargo install cargo-cache
+      cargo install --locked cargo-cache
 
 * cargo-deny
 
@@ -302,13 +302,3 @@ Install with `cargo install [options] crate`. See `cargo help install`.
   install:
 
       cargo install --git https://github.com/rust-mobile/xbuild.git
-
-* zee
-
-  description: A modern editor for the terminal, in the spirit of Emacs
-
-  repository: https://github.com/zee-editor/zee
-
-  install:
-
-      RUSTFLAGS='-L /usr/lib' cargo install zee

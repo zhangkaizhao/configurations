@@ -1,5 +1,4 @@
-~/bin/gpg               /opt/pkg/bin/gpg2
-~/bin/telnet            /opt/pkg/bin/gtelnet
+~/bin/telnet            /opt/local/bin/gtelnet
 
 ~/bin/ada_language_server   /opt/programs/als/ada_language_server
 
@@ -7,7 +6,6 @@
 ~/bin/c2c               /opt/programs/c2c/output/c2c/c2c
 ~/bin/c3c               /opt/programs/c3c/c3c
 ~/bin/conan             /opt/programs/conan/bin/conan
-~/bin/fvm               /opt/programs/fvm/fvm
 ~/bin/lobster           /opt/programs/lobster/bin/lobster
 ~/bin/nvim              /opt/programs/nvim/bin/nvim
 ~/bin/odin              /opt/programs/odin/odin
@@ -20,10 +18,6 @@
 ~/bin/crystal           /opt/programs/crystal/bin/crystal
 ~/bin/shards            /opt/programs/crystal/embedded/bin/shards
 
-~/bin/roc                   /opt/programs/roc/roc
-~/bin/roc_language_server   /opt/programs/roc/roc_language_server
-
-~/bin/code              /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code
 ~/bin/emacs             /Applications/Emacs.app/Contents/MacOS/Emacs
 ~/bin/emacsclient       /Applications/Emacs.app/Contents/MacOS/bin/emacsclient
 ~/bin/iina              /Applications/IINA.app/Contents/MacOS/iina-cli
@@ -35,18 +29,18 @@
 ~/bin/xtool             /Applications/xtool.app/Contents/Resources/bin/xtool
 ~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli
 
-/usr/local/lib/libcrypto.3.dylib            /opt/pkg/lib/libcrypto.3.dylib
-/usr/local/lib/libssl.3.dylib               /opt/pkg/lib/libssl.3.dylib
+# OpenSSL library for some prebuilt binaries
+/usr/local/lib/libcrypto.3.dylib            /opt/local/lib/libcrypto.3.dylib
+/usr/local/lib/libssl.3.dylib               /opt/local/lib/libssl.3.dylib
 
-# for roc https://github.com/roc-lang/roc
-/usr/local/lib/libzstd.1.dylib              /opt/pkg/lib/libzstd.1.dylib
+# LLVM library for Odin compiler
+/usr/local/lib/libLLVM.dylib                /opt/local/libexec/llvm-21/lib/libLLVM.dylib
 
-# ffmpeg 5.x
-/opt/pkg/lib/pkgconfig/libavcodec.pc        /opt/pkg/lib/ffmpeg5/pkgconfig/libavcodec.pc
-/opt/pkg/lib/pkgconfig/libavdevice.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libavdevice.pc
-/opt/pkg/lib/pkgconfig/libavfilter.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libavfilter.pc
-/opt/pkg/lib/pkgconfig/libavformat.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libavformat.pc
-/opt/pkg/lib/pkgconfig/libavutil.pc         /opt/pkg/lib/ffmpeg5/pkgconfig/libavutil.pc
-/opt/pkg/lib/pkgconfig/libpostproc.pc       /opt/pkg/lib/ffmpeg5/pkgconfig/libpostproc.pc
-/opt/pkg/lib/pkgconfig/libswresample.pc     /opt/pkg/lib/ffmpeg5/pkgconfig/libswresample.pc
-/opt/pkg/lib/pkgconfig/libswscale.pc        /opt/pkg/lib/ffmpeg5/pkgconfig/libswscale.pc
+# FFmpeg 8.x pkg-config files for development
+/opt/local/lib/pkgconfig/libavcodec.pc      /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavcodec.pc
+/opt/local/lib/pkgconfig/libavdevice.pc     /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavdevice.pc
+/opt/local/lib/pkgconfig/libavfilter.pc     /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavfilter.pc
+/opt/local/lib/pkgconfig/libavformat.pc     /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavformat.pc
+/opt/local/lib/pkgconfig/libavutil.pc       /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavutil.pc
+/opt/local/lib/pkgconfig/libswresample.pc   /opt/local/libexec/ffmpeg8/lib/pkgconfig/libswresample.pc
+/opt/local/lib/pkgconfig/libswscale.pc      /opt/local/libexec/ffmpeg8/lib/pkgconfig/libswscale.pc

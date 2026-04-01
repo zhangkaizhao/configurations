@@ -81,9 +81,9 @@ if [ -f ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh ]; 
   source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 fi
 
-# 2024-10-04 pkgsrc and pkgin
-_prepend_path "/opt/pkg/sbin"
-_prepend_path "/opt/pkg/bin"
+# 2026-04-01 MacPorts
+_prepend_path "/opt/local/sbin"
+_prepend_path "/opt/local/bin"
 
 # 2021-12-20 git commit with gpg sign issue https://stackoverflow.com/q/41052538/3449199
 # Some explanation: https://samuelsson.dev/sign-git-commits-on-github-with-gpg-in-macos/
@@ -95,12 +95,6 @@ _prepend_path "/opt/programs/texlive/2025/bin/universal-darwin"
 
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 _prepend_path "/opt/programs/fastfetch/usr/bin"
-
-# 2024-10-06 pandoc https://pandoc.org/
-_prepend_path "/opt/programs/pandoc/bin"
-
-# 2024-11-02 lima https://lima-vm.io/
-_prepend_path "/opt/programs/lima/bin"
 
 # 2024-09-26 Dart Pub, Flutter and Flutter SDK
 # https://mirrors.tuna.tsinghua.edu.cn/help/dart-pub/
@@ -182,13 +176,13 @@ _prepend_path "$HOME/bin"
 
 # 2024-06-27 mise https://mise.jdx.dev/getting-started.html
 if [ $(command -v mise) ]; then
-    eval "$(mise activate zsh)"
-    #eval "$(mise activate --shims zsh)"
+  eval "$(mise activate zsh)"
+  #eval "$(mise activate --shims zsh)"
 fi
 
 # 2025-09-30 jj https://github.com/jj-vcs/jj
 if [ $(command -v jj) ]; then
-    source <(jj util completion zsh)
+  source <(jj util completion zsh)
 fi
 
 #----------

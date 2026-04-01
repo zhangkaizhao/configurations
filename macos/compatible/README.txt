@@ -4,6 +4,8 @@ Compatible
 
 ## Programs
 
+[Go](go.txt)
+
 ## Binaries
 
-[jj](jj.txt)
+[Jujutsu](jj.txt)

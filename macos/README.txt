@@ -1,16 +1,20 @@
 # configurations on macOS
 
-Package manager: pkgsrc.
+Package manager: MacPorts.
 
 Other applications/programs: applications installed manually, opt programs, user programs, user binaries and java, etc.
 
 And some soft links.
 
-## pkgsrc
+## MacPorts
 
-[pkgin-export.txt](pkgin-export.txt): installed packages (which can be imported in other places)
+[port-install.txt](port-install.txt): installed packages (`port installed requested`)
 
-[pkgin-absent.txt](pkgin-absent.txt): absent packages
+[port-select.txt](port-select.txt): selected derivations
+
+[port-load.txt](port-load.txt): loaded services
+
+[port-absent.txt](port-absent.txt): absent packages
 
 ## Others
 
@@ -34,4 +38,4 @@ And some soft links.
 
 ...
 
-[Archives of configurations on macOS](__archives/README.txt): Package managers: Homebrew, MacPorts, Nix.
+[Archives of configurations on macOS](__archives/README.txt): Package managers: Homebrew, pkgsrc, Nix.

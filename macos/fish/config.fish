@@ -71,12 +71,6 @@ set -gx PATH "/opt/programs/texlive/2025/bin/universal-darwin" $PATH
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 set -gx PATH "/opt/programs/fastfetch/usr/bin" $PATH
 
-# 2024-10-06 pandoc https://pandoc.org/
-set -gx PATH "/opt/programs/pandoc/bin" $PATH
-
-# 2024-11-02 lima https://lima-vm.io/
-set -gx PATH "/opt/programs/lima/bin" $PATH
-
 # 2024-09-26 Dart Pub, Flutter and Flutter SDK
 # https://mirrors.tuna.tsinghua.edu.cn/help/dart-pub/
 # https://mirrors.tuna.tsinghua.edu.cn/help/flutter/

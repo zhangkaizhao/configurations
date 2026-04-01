@@ -1,8 +1,0 @@
-ipython         py38-ipython
-mysql           mariadb-10.2
-postgresql      postgresql11
-python          python38
-python3         python38
-ruby            ruby26
-scala           scala2.13
-virtualenv      virtualenv38

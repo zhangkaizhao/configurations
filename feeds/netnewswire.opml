@@ -60,7 +60,7 @@
 	<outline text="Gregory Szorc's Digital Home" title="Gregory Szorc's Digital Home" description="" type="rss" version="RSS" htmlUrl="http://gregoryszorc.com/blog" xmlUrl="https://gregoryszorc.com/blog/feed"/>
 	<outline text="Here comes the Sun" title="Here comes the Sun" description="" type="rss" version="RSS" htmlUrl="https://sunng.info/blog/" xmlUrl="https://sunng.info/blog/feeds/all.atom.xml"/>
 	<outline text="Hexi Blog" title="Hexi Blog" description="" type="rss" version="RSS" htmlUrl="https://hexilee.me/" xmlUrl="https://hexilee.me/feed.xml"/>
-	<outline text="Hexops' devlog" title="Hexops' devlog" description="" type="rss" version="RSS" htmlUrl="https://devlog.hexops.com/" xmlUrl="https://devlog.hexops.com/feed.xml"/>
+	<outline text="Hexops' devlog" title="Hexops' devlog" description="" type="rss" version="RSS" htmlUrl="https://devlog.hexops.org/" xmlUrl="https://devlog.hexops.com/feed.xml"/>
 	<outline text="Home on codedump notes" title="Home on codedump notes" description="" type="rss" version="RSS" htmlUrl="https://www.codedump.info/" xmlUrl="https://www.codedump.info/index.xml"/>
 	<outline text="Hoverbear" title="Hoverbear" description="" type="rss" version="RSS" htmlUrl="https://hoverbear.org/" xmlUrl="https://hoverbear.org/rss.xml"/>
 	<outline text="Hugo's weblog on WhyNotHugo (雨果)" title="Hugo's weblog on WhyNotHugo (雨果)" description="" type="rss" version="RSS" htmlUrl="https://whynothugo.nl/" xmlUrl="https://whynothugo.nl/posts.xml"/>
@@ -93,7 +93,7 @@
 	<outline text="Matthias Endler" title="Matthias Endler" description="" type="rss" version="RSS" htmlUrl="https://endler.dev/" xmlUrl="https://endler.dev/rss.xml"/>
 	<outline text="mcyoung" title="mcyoung" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://mcyoung.xyz/atom.xml"/>
 	<outline text="Mind Reference" title="Mind Reference" description="" type="rss" version="RSS" htmlUrl="http://mindref.blogspot.com/" xmlUrl="https://mindref.blogspot.com/feeds/posts/default"/>
-	<outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" description="" type="rss" version="RSS" htmlUrl="https://mitchellh.com/writing" xmlUrl="https://mitchellh.com/feed.xml"/>
+	<outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" description="" type="rss" version="RSS" htmlUrl="https://mitchellh.com/" xmlUrl="https://mitchellh.com/feed.xml"/>
 	<outline text="NetBSD Blog" title="NetBSD Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.netbsd.org/tnf/" xmlUrl="http://blog.netbsd.org/tnf/feed/entries/atom"/>
 	<outline text="Netcan on Programming" title="Netcan on Programming" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://netcan.github.io/atom.xml"/>
 	<outline text="News - Open Robotics" title="News - Open Robotics" description="" type="rss" version="RSS" htmlUrl="https://www.openrobotics.org/blog/" xmlUrl="https://www.openrobotics.org/blog?format=rss"/>

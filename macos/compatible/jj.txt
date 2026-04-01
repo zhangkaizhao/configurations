@@ -13,10 +13,10 @@ The system Git on macOS Monterey (12) is not compatible already:
 git version 2.37.1 (Apple Git-137.1)
 ```
 
-So install Git from pkgsrc for Darwin 12.3:
+So install Git from MacPorts for macOS Monterey:
 
 ```
-sudo pkgin install git-base
-/opt/pkg/bin/git --version
-git version 2.48.1
+sudo port install git
+/opt/local/bin/git --version
+git version 2.53.0
 ```

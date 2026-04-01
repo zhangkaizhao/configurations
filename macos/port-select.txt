@@ -1,0 +1,4 @@
+clang           mp-clang-21
+llvm            mp-llvm-21
+mysql           mariadb-11.4
+postgresql      postgresql18

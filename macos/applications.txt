@@ -36,6 +36,7 @@ Geany                               https://www.geany.org/
 GIMP                                https://www.gimp.org/
 Godot                               https://godotengine.org/
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
+Gram                                https://codeberg.org/GramEditor/gram
 Google Chrome       (auto update)   https://www.google.com/chrome
 Google Drive        (auto update)   https://drive.google.com/
 Hyper                               https://hyper.is/
@@ -91,6 +92,7 @@ Theia               (auto update)   https://theia-ide.org/
 Thunderbird         (auto update)   https://www.thunderbird.net/
 Transmission        (auto update)   https://transmissionbt.com/
 ungoogled-chromium                  https://github.com/ungoogled-software/ungoogled-chromium-macos
+UTM                                 https://mac.getutm.app/
 VCMI                                https://vcmi.eu/
 Vienna              (auto update)   https://www.vienna-rss.com/
 Vivaldi             (auto update)   https://vivaldi.com/

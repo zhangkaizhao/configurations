@@ -1,11 +1,15 @@
 # Erlang
 
-2024-10-10
+2026-04-01
 
-version: 27.1.1
+version: 28.4.1
 
 ```
-./configure --prefix=/opt/programs/erlang --without-javac --with-ssl=/opt/pkg
+./configure --prefix=/opt/programs/erlang --without-javac --without-wx --with-ssl=/opt/local
 make
 make install
 ```
+
+references:
+
+* https://www.erlang.org/doc/system/install.html
