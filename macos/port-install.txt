@@ -4,6 +4,8 @@ clang-21
 cmake
 colima
 cpuid
+docker
+docker-compose-plugin
 ffmpeg8
 figlet
 fvm
@@ -22,6 +24,7 @@ libyaml
 lima
 llvm-21
 mariadb-11.4-server
+mdbook
 mediainfo
 memcached
 mercurial

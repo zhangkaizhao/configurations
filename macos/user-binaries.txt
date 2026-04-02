@@ -8,8 +8,6 @@ cloc                    ~/bin/cloc                      https://github.com/AlDan
 corral                  ~/bin/corral                    https://github.com/ponylang/corral
 darcs                   ~/bin/darcs                     https://darcs.net/
 deno                    ~/bin/deno                      https://github.com/denoland/deno
-docker                  ~/bin/docker                    https://www.docker.com/
-docker-compose          ~/bin/docker-compose            https://docs.docker.com/compose/
 duckdb                  ~/bin/duckdb                    https://duckdb.org/
 filebrowser             ~/bin/filebrowser               https://filebrowser.org/
 flow                    ~/bin/flow                      https://flow-control.dev/
@@ -26,7 +24,6 @@ kdlfmt                  ~/bin/kdlfmt                    https://github.com/houge
 kdoctor                 ~/bin/kdoctor                   https://github.com/Kotlin/kdoctor
 loc                     ~/bin/loc                       https://github.com/jiacai2050/zigcli
 marksman                ~/bin/marksman                  https://github.com/artempyanykh/marksman
-mdbook                  ~/bin/mdbook                    https://github.com/rust-lang/mdBook
 mdbook-last-changed     ~/bin/mdbook-last-changed       https://github.com/badboy/mdbook-last-changed
 mdbook-quiz             ~/bin/mdbook-quiz               https://github.com/cognitive-engineering-lab/mdbook-quiz
 mise                    ~/bin/mise                      https://mise.jdx.dev/
@@ -34,7 +31,6 @@ mitamae                 ~/bin/mitamae                   https://github.com/itama
 mox                     ~/bin/mox                       https://www.xmox.nl/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
 rdap                    ~/bin/rdap                      https://github.com/icann/icann-rdap
-rclone                  ~/bin/rclone                    https://rclone.org/
 readeck                 ~/bin/readeck                   https://codeberg.org/readeck/readeck
 repo                    ~/bin/repo                      https://source.android.com/docs/setup/reference/repo
 ruby-butler             ~/bin/rb                        https://github.com/RubyElders/ruby-butler

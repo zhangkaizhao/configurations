@@ -1,0 +1,20 @@
+# Rust Cargo
+
+2026-04-01
+
+Add the follow lines to the configuration file of Cargo to use libraries from MacPorts:
+
+```toml
+[target.x86_64-apple-darwin]
+rustflags = ["-L", "/opt/local/lib"]
+
+[target.aarch64-apple-darwin]
+rustflags = ["-L", "/opt/local/lib"]
+```
+
+or set `CARGO_TARGET_<triple>_RUSTFLAGS` environment variables.
+
+references:
+
+* https://doc.rust-lang.org/cargo/reference/config.html
+* https://doc.rust-lang.org/cargo/reference/environment-variables.html

@@ -1,5 +1,12 @@
 fastfetch           (too many dependencies)
+scrcpy              (too many dependencies)
 
+fish                (needs to compile with rust)
+
+bazelisk            (outdated)
 onefetch            (outdated)
 pijul               (outdated)
 tokei               (outdated)
+
+tinymist            (not found)
+typos               (not found)
