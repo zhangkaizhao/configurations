@@ -29,6 +29,7 @@ mdbook-quiz             ~/bin/mdbook-quiz               https://github.com/cogni
 mise                    ~/bin/mise                      https://mise.jdx.dev/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
 mox                     ~/bin/mox                       https://www.xmox.nl/
+pdm                     ~/bin/pdm                       https://pdm-project.org/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
 rdap                    ~/bin/rdap                      https://github.com/icann/icann-rdap
 readeck                 ~/bin/readeck                   https://codeberg.org/readeck/readeck

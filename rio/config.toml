@@ -1,0 +1,26 @@
+# https://rioterm.com/docs/config
+
+confirm-before-quit = false
+
+# Make Option key behave as Alt. (macOS only)
+option-as-alt = "both"
+
+[window]
+width = 714
+height = 494
+opacity = 0.8
+
+[renderer]
+level = 1
+
+[fonts]
+family = "LXGW Bright Code GB"
+#family = "LXGW WenKai Mono GB"
+#family = "Maple Mono NL NF CN"
+#family = "JetBrains Mono NL"
+#family = "Meslo LG M"
+#family = "CommitMono"
+#family = "Ubuntu Sans Mono"
+#family = "Inconsolata"
+#family = "Menlo"
+size = 14

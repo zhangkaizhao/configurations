@@ -110,9 +110,11 @@
 	<outline text="OSnews" title="OSnews" description="" type="rss" version="RSS" htmlUrl="https://www.osnews.com/" xmlUrl="https://www.osnews.com/feed/"/>
 	<outline text="PGJones' blog" title="PGJones' blog" description="" type="rss" version="RSS" htmlUrl="https://pgjones.dev/blog/" xmlUrl="https://pgjones.dev/blog/atom.xml"/>
 	<outline text="Pony" title="Pony" description="" type="rss" version="RSS" htmlUrl="https://www.ponylang.io/" xmlUrl="https://www.ponylang.io/feed_rss_updated.xml"/>
+	<outline text="Posts on 🌱 Mere Linux" title="Posts on 🌱 Mere Linux" description="" type="rss" version="RSS" htmlUrl="https://merelinux.org/posts/" xmlUrl="https://merelinux.org/posts/index.xml"/>
 	<outline text="Posts on Karl Zylinski" title="Posts on Karl Zylinski" description="" type="rss" version="RSS" htmlUrl="https://zylinski.se/posts/" xmlUrl="https://zylinski.se/posts/index.xml"/>
 	<outline text="Posts on solnic.dev" title="Posts on solnic.dev" description="" type="rss" version="RSS" htmlUrl="https://solnic.dev/posts/" xmlUrl="https://solnic.codes/posts/index.xml"/>
 	<outline text="Programming Linguistics" title="Programming Linguistics" description="" type="rss" version="RSS" htmlUrl="http://pling.jondgoodwin.com/" xmlUrl="https://pling.jondgoodwin.com/index.xml"/>
+	<outline text="Python Insider" title="Python Insider" description="" type="rss" version="RSS" htmlUrl="https://blog.python.org/" xmlUrl="https://blog.python.org/rss.xml"/>
 	<outline text="Racket Blog: Racket Blog" title="Racket Blog: Racket Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.racket-lang.org/index.html" xmlUrl="https://blog.racket-lang.org/feeds/all.rss.xml"/>
 	<outline text="Ralf's Ramblings" title="Ralf's Ramblings" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.ralfj.de/blog/feed.xml"/>
 	<outline text="Raph Levien’s blog" title="Raph Levien’s blog" description="" type="rss" version="RSS" htmlUrl="https://raphlinus.github.io/" xmlUrl="https://raphlinus.github.io/feed.xml"/>
@@ -152,7 +154,6 @@
 	<outline text="write(2)" title="write(2)" description="" type="rss" version="RSS" htmlUrl="https://blog.xen0n.name/" xmlUrl="https://blog.xen0n.name/index.xml"/>
 	<outline text="Xfce Blog" title="Xfce Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.xfce.org/" xmlUrl="https://blog.xfce.org/feed"/>
 	<outline text="Xfce News" title="Xfce News" description="" type="rss" version="RSS" htmlUrl="https://xfce.org/about/news" xmlUrl="https://xfce.org/feed?lang=en"/>
-	<outline text="Xuanwo's Blog" title="Xuanwo's Blog" description="" type="rss" version="RSS" htmlUrl="https://xuanwo.io/" xmlUrl="https://xuanwo.io/index.xml"/>
 	<outline text="Yorick Peterse" title="Yorick Peterse" description="" type="rss" version="RSS" htmlUrl="https://yorickpeterse.com/" xmlUrl="https://yorickpeterse.com/feed.xml"/>
 	<outline text="zackoverflow" title="zackoverflow" description="" type="rss" version="RSS" htmlUrl="https://zackoverflow.dev/" xmlUrl="https://zackoverflow.dev/rss.xml"/>
 	<outline text="Zig 语言中文社区" title="Zig 语言中文社区" description="" type="rss" version="RSS" htmlUrl="https://ziglang.cc/" xmlUrl="https://ziglang.cc/index.xml"/>

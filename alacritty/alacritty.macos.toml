@@ -1,3 +1,5 @@
+# https://alacritty.org/config-alacritty.html
+
 # 2023-12-28 Alacritty uses TOML instead of YAML since 0.13.
 
 [env]
@@ -11,6 +13,8 @@ family = "Ubuntu Sans Mono"
 
 [window]
 opacity = 0.8
+# Make Option key behave as Alt. Default: "None" (macOS only)
+option_as_alt = "Both"
 
 [window.dimensions]
 columns = 102

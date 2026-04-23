@@ -1,5 +1,6 @@
-fastfetch           (too many dependencies)
 scrcpy              (too many dependencies)
+
+cpufetch            (needs to compile)
 
 fish                (needs to compile with rust)
 
@@ -8,5 +9,6 @@ onefetch            (outdated)
 pijul               (outdated)
 tokei               (outdated)
 
+gops                (not found)
 tinymist            (not found)
 typos               (not found)
