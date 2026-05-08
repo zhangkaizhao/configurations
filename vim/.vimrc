@@ -162,6 +162,8 @@ if exists('g:loaded_minpac')
   call minpac#add('zah/nim.vim')
   " Odin.vim https://github.com/Tetralux/odin.vim
   call minpac#add('Tetralux/odin.vim')
+  " Org.vim
+  call minpac#add('axvr/org.vim')
   " rust.vim https://github.com/rust-lang/rust.vim
   call minpac#add('rust-lang/rust.vim')
   " swift.vim https://github.com/keith/swift.vim

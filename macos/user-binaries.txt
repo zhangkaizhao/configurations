@@ -4,15 +4,12 @@ asdf                    ~/bin/asdf                      https://github.com/asdf-
 bazelisk                ~/bin/bazelisk                  https://github.com/bazelbuild/bazelisk
 bun                     ~/bin/bun                       https://github.com/oven-sh/bun
 c3fmt                   ~/bin/c3fmt                     https://github.com/lmichaudel/c3fmt
-cloc                    ~/bin/cloc                      https://github.com/AlDanial/cloc
 corral                  ~/bin/corral                    https://github.com/ponylang/corral
 darcs                   ~/bin/darcs                     https://darcs.net/
 deno                    ~/bin/deno                      https://github.com/denoland/deno
 duckdb                  ~/bin/duckdb                    https://duckdb.org/
-filebrowser             ~/bin/filebrowser               https://filebrowser.org/
 flow                    ~/bin/flow                      https://flow-control.dev/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
-git-who                 ~/bin/git-who                   https://github.com/sinclairtarget/git-who
 gleam                   ~/bin/gleam                     https://gleam.run/
 glygh                   ~/bin/glygh                     https://github.com/seatedro/glyph
 gn                      ~/bin/gn                        https://gn.googlesource.com/gn
@@ -20,6 +17,7 @@ gyro                    ~/bin/gyro                      https://github.com/mattn
 html-to-markdown        ~/bin/html2markdown             https://github.com/JohannesKaufmann/html-to-markdown
 hugo                    ~/bin/hugo                      https://gohugo.io/
 ivm                     ~/bin/ivm                       https://github.com/inko-lang/ivm
+kakoune-lsp             ~/bin/kak-lsp                   https://github.com/kakoune-lsp/kakoune-lsp
 kdlfmt                  ~/bin/kdlfmt                    https://github.com/hougesen/kdlfmt
 kdoctor                 ~/bin/kdoctor                   https://github.com/Kotlin/kdoctor
 loc                     ~/bin/loc                       https://github.com/jiacai2050/zigcli
@@ -31,7 +29,6 @@ mitamae                 ~/bin/mitamae                   https://github.com/itama
 mox                     ~/bin/mox                       https://www.xmox.nl/
 pdm                     ~/bin/pdm                       https://pdm-project.org/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
-rdap                    ~/bin/rdap                      https://github.com/icann/icann-rdap
 readeck                 ~/bin/readeck                   https://codeberg.org/readeck/readeck
 repo                    ~/bin/repo                      https://source.android.com/docs/setup/reference/repo
 ruby-butler             ~/bin/rb                        https://github.com/RubyElders/ruby-butler

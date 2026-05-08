@@ -1,0 +1,2 @@
+eval %sh{kak-lsp}
+lsp-enable

@@ -1,12 +1,15 @@
-scrcpy              (too many dependencies)
-
-cpufetch            (needs to compile)
-
+darcs               (needs to compile with haskell)
+duckdb              (needs to compile)
 fish                (needs to compile with rust)
 
+cpufetch            (failed to compile on macOS Monterey)
+
 bazelisk            (outdated)
+marksman            (outdated)
 onefetch            (outdated)
 pijul               (outdated)
+repo                (outdated)
+scrcpy              (outdated)
 tokei               (outdated)
 
 gops                (not found)

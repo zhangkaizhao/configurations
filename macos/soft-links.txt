@@ -11,7 +11,6 @@
 ~/bin/odin              /opt/programs/odin/odin
 ~/bin/odinfmt           /opt/programs/ols/odinfmt-x86_64-darwin
 ~/bin/ols               /opt/programs/ols/ols-x86_64-darwin
-~/bin/scrcpy            /opt/programs/scrcpy/scrcpy
 ~/bin/xcodegen          /opt/programs/xcodegen/bin/xcodegen
 ~/bin/zig               /opt/programs/zig/zig
 
@@ -35,12 +34,3 @@
 
 # LLVM library for Odin compiler
 /usr/local/lib/libLLVM.dylib                /opt/local/libexec/llvm-21/lib/libLLVM.dylib
-
-# FFmpeg 8.x pkg-config files for development
-/opt/local/lib/pkgconfig/libavcodec.pc      /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavcodec.pc
-/opt/local/lib/pkgconfig/libavdevice.pc     /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavdevice.pc
-/opt/local/lib/pkgconfig/libavfilter.pc     /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavfilter.pc
-/opt/local/lib/pkgconfig/libavformat.pc     /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavformat.pc
-/opt/local/lib/pkgconfig/libavutil.pc       /opt/local/libexec/ffmpeg8/lib/pkgconfig/libavutil.pc
-/opt/local/lib/pkgconfig/libswresample.pc   /opt/local/libexec/ffmpeg8/lib/pkgconfig/libswresample.pc
-/opt/local/lib/pkgconfig/libswscale.pc      /opt/local/libexec/ffmpeg8/lib/pkgconfig/libswscale.pc

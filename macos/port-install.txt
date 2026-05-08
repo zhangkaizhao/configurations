@@ -1,7 +1,10 @@
 7zip
+android-platform-tools
 apktool
+brush
 cfssl
 clang-21
+cloc
 cmake
 colima
 cpuid
@@ -9,10 +12,13 @@ delve
 docker
 docker-compose-plugin
 fastfetch
-ffmpeg8
+ffmpeg
 figlet
+filebrowser
 fvm
 git
+git-who
+gn
 gnupg2
 gopls
 graphviz
@@ -20,6 +26,8 @@ helix
 hexyl
 hyperfine
 hysteria
+icann-rdap
+ImageMagick
 inetutils
 ipatool
 jq
@@ -48,8 +56,10 @@ postgresql18-server
 protobuf
 qemu
 rclone
+repo
 rsync
 scdoc
+scrcpy
 signify
 sqlite3
 tealdeer
