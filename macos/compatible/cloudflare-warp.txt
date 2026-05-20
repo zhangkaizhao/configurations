@@ -1,0 +1,30 @@
+Cloudflare WARP
+
+https://one.one.one.one/
+
+https://developers.cloudflare.com/warp-client/get-started/macos/
+
+https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/download/
+
+2026-05-12
+
+----
+
+The last version works on macOS 12 is `2026.4.846.0`.
+
+https://downloads.cloudflareclient.com/v1/download/macos/version/2026.3.846.0
+
+Version: macOS 2026.3.846.0
+Date: 2026-04-02
+Size: 113 MB
+
+
+----
+
+(XXX, macOS 14.0+ required)
+
+https://downloads.cloudflareclient.com/v1/download/macos/version/2026.4.1350.0
+
+Version: macOS 2026.4.1350.0
+Date: 2026-05-11
+Size: 133 MB

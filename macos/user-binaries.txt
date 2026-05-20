@@ -12,7 +12,6 @@ flow                    ~/bin/flow                      https://flow-control.dev
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gleam                   ~/bin/gleam                     https://gleam.run/
 glygh                   ~/bin/glygh                     https://github.com/seatedro/glyph
-gn                      ~/bin/gn                        https://gn.googlesource.com/gn
 gyro                    ~/bin/gyro                      https://github.com/mattnite/gyro
 html-to-markdown        ~/bin/html2markdown             https://github.com/JohannesKaufmann/html-to-markdown
 hugo                    ~/bin/hugo                      https://gohugo.io/

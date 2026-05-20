@@ -66,7 +66,7 @@ end
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-set -gx PATH "/opt/programs/texlive/2025/bin/universal-darwin" $PATH
+set -gx PATH "/opt/programs/texlive/2026/bin/universal-darwin" $PATH
 
 # 2024-09-26 Dart Pub, Flutter and Flutter SDK
 # https://mirrors.tuna.tsinghua.edu.cn/help/dart-pub/

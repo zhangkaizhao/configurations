@@ -29,7 +29,7 @@ _prepend_path() {
 # Bash itself
 
 # Turn off the beep https://unix.stackexchange.com/a/593495/126066
-bind "set bell-style none"
+#bind "set bell-style none"
 
 # https://github.com/scop/bash-completion
 # The last release for Bash 3.2 is 1.3 (latest version of Bash on macOS).
@@ -58,7 +58,7 @@ export GPG_TTY=$(tty)
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-_prepend_path "/opt/programs/texlive/2025/bin/universal-darwin"
+_prepend_path "/opt/programs/texlive/2026/bin/universal-darwin"
 
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 _prepend_path "/opt/programs/fastfetch/usr/bin"

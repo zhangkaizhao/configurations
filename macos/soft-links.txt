@@ -19,6 +19,7 @@
 
 ~/bin/emacs             /Applications/Emacs.app/Contents/MacOS/Emacs
 ~/bin/emacsclient       /Applications/Emacs.app/Contents/MacOS/bin/emacsclient
+~/bin/gram              /Applications/Gram.app/Contents/MacOS/cli
 ~/bin/iina              /Applications/IINA.app/Contents/MacOS/iina-cli
 ~/bin/mate              /Applications/TextMate.app/Contents/MacOS/mate
 ~/bin/mpv               /Applications/mpv.app/Contents/MacOS/mpv

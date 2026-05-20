@@ -9,6 +9,14 @@ Some references:
 
 ## Current extensions
 
+### Bilibili helper
+
+https://chrome.google.com/webstore/detail/bfcbfobhcjbkilcbehlnlchiinokiijp/
+
+https://csser.top/
+
+since 2024-05-07
+
 ### chromium-web-store
 
 https://github.com/NeverDecaf/chromium-web-store
@@ -30,12 +38,6 @@ https://chrome.google.com/webstore/detail/eimadpbcbfnmbkopoojfekhnkhdbieeh
 https://darkreader.org/
 
 https://github.com/darkreader/darkreader
-
-### GNOME Shell integration
-
-https://chrome.google.com/webstore/detail/gphhapmejobijbbhgpjhcjognlahblep
-
-for GNOME Shell
 
 ### Print Edit WE
 
@@ -114,6 +116,7 @@ https://translate.volcengine.com/extension
 * Chromoji - Emoji for Google Chrome https://chrome.google.com/webstore/detail/cahedbegdkagmcjfolhdlechbkeaieki
 * Disconnect https://chrome.google.com/webstore/detail/jeoacafpbcihiomhlakheieifhpjdfeo
 * Emoji Keyboard by Emojione https://chrome.google.com/webstore/detail/ipdjnhgkpapgippgcgkfcbpdpcgifncb
+* GNOME Shell integration https://chrome.google.com/webstore/detail/gphhapmejobijbbhgpjhcjognlahblep
 * HTTPS Everywhere https://chrome.google.com/webstore/detail/gcbommkclmclpchllfjekcdonpmejbdp
 * PrintWhatYouLike https://chrome.google.com/webstore/detail/npgfabafajliaooeicdoahbpoajfmbbe
 * Replace Google CDN https://chrome.google.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice

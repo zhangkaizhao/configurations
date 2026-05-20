@@ -20,6 +20,7 @@
 	<outline text="Anton Zhiyanov" title="Anton Zhiyanov" description="" type="rss" version="RSS" htmlUrl="https://antonz.org/" xmlUrl="https://antonz.org/index.xml"/>
 	<outline text="Arch Linux: Recent news updates" title="Arch Linux: Recent news updates" description="" type="rss" version="RSS" htmlUrl="https://archlinux.org/news/" xmlUrl="https://archlinux.org/feeds/news/"/>
 	<outline text="Ariadne's Space" title="Ariadne's Space" description="" type="rss" version="RSS" htmlUrl="https://ariadne.space/" xmlUrl="https://ariadne.space/feed.xml"/>
+	<outline text="Artix Linux news" title="Artix Linux news" description="" type="rss" version="RSS" htmlUrl="https://artixlinux.org/" xmlUrl="https://artixlinux.org/feed.php"/>
 	<outline text="BeeWare: The Buzz" title="BeeWare: The Buzz" description="" type="rss" version="RSS" htmlUrl="https://beeware.org/" xmlUrl="https://beeware.org/news/buzz/atom.xml"/>
 	<outline text="begriffs.com" title="begriffs.com" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://begriffs.com/atom.xml"/>
 	<outline text="Bitshifters" title="Bitshifters" description="" type="rss" version="RSS" htmlUrl="https://bitshifter-1.github.io/" xmlUrl="https://bitshifters.cc/feed.xml"/>

@@ -54,14 +54,24 @@ prompt restore
 # or from https://unix.stackexchange.com/q/160026/126066
 #unsetopt autoremoveslash
 
-# Git Integration from https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
-#autoload -Uz vcs_info
-#precmd_vcs_info() { vcs_info }
-#precmd_functions+=( precmd_vcs_info )
-#setopt prompt_subst
-#RPROMPT=\$vcs_info_msg_0_
-#zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
-#zstyle ':vcs_info:*' enable git
+# auto completion with an arrow-key driven interface https://wiki.archlinux.org/title/Zsh
+zstyle ':completion:*' menu select
+
+# Git Integration from https://git-scm.com/book/ms/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Zsh
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT='${vcs_info_msg_0_}'
+# PROMPT='${vcs_info_msg_0_}%# '
+zstyle ':vcs_info:git:*' formats '(%b)'
+
+# 2026-05-20 https://github.com/zsh-users/zsh-completions
+# Installed by `git clone https://github.com/zsh-users/zsh-completions ~/.zsh/zsh-completions`
+if [ -f ~/.zsh/zsh-completions/zsh-completions.plugin.zsh ]; then
+  source ~/.zsh/zsh-completions/zsh-completions.plugin.zsh
+  compinit
+fi
 
 # 2024-09-15 https://github.com/zsh-users/zsh-autosuggestions
 # Installed by `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
@@ -91,7 +101,7 @@ export GPG_TTY=$(tty)
 
 # TeX Live install: https://www.tug.org/texlive/quickinstall.html
 # TeX Live upgrade: https://tug.org/texlive/upgrade.html
-_prepend_path "/opt/programs/texlive/2025/bin/universal-darwin"
+_prepend_path "/opt/programs/texlive/2026/bin/universal-darwin"
 
 # 2024-10-06 fastfetch https://github.com/fastfetch-cli/fastfetch
 _prepend_path "/opt/programs/fastfetch/usr/bin"
