@@ -18,15 +18,23 @@ Merriweather                https://github.com/SorkinType/Merriweather
 MiSans                      https://hyperos.mi.com/font/download
 MiSans L3
 Montserrat                  https://github.com/JulietaUla/Montserrat
-Noto Color Emoji            https://github.com/googlefonts/noto-emoji
 Plangothic P1               https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project
 Plangothic P2
 Public Sans                 https://github.com/uswds/public-sans
+SN Pro                      https://github.com/supernotes/sn-pro
 Source Code Pro             https://github.com/adobe-fonts/source-code-pro
 Source Han Sans SC          https://github.com/adobe-fonts/source-han-sans
 Source Han Serif SC         https://github.com/adobe-fonts/source-han-serif
 Ubuntu Sans                 https://github.com/canonical/Ubuntu-Sans-fonts
 Ubuntu Sans Mono            https://github.com/canonical/Ubuntu-Sans-Mono-fonts
+WenJin Mincho Plane 0       https://github.com/takushun-wu/WenJinMincho
+WenJin Mincho Plane 2
+WenJin Mincho Plane 3
+WenYuan Rounded SC          https://github.com/takushun-wu/WenYuanFonts
+WenYuan Sans SC
+WenYuan Serif SC
+
+Noto Color Emoji            https://github.com/googlefonts/noto-emoji
 Twemoji                     https://github.com/twitter/twemoji
 Twemoji Mozilla             https://github.com/mozilla/twemoji-colr
 Twitter Color Emoji         https://github.com/13rac1/twemoji-color-font

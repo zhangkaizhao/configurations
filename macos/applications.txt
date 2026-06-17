@@ -43,7 +43,6 @@ IINA                (auto update)   https://iina.io/
 Inkscape                            https://inkscape.org/
 IntelliJ IDEA       (auto update)   https://www.jetbrains.com/idea/
 iTerm2              (auto update)   https://www.iterm2.com/
-JetBrains Toolbox   (auto update)   https://www.jetbrains.com/toolbox-app/
 KeepassXC                           https://keepassxc.org/
 Kindle              (auto update)   https://www.amazon.com/gp/digital/fiona/kcp-landing-page
 kitty                               https://sw.kovidgoyal.net/kitty/
@@ -74,6 +73,7 @@ Qt Creator                          https://www.qt.io/
 QtScrcpy                            https://github.com/barry-ran/QtScrcpy
 QQMusic             (auto update)   https://y.qq.com/
 QuiteRSS            (auto update)   https://github.com/QuiteRSS/quiterss
+Quod Libet                          https://quodlibet.readthedocs.io/
 Racket                              https://racket-lang.org/
 Rio                                 https://github.com/raphamorim/rio
 Skim                (auto update)   https://skim-app.sourceforge.io/

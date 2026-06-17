@@ -38,7 +38,7 @@ libsdl2_ttf
 libyaml
 lima
 llvm-21
-mariadb-11.4-server
+mariadb-12.3-server
 mdbook
 mediainfo
 memcached

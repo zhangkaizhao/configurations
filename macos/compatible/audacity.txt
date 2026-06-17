@@ -1,0 +1,16 @@
+# Audacity
+
+Audacity 3 works on macOS Monterey.
+
+version: 3.7.8
+date: 2026-06-11
+
+Audacity 4 (beta) does not work on macOS Monterey.
+
+version: Audacity-4.0.0-beta-2
+date: 2026-06-11
+
+```shell
+$ /Applications/Audacity\ 4.app/Contents/MacOS/audacity 
+Sorry, "Audacity" cannot be run on this version of macOS. Qt requires macOS 13.0.0 or later, you have macOS 12.7.6.
+```

@@ -1,0 +1,6 @@
+# Pale Moon
+
+The performance of Pale Moon on macOS Monterey is very poor.
+
+version: 34.3.0.1
+date: 2026-06-10

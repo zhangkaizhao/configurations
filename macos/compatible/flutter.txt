@@ -1,0 +1,11 @@
+# Flutter
+
+Flutter 3.38.x works on macOS Monterey.
+
+version: 3.38.10
+date: 2026-02-11
+
+Flutter 3.41.x doess not work on macOS Monterey.
+
+version: 3.41.0
+date: 2026-02-11

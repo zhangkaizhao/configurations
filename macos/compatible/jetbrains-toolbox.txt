@@ -1,0 +1,10 @@
+# JetBrains Toolbox
+
+https://www.jetbrains.com/toolbox-app/
+
+----
+
+After latest automatic upgrade, this App now requires at least macOS 14.
+
+version: 3.5.0.84344
+date: 2026-06-09
