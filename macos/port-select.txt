@@ -1,4 +1,4 @@
-clang           mp-clang-21
-llvm            mp-llvm-21
+clang           mp-clang-22
+llvm            mp-llvm-22
 mysql           mariadb-12.3
 postgresql      postgresql18

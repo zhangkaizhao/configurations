@@ -1,18 +1,20 @@
 # Odin
 
-2026-03-31
+2026-06-22
 
-version: dev-2026-03
+version: dev-2026-06
 
 Reference: https://odin-lang.org/docs/install/
 
-The latest version dev-2026-03 requires LLVM. The supported versions of LLVM are 14, 17, 18, 19, 20, and 21.
+> Install clang and LLVM (the versions we support are 14, 17, 18, 19, 20, and 21) using your package manager
+
+Tested: clang and LLVM version 22 is supported. 
 
 Install it:
 
 ```
-sudo port install llvm-21
-sudo port select --set llvm mp-llvm-21
+sudo port install llvm-22
+sudo port select --set llvm mp-llvm-22
 ```
 
 Build:
@@ -26,10 +28,10 @@ mkdir /opt/programs/odin
 cp -r LICENSE base core examples odin shared vendor /opt/programs/odin/
 ```
 
-Make a soft link for `libLLVM.dylib`:
+No need to make a soft link for `libLLVM.dylib` already:
 
 ```
-sudo ln -s /opt/local/libexec/llvm-21/lib/libLLVM.dylib /usr/local/lib/libLLVM.dylib
+sudo rm -f /usr/local/lib/libLLVM.dylib
 ```
 
 Clean all before update:

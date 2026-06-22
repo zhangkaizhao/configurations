@@ -3,7 +3,7 @@ android-platform-tools
 apktool
 brush
 cfssl
-clang-21
+clang-22
 cloc
 cmake
 colima
@@ -37,7 +37,7 @@ kakoune
 libsdl2_ttf
 libyaml
 lima
-llvm-21
+llvm-22
 mariadb-12.3-server
 mdbook
 mediainfo

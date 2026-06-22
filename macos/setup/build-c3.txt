@@ -1,23 +1,25 @@
 # C3
 
-2026-03-31
+2026-06-22
 
-version: 0.7.11
+version: 0.8.1
 
 Reference: https://c3-lang.org/getting-started/compile/
 
-The latest version 0.7.11 requires cmake, LLVM >=19 and clang >=19. Install them:
+The latest version 0.8.1 requires cmake, LLVM >=19 and clang >=19 (since version 0.7.11 [1]).
+
+Install them:
 
 ```
-sudo port install cmake llvm-21 clang-21
-sudo port select --set llvm mp-llvm-21
-sudo port select --set clang mp-clang-21
+sudo port install cmake llvm-22 clang-22
+sudo port select --set llvm mp-llvm-22
+sudo port select --set clang mp-clang-22
 ```
 
 Set `$LLVM_DIR`:
 
 ```
-set -gx LLVM_DIR "/opt/local/libexec/llvm-21"
+set -gx LLVM_DIR "/opt/local/libexec/llvm-22"
 ```
 
 Build:
@@ -35,3 +37,6 @@ Then install:
 cd ..
 cp -r build /opt/programs/c3c
 ```
+
+
+[1]: https://c3-lang.org/blog/c3-0-7-11-the-last-v0-7/

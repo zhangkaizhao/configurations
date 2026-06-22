@@ -9,7 +9,6 @@ marksman            (outdated)
 onefetch            (outdated)
 pijul               (outdated)
 repo                (outdated)
-scrcpy              (outdated)
 tokei               (outdated)
 
 gops                (not found)

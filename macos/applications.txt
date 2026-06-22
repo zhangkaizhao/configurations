@@ -38,6 +38,7 @@ GoldenDict                          https://github.com/goldendict/goldendict/wik
 Gram                                https://codeberg.org/GramEditor/gram
 Google Chrome       (auto update)   https://www.google.com/chrome
 Google Drive        (auto update)   https://drive.google.com/
+Helium                              https://helium.computer/
 Hyper                               https://hyper.is/
 IINA                (auto update)   https://iina.io/
 Inkscape                            https://inkscape.org/

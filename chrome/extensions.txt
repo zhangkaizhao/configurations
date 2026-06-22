@@ -39,6 +39,16 @@ https://darkreader.org/
 
 https://github.com/darkreader/darkreader
 
+### Lazy Tabs
+
+https://chrome.google.com/webstore/detail/aabgbgciohhaogajcnacpgilhmacdahc
+
+https://github.com/jman/lazy_tab
+
+Discard all inactive tabs (except pinned) at Google Chrome startup or by clicking an icon.
+
+since 2026-06-18
+
 ### Print Edit WE
 
 https://chrome.google.com/webstore/detail/olnblpmehglpcallpnbgmikjblmkopia

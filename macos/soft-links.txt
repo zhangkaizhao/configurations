@@ -32,6 +32,3 @@
 # OpenSSL library for some prebuilt binaries
 /usr/local/lib/libcrypto.3.dylib            /opt/local/lib/libcrypto.3.dylib
 /usr/local/lib/libssl.3.dylib               /opt/local/lib/libssl.3.dylib
-
-# LLVM library for Odin compiler
-/usr/local/lib/libLLVM.dylib                /opt/local/libexec/llvm-21/lib/libLLVM.dylib
