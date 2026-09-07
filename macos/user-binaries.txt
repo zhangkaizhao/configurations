@@ -2,7 +2,7 @@ PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/
 alire                   ~/bin/alr                       https://github.com/alire-project/alire
 asdf                    ~/bin/asdf                      https://github.com/asdf-vm/asdf
 bazelisk                ~/bin/bazelisk                  https://github.com/bazelbuild/bazelisk
-bun                     ~/bin/bun                       https://github.com/oven-sh/bun
+c3-lsp                  ~/bin/c3-lsp                    https://github.com/tonis2/lsp
 c3fmt                   ~/bin/c3fmt                     https://github.com/lmichaudel/c3fmt
 corral                  ~/bin/corral                    https://github.com/ponylang/corral
 darcs                   ~/bin/darcs                     https://darcs.net/
@@ -23,6 +23,7 @@ loc                     ~/bin/loc                       https://github.com/jiaca
 marksman                ~/bin/marksman                  https://github.com/artempyanykh/marksman
 mdbook-last-changed     ~/bin/mdbook-last-changed       https://github.com/badboy/mdbook-last-changed
 mdbook-quiz             ~/bin/mdbook-quiz               https://github.com/cognitive-engineering-lab/mdbook-quiz
+mdpdf                   ~/bin/mdpdf                     https://github.com/schicho/mdpdf
 mise                    ~/bin/mise                      https://mise.jdx.dev/
 mitamae                 ~/bin/mitamae                   https://github.com/itamae-kitchen/mitamae
 mox                     ~/bin/mox                       https://www.xmox.nl/
@@ -34,6 +35,8 @@ ruby-butler             ~/bin/rb                        https://github.com/RubyE
 rv                      ~/bin/{rv,rvx}                  https://github.com/spinel-coop/rv
 skm                     ~/bin/skm                       https://github.com/TimothyYe/skm
 slint-lsp               ~/bin/slint-lsp                 https://github.com/slint-ui/slint
+stalwart                ~/bin/stalwart                  https://github.com/stalwartlabs/stalwart
+stalwart-cli            ~/bin/stalwart-cli              https://github.com/stalwartlabs/cli
 tinymist                ~/bin/tinymist                  https://github.com/Myriad-Dreamin/tinymist
 tokei                   ~/bin/tokei                     https://github.com/XAMPPRocky/tokei
 typos                   ~/bin/typos                     https://github.com/crate-ci/typos

@@ -27,7 +27,6 @@
 ~/bin/raco              /Applications/Racket\ v8.13/bin/raco
 ~/bin/subl              /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 ~/bin/xtool             /Applications/xtool.app/Contents/Resources/bin/xtool
-~/bin/zed               /Applications/Zed.app/Contents/MacOS/cli
 
 # OpenSSL library for some prebuilt binaries
 /usr/local/lib/libcrypto.3.dylib            /opt/local/lib/libcrypto.3.dylib

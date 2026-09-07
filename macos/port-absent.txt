@@ -5,12 +5,12 @@ fish                (needs to compile with rust)
 cpufetch            (failed to compile on macOS Monterey)
 
 bazelisk            (outdated)
-marksman            (outdated)
 onefetch            (outdated)
 pijul               (outdated)
 repo                (outdated)
 tokei               (outdated)
 
 gops                (not found)
+kakoune-lsp         (not found)
 tinymist            (not found)
 typos               (not found)

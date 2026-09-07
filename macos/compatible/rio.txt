@@ -1,0 +1,10 @@
+# Rio
+
+https://github.com/raphamorim/rio
+
+## working versions on macOS Monterey x86_64:
+
+* [v0.2.7](https://github.com/raphamorim/rio/releases/tag/v0.2.7) and previous
+* [v0.3.0](https://github.com/raphamorim/rio/releases/tag/v0.3.0) and later
+
+The issue for versions between v0.2.7 and v0.3.0 can be found from [workaround for macOS Monterey due to wgpu issue #8655 #1379](https://github.com/raphamorim/rio/issues/1379).

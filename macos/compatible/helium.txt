@@ -1,0 +1,27 @@
+# Helium
+
+https://github.com/imputnet/helium-macos
+
+Last supported version for macOS Monterey:
+
+version: 0.14.9.1 (Chromium 150.0.7871.186)
+date: 2026-07-25
+link: https://github.com/imputnet/helium-macos/releases/tag/0.14.9.1
+
+Not supported for macOS Monterey since:
+
+version: 0.15.1.1 (Chromium 151.0.7922.71)
+date: 2026-08-02
+link: https://github.com/imputnet/helium-macos/releases/tag/0.15.1.1
+
+References:
+
+* https://chromestatus.com/feature/5077742779498496
+
+Feature: Chrome 151 removes support for macOS 12
+
+> Chrome 150 is the last release to support macOS 12; Chrome 151+ will no longer support macOS 12, which is outside of its support window with Apple. To maintain security, it is essential to run Chrome browser on a supported operating system.
+>
+> On Macs running macOS 12, Chrome continues to work, showing a warning infobar, but it will not update any further. If users wish to have Chrome updated, they need to update their computer to a supported version of macOS.
+>
+> For new installations of Chrome 151+, macOS 13+ is required.

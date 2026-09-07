@@ -2,8 +2,8 @@
 
 Audacity 3 works on macOS Monterey.
 
-version: 3.7.8
-date: 2026-06-11
+version: 3.7.9
+date: 2026-09-01
 
 Audacity 4 (beta) does not work on macOS Monterey.
 

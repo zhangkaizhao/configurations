@@ -1,2 +1,34 @@
-eval %sh{kak-lsp}
-lsp-enable
+# https://github.com/mawww/kakoune/wiki/Line-flags
+add-highlighter global/ number-lines
+
+try %{
+    eval %sh{ kak-lsp }
+    lsp-enable
+}
+
+hook global WinCreate .* %{
+    # Enable the git-diff flags column
+    add-highlighter window/git-diff flag-lines Default git_diff_flags
+
+    # Refresh the diff signs when you open, save, or idle in a file
+    hook window BufReload .* %{
+        try %{ git show-diff }
+    }
+    hook window BufWritePost .* %{
+        try %{ git-async update-diff } # Modified: Async updates for better performance
+    }
+    hook window NormalIdle .* %{
+        try %{ git show-diff }
+    }
+}
+
+# Plugin manager for Kakoune https://github.com/andreyorst/plug.kak
+# install:
+# ```shell
+# mkdir -p $HOME/.config/kak/plugins
+# git clone https://github.com/andreyorst/plug.kak.git $HOME/.config/kak/plugins/plug.kak
+# ```
+try %{
+    source "%val{config}/plugins/plug.kak/rc/plug.kak"
+    plug "andreyorst/plug.kak" noload
+}

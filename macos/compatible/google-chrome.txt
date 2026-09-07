@@ -1,0 +1,26 @@
+# Google Chrome
+
+https://www.google.com/chrome
+
+Last supported version for macOS Monterey:
+
+version: 150.0.7871.187
+
+References:
+
+* https://developer.chrome.com/release-notes/151
+
+> Chrome 151 removes support for macOS 12
+>
+> Chrome 150 is the last release to support macOS 12. Starting with Chrome 151, macOS 13 or later is required. On Macs running macOS 12, Chrome will continue to function and display an infobar warning, but will no longer receive security or feature updates.
+
+* https://chromestatus.com/feature/5077742779498496
+
+Feature: Chrome 151 removes support for macOS 12
+
+* https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01320465736.html
+
+> Stable Channel Update for Desktop
+> Thursday, July 23, 2026
+>
+> The Stable channel has been updated to 150.0.7871.186/.187 for Windows and Mac and 150.0.7871.186 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is available in the [Log](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.182..150.0.7871.186?pretty=fuller&n=10000)

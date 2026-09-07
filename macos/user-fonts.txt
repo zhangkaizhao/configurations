@@ -1,3 +1,10 @@
+Comic Mono                  https://github.com/dtinth/comic-mono-font
+Comic Neue                  https://github.com/crozynski/comicneue
+Comic Shanns                https://github.com/shannpersand/comic-shanns
+Comic Shanns Mono           https://github.com/jesusmgg/comic-shanns-mono
+Early Summer Serif          https://github.com/GuiWonder/EarlySummerSerif
+Frex Sans                   https://github.com/maoken-fonts/frex-sans
+Google Sans Code            https://github.com/googlefonts/googlesans-code
 Hack                        https://github.com/source-foundry/Hack
 HanaMinA                    https://glyphwiki.org/hanazono/
 HanaMinB
@@ -9,18 +16,26 @@ I.MingVarCP
 Inconsolata                 https://github.com/googlefonts/Inconsolata
 Intel One Mono              https://github.com/intel/intel-one-mono
 Inter                       https://github.com/rsms/inter
+Iosevka Fixed SS04          https://github.com/be5invis/Iosevka
+Ioskeley Mono Term          https://github.com/ahatem/IoskeleyMono
 LXGW Bright Code GB         https://github.com/lxgw/LxgwBright-Code
 LXGW WenKai                 https://github.com/lxgw/LxgwWenKai
 LXGW WenKai Mono
 LXGW WenKai GB              https://github.com/lxgw/LxgwWenkaiGB
 LXGW WenKai Mono GB
+Maple Mono NL SL            https://github.com/subframe7536/maple-font
 Merriweather                https://github.com/SorkinType/Merriweather
+Meslo LG L                  https://github.com/andreberg/Meslo-Font
+Meslo LG M
+Meslo LG S
 MiSans                      https://hyperos.mi.com/font/download
 MiSans L3
 Montserrat                  https://github.com/JulietaUla/Montserrat
 Plangothic P1               https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project
 Plangothic P2
 Public Sans                 https://github.com/uswds/public-sans
+Sarasa Fixed SC             https://github.com/be5invis/Sarasa-Gothic
+Serious Shanns              https://github.com/kaBeech/serious-shanns
 SN Pro                      https://github.com/supernotes/sn-pro
 Source Code Pro             https://github.com/adobe-fonts/source-code-pro
 Source Han Sans SC          https://github.com/adobe-fonts/source-han-sans

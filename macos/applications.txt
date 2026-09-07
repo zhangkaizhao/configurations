@@ -54,6 +54,7 @@ Lark                (auto update)   https://www.feishu.cn/
 LazPaint                            https://lazpaint.github.io/
 LibreCAD                            https://librecad.org/
 LibreOffice                         https://www.libreoffice.org/
+LibreSprite                         https://libresprite.github.io/
 LocalSend                           https://localsend.org/
 MacPass             (auto update)   https://macpassapp.org/
 MacVim              (auto update)   https://macvim-dev.github.io/macvim
@@ -77,6 +78,7 @@ QuiteRSS            (auto update)   https://github.com/QuiteRSS/quiterss
 Quod Libet                          https://quodlibet.readthedocs.io/
 Racket                              https://racket-lang.org/
 Rio                                 https://github.com/raphamorim/rio
+Signal Desktop                      https://signal.org/
 Skim                (auto update)   https://skim-app.sourceforge.io/
 Slack               (auto update)   https://slack.com/
 Sloth               (auto update)   https://sveinbjorn.org/sloth
@@ -102,7 +104,5 @@ WezTerm                             https://github.com/wez/wezterm
 Xournal++                           https://xournalpp.github.io/
 XQuartz             (auto update)   https://www.xquartz.org/
 xtool                               https://github.com/xtool-org/xtool
-Yandex Browser      (auto update)   https://browser.yandex.ru/
 Yandex Disk                         https://disk.yandex.ru/
-Zed                 (auto update)   https://zed.dev/
 Zulip Desktop       (auto update)   https://zulip.com/apps/

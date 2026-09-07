@@ -1,0 +1,18 @@
+# OBS Studio
+
+Last supported version for macOS Monterey:
+
+version: 32.1.2
+date: 2026-04-22
+
+Not supported for macOS Monterey since:
+
+version: 32.2.0
+date: 2026-07-22
+
+```shell
+/Applications/OBS.app/Contents/MacOS/OBS
+```
+
+Got:
+> Sorry, "OBS Studio" cannot be run on this version of macOS. Qt requires macOS 13.0.0 or later, you have macOS 12.7.6.

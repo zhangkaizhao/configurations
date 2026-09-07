@@ -39,6 +39,7 @@ libyaml
 lima
 llvm-22
 mariadb-12.3-server
+marksman
 mdbook
 mediainfo
 memcached
@@ -61,9 +62,12 @@ rsync
 scdoc
 scrcpy
 signify
+snac
 sqlite3
 tealdeer
 thrift
+tidy
+tinyproxy
 tmux
 tree
 tree-sitter
