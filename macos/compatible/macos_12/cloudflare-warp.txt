@@ -10,7 +10,7 @@ https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/clou
 
 ----
 
-The last version works on macOS 12 is `2026.4.846.0`.
+The last version works on macOS 12 is `2026.3.846.0`.
 
 https://downloads.cloudflareclient.com/v1/download/macos/version/2026.3.846.0
 

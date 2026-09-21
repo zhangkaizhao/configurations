@@ -20,7 +20,7 @@ Machines and Operating Systems:
   * OpenBSD
   * Windows
 
-* Apple MacBook Pro (Retina, 15-inch, Mid 2015)
+* Apple MacBook Pro (Retina, 15-inch, Mid 2015)(MacBookPro11,4)
 
   * macOS
 

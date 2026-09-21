@@ -1,0 +1,20 @@
+MacPorts
+
+## Notes
+
+* how to install the binaries of old versions for ports without rollback the ports tree
+
+If the binaries of old versions for ports are not removed from local disk
+(e.g. `port reclaim` command) yet, they can be reinstalled from the normal
+`port install [portname@version]` command. Or:
+
+The easiest way is to find the binaries of old versions for ports from a mirror.
+And then install it using the url of the binary on the mirror.
+
+e.g. there is no binaries of `jujutsu@0.45.1_1` for macos 15 at the moment (2026-09-18),
+and we find `jujutsu-0.45.1_0.darwin_24.x86_64.tbz2` from `https://packages.macports.org/jujutsu/`,
+so we can install this old version using:
+
+```sh
+sudo port install https://packages.macports.org/jujutsu/jujutsu-0.45.1_0.darwin_24.x86_64.tbz2
+```

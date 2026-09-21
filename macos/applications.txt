@@ -32,6 +32,7 @@ Freeplane                           https://www.freeplane.org/
 FSNotes                             https://fsnot.es/
 fSpy                                https://fspy.io/
 Geany                               https://www.geany.org/
+Gifski                              https://github.com/sindresorhus/Gifski
 GIMP                                https://www.gimp.org/
 Godot                               https://godotengine.org/
 GoldenDict                          https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Mac-OS-X
@@ -64,6 +65,7 @@ Netease Music       (auto update)   https://music.163.com/
 NetNewsWire         (auto update)   https://netnewswire.com/
 NotepadNext                         https://github.com/dail8859/NotepadNext
 OBS Studio          (auto update)   https://obsproject.com/
+OpenCore Legacy Patcher             https://dortania.github.io/OpenCore-Legacy-Patcher/
 OpenSCAD                            https://openscad.org/
 Orion               (auto update)   https://browser.kagi.com/
 Pale Moon                           https://www.palemoon.org/

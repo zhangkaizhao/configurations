@@ -1,5 +1,9 @@
 # configurations on macOS
 
+Note:
+
+* 2026-09-12: macOS version was upgraded from 12(Monterey) to 15(Sequoia) with OpenCore Legacy Patcher.
+
 Package manager: MacPorts.
 
 Other applications/programs: applications installed manually, opt programs, user programs, user binaries and java, etc.

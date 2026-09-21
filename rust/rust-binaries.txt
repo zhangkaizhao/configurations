@@ -163,6 +163,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
     - cargo install-update
     - cargo install-update-config
 
+* cargo-xcode
+
+  description: Make Xcode project files from Cargo projects
+
+  repository: https://gitlab.com/kornelski/cargo-xcode
+
+  install:
+
+      cargo install cargo-xcode
+
 * hexyl
 
   description: A command-line hex viewer
