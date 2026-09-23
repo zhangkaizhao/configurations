@@ -173,6 +173,16 @@ Install with `cargo install [options] crate`. See `cargo help install`.
 
       cargo install cargo-xcode
 
+* cbindgen
+
+  description: A tool for generating C bindings to Rust code.
+
+  repository: https://github.com/mozilla/cbindgen
+
+  install:
+
+      cargo install cbindgen
+
 * hexyl
 
   description: A command-line hex viewer

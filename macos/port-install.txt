@@ -33,6 +33,7 @@ jq
 jujutsu
 k3sup
 kakoune
+libyaml
 lima
 llvm-22
 mariadb-12.3-server
