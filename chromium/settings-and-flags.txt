@@ -1,0 +1,40 @@
+# Chromium settings and flags
+
+For Ungoogled Chromium and its derivations (such as Helium, etc.)
+
+The documentation of flags of Ungoogled Chromium is here:
+[flags.md](https://github.com/ungoogled-software/ungoogled-chromium/blob/master/docs/flags.md)
+
+----
+
+Disable shortcuts on the new tab page
+
+`chrome://flags/#disable-top-sites`
+
+other references:
+
+via https://github.com/ungoogled-software/ungoogled-chromium/issues/1675#issuecomment-2491513404
+
+[Ahrotahn](https://github.com/Ahrotahn)
+on Nov 21, 2024
+
+> We did eventually add flags for some existing switches to `chrome://flags` last year, so `chrome://flags/#disable-top-sites` is available for anyone that would rather not use a launch switch.
+>
+> If you've ever opened the dev tools on a new tab then you'll know that page is rather heavy for what it does, so I find using a custom page to still be the better option.
+> Granted, I've added enough things to mine that it's becoming nearly as heavy anyways...
+
+2026-11-08 tested on Ungoogled Chromium 156.0.8078.79
+
+----
+
+Disable WebGL
+
+`chrome://flags/#disable-webgl`
+
+2026-11-08 tested on Ungoogled Chromium 156.0.8078.79
+
+----
+
+Allow installing [chromium-web-store](https://github.com/NeverDecaf/chromium-web-store)
+
+change `chrome://flags/#extension-mime-request-handling` to `Always prompt for install`
