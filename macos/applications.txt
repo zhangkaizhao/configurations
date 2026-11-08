@@ -21,6 +21,7 @@ draw.io Desktop     (audo update)   https://github.com/jgraph/drawio-desktop
 Dropbox             (auto update)   https://www.dropbox.com/
 Eclipse             (auto update)   https://www.eclipse.org/
 Emacs                               https://emacsformacosx.com/
+En Croissant                        https://www.encroissant.org/
 F3D                                 https://f3d.app/
 Firefox             (auto update)   https://www.mozilla.org/firefox/all/
 Flameshot                           https://flameshot.org/

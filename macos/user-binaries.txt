@@ -1,4 +1,6 @@
+Avalanche               ~/bin/Avalanche                 https://github.com/SnowballSH/Avalanche
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
+Viridithas              ~/bin/Viridithas                https://github.com/cosmobobak/viridithas
 anyzig                  ~/bin/{zig,zls}                 https://github.com/marler8997/anyzig
 alire                   ~/bin/alr                       https://github.com/alire-project/alire
 asdf                    ~/bin/asdf                      https://github.com/asdf-vm/asdf
@@ -29,7 +31,9 @@ mitamae                 ~/bin/mitamae                   https://github.com/itama
 mox                     ~/bin/mox                       https://www.xmox.nl/
 pdm                     ~/bin/pdm                       https://pdm-project.org/
 proto                   ~/bin/proto                     https://moonrepo.dev/proto
+radiance                ~/bin/radiance                  https://github.com/ppipelin/radiance
 readeck                 ~/bin/readeck                   https://codeberg.org/readeck/readeck
+reckless                ~/bin/reckless                  https://github.com/codedeliveryservice/Reckless
 repo                    ~/bin/repo                      https://source.android.com/docs/setup/reference/repo
 ruby-butler             ~/bin/rb                        https://github.com/RubyElders/ruby-butler
 rv                      ~/bin/{rv,rvx}                  https://github.com/spinel-coop/rv
@@ -37,6 +41,7 @@ skm                     ~/bin/skm                       https://github.com/Timot
 slint-lsp               ~/bin/slint-lsp                 https://github.com/slint-ui/slint
 stalwart                ~/bin/stalwart                  https://github.com/stalwartlabs/stalwart
 stalwart-cli            ~/bin/stalwart-cli              https://github.com/stalwartlabs/cli
+stockfish               ~/bin/stockfish                 https://github.com/official-stockfish/Stockfish
 superhtml               ~/bin/superhtml                 https://github.com/kristoff-it/superhtml
 tinymist                ~/bin/tinymist                  https://github.com/Myriad-Dreamin/tinymist
 ty                      ~/bin/ty                        https://github.com/astral-sh/ty
