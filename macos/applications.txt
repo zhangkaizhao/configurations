@@ -12,6 +12,7 @@ calibre                             https://calibre-ebook.com/
 Cloudflare WARP     (auto update)   https://one.one.one.one/
 CotEditor           (auto update)   https://coteditor.com/
 CudaText                            https://cudatext.github.io/
+Ciyue                               https://github.com/mumu-lhl/Ciyue
 Dash                (auto update)   https://kapeli.com/dash
 DBeaver             (auto update)   https://dbeaver.io/
 Delta Chat                          https://delta.chat/

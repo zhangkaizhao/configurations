@@ -7,12 +7,10 @@
 ~/bin/c3c               /opt/programs/c3c/c3c
 ~/bin/conan             /opt/programs/conan/bin/conan
 ~/bin/lobster           /opt/programs/lobster/bin/lobster
-~/bin/nvim              /opt/programs/nvim/bin/nvim
 ~/bin/odin              /opt/programs/odin/odin
 ~/bin/odinfmt           /opt/programs/ols/odinfmt-x86_64-darwin
 ~/bin/ols               /opt/programs/ols/ols-x86_64-darwin
 ~/bin/xcodegen          /opt/programs/xcodegen/bin/xcodegen
-~/bin/zig               /opt/programs/zig/zig
 
 ~/bin/crystal           /opt/programs/crystal/bin/crystal
 ~/bin/shards            /opt/programs/crystal/embedded/bin/shards

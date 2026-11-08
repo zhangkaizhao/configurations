@@ -1,16 +1,12 @@
-fish                (needs to compile with rust)
 gd2                 (needs to compile)
 git                 (needs to compile)
 graphviz            (needs to compile)
-jujutsu             (needs to compile with rust on x86_64 for @0.45.1_1)
 mariadb-12.3-server (needs to compile)
 
 cpufetch            (failed to compile on x86_64)
 
-bazelisk            (outdated)
 onefetch            (outdated)
 pijul               (outdated)
-tokei               (outdated)
 
 gops                (not found)
 kakoune-lsp         (not found)

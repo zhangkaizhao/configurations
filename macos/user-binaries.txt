@@ -1,14 +1,14 @@
 PDFFonts                ~/bin/PDFFonts                  https://github.com/phst/PDFFonts
+anyzig                  ~/bin/{zig,zls}                 https://github.com/marler8997/anyzig
 alire                   ~/bin/alr                       https://github.com/alire-project/alire
 asdf                    ~/bin/asdf                      https://github.com/asdf-vm/asdf
-bazelisk                ~/bin/bazelisk                  https://github.com/bazelbuild/bazelisk
 c3-lsp                  ~/bin/c3-lsp                    https://github.com/tonis2/lsp
 c3fmt                   ~/bin/c3fmt                     https://github.com/lmichaudel/c3fmt
 corral                  ~/bin/corral                    https://github.com/ponylang/corral
 darcs                   ~/bin/darcs                     https://darcs.net/
 deno                    ~/bin/deno                      https://github.com/denoland/deno
 duckdb                  ~/bin/duckdb                    https://duckdb.org/
-flow                    ~/bin/flow                      https://flow-control.dev/
+flow                    ~/bin/{flow,flow-gui}           https://flow-control.dev/
 ftz                     ~/bin/ftz                       https://github.com/MasterQ32/ftz
 gleam                   ~/bin/gleam                     https://gleam.run/
 glygh                   ~/bin/glygh                     https://github.com/seatedro/glyph
@@ -37,8 +37,9 @@ skm                     ~/bin/skm                       https://github.com/Timot
 slint-lsp               ~/bin/slint-lsp                 https://github.com/slint-ui/slint
 stalwart                ~/bin/stalwart                  https://github.com/stalwartlabs/stalwart
 stalwart-cli            ~/bin/stalwart-cli              https://github.com/stalwartlabs/cli
+superhtml               ~/bin/superhtml                 https://github.com/kristoff-it/superhtml
 tinymist                ~/bin/tinymist                  https://github.com/Myriad-Dreamin/tinymist
-tokei                   ~/bin/tokei                     https://github.com/XAMPPRocky/tokei
+ty                      ~/bin/ty                        https://github.com/astral-sh/ty
 typos                   ~/bin/typos                     https://github.com/crate-ci/typos
 uv                      ~/bin/{uv,uvx}                  https://github.com/astral-sh/uv
 valin                   ~/bin/valin                     https://github.com/marc2332/valin
@@ -46,7 +47,5 @@ vfox                    ~/bin/vfox                      https://vfox.dev/
 wren_cli                ~/bin/wren_cli                  https://github.com/wren-lang/wren-cli
 ziggy                   ~/bin/ziggy                     https://github.com/kristoff-it/ziggy
 zigmod                  ~/bin/zigmod                    https://github.com/nektro/zigmod
-zigup                   ~/bin/zigup                     https://github.com/marler8997/zigup
 zine                    ~/bin/zine                      https://github.com/kristoff-it/zine
 zlint                   ~/bin/zlint                     https://github.com/DonIsaac/zlint
-zls                     ~/bin/zls                       https://github.com/zigtools/zls

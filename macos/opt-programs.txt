@@ -13,13 +13,9 @@ Odin            /opt/programs/odin              https://odin-lang.org/
 Pony            /opt/programs/ponyc             https://www.ponylang.io/
 Python          /opt/programs/python            https://www.python.org/
 Ruby            /opt/programs/ruby              https://www.ruby-lang.org/
-Zig             /opt/programs/zig               https://ziglang.org/
 
 Conan           /opt/programs/conan             https://conan.io/
-fish            /opt/programs/fish              https://fishshell.com/
 Flutter         /opt/programs/flutter           https://flutter.dev/
-Neovim          /opt/programs/nvim              https://neovim.io/
-scrcpy          /opt/programs/scrcpy            https://github.com/Genymobile/scrcpy
 TeX Live        /opt/programs/texlive           https://www.tug.org/texlive/
 XcodeGen        /opt/programs/xcodegen          https://github.com/yonaskolb/XcodeGen
 
